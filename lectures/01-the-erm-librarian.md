@@ -1,5 +1,8 @@
-# The ERM Librarian
-## Date: 17 Aug 2020 
+# Lecture 1
+
+## The ERM Librarian
+
+**Date: 17 Aug 2020**
 
 This semester we're learning about electronic resources and a bit about how to
 manage them. We begin first by outlining the kinds of things that are
@@ -49,7 +52,7 @@ technology, yet we've had only about four or five decades of experience with
 digital technology. We're a long way off from settling on anything stable and
 still face challenges and frustrations. 
 
-## Our Readings -- the nature of ERM librarianship
+## Our Readings: The nature of ERM librarianship
 
 Our readings this week provide nice introductions to electronic resource
 librarianship and help frame this entire course. The first article by Stachokas
@@ -130,7 +133,7 @@ Keep this these questions in consideration when you read the material this week.
 
 See you on the boards.
 
-## Reference
+## References
 
 Wikoff, K. (2011). Electronics Resources Management in the Academic
 Library: A Professional Guide. ABC-CLIO.
