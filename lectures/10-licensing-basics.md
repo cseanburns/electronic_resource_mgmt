@@ -44,7 +44,7 @@ As an example, the California Digital Library, via the University of
 California, provides a [checklist][1] and a copy of their standard license
 agreement.
 
-[1]:https://www.cdlib.org/gateways/vendors/checklist.html
+[1]:https://cdlib.org/resources/vendors/license-agreement-checklist/
 
 The checklist covers four main sections and is well worth a read:
 
@@ -79,7 +79,7 @@ specifically mentions these competencies, and I thought it would good to
 introduce them here, even though many of you have already commented on them in
 previous discussion forums.
 
-[3]:https://www.nasig.org/site_page.cfm?pk_association_webpage_menu=310&pk_association_webpage=7802
+[3]:https://www.nasig.org/Core-Competencies
 
 This week, after reading the material, I want you to focus on the Regan article
 and some of the questions raised there. Regan raises important questions about
