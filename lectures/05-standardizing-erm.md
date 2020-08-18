@@ -152,13 +152,13 @@ Center, San Antonio, TX. http://eprints.hud.ac.uk/id/eprint/19420/
 
 - NISO: Recommended Practices: [https://www.niso.org/explore/type?type=11][3]
 - NISO: Technical Reports: [https://www.niso.org/explore/type?type=21][4]
-- NISO: Standards: [https://www.niso.org/publications/standards][5]
+- NISO: Standards: [https://www.niso.org/publications][5]
 
 [1]:http://www.niso.org/
 [2]:http://eprints.hud.ac.uk/id/eprint/19420/
 [3]:http://www.niso.org/publications/rp/
 [4]:http://www.niso.org/publications/tr/
-[5]:http://www.niso.org/apps/group_public/projects.php
+[5]:https://www.niso.org/publications
 [6]:http://6terms.tumblr.com/
 [7]:https://journals.ala.org/index.php/ltr/article/view/4738/5647
 [8]:https://library2.hud.ac.uk/blogs/terms/announcing-terms-ver2-0/terms-ver2-0-introduction/
