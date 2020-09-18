@@ -1,87 +1,88 @@
-## Interoperability
+# Interoperability
 
-This week we learn about interoperability and link resolvers. Link
-resolvers are a technical solution to help users of electronic resources
-access the full text of a citation in a library's collections, or to
-acquire access through some other means, such as through interlibrary
-loan or through identifying the location of the work on the library
-shelf. In particular, the technology is a way to provide access to a
-library's collections from a browser even if the user is not
-specifically searching within the library's website, or more
-specifically, within its discovery system. If it helps, link resolvers
-are simply a way to search across multiple systems at one, just like
-you or I would do in a federated search discovery system.
+This week we cover interoperability and link resolvers. Link resolvers offer
+a technical solution to help users of electronic resources access the full text
+in a library's collection based on a discovered citation. It is meant to work
+for all items in a library's collection. Its reason for existence is for items
+that are paywalled or for items that are inaccessible via the open web for some
+reason. Link resolvers can be used to acquire access through some other means,
+like interlibrary loan. Though its use is motivated by electronic resources, it
+can identify resources that are located in the library stacks.
 
-Let's imagine that you have conducted a search in *Google Scholar*,
-let's call this the *source*, and you have identified an article that
-you wish to retrieve. If you have made *Google Scholar* aware that you
-are affiliated with a specific library and if that library uses a link
-resolver service, then:
+Let's imagine a search in *Google Scholar*, let's call this the *source*, and
+as a result of this search, we have identified an article that we wish to
+retrieve. If you have made *Google Scholar* aware that you are affiliated with
+a specific library and if the library uses a link resolver service, then:
 
-1. the metadata about the article will be extracted from the source, in
-   this case, that's *Google Scholar*, and this will be added to 
-2. the metadata about the institution (administrative metadata, such as
-   an institutional ID number).
-3. the metadata is converted into a URL query that queries the library's
-   collections
-4. the user is then presented with *target* options (or taken directly
-   to the work) for retrieving the article, and the options may include
-   full text access from various and possibly multiple vendors or
-   publishers, information about the physical location (e.g., on the
-   shelves) if it exists, or options to request the work through
-   interlibrary loan. Ideally, it will lead the user directly to the
-   full text.
+1. The metadata about the article will be extracted from the source, in this
+   case, that's *Google Scholar*, and this will be added to 
+2. the metadata about the institution (administrative metadata, like an
+   institutional ID number).
+3. The metadata is converted into a URL query that queries the library's
+   collections, and
+4. the user is then presented with *target* options (or taken directly to the
+   work) for retrieving the article, and the options may include full text
+   access from various and possibly multiple vendors or publishers, information
+   about the physical location (e.g., on the shelves) if it exists, or options
+   to request the work through interlibrary loan. Ideally, it will lead the
+   user directly to the full text.
 
-See [Link Resolver 101][1] for additional details and this historical
-piece on [link resolvers][2].
+[ Show how to make *Google Scholar* aware of your affiliation ]
 
-[1]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
-[2]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+See [Link Resolver 101][1] for additional details and this historical piece on
+[link resolvers][2].
 
-Let's consider a basic keyword search on *Google Scholar* for the term
-**[ knowledge management ]**. One of the first items listed in the
-results page is to an article titled "A systems thinking framework for
-knowledge management." If you've already gone to *Google Scholar's*
-settings, and added your library to the **Library Links** list, then you
-should see a **View Now @ UK** link off to the right of your searches
-there. This indicates the likelihood, although there could be an error,
-that the article is available through UK Libraries.
+Consider a basic keyword search in *Google Scholar* for the term ``knowledge
+management``. One of the first items listed in the results page is to an
+article titled "A systems thinking framework for knowledge management." If
+we've gone to *Google Scholar's* settings, and added your library to the
+**Library Links** list, then we should see a **View Now @ UK** link to the
+right of your search result list. This indicates the likelihood, although there
+could be an error, that the article is available through UK Libraries, in my
+case, or another library in another person's case.
 
-Now we take a look at the URL for the **View Now @ UK** link by right
-clicking on it and breaking it down into its components. What we see
-here is what is called a [query string][3]. A query string is a part of
-the URL that contains (metadata) fields and values for those fields, and
-it begins after the letter *q* in the URL. Each new parameter, or field,
-begins after each ampersand. In the query below, I start each newline
-with a new field and end it with its value:
+We can examine the URL for the **View Now @ UK** link by right clicking the URL
+and decomposing it into its components. What we see here is what is called
+a [query string][3]. A query string is a part of the URL that contains
+(metadata) fields or parameters and values for those parameters, and it begins
+after the letter *q* in the URL. Each additional parameter begins after each
+ampersand. In the following query string, I start each newline with a new
+parameter and end it with its value:
 
 ```
 https://scholar.google.com/scholar?
 output=instlink&
 q=info:cGrF-EL6GzgJ:scholar.google.com/&
-hl=en&as_sdt=0,18&
-scillfp=3492933523235496650&
+hl=en&
+as_sdt=0,18&
+scillfp=11205708406455066108&
 oi=lle
 ```
 
-[3]:https://en.wikipedia.org/wiki/Query_string
+According to a source that describes [Google Scholar's API][10], some of the
+parameters above mean the following things:
 
-Most of what we see in that URL is meaningless to us because it's
-metadata specific to Google's protocols, but if we click on that **View
-Now @ UK** link, we are now transported, because of the information in
-the previous link, to UK's discovery service, *Primo*, by *Ex Libris*.
+- output: "Parameter defines the final output you want. It can be set to json
+  (default) to get a structured JSON of the results, or html to get the raw
+  html retrieved."
+- q: "Parameter defines the query you want to search. You can also use helpers
+  in your query such as: author:, or source:"
+- hl: "Parameter defines the language to use for the Google search. It's
+  a two-letter language code."
+- as_sdt: "Parameter can be used either as a search type or a filter."
 
-In Primo, if we look at the new URL, we see specifically that it's an
-OpenURL link and we can see the fields and values and identify the
-metadata (one line is broken up for readability). The percent signs and
-numbers in the title field are called [Percent-encoding][4], and are
-used to convert characters that are URL unfriendly, like empty spaces
-between words, to something that URLs can handle and parse. See [this
-page][5] for a table of UTF-8 percent-encodings and the characters they
-match:
+Due to those parameters, if we click on that **View Now @ UK** link, we are now
+transported to UK's discovery service, *Primo*, by *Ex Libris*. This means that
+the URL is the effective point of data exchange between Google Scholar and UK's
+resources.
 
-[4]:https://en.wikipedia.org/wiki/Percent-encoding
-[5]:https://www.w3schools.com/tags/ref_urlencode.asp
+In Primo, if we investigate the new URL, we see that it's an OpenURL link and
+we can see the fields and values and identify the metadata (I have decomposed
+the URL for readability). The percent signs and numbers in the title field use
+[Percent-encoding][4], and they convert characters that are URL unfriendly,
+like empty spaces between words, to something that URLs can handle and parse.
+See [this page][5] for a table of UTF-8 percent-encodings and the characters
+they match:
 
 ```
 https://saa-primo.hosted.exlibrisgroup.com/primo-explore/openurl?
@@ -90,10 +91,7 @@ auinit=B&
 aulast=Rubenstein-Montano&
 atitle=A%20systems%20thinking%20framework%20for%20knowledge%20management&
 id=doi:10.1016%2FS0167-9236(00)00116-0&
-title=Decision%20support%20systems%20for%20C%20management%20
-  across%20the%20U.S.%20Corn%20Belt%20using%20NASA%20remote%20
-  sensing%20data%20products%20...%20annual%20report&
-volume=31&
+title=Decision%20Support%20Systems&volume=31&
 issue=1&
 date=2001&
 spage=5&
@@ -104,11 +102,12 @@ url_ctx_fmt=null&
 isSerivcesPage=true
 ```
 
-Also, the resulting page is the menu of options available to us to gain
-access to the work. The link resolver technology works and translates
-the metadata as needed for the appropriate service. If I click on the
-ILL link, then the URL becomes this, which will be used to complete a
-ILL form (one line is broken up for readability):
+The resulting page is a menu of options to gain access to the work with respect
+to what is in the library's collections. The link resolver technology works and
+translates the metadata as needed for the appropriate service. If I click the
+ILL link, then the URL becomes the following, and changes per the service used.
+The metadata in the URL will to complete an ILL form (one line is decomposed
+for readability):
 
 ```
 https://lib.uky.edu/ILLiad/illiad.dll?
@@ -143,66 +142,74 @@ rfe_dat=11804282&
 rfr_id=google
 ```
 
-This all works because the various publishers and vendors, and their
-associated applications, have agreed to using this technology.
+This all works because the various publishers and vendors, and their associated
+applications, have agreed to use this technology.
 
-Now let's thus consider an example of a database that a library
-subscribes to, such as EBCOHost's *Academic Search Complete*. Here again
-I search for the term [ knowledge management ]. *Academic Search
-Complete* is more than a bibliographic database, it also provides access
-to full text articles within its own database (*Google Scholar* will
-link to them if they're freely available on the web, but it doesn't
-actually collect them). However, *ASC* also provides access to
-bibliographic records to items that it does not provide full text access
-to. This is where the link resolver comes into play.
+[ Demonstrate Network analyzer in Browser's Developer Tools ]
 
-For those bibliographic records that are not available as full text in
-*ASC*, the link resolver used by UK Libraries will be displayed
-underneath the record in the *ASC* results or even after clicking on the
-full display of the record. Here you see the link resolver in action in
-the form of the **View Now @ UK** button. Clicking on that will open the
-link resolver menu, and we will see a list of options for accessing the
-full text of the article. If the article is available full text
-somewhere in the library, such as through a different database, we
-should see that here, but if not, there should be options for requesting
-the item through interlibrary loan, as well as options for accessing the
-item in the library's physical collections if it exists there.
+Let's consider an example a database that a library subscribes to, like
+EBCOHost's *Academic Search Complete (ASC)*. I search for the term ``knowledge
+management``. ASC is an abstracting and indexing, bibliographic database that
+provides access to some full text articles on its own platform, whereas *Google
+Scholar* links to full text, only if it is freely available on the web, or
+links to them via a link resolver, if the *Google Scholar* user has set this up
+in their settings, and the [library has also configured this on their
+side][11].
+
+For those bibliographic records that are not available as full text in ASC, the
+link resolver used by UK Libraries will display an option underneath the
+bibliographic record in the ASC results or it will display after clicking the
+full display option of the record. Here we see the link resolver in action in
+the form of the **View Now @ UK** button. Clicking that will open the link
+resolver menu, and we will see a list of options for accessing the full text of
+the article. If the article is available full text in the library, like through
+a different database. If not, there should be options for requesting the item
+through interlibrary loan or options for accessing the item in the library's
+physical collections if the library has the item in the stacks.
 
 ## Link Resolvers in Practice
 
 Our readings this week by Kasprowski (2012) and by Chisari et al. (2017)
-discuss in some ways how the link resolver technology works and how to
-evaluate link resolver technology. It may not be necessary to learn how
-to hack your way through the OpenURL syntax or other aspects of link
-resolver URL formatting, but it is a good idea to have at least a basic
-understanding how the URLs work in this process.
+discuss link resolver technology and methods to evaluate link resolver
+technology. It may not be necessary to learn how to hack your way through the
+OpenURL syntax or other aspects of link resolver URL formatting, but it is
+a good idea to acquire a basic understanding of how the URLs work in this
+process.
 
-Let me highlight that the key way that link resolvers work is by
-embedding citation metadata within the link resolver URL, including
-administrative metadata. Thus, as you guessed it, this is another reason
-why it's important to have high quality metadata for our records, as
-our readings note, and thus, by implication, if we find that link
-resolvers break down, it might be that the metadata is incorrect or has
-changed in some important way.
+Let me re-emphasize that the key way that link resolvers work is by embedding
+citation metadata within the link resolver URL, including administrative
+metadata. This is another reason to have high quality metadata for our records,
+as our readings note. By implication, if we find, perhaps by an email from
+a library patron, that a link has broken in this process, it might be that the
+metadata is incorrect or has changed in some important way. Knowing the parts
+of this process aids us in deciphering possible errors that exist when the technology breaks.
 
-For this week, I'll provide a link to the some documentation about the
-link resolver technology used by UK Libraries use of *ExLibres Alma*.
-Let's discuss this documentation in this week's forum. I also want you
-to find and explain other instances of link resolvers. Be sure to
-provide links to these examples and perhaps point out some ways the
-technology can be evaluated.
+For this week, I'll provide a link to *ExLibres Alma* link resolver
+documentation, which is the link resolver product used by UK Libraries. Let's
+discuss this documentation in the forum. I want you to find and explain other
+instances of link resolvers. Be sure to provide links to these examples and
+articulate ways the technology can be evaluated.
 
 **Documentation to read and discuss:**
 
-[https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage][6]
+[Link Resolver, Usage][6]
 
-**Additional information:**
+## Additional information
 
-- URL syntax components: [https://tools.ietf.org/html/rfc3986#page-16][7]
-- URL Encode / Decode Percent Encoding: [https://www.url-encode-decode.com/][8]
-- How Google Scholar works with libraries: [https://scholar.google.com/intl/en/scholar/libraries.html][9]
+- [URL syntax components][7]
+- [URL Encode / Decode Percent Encoding][8] 
+- [How Google Scholar works with libraries][9]
+- [Surface your materials in Google Scholar (OCLC)][12]
 
+[1]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
+[2]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+[3]:https://en.wikipedia.org/wiki/Query_string
+[4]:https://en.wikipedia.org/wiki/Percent-encoding
+[5]:https://www.w3schools.com/tags/ref_urlencode.asp
 [6]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
 [7]:https://tools.ietf.org/html/rfc3986#page-16
 [8]:https://www.url-encode-decode.com/
 [9]:https://scholar.google.com/intl/en/scholar/libraries.html
+[10]:https://serpapi.com/google-scholar-api
+[11]:https://scholar.google.com/intl/en/scholar/libraries.html
+[12]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
