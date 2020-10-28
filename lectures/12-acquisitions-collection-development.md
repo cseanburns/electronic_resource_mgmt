@@ -1,59 +1,61 @@
-## Acquisitions and Collections Development
+# Acquisitions and Collections Development
 
-Hi Class. I've asked you to read a lot this week simply because collection
-development and acquisitions is a complex problem for electronic resources.
-Again, in the print-only days, acquiring resources was a fairly linear process.
-Librarians became aware of an item, sought out reviews of the item, perhaps
-collected it, described it, and then shelved it. And perhaps, depending on the
-type of the library, weeded it out of the collection at some point down the
-line. But there are so many more vectors to be aware of with electronic media.
-Not only do libraries not necessarily own digital works (they may), but
-different subscription services require different kinds of contracts. The media
-(ebooks, journal articles, etc.) require handling and disseminating in
-different ways due to not just technological barriers but also because of
-licensing barriers. And so forth. Martin et al. (2009) really nail the issue
-down in their article this week when they write, on page 216, that:
+Hi Class. I've asked you to read much this week because collection development
+and acquisitions is a complex problem for electronic resources. To rehash, in
+the print-only days, acquiring resources was a *more-than-it-is-now* linear
+process. Librarians became aware of an item, sought reviews of the item,
+possibly collected it, described it, and then shelved it. And maybe, depending
+on the type of the library, weeded it from the collection at some point in the
+years to come. But there are many additional vectors to be aware of with
+electronic media. First, libraries may not necessarily own digital works (they
+may), but different subscription services require different kinds of contracts.
+Second, electronic resources (ebooks, journal articles, etc.) require handling
+and disseminating differently due to technological and licensing barriers.
+Martin et al. (2009) truly nail the issue in their article this week where they
+write that:
 
 > As much as we would like to think our primary concerns about collecting are
 > based on content, not format, e-resources have certainly challenged many
 > long-established notions of how we buy, collect, preserve, and provide access
 > to information (p. 217).
 
-Although a world where the format dictates so much makes an interesting world,
-it's also problematic and can be worrisome. We do think that content should be
-king, but what we also have to ask, how can format either prevent or facilitate
-access? If you catch the implicit there, you can see that we're building
-a thread between acquisitions, collections development, and usability, which
-we'll come to later in the semester.
+Although a world where the format dictates so much makes an intriguing world,
+it's problematic and worrisome. We think that content should be king, but we
+must ask, how does format either prevent or facilitate access? If you catch the
+implicit gotcha there, you can see that we're building a thread between
+acquisitions, collections development, and usability, which we'll learn more
+about later in the semester.
 
 One thing about this week: in a collection development course, you would
-definitely focus on content and on what it takes to create a collection
-development policy. Those things are relevant to the acquisition and collection
-of e-resources. However, in a major way, one of the things you should take away
-from this week's reading is how much the management of electronic resources
-have impacted librarian work flows and how that has shaped, or reshaped, have
-library organizational hierarchy. I'll provide an organizational chart for you
-to discuss, and we'll use it to talk about how much electronic resources have
+unquestionably focus on content and on the work involved creating creating a
+collection development policy. Those things are relevant to the acquisition and
+collection of e-resources. However, in a major way, one of the things you should
+take away from this week's reading is how much the management of electronic
+resources have impacted librarian work flows and how that has shaped, or
+reshaped, library organizational hierarchy. I'll provide an organizational chart
+for you to discuss, and we'll use it to discuss how electronic resources have
 shaped the organizational structure of the library.
 
-Also, the Lamothe (2015) article is interesting in a different way. Lamothe
-finds that if an electronic e-reference source is collected and continually
-updated, then it gets continually used, but if it's a static e-electronic
-resource (compare, e.g., to a resource pushed out in PDF, although it could be
-in HTML), then usage declines. I think additional studies should pursue this
-line of questioning, but it raises really interesting questions about the
-expectations that our patrons have about our content.
+The Lamothe (2015) article is good in a different way. Lamothe finds that if an
+electronic e-reference source is collected and perpetually updated, then it gets
+continually used. If it's a static e-electronic resource (compare, e.g., to a
+resource pushed out in PDF, although it could be in HTML), then usage declines.
+I hope additional studies pursue this line of questioning because it raises
+questions about the expectations that our patrons have about our
+content---perhaps something about how *fresh* that content should be.
 
-Finally, and this is really big right now, but the Open Educational Resources
-issue is major. Textbook prices, as the article by England et al. (2017) notes,
-have skyrocketed in recent decades. Some textbooks cost hundreds of dollars,
-and of course, the problem impacts both school and academic libraries. UK
-Libraries has a nice page on Open Educational Resources. I'll provide a link to
-it here in the transcript and in the discussion prompt, and that page links to
-OER content for both types of libraries, including the oercommons.org. Explore
-this information, and discuss whether libraries ought to collect and acquire
-these resources (e.g., by adding records to them in their online public access
-catalogs), or should they not be involved at all? 
+Lastly, the Open Educational Resources (OER) issue is a hot topic these days.
+Textbook prices, as the article by England et al. (2017) notes, have skyrocketed
+in recent decades. Some textbooks cost hundreds of dollars, and the problem
+impacts both school and academic libraries. UK Libraries has a helpful page
+about Open Educational Resources. I'll provide a link here in the transcript and
+in the discussion prompt, and that page links to OER content for both types of
+libraries, including the [oercommons.org][3]. Explore this information, and
+discuss whether libraries ought to collect and acquire these resources (e.g., by
+adding records to them in their online public access catalogs), or should they
+not be involved at all? This seems like *duh* kind of question, but libraries,
+public or academic, have not traditionally collected textbooks. Does this change
+the game?
 
 **Links:**
 
