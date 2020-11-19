@@ -1,8 +1,8 @@
 # Lecture 13: User Experience
 
-[Medieval helpdesk with subtitles][1]
+[Medieval helpdesk with subtitles][medieval]
 
-1:https://www.youtube.com/watch?v=pQHX-SjgQvQ
+[medieval]:https://www.youtube.com/watch?v=pQHX-SjgQvQ
 
 Dickson-Deane and Chen (2018) write that "user experience determines the
 quality of an interaction being used by an actor in order to achieve a specific

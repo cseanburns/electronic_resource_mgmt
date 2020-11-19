@@ -23,7 +23,7 @@ Hence, the ILS provides two separate interfaces:
 
 Tasks that an ILS is built to provide include modules that cover:
 
-* [Acquisitions][acquistions]
+* [Acquisitions][acquisitions]
 * [Cataloging][cataloging]
 * [Circulation][circulation]
 * [Serials][serials]
