@@ -60,7 +60,7 @@ service, and then to UK's OAuth page to login. These parts of the encryption
 chain are fairly strong. So it's only activity specifically on
 libraries.uky.edu that is not good at the moment.
 
-(Note: Insert Firefox TLS image)
+![UK Libraries TLS Version Block in Firefox](uklibraries-tlsversion.png)
 
 In Chapter 1 of this week's reading, Breeding does a really nice job
 introducing a variety of technologies and policies that are related to security
