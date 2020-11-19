@@ -1,10 +1,10 @@
-# Constant Disruption
+# Lecture 3: Constant Disruption
 
 The first listed reading we have this week is by Marshall Breeding. Astute
 observers will note Breeding is one of the first cited in the two
 additional readings we have this week. We will read more from Breeding later in
 the semester, but I bring him up now because he oversees a website titled
-[Library Technology Guides][1] at librarytechnology.org. If you would like to
+[Library Technology Guides][LTGuides] at librarytechnology.org. If you would like to
 keep abreast of the recent news on the electronic resource industry, Breeding's
 website should be at the top of your list.
 
@@ -38,19 +38,20 @@ things to look for in these three articles.
 
 As I have previously mentioned, librarians started to migrate to electronic
 management since the 1970s. Breeding mentions this. It actually started well
-before this. I published [a paper][3] a few years ago that provides
+before this. I published [a paper][burns2013] a few years ago that provides
 a historical account of the first library automation project, which took place
-in the 1930s with [Hollerith punched cards][2]. By the 1960s, the primary use
-of computers was to manage circulation, and then patron records around the
-1960s and 1970s. In the early 1970s, tools became available to manage and
-search bibliographic records. Hence, computers were first used mostly to manage
-the circulation of books, then to add patron records, which allowed patrons to
-check out works electronically. Eventually we had the ability to search for
-works. If a work of interest was located using these tools, the work could be
-retrieved from the shelves or ordered via interlibrary loan by snail mail. Full
-text search came much later with the introduction of better storage media, like
-CD-ROMs, and saw major growth with the introduction of the web in the early
-1990s, which at its heart is nothing more than a big document retrieval system.
+in the 1930s with [Hollerith punched cards][punched_cards]. By the 1960s, the
+primary use of computers was to manage circulation, and then patron records
+around the 1960s and 1970s. In the early 1970s, tools became available to
+manage and search bibliographic records. Hence, computers were first used
+mostly to manage the circulation of books, then to add patron records, which
+allowed patrons to check out works electronically. Eventually we had the
+ability to search for works. If a work of interest was located using these
+tools, the work could be retrieved from the shelves or ordered via interlibrary
+loan by snail mail. Full text search came much later with the introduction of
+better storage media, like CD-ROMs, and saw major growth with the introduction
+of the web in the early 1990s, which at its heart is nothing more than a big
+document retrieval system.
 
 In the process of migrating from print to electronic, all sorts of things had
 to change, but they all rest on the major premise of all librarianship: *that
@@ -108,6 +109,6 @@ electronic resource management products that librarians have to choose from,
 and feel obliged to do when those products provide advantages to their users,
 communities, and themselves.
 
-[1]:https://librarytechnology.org/
-[2]:https://en.wikipedia.org/wiki/Punched_card
-[3]:https://muse.jhu.edu/article/534487
+[LTGuides]:https://librarytechnology.org/
+[punched_cards]:https://en.wikipedia.org/wiki/Punched_card
+[burns2013]:https://muse.jhu.edu/article/534487

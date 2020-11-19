@@ -1,4 +1,4 @@
-# Workflow
+# Lecture 8: Workflow
 
 If all goes according to plan, this week's readings on electronic resource
 management and on workflow analysis should help you put prior material into
@@ -41,14 +41,14 @@ market and the economics of this area of librarianship weigh heavily on
 everyday realities. We will follow up on this next week when we begin to read
 more about the market and the economics of electronic resources. For example,
 in our Anderson readings this week, we learn about the CORE standard, or the
-[Cost of Resource Exchange][2] standard, that was developed by NISO and that
-brings together three aspects of our previous discussions: software, funds, and
-interoperability. Here the CORE standard is simply a standard that enables ILS
-and ERM systems to communicate costs of electronic resources between each
-other, and its existence hints at the pressures librarians have had in having
-to deal with complex budget issues. Although this is not touched on in these
-articles, the current pandemic will make these issues more complicated for
-libraries.
+[Cost of Resource Exchange][cost_exchange] standard, that was developed by NISO
+and that brings together three aspects of our previous discussions: software,
+funds, and interoperability. Here the CORE standard is simply a standard that
+enables ILS and ERM systems to communicate costs of electronic resources
+between each other, and its existence hints at the pressures librarians have
+had in having to deal with complex budget issues. Although this is not touched
+on in these articles, the current pandemic will make these issues more
+complicated for libraries.
 
 We have already discussed standardization. While we spent time discussing
 technical standards, we also learned about TERMS, an attempt to standardize the
@@ -65,10 +65,10 @@ with respect to link resolver technology, and we did this not just because we
 should know about link resolvers as important components of electronic resource
 management, but also because link resolvers are a good example of the kind of
 work that is involved for systems to communicate properly. There are other
-forms of interoperability, though, and coming back to [CORE][2] again, the
+forms of interoperability, though, and coming back to [CORE][cost_exchange] again, the
 Anderson article (chapter 2) provides a link to a white paper titled, [White
 Paper on Interoperability between Acquisitions Modules of Integrated Library
-Systems and Electronic Resource Management Systems][1], and this paper defines
+Systems and Electronic Resource Management Systems][interop], and this paper defines
 the 13 data elements that were determined to be desired in any exchange between
 ILS software and ERM software for those software to communicate meaningfully
 with each other. By that, I mean, the data points enable meaningful use of both
@@ -94,7 +94,7 @@ read this paper, but I urge you to skim through it to get a sense of how
 standards are created through a process of comparing and contrasting and
 coordinating needs and contexts among different entities. The link is in the
 transcript but also in the reading, as well as the link to the actual [CORE
-protocol][2]:
+protocol][cost_exchange]:
 
 I really like our two readings by Anderson because they are illustrative of the
 whole ERM process. If you are able, visit the issue these two readings are from
@@ -105,5 +105,5 @@ a foundation for the remaining weeks, when we will learn about and discuss
 things like licensing and negotiation and evaluation and statistics in more
 detail.
 
-[1]:https://old.diglib.org/standards/ERMI_Interop_Report_20080108.pdf
-[2]:https://www.niso.org/standards-committees/core-cost-resource-exchange
+[interop]:https://old.diglib.org/standards/ERMI_Interop_Report_20080108.pdf
+[cost_exchange]:https://www.niso.org/standards-committees/core-cost-resource-exchange

@@ -1,4 +1,4 @@
-# ERM and ILS
+# Lecture 4: ERM and ILS
 
 This week we will be learning about ERM and ILS software. First off, what are
 these? 
@@ -12,8 +12,8 @@ a work from a library. An ILS also provides an administrative interface that
 librarians use to manage those processes. This interface includes functions to
 manage acquisitions, cataloging, circulation, and serials, and the OPAC, where
 the interfaces to these in the ILS are referred to as modules. You should read
-about these modules in the open source ILS called [Evergreen][9], by sifting
-through some of Evergreen's documentation.
+about these modules in the open source ILS called [Evergreen][evergreen], by
+sifting through some of Evergreen's documentation.
 
 Hence, the ILS provides two separate interfaces:
 
@@ -23,11 +23,11 @@ Hence, the ILS provides two separate interfaces:
 
 Tasks that an ILS is built to provide include modules that cover:
 
-* [Acquisitions][10]
-* [Cataloging][11]
-* [Circulation][12]
-* [Serials][13]
-* And then also the publicly accessible [OPAC][14] interface
+* [Acquisitions][acquistions]
+* [Cataloging][cataloging]
+* [Circulation][circulation]
+* [Serials][serials]
+* And then also the publicly accessible [OPAC][opac] interface
 
 An ILS is therefore, as Stephen Salmon stated in 1975, a non-traditional way of
 doing traditional things, such as "acquisitions, cataloging, and circulation,"
@@ -61,34 +61,34 @@ ERM is an acronym for *electronic resource management* system. Its function is
 born out of the need to manage digital assets and provide users with access to
 those assets. An ERM may or may not be integrated with a library's ILS
 software. ERM software is primarily a behind the scenes software. Similar to
-the ILS, ERM software is generally divided into modules that focus the librarian's
-work on particular duties and allow librarians to create work flows and
-knowledge management systems. In an ERM like the open source [CORAL system][1],
-the modules includes:
+the ILS, ERM software is generally divided into modules that focus the
+librarian's work on particular duties and allow librarians to create work flows
+and knowledge management systems. In an ERM like the open source [CORAL
+system][coral_modules], the modules includes:
 
-- [Resources][2]: a module "provides a robust database for tracking
-  data related to your organization's resources ..." and "provides
+- [Resources][resources_module]: a module "provides a robust database for
+  tracking data related to your organization's resources ..." and "provides
   a customizable workflow tool that can be used to track, assign, and complete
   workflow tasks."
-- [Licensing][3]: a module for a "flexible document management system"
-  that provides options to manage licensing agreements and to automate parts of
-  the process.
-- [Organizations][4]: this module acts as a type of advanced directory to 
-  manage the various organizations that impact or are involved in the
-  management of electronic resources, including "publishers, vendors,
+- [Licensing][licensing_module]: a module for a "flexible document management
+  system" that provides options to manage licensing agreements and to automate
+  parts of the process.
+- [Organizations][organizations_module]: this module acts as a type of advanced
+  directory to manage the various organizations that impact or are involved in
+  the management of electronic resources, including "publishers, vendors,
   consortia, and more."
-- [Usage Statistics][5]: a module providing librarians with usage
-  statistics of digital assets by platform and by publisher. Supports COUNTER
-  and SUSHI. We'll cover COUNTER and SUSHI later in the semester, but as
-  a preamble:
-    - [COUNTER][6] "sets and maintains the standard known as the Code of
+- [Usage Statistics][usage_statistics]: a module providing librarians with
+  usage statistics of digital assets by platform and by publisher. Supports
+  COUNTER and SUSHI. We'll cover COUNTER and SUSHI later in the semester, but
+  as a preamble:
+    - [COUNTER][counter] "sets and maintains the standard known as the Code of
       Practice and ensures that publishers and vendors submit annually to
       a rigorous independent audit", and,
-    - [SUSHI][7] is a type of protocol to automate collecting data on usage
+    - [SUSHI][sushi] is a type of protocol to automate collecting data on usage
       statistics.
-- [Management][8]: this module provides a document management system aimed at
-  "storing documents, such as policies, processes, and procedures, related to
-  the overall management of electronic resources".
+- [Management][management_module]: this module provides a document management
+  system aimed at "storing documents, such as policies, processes, and
+  procedures, related to the overall management of electronic resources".
 
 In our readings this week, we have three articles that speak to ILS and ERM
 software as well as the relationship between the two, and an additional article
@@ -124,11 +124,12 @@ placed a bigger burden on software companies to maintain development of the
 work.
 
 Despite the technical aspects of these solutions, at its basic, both ILS and
-ERM software solutions focus on managing assets (books, serials, [realia][15],
-etc) so that librarians can organize and retrieve them. There's no requirement
-to use any solution offered by a library vendor, and that's the point of the
-Wilson (2011) article, which shows how regular software can be used to function
-as a homegrown solution for creating and implementing an ERM work flow.
+ERM software solutions focus on managing assets (books, serials,
+[realia][realia], etc) so that librarians can organize and retrieve them.
+There's no requirement to use any solution offered by a library vendor, and
+that's the point of the Wilson (2011) article, which shows how regular software
+can be used to function as a homegrown solution for creating and implementing
+an ERM work flow.
 
 In this week's forum, I'll introduce you to the Evergreen ILS and to the CORAL
 ERM solution and to its various modules and how they work. Be sure to open the
@@ -158,18 +159,18 @@ Wilson, K. (2011). Beyond Library Software: New Tools for Electronic
 Resources Management. Serials Review, 37(4), 294–304.
 https://doi.org/10.1080/00987913.2011.10765404
 
-[1]:http://coral-erm.org/modules/
-[2]:http://coral-erm.org/resources/
-[3]:http://coral-erm.org/licensing/
-[4]:http://coral-erm.org/organizations/
-[5]:http://coral-erm.org/usage-statistics/
-[6]:https://www.projectcounter.org/about/counter-for-libraries/
-[7]:https://www.niso.org/standards-committees/sushi
-[8]:http://coral-erm.org/management/
-[9]:http://docs.evergreen-ils.org/
-[10]:http://docs.evergreen-ils.org/reorg/3.2/acquisitions/
-[11]:http://docs.evergreen-ils.org/reorg/3.2/cataloging/
-[12]:http://docs.evergreen-ils.org/reorg/3.2/circulation/
-[13]:http://docs.evergreen-ils.org/reorg/3.2/serials/
-[14]:http://docs.evergreen-ils.org/reorg/3.2/opac/
-[15]:https://archives.yale.edu/subjects/33488
+[coral_modules]:http://coral-erm.org/modules/
+[resources_module]:http://coral-erm.org/resources/
+[licensing_module]:http://coral-erm.org/licensing/
+[organizations_module]:http://coral-erm.org/organizations/
+[usage_statistics]:http://coral-erm.org/usage-statistics/
+[counter]:https://www.projectcounter.org/about/counter-for-libraries/
+[sushi]:https://www.niso.org/standards-committees/sushi
+[management_module]:http://coral-erm.org/management/
+[evergreen]:http://docs.evergreen-ils.org/
+[acquisitions]:http://docs.evergreen-ils.org/reorg/3.2/acquisitions/
+[cataloging]:http://docs.evergreen-ils.org/reorg/3.2/cataloging/
+[circulation]:http://docs.evergreen-ils.org/reorg/3.2/circulation/
+[serials]:http://docs.evergreen-ils.org/reorg/3.2/serials/
+[opac]:http://docs.evergreen-ils.org/reorg/3.2/opac/
+[realia]:https://archives.yale.edu/subjects/33488

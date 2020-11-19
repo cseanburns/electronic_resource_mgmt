@@ -1,4 +1,4 @@
-# Acquisitions and Collections Development
+# Lecture 12: Acquisitions and Collections Development
 
 Class, this week we discuss aspects of collection development and acquisitions,
 which is a complex problem for electronic resources. To rehash, in the
@@ -57,7 +57,7 @@ skyrocketed in recent decades. Some textbooks cost hundreds of dollars, and the
 problem impacts both school and academic libraries. UK Libraries has a helpful
 page about Open Educational Resources. I'll provide a link here in the
 transcript and in the discussion prompt, and that page links to OER content for
-both types of libraries, including the [oercommons.org][3]. Explore this
+both types of libraries, including the [oercommons.org][oer2]. Explore this
 information, and discuss whether libraries ought to collect and acquire these
 resources (e.g., by adding records to them in their online public access
 catalogs), or should they not be involved at all? This seems like a *duh* kind
@@ -68,7 +68,7 @@ institutions?
 A quick note about the organizational charts. The chart that I created was
 based on my readings of librarian departmental reports written during the late
 1950s and early 1960s by librarians at UK. These reports are held at the
-University of Kentucky's [Special Collections Research Center][4], which is
+University of Kentucky's [Special Collections Research Center][spec_coll], which is
 fortunately in the building next to mine on campus. Organizational charts have
 been around since the 1800s, but I am not sure when libraries started to create
 and use them, and I didn't see one in my research on the history of UK
@@ -103,29 +103,29 @@ a collection, and then include most if not all of the following topics:
   - weeding and/or replacement criteria
 
 Included in this transcript are links to two policies, one from the [University
-of Maryland][5] and one from the [Lexington Public Library][6]. The Maryland
-CDP is not their main one but is a sub-CDP that focuses on electronic
-resources. The LPL policy is the main one for them, and although it does not
-include a long discussion of electronic resources, they are mentioned in the
-policy. Neither approach is wrong but are catered to the specific libraries and
-their purposes, communities, and vision statements. I would like you to search
-on the web for more and to read through ones you find for how they discuss
-electronic resources. 
+of Maryland][er_policy] and one from the [Lexington Public
+Library][lexpub_policy]. The Maryland CDP is not their main one but is
+a sub-CDP that focuses on electronic resources. The LPL policy is the main one
+for them, and although it does not include a long discussion of electronic
+resources, they are mentioned in the policy. Neither approach is wrong but are
+catered to the specific libraries and their purposes, communities, and vision
+statements. I would like you to search on the web for more and to read through
+ones you find for how they discuss electronic resources. 
 
 **Links:**
 
 - UK Libraries Organizational Chart:
-  [http://libraries.uky.edu/forms/OrgChart.pdf][1]
+  [http://libraries.uky.edu/forms/OrgChart.pdf][uk_org]
 - Open Educational Resources at UK:
-  [http://www.uky.edu/copyright/facultyresources/openeducationalresources][2]
-- OER Commons: [https://www.oercommons.org/][3]
+  [http://www.uky.edu/copyright/facultyresources/openeducationalresources][oer]
+- OER Commons: [https://www.oercommons.org/][oer2]
 
-[1]:http://libraries.uky.edu/forms/OrgChart.pdf
-[2]:http://www.uky.edu/copyright/facultyresources/openeducationalresources
-[3]:https://www.oercommons.org/
-[4]:http://libraries.uky.edu/SC
-[5]:https://www.lib.umd.edu/collections/policies/electronic-resources
-[6]:https://www.lexpublib.org/collection-development-policy
+[uk_org]:http://libraries.uky.edu/forms/OrgChart.pdf
+[oer]:http://www.uky.edu/copyright/facultyresources/openeducationalresources
+[oer2]:https://www.oercommons.org/
+[spec_coll]:http://libraries.uky.edu/SC
+[er_policy]:https://www.lib.umd.edu/collections/policies/electronic-resources
+[lexpub_policy]:https://www.lexpublib.org/collection-development-policy
 
 ## References
 

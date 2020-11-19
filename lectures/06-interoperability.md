@@ -1,4 +1,4 @@
-# Interoperability
+# Lecture 6: Interoperability
 
 This week we cover interoperability and link resolvers. Link resolvers offer
 a technical solution to help users of electronic resources access the full text
@@ -29,8 +29,8 @@ a specific library and if the library uses a link resolver service, then:
 
 [ Show how to make *Google Scholar* aware of your affiliation ]
 
-See [Link Resolver 101][1] for additional details and this historical piece on
-[link resolvers][2].
+See [Link Resolver 101][lr_101] for additional details and this historical piece on
+[link resolvers][link_resolv].
 
 Consider a basic keyword search in *Google Scholar* for the term ``knowledge
 management``. One of the first items listed in the results page is to an
@@ -43,7 +43,7 @@ case, or another library in another person's case.
 
 We can examine the URL for the **View Now @ UK** link by right clicking the URL
 and decomposing it into its components. What we see here is what is called
-a [query string][3]. A query string is a part of the URL that contains
+a [query string][query_string]. A query string is a part of the URL that contains
 (metadata) fields or parameters and values for those parameters, and it begins
 after the letter *q* in the URL. Each additional parameter begins after each
 ampersand. In the following query string, I start each newline with a new
@@ -59,7 +59,7 @@ scillfp=11205708406455066108&
 oi=lle
 ```
 
-According to a source that describes [Google Scholar's API][10], some of the
+According to a source that describes [Google Scholar's API][google_scholar_api], some of the
 parameters above mean the following things:
 
 - output: "Parameter defines the final output you want. It can be set to json
@@ -79,9 +79,9 @@ resources.
 In Primo, if we investigate the new URL, we see that it's an OpenURL link and
 we can see the fields and values and identify the metadata (I have decomposed
 the URL for readability). The percent signs and numbers in the title field use
-[Percent-encoding][4], and they convert characters that are URL unfriendly,
+[Percent-encoding][percent_encoding], and they convert characters that are URL unfriendly,
 like empty spaces between words, to something that URLs can handle and parse.
-See [this page][5] for a table of UTF-8 percent-encodings and the characters
+See [this page][utf_8] for a table of UTF-8 percent-encodings and the characters
 they match:
 
 ```
@@ -154,7 +154,7 @@ provides access to some full text articles on its own platform, whereas *Google
 Scholar* links to full text, only if it is freely available on the web, or
 links to them via a link resolver, if the *Google Scholar* user has set this up
 in their settings, and the [library has also configured this on their
-side][11].
+side][gs_library].
 
 For those bibliographic records that are not available as full text in ASC, the
 link resolver used by UK Libraries will display an option underneath the
@@ -192,24 +192,24 @@ articulate ways the technology can be evaluated.
 
 **Documentation to read and discuss:**
 
-[Link Resolver, Usage][6]
+[Link Resolver, Usage][lr_usage]
 
 ## Additional information
 
-- [URL syntax components][7]
-- [URL Encode / Decode Percent Encoding][8] 
-- [How Google Scholar works with libraries][9]
-- [Surface your materials in Google Scholar (OCLC)][12]
+- [URL syntax components][url_syntax]
+- [URL Encode / Decode Percent Encoding][url_encode] 
+- [How Google Scholar works with libraries][how_gs]
+- [Surface your materials in Google Scholar (OCLC)][worldshare]
 
-[1]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
-[2]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
-[3]:https://en.wikipedia.org/wiki/Query_string
-[4]:https://en.wikipedia.org/wiki/Percent-encoding
-[5]:https://www.w3schools.com/tags/ref_urlencode.asp
-[6]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
-[7]:https://tools.ietf.org/html/rfc3986#page-16
-[8]:https://www.url-encode-decode.com/
-[9]:https://scholar.google.com/intl/en/scholar/libraries.html
-[10]:https://serpapi.com/google-scholar-api
-[11]:https://scholar.google.com/intl/en/scholar/libraries.html
-[12]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
+[lr_101]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
+[link_resolv]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+[query_string]:https://en.wikipedia.org/wiki/Query_string
+[percent_encoding]:https://en.wikipedia.org/wiki/Percent-encoding
+[utf_8]:https://www.w3schools.com/tags/ref_urlencode.asp
+[lr_usage]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
+[url_syntax]:https://tools.ietf.org/html/rfc3986#page-16
+[url_encode]:https://www.url-encode-decode.com/
+[how_gs]:https://scholar.google.com/intl/en/scholar/libraries.html
+[google_scholar_api]:https://serpapi.com/google-scholar-api
+[gs_library]:https://scholar.google.com/intl/en/scholar/libraries.html
+[worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar

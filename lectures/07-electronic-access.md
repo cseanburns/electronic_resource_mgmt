@@ -1,15 +1,16 @@
-# Electronic Access
-
-## Samples and Healy (2014)
+# Lecture 7: Electronic Access
 
 Samples and Healy (2014) provide a nice framework for thinking about issues
 with electronic access. They include two broad categories, *proactive
 troubleshooting* and *reactive troubleshooting* of access. 
 
-* proactive troubleshooting of access: "defined as troubleshooting access problems before they are identified by a patron". Some examples include:
+* proactive troubleshooting of access: "defined as troubleshooting access
+  problems before they are identified by a patron". Some examples include:
   * "letting public-facing library staff know about planned database downtime"
-  * "doing a complete inventory to make sure that every database paid for is in fact 'turned on'
-* reactive troubleshoot of access: "defined as troubleshooting access issues as problems are identified and reported by a patron". Some examples include:
+  * "doing a complete inventory to make sure that every database paid for is in
+    fact 'turned on'
+* reactive troubleshoot of access: "defined as troubleshooting access issues as
+  problems are identified and reported by a patron". Some examples include:
   * "fixing broken links"
   * "fixing incorrect coverage date ranges in the catalog"
   * "patron education about accessing full text"
@@ -71,8 +72,6 @@ Let me highlight a few key findings from their report:
   patron experiences. We'll discuss tracking when we during the week on
   Evaluation and Statistics.
 
-## Carter & Traill (2017)
-
 I like the Carter and Traill (2017) article because we commonly get the line
 that discovery systems are a great solution to all the disparate discipline
 based resources that librarians subscribe to in order to search their
@@ -84,8 +83,6 @@ problems as more patrons are exposed, through the discovery system, such that
 access to particular items might be broken. The authors provide a checklist, as
 a result of their analysis, that is helpful in tracking issues, and thus,
 helpful in improving existing workflows.
-
-## Buhler and Cataldo (2016)
 
 The Buhler and Cataldo (2016) article provides an important reminder that all
 the stuff electronic resource librarians do is for the patron and reminds us
@@ -140,10 +137,10 @@ blame anyone.
 
 Let's discuss all of this on the board.
 
-* [Photos of the New York Times Index][1]
-* [Photos of the Newspaper Index for the Washington Post][2]
-* [Photos of the Reader's Guide to Periodical Literature][3]
+* [Photos of the New York Times Index][nytimes_index]
+* [Photos of the Newspaper Index for the Washington Post][washpost_index]
+* [Photos of the Reader's Guide to Periodical Literature][readersguide_index]
 
-[1]:https://photos.app.goo.gl/6wqu02M7OQzyJnCG2
-[2]:https://photos.app.goo.gl/JpnqxzZ44dhM06cq2
-[3]:https://photos.app.goo.gl/Y5ronALog63zIxwr1
+[nytimes_index]:https://photos.app.goo.gl/6wqu02M7OQzyJnCG2
+[washpost_index]:https://photos.app.goo.gl/JpnqxzZ44dhM06cq2
+[readersguide_index]:https://photos.app.goo.gl/Y5ronALog63zIxwr1

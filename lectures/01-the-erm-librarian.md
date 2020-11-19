@@ -1,13 +1,11 @@
-# Lecture 1
+# Lecture 1: The ERM Librarian
 
-## The ERM Librarian
-
-**Date: 17 Aug 2020**
+## Introduction
 
 This semester we're learning about electronic resources and a bit about how to
 manage them. We begin first by outlining the kinds of things that are
-electronic resources. [Karin Wikoff][1] (2011) outlines the major categories,
-and these include:
+electronic resources. [Karin Wikoff][Wikoff2011] (2011) outlines the major
+categories, and these include:
 
 - databases
     - A&I databases (abstracting and indexing) / bibliographic databases
@@ -84,10 +82,10 @@ library, academic, public, and more, is hypothetically becoming
 disintermediated as a result of people using sites like Google Scholar to
 retrieve works freely available on the web. As a result, what becomes of the
 core jurisdiction of the librarian? And of the electronic resource librarian,
-in particular? In concrete terms: a [recent paper][2] reported that researchers
-in their survey stated they use Google Scholar 83% of the time and EBSCOhost
-29% of the time to find relevant material. That raises questions, strategic and
-technical ones, about the role of the librarian and library.
+in particular? In concrete terms: a [recent paper][Klitzing2019] reported that
+researchers in their survey stated they use Google Scholar 83% of the time and
+EBSCOhost 29% of the time to find relevant material. That raises questions,
+strategic and technical ones, about the role of the librarian and library.
 
 The third article, by Zhu, places an entirely different theoretical lens on
 what it means to be an electronic resource librarian. Here Zhu posits that the
@@ -138,5 +136,5 @@ See you on the boards.
 Wikoff, K. (2011). Electronics Resources Management in the Academic
 Library: A Professional Guide. ABC-CLIO.
 
-[1]:http://www.worldcat.org/oclc/940697515
-[2]:https://doi.org/10.1108/JD-03-2018-0047
+[Wikoff2011]:http://www.worldcat.org/oclc/940697515
+[Klitzing2019]:https://doi.org/10.1108/JD-03-2018-0047

@@ -1,7 +1,8 @@
-# Privacy and Security
+# Lecture 15: Privacy and Security
 
-Breeding starts off with [Chapter 1][1] from [this week's issue][2] of [Library
-Technology Reports][3] with the following statement:
+Breeding starts off with [Chapter 1][breeding_1] from [this week's
+reading][breeding_2] of [Library Technology Reports][ltr] with the following
+statement:
 
 > Libraries have a long tradition of taking extraordinary measures to ensure
 > the privacy of those who use their facilities and access their materials.
@@ -25,11 +26,11 @@ However, let's think of that information in that due date card as metadata, and
 then ask, how could we use it? The sociologist Kieren Healy did that kind of
 thing with membership lists from colonial times. He showed that using limited
 data like the one I found in that book, some important things could be
-discovered. For example, [Healy][4] imagined that that if the British had
+discovered. For example, [Healy][healy_1] imagined that that if the British had
 access to simple social network analysis tools back in 1772, they could have
 identified that Paul Revere was a patriot and then have used that information
 to prevent or interfere with the American Revolution. I encourage you to read
-his blog entry and his [follow up reflection][5] because it's as a neat
+his blog entry and his [follow up reflection][healy_2] because it's as a neat
 *what-if* hypothetical case study.
 
 Most libraries in North America have replaced due date slips with bar codes,
@@ -37,15 +38,15 @@ and while this has removed the problem above, the overall migration from
 paper-based workflows to electronic ones have raised other problems. Not long
 after the Patriot Act was passed after 9/11, FBI agents ordered a Connecticut
 librarian to ["identify patrons who had used library computers online at
-a specific time one year earlier"][6]. This led to a lawsuit against the then
-US Attorney General and eventually the librarians were released from their gag
-order and allowed to discuss the event.
+a specific time one year earlier"][conn_four]. This led to a lawsuit against
+the then US Attorney General and eventually the librarians were released from
+their gag order and allowed to discuss the event.
 
 There are occasionally big, dramatic cases like the one described above, but
 privacy and security issues are often much more mundane but still quite
 important to deal with. Since many users of libraries of all types visit
 library homepages, for example, then encrypting the web/internet traffic is
-important. Last year the [major web browsers announced][7] that they would
+important. Last year the [major web browsers announced][browsers] that they would
 no longer support Transport Layer Security (TLS) protocol versions 1.1 or
 earlier and that any site that has not yet migrated to TLS version 1.2 or above
 will not be accessible. This news came out in early March of 2020 and the
@@ -67,7 +68,7 @@ introducing a variety of technologies and policies that are related to security
 and privacy. There are important technological things to consider, like web
 traffic encryption and like. There are also important policy considerations,
 too, like how third party vendors implement privacy and security mechanisms.
-Note that the [SERU][8] recommended practice has a section dedicated to
+Note that the [SERU][seru_rp] recommended practice has a section dedicated to
 Confidentiality and Privacy. In case you work at a library that doesn't use
 SERU, this is how SERU can be useful to you. It can inform us of the kinds of
 things that a library ought to have in a license if the default one a vendor
@@ -95,11 +96,11 @@ Please read these articles closely. Even though we do not have discussions this
 week, I encourage you to use your browser to inspect the connections you make
 to various library sources. (I'll say a few other things to sum up the course.)
 
-[1]:https://journals.ala.org/index.php/ltr/article/view/5973/7606
-[2]:https://journals.ala.org/index.php/ltr/issue/view/549
-[3]:https://journals.ala.org/
-[4]:https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/
-[5]:https://kieranhealy.org/blog/archives/2013/06/11/following-up-on-paul-revere/
-[6]:https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html
-[7]:https://www.zdnet.com/article/browsers-to-block-access-to-https-sites-using-tls-1-0-and-1-1-starting-this-month/
-[8]:https://www.niso.org/publications/rp-7-2012-seru
+[breeding_1]:https://journals.ala.org/index.php/ltr/article/view/5973/7606
+[breeding_2]:https://journals.ala.org/index.php/ltr/issue/view/549
+[ltr]:https://journals.ala.org/
+[healy_1]:https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/
+[healy_2]:https://kieranhealy.org/blog/archives/2013/06/11/following-up-on-paul-revere/
+[conn_four]:https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html
+[browsers]:https://www.zdnet.com/article/browsers-to-block-access-to-https-sites-using-tls-1-0-and-1-1-starting-this-month/
+[seru_rp]:https://www.niso.org/publications/rp-7-2012-seru

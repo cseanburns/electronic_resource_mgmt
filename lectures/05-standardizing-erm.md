@@ -1,4 +1,4 @@
-# Standardizing Terms for Electronic Resource Management
+# Lecture 5: Standardizing Terms for Electronic Resource Management
 
 Awhile ago now, I conducted some historical research on a librarian named Ralph
 Parker. Inspired by technological advances in automation, specifically the
@@ -38,10 +38,10 @@ enable the internet and the web to work for so many users regardless of the
 operating system and the hardware they use. 
 
 Our first article this week is written by Pat Harris and covers the basic
-reasons for the existence of [NISO][1] (the National Information Standards
+reasons for the existence of [NISO][niso] (the National Information Standards
 Organization) and the kinds of standards NISO is responsible for maintaining
 and creating. These standards are directly related to libraries and fall under
-[three broad categories][9] related to **Information Creation &amp; Curation**,
+[three broad categories][niso2] related to **Information Creation &amp; Curation**,
 **Information Discovery &amp; Interchange**, and **Information Policy &amp;
 Analysis**. There are standards that touch on bibliographic information,
 indexing, abstracting, controlled vocabularies, and many other library
@@ -67,9 +67,9 @@ developed in order for librarians or others dealing with electronic resources
 to come to a consensus on the processes of electronic resource management.
 Version 1 of TERMS is described by the TERMS authors in the *Library Technology
 Reports* readings of chapters 1-8. Although it has been replaced by a [newer
-version][6], it still functions as a thorough introduction to the ERM work flow
+version][terms2], it still functions as a thorough introduction to the ERM work flow
 and provides guidance and suggestions on all aspects of electronic resource
-management. For example, in [chapter 7][7] of the LTS report on TERMS version
+management. For example, in [chapter 7][chapter_7] of the LTS report on TERMS version
 1, the authors provide very helpful information on the importance of working
 with providers or vendors in case of cancellation of a resource. They write:
 
@@ -85,7 +85,7 @@ with providers or vendors in case of cancellation of a resource. They write:
 Some of this material is repeated in version 2 of TERMS, but version 2 was
 created in order to address changes in the world and to include more input from
 the community. Version 2 also includes a slightly modified outline, and
-[includes the following parts][8]:
+[includes the following parts][terms_v2]:
 
 1. Investigating new content for purchase or addition
 2. Acquiring new content
@@ -112,7 +112,7 @@ and framework for thinking on the different aspects of the electronic resource
 life-cycle within the library, and helps provide librarians with a set of
 questions and points of investigation. For example, let's consider Term item 1,
 which is to investigate new content for purchase or addition. In a presentation
-by the [Emery and Stone (2014)][2], they suggest that this involves the
+by the [Emery and Stone (2014)][emery], they suggest that this involves the
 following steps, partly paraphrased:
 
 - outline what you want to achieve
@@ -125,7 +125,7 @@ following steps, partly paraphrased:
 Emery and Stone provide other examples, and the TERMS listed in this slide are
 from the first version. TERM 6, PRESERVATION, was added in version 2, and TERMS
 4 and 5 from version 1 were joined together. There is a link to these
-[slides][2], with further examples, in the transcript of this lecture, as well
+[slides][emery], with further examples, in the transcript of this lecture, as well
 as the citation.
 
 This week you have a two part exercise: first, you will visit the NISO website
@@ -150,7 +150,7 @@ reports and post about it. The differences between these publications follows:
 And **Published and Approved NISO Standards** are the final, approved
 definitions that have been achieved by a consensus of the community.
 
-See [https://www.niso.org/niso-io/2014/03/state-standards][10]
+See [https://www.niso.org/niso-io/2014/03/state-standards][state]
 
 Second, after reading about TERMS, try to place these TERMS in additional
 electronic resource management context. Please draw from your experience last
@@ -175,17 +175,17 @@ TX. http://eprints.hud.ac.uk/id/eprint/19420/
 
 **Sources for NISO tasks:**
 
-- NISO: Recommended Practices: [https://www.niso.org/explore/type?type=11][3]
-- NISO: Technical Reports: [https://www.niso.org/explore/type?type=21][4]
-- NISO: Standards: [https://www.niso.org/publications][5]
+- NISO: Recommended Practices: [https://www.niso.org/explore/type?type=11][recommended]
+- NISO: Technical Reports: [https://www.niso.org/explore/type?type=21][technical]
+- NISO: Standards: [https://www.niso.org/publications][standards]
 
-[1]:http://www.niso.org/
-[2]:http://eprints.hud.ac.uk/id/eprint/19420/
-[3]:https://www.niso.org/explore/type?type=11
-[4]:https://www.niso.org/explore/type?type=21
-[5]:https://www.niso.org/publications
-[6]:http://6terms.tumblr.com/
-[7]:https://journals.ala.org/index.php/ltr/article/view/4738/5647
-[8]:https://library2.hud.ac.uk/blogs/terms/announcing-terms-ver2-0/terms-ver2-0-introduction/
-[9]:https://www.niso.org/welcome-to-niso
-[10]:https://www.niso.org/niso-io/2014/03/state-standards
+[niso]:http://www.niso.org/
+[emery]:http://eprints.hud.ac.uk/id/eprint/19420/
+[recommended]:https://www.niso.org/explore/type?type=11
+[technical]:https://www.niso.org/explore/type?type=21
+[standards]:https://www.niso.org/publications
+[terms2]:http://6terms.tumblr.com/
+[chapter_7]:https://journals.ala.org/index.php/ltr/article/view/4738/5647
+[terms_v2]:https://library2.hud.ac.uk/blogs/terms/announcing-terms-ver2-0/terms-ver2-0-introduction/
+[niso2]:https://www.niso.org/welcome-to-niso
+[state]:https://www.niso.org/niso-io/2014/03/state-standards

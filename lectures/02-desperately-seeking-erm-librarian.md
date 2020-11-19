@@ -1,8 +1,4 @@
-# Lecture 2
-
-## Desperately Seeking an ERM Librarian
-
-**Date: Mon 24 Aug 2020** 
+# Lecture 2: Desperately Seeking an ERM Librarian
 
 Class, we read two articles this week that analyze electronic resource
 librarian job advertisements. Our goal is to understand how the job has changed
@@ -22,7 +18,7 @@ are not current job openings, but they were current within the last two years.
 To stay current about the position overall, about the specific duties involved,
 I encourage you to bookmark and stay abreast of relevant journals in the area.
 In addition to the two titles we're reading this week, pay attention and
-bookmark the [Journal of Electronic Resources Librarianship][1]. 
+bookmark the [Journal of Electronic Resources Librarianship][JERL]. 
 
 A big change since 2012, when Harnett's research ends, is that technology has
 moved to the cloud and we manage less technology on on-site servers, where
@@ -71,7 +67,7 @@ This week I want you to think about these job advertisement studies in relation
 to what you know now about electronic resources as well as in relation to the
 kinds of advertisements you've seen since whenever you started paying attention
 to them. By the time this lecture is released you may have seen some job ads
-sent out on the [SERIALST][3] mailing list that I've asked you to subscribe to
+sent out on the [SERIALST][SERIALST] mailing list that I've asked you to subscribe to
 this semester (and as mentioned above, in case none have been forwarded while
 you've been subscribed, I'll share some that I've seen). Some of you may be
 graduating soon and are looking for employment. If so, feel free to comment on
@@ -99,7 +95,7 @@ We'll soon move away from reflective questions and get our hands dirty with
 specific technologies, licensing, etc., but for now let's reflect on the
 following questions:
 
-- Where do you think you stand in comparison to ERM job ads and to [NASIG Core Competencies][2]?
+- Where do you think you stand in comparison to ERM job ads and to [NASIG Core Competencies][NCC]?
   - Where are you strong?
   - Where would you like to improve?
 - What can you (and we, as a course community) do to help each of you
@@ -107,6 +103,6 @@ following questions:
   - What's your path?
   - What can you practice?
 
-[1]:https://www.tandfonline.com/toc/wacq20/current
-[2]:https://www.nasig.org/Competencies-Eresources
-[3]:https://www.nasig.org/SERIALST
+[JERL]:https://www.tandfonline.com/toc/wacq20/current
+[NCC]:https://www.nasig.org/Competencies-Eresources
+[SERIALST]:https://www.nasig.org/SERIALST

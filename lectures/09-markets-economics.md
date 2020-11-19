@@ -1,4 +1,4 @@
-# Market and Economics
+# Lecture 9: Market and Economics
 
 ## Copyright and Budgets
 
@@ -12,8 +12,6 @@ and show digital works have disrupted some basic ways that libraries function.
 The article by Bosch, Albee, and Henderson discusses a similar case among
 academic libraries, but with academic or scholarly journals as the focal point.
 Here I'll address some of the citation metrics they discuss.
-
-### Sanchez (2015)
 
 Copyright law grants a monopoly to the person or corporate owner of an
 intellectual property. That is, the copyright owner has exclusive rights
@@ -41,7 +39,7 @@ the following rights:
 > (6) in the case of sound recordings, to perform the copyrighted work
 > publicly by means of a digital audio transmission.
 
-Source: [Copyright Section 106][1]
+Source: [Copyright Section 106][sec_106]
 
 These exclusive rights are all encompassing, and intentionally designed
 to allow copyright owners a monopoly of their property. In principle and
@@ -56,10 +54,10 @@ buyer of the physical item any distribution rights of the item once the first
 exchange has been made. Under such a scenario, libraries would be able to buy
 physical books but would not be able lend them.
 
-The [First Sale Doctrine][2] helps avoid the issue granted by the full blown
+The [First Sale Doctrine][first_sale] helps avoid the issue granted by the full blown
 list of exclusive rights granted by copyright ownership. Because of the first
 sale doctrine, made a precedent in the early 20th century and then [codified
-into law in 1976][3], you, I, or a library may buy a physical copy of a work,
+into law in 1976][copy_1976], you, I, or a library may buy a physical copy of a work,
 like a book, a DVD, a painting, and literally own that specific copy. First
 sale doctrine does not grant us reproduction rights, as they are listed in
 Section 106 of the copyright law, but it does allow us to distribute the
@@ -108,7 +106,7 @@ failed to display properly in a future Microsoft Word version or in some other
 word document software. WordPerfect 5.1 was a popular word processing
 applications in the 1990s, and it's not clear if files created with that
 application, or other popular word processing applications at that time, would
-open today, [at least without intervention][6].
+open today, [at least without intervention][intervention].
 
 In short, these complexities introduce obstacles to the first sale doctrine and
 raise other copyright issues because of the connection to software, which is
@@ -162,9 +160,7 @@ As a bonus, the last time I taught this course, I reached out to Joseph Sanchez 
 
 Read more about copyright:
 
-[https://www.copyright.gov/title17/92chap1.html][4]
-
-### Bosch, Albee, & Henderson (2018)
+[https://www.copyright.gov/title17/92chap1.html][copy_ch1]
 
 Although ebooks likely represent the biggest impact on public library budgets,
 academic libraries are largely concerned with scholarly journals. Like Sanchez
@@ -219,8 +215,8 @@ with higher metrics tend to attract more submissions and more attention, thus
 driving more citations to them. Thus, citation based metrics are comparable to
 a kind of capitalist economic system where, as the sociologist of science
 Robert Merton noted, [the richer get richer (in citations) and the poor get
-poorer][7]. The issue then is that prestige, defined in this way, does not
-necessarily indicate quality---just use.
+poorer][matthew_effect]. The issue then is that prestige, defined in this way,
+does not necessarily indicate quality---just use.
 
 The authors also discuss some of the issues with *Gold Open Access* and the
 idea that Gold OA may compound the cost problem. This is where authors pay
@@ -228,26 +224,26 @@ a publication fee, or an article processing charge (APC), once a manuscript has
 been submitted and accepted by a journal (there are other types of Gold OA cost
 models). We can do a quick off the cuff and rough calculation to see why this
 might compound the problem. As an example, *PLOS ONE* is one of the largest
-gold OA journals and charges an [APC of $1,695 USD][5] (that's $100 more than
-it cost about a year ago). In 2018, 32 papers were published in PLOS ONE that
-included at least one author from the University of Kentucky, totaling $51,040
-in APCs for the 50 total institutions that were associated with these papers.
-Thus, this amounts to about $1020 per institution, payed for by the authors and
-not libraries. For UK authors, this also amounts to over $32,640 spent on APCs
-(32 * $1020). This is about $27K more than the average price of the most
-expensive category, Chemistry, as reported in Table 1 of the reading. I'll
-leave it at that.
+gold OA journals and charges an [APC of $1,695 USD][pub_fees] (that's $100 more
+than it cost about a year ago). In 2018, 32 papers were published in PLOS ONE
+that included at least one author from the University of Kentucky, totaling
+$51,040 in APCs for the 50 total institutions that were associated with these
+papers. Thus, this amounts to about $1020 per institution, payed for by the
+authors and not libraries. For UK authors, this also amounts to over $32,640
+spent on APCs (32 * $1020). This is about $27K more than the average price of
+the most expensive category, Chemistry, as reported in Table 1 of the reading.
+I'll leave it at that.
 
 In a follow up video, I'll demonstrate some of the tools used to examine the
 discussed metrics.
 
-[1]:https://www.copyright.gov/title17/92chap1.html#106
-[2]:https://www.copyright.gov/docs/resaleroyalty/
-[3]:http://www.copyright.gov/title17/92chap1.html#109
-[4]:https://www.copyright.gov/title17/92chap1.html
-[5]:https://www.plos.org/publication-fees
-[6]:http://www.columbia.edu/~em36/wpdos/wptoword.html
-[7]:http://www.garfield.library.upenn.edu/merton/matthew1.pdf
+[sec_106]:https://www.copyright.gov/title17/92chap1.html#106
+[first_sale]:https://www.copyright.gov/docs/resaleroyalty/
+[copy_1976]:http://www.copyright.gov/title17/92chap1.html#109
+[copy_ch1]:https://www.copyright.gov/title17/92chap1.html
+[pub_fees]:https://www.plos.org/publication-fees
+[intervention]:http://www.columbia.edu/~em36/wpdos/wptoword.html
+[matthew_effect]:http://www.garfield.library.upenn.edu/merton/matthew1.pdf
 
 ## References
 
