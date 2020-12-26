@@ -70,7 +70,7 @@ Anderson article (chapter 2) provides a link to a white paper titled, [White
 Paper on Interoperability between Acquisitions Modules of Integrated Library
 Systems and Electronic Resource Management Systems][interop], and this paper defines
 the 13 data elements that were determined to be desired in any exchange between
-ILS software and ERM software for those software to communicate meaningfully
+ILS software and ERM software for these software to communicate meaningfully
 with each other. By that, I mean, the data points enable meaningful use of both
 the ILS software and the ERM software, and include:
 

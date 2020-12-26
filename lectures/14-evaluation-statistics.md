@@ -1,6 +1,6 @@
 # Lecture 14: Evaluation and Statistics
 
-We've discussed problems this semester with defining terms and we have learned
+We've discussed problems this semester with defining terms, and we have learned
 that a lot of effort has been expended into standardizing them. We have also
 seen that the topics that we've covered--technologies, standards, access,
 usability, workflow, markets, licensing--are linked in some way. All of this
@@ -110,7 +110,7 @@ you'll have access to as an electronic resource librarian. Here, Zou describes
 a process of taking EZproxy logs and turning them into something useful and
 dynamic by incorporating some additional technologies. Recall that
 [EZproxy][ezproxy] is software that authenticates users and provides access
-given that authentication. We use EZproxy at UK whenever we login to access
+given that authentication. We use EZproxy at UK whenever we log in to access
 a journal article and you'll notice the **ezproxy.uky.edu** string in any URL
 for a journal that you've accessed via UK Libraries' installation of EZproxy
 and the URL ``https://login.ezproxy.uky.edu/login`` when we log in. Zou

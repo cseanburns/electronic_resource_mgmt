@@ -35,15 +35,15 @@ but which is now fairly traditional! Some librarians who would work with an ILS
 include:
 
 1. Reference: who use the OPAC module
-2. Cataloging and Technical Services: who use the cataloging and serials
-   modules and perhaps also the acquisitions module
+2. Cataloging and Technical Services: who use the cataloging and serial's
+   modules and perhaps also the acquisition's module
 3. Circulation: who would use the circulation module
     - Interlibrary Loan department: if such a department exists
       because the library is big enough to have one, they would also use the
       circulation module
 
 All of those librarians might use multiple modules of the ILS, but might
-predominately use one module more frequently than others in their day to day
+predominately use one module more frequently than others in their day-to-day
 work. For example, when I worked in reference at a small academic library,
 I used the Millennium ILS to check out books to users, to fix borrowing issues,
 and to search for works in the OPAC. Later I used the cataloging module when
@@ -98,9 +98,9 @@ review is also helpful) that shows how electronic resources have impacted
 organizational structure, job titles, budgets, and more. The article by
 Anderson (2014) lists and describes various ERM solutions. As I mentioned in
 a previous lecture, electronic resources is a fast moving area, and even though
-this article (or chapter) is a handful of years old, some of the products
-are no longer available, have been merged into others, or sold off. Still, the
-article is helpful in describing:
+this article (or chapter) is a handful of years old, some products are no
+longer available, have been merged into others, or sold off. Still, the article
+is helpful in describing:
 
 - the role of vendors in the ERM market
 - the importance and rise of open source ERMs as well as the mark that
@@ -133,9 +133,9 @@ an ERM work flow.
 
 In this week's forum, I'll introduce you to the Evergreen ILS and to the CORAL
 ERM solution and to its various modules and how they work. Be sure to open the
-transcript for this lecture in order to visit all of the links, especially the
+transcript for this lecture in order to visit the links, especially the
 documentation. I ask that you log into these two services using the
-instructions on their sites. This will help you get some hands on experience
+instructions on their sites. This will help you get some hands-on experience
 with them and also demystify what each do.
 
 ## References

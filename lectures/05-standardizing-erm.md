@@ -14,7 +14,7 @@ punched card system to help automate circulation:
 > To the delight of the patrons it requires only four seconds to check
 > out materials (as cited in Burns, 2014).
 
-I think on that comment often, because when I read that in his annual report,
+I often think on that comment, because when I read that in his annual report,
 I could feel his giddiness with the results. Until this achievement, when
 a patron borrowed an item from the library, the process involved completing
 multiple forms. It was drudgery work, but this achievement improved the library
@@ -30,8 +30,8 @@ competing interests to form consensus around how technology should work, and
 when this happens, multiple parties receive payoffs at the expense of any
 single party acquiring a monopoly. This is true for the design of screwdrivers,
 the width of railroad tracks, the temperature scale, and certainly also to how
-information is managed and exchanged. The internet and the web wouldn't exist,
-or definitely not exist as we know it, if not for the standardization of the
+information is managed and exchanged. The internet and the web wouldn't exist
+or definitely not exist as we know it if not for the standardization of the
 Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext
 Transfer Protocol (HTTP), and other internet and web related technologies that
 enable the internet and the web to work for so many users regardless of the

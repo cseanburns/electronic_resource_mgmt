@@ -26,11 +26,11 @@ However, let's think of that information in that due date card as metadata, and
 then ask, how could we use it? The sociologist Kieren Healy did that kind of
 thing with membership lists from colonial times. He showed that using limited
 data like the one I found in that book, some important things could be
-discovered. For example, [Healy][healy_1] imagined that that if the British had
+discovered. For example, [Healy][healy_1] imagined that if the British had
 access to simple social network analysis tools back in 1772, they could have
 identified that Paul Revere was a patriot and then have used that information
 to prevent or interfere with the American Revolution. I encourage you to read
-his blog entry and his [follow up reflection][healy_2] because it's as a neat
+his blog entry and his [follow-up reflection][healy_2] because it's as a neat
 *what-if* hypothetical case study.
 
 Most libraries in North America have replaced due date slips with bar codes,
@@ -49,15 +49,15 @@ library homepages, for example, then encrypting the web/internet traffic is
 important. Last year the [major web browsers announced][browsers] that they would
 no longer support Transport Layer Security (TLS) protocol versions 1.1 or
 earlier and that any site that has not yet migrated to TLS version 1.2 or above
-will not be accessible. This news came out in early March of 2020 and the
+will not be accessible. This news came out in early March 2020 and the
 browsers postponed blocking these sites because of the pandemic. The migration
 will still happen at some point, and as you can see in the screenshot below, as
 of today, I have to enable an insecure connection to libraries.uky.edu in
 Firefox if I want to visit it. If I enable it, then my activity on
 libraries.uky.edu is visible to others under certain conditions. This includes
 any chat exchanges I might have with reference librarians. Of course, once
-I try to sign into my library account, I'm then transferred to Primo's cloud
-service, and then to UK's OAuth page to login. These parts of the encryption
+I try to sign in to my library account, I'm then transferred to Primo's cloud
+service, and then to UK's OAuth page to log in. These parts of the encryption
 chain are fairly strong. So it's only activity specifically on
 libraries.uky.edu that is not good at the moment.
 

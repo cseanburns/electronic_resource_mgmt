@@ -1,12 +1,11 @@
 # Lecture 10: Licensing Basics
 
-This week we start our two week coverage on licensing issues. Licensing is at
+This week we start our two-week coverage on licensing issues. Licensing is at
 the top of the list of most important aspects of electronic resource
 management. 
 
-The readings are pretty straightforward, but let's preview some of the basics,
-which are nicely outlined in Weir (2016) (not in the reading but reference
-below):
+The readings are pretty straightforward, but let's preview some basics, which
+are nicely outlined in Weir (2016) (not in the reading but reference below):
 
 - There is a difference between copyright law and contract law. In short,
   contract law overrides copyright law. This is why, for example, authors may

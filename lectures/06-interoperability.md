@@ -4,9 +4,9 @@ This week we cover interoperability and link resolvers. Link resolvers offer
 a technical solution to help users of electronic resources access the full text
 in a library's collection based on a discovered citation. It is meant to work
 for all items in a library's collection. Its reason for existence is for items
-that are paywalled or for items that are inaccessible via the open web for some
+that are pay-walled or for items that are inaccessible via the open web for some
 reason. Link resolvers can be used to acquire access through some other means,
-like interlibrary loan. Though its use is motivated by electronic resources, it
+like inter-library loan. Though its use is motivated by electronic resources, it
 can identify resources that are located in the library stacks.
 
 Let's imagine a search in *Google Scholar*, let's call this the *source*, and
@@ -24,7 +24,7 @@ a specific library and if the library uses a link resolver service, then:
    work) for retrieving the article, and the options may include full text
    access from various and possibly multiple vendors or publishers, information
    about the physical location (e.g., on the shelves) if it exists, or options
-   to request the work through interlibrary loan. Ideally, it will lead the
+   to request the work through inter-library loan. Ideally, it will lead the
    user directly to the full text.
 
 [ Show how to make *Google Scholar* aware of your affiliation ]
@@ -41,7 +41,7 @@ right of your search result list. This indicates the likelihood, although there
 could be an error, that the article is available through UK Libraries, in my
 case, or another library in another person's case.
 
-We can examine the URL for the **View Now @ UK** link by right clicking the URL
+We can examine the URL for the **View Now @ UK** link by right-clicking the URL
 and decomposing it into its components. What we see here is what is called
 a [query string][query_string]. A query string is a part of the URL that contains
 (metadata) fields or parameters and values for those parameters, and it begins
@@ -164,7 +164,7 @@ the form of the **View Now @ UK** button. Clicking that will open the link
 resolver menu, and we will see a list of options for accessing the full text of
 the article. If the article is available full text in the library, like through
 a different database. If not, there should be options for requesting the item
-through interlibrary loan or options for accessing the item in the library's
+through inter-library loan or options for accessing the item in the library's
 physical collections if the library has the item in the stacks.
 
 ## Link Resolvers in Practice

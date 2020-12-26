@@ -53,7 +53,7 @@ Hartnett article is another nice real world example of the negotiating process
 that includes a work flow around licensing. Remember, document everything!
 That's how these checklists have come into being and why they're useful. Having
 a work flow in place around licensing will help make the entire process more
-efficient and help insure that all bases are covered.
+efficient and help ensure that all bases are covered.
 
 The Dygert and Barrett article covers the specifics of licensing---what to look
 for, what shouldn't be given away, how to negotiate, principally, and more.

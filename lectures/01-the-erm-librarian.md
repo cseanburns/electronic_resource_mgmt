@@ -62,7 +62,7 @@ forum.
 In the second article, Hulseberg uses the field of technical communication (TC)
 to interpret the field of electronic resource librarianship. Hulseberg takes
 the view that an electronic resource librarian is, perhaps among other things,
-a technical communicator. This is much different than being someone who simply
+a technical communicator. This is much different from being someone who simply
 helps patrons with their technical problems. Rather, this is someone who
 completes advanced work in documenting and reporting technical processes. 
 
@@ -79,7 +79,7 @@ included, use non-library provided resources to locate information.
 Additionally, more works, scholarly and non-scholarly, are freely and publicly
 available as open access or like. Jointly, this means, perhaps, that the
 library, academic, public, and more, is hypothetically becoming
-disintermediated as a result of people using sites like Google Scholar to
+dis-intermediated as a result of people using sites like Google Scholar to
 retrieve works freely available on the web. As a result, what becomes of the
 core jurisdiction of the librarian? And of the electronic resource librarian,
 in particular? In concrete terms: a [recent paper][Klitzing2019] reported that
@@ -122,10 +122,10 @@ address all of this, I want us to consider two questions:
 2. What exactly is an electronic resource librarian? I like this basic question
    because, due to perhaps representations in the media (movies, TV shows,
    books) and the interactions we've had with librarians in our lifetimes, we
-   all have pretty well-defined, whether or not accurate, images of what
-   reference or cataloging librarians are. But what about an electronic
-   resource librarian? This is something different, right? And it's not likely
-   to be a position that's ever really captured and presented publicly.
+   all have pretty well-defined, whether accurate, images of what reference or
+   cataloging librarians are. But what about an electronic resource librarian?
+   This is something different, right? And it's not likely to be a position
+   that's ever really captured and presented publicly.
 
 Keep this these questions in consideration when you read the material this week.
 

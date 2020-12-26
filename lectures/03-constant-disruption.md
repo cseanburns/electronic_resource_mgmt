@@ -11,7 +11,7 @@ website should be at the top of your list.
 Breeding's *What is ERM?* article is a good one to start the week. He provides
 not only a nice outline of the various components of electronic resources, but
 he also provides some historical context for those components. One caveat: all
-of the articles on our list this week are focused on academic libraries. I am
+the articles on our list this week are focused on academic libraries. I am
 afraid not much literature (that I have seen, at least) provides the same level
 of information from other library types. I think that librarians in other
 libraries publish less often than academic librarians, who are often required
@@ -30,11 +30,11 @@ scholarly sources, and public libraries provide more ebooks and audiobooks and
 less e-journals. These differences in needs, due to different communities, will
 change the emphasis on some aspects of the ERM work flow.
 
-I understand some of the terms Breeding uses and the technologies he describes
-might be foreign right now. I am not rehashing or summarizing these articles
-here; we will simply discuss them on the boards, but let me spend some time
-providing some additional background information and highlighting some of the
-things to look for in these three articles.
+I understand some terms Breeding uses and the technologies he describes might
+be foreign right now. I am not rehashing or summarizing these articles here; we
+will simply discuss them on the boards, but let me spend some time providing
+some additional background information and highlighting some things to look for
+in these three articles.
 
 As I have previously mentioned, librarians started to migrate to electronic
 management since the 1970s. Breeding mentions this. It actually started well
@@ -72,7 +72,7 @@ systems in the 1960s and with better networking technologies in the 1980s and
 and indeed, this exponential increase in complex issues launched an entire new
 field, what we now call *information science*.
 
-All right, back to the ground level. Let me highlight some of the key terms in
+All right, back to the ground level. Let me highlight some key terms in
 Breeding's article. They include:
 
 * Finding aids

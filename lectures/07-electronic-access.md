@@ -75,7 +75,7 @@ Let me highlight a few key findings from their report:
 I like the Carter and Traill (2017) article because we commonly get the line
 that discovery systems are a great solution to all the disparate discipline
 based resources that librarians subscribe to in order to search their
-collections. Or, if we do think about problems with such systems, we often are
+collections. Or, if we do think about problems with such systems, we are often
 presented with a basic information retrieval problem, such that the larger the
 collection to search, the more likely a relevant item will get lost in the mix.
 But as Carter and Traill point out, these systems also tend to reveal access
@@ -94,7 +94,7 @@ describe across other populations. It's important, if possible, to recognize
 these issues as ERM librarians and work to resolve them in the ways that you
 would be able to.
 
-I am in my middle aged years. That means I grew up with some understanding of
+I am in my middle-aged years. That means I grew up with some understanding of
 the differences between an encyclopedia article, a journal article, a magazine
 article, a newspaper article, a chapter in a book, a handbook, an index,
 a dictionary, etc. because I grew up with the printed versions and because they

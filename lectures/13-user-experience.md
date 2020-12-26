@@ -10,7 +10,7 @@ outcome." Parush (2017) highlights relevant terms like *human-computer
 interaction (HCI)* and *usability*. Let's say then that HCI encompasses the
 entire domain of interaction between people and computers and how that
 interaction is designed, whereas *user experience (UX)* focuses on the quality
-of that interaction or an interaction with some thing (like a product). These
+of that interaction or an interaction with something (like a product). These
 are not precise definitions, and some might use the terms *UX* and *HCI*
 interchangeably. As ERM librarians, though, it is our job to focus on the
 quality of the patron's experience with our electronic services, but this
@@ -108,12 +108,12 @@ kind of study.
 I agree with McDonald that despite having around 30 or so years of experience
 with web-based electronic resources, more with other types of electronic
 resources that existed prior to the web and that were based on the then
-internet, on optical disks, etc., we are still in the throws of disruption.
-There's a lot yet to learn about design for the web, just like there's a lot
+internet, on optical disks, etc., we are still in the throes of disruption.
+There's a lot yet to learn about design for the web, just like there's a lot of
 left to learn about how to design a home or office, and nothing will be settled
 for a while. Although I doubt if there will be any single dominate user
 experience or user interface, since there are many cultures and backgrounds and
-experiences, I'm fairly sure the low hanging fruit problems will work out
+experiences, I'm fairly sure the low-hanging fruit problems will work out
 eventually. Remember though that 95% of the cause of all of this is due to
 copyright issues, which necessitate the entire electronic resource ecosystem
 and the complications that are introduced by having to work with vendors who
@@ -123,7 +123,7 @@ change about copyright, then it's a whole new ballgame.
 On a final note, you might be wondering how *information seeking* is related to
 *HCI* and to *UX*. Anytime we interact with a computer (broadly speaking) in
 order to seek information, then we have an overlap. But there are areas of
-non-overlap, too. We don't always use computers to look for information and we
+non-overlap, too. We don't always use computers to look for information, and we
 don't always look for information on computers. *UX* is like this, too. *UX* is
 not always about computers but can be about user experience generally. I bring
 this up because if you do become involved with *UX* work at a library (or

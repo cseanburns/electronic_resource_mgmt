@@ -21,7 +21,7 @@ In addition to the two titles we're reading this week, pay attention and
 bookmark the [Journal of Electronic Resources Librarianship][JERL]. 
 
 A big change since 2012, when Harnett's research ends, is that technology has
-moved to the cloud and we manage less technology on on-site servers, where
+moved to the cloud, and we manage less technology on on-site servers, where
 those servers might be managed by library IT (or other IT). This has had
 substantial implications and I think we should hypothesize about what they may
 be. One implication is libraries will require fewer local, advanced IT skill

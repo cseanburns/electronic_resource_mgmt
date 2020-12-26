@@ -15,7 +15,7 @@ subscription services require different kinds of contracts, as we have learned.
 Second, electronic resources (ebooks, journal articles, databases, etc.)
 require different handling and disseminating processes due to technological and
 licensing barriers. Martin et al. (2009) truly nail the issue in their article
-this week where they write that:
+where they write that:
 
 > As much as we would like to think our primary concerns about collecting are
 > based on content, not format, e-resources have certainly challenged many
@@ -92,7 +92,7 @@ policy to guide the collection, acquisition, and assessment of electronic
 resources. Unfortunately, not all libraries, even at major institutions, create
 or use a CDP, and if you end up working at one, then I'd highly encourage you
 to convince your colleagues of its importance. A CDP should define
-a collection, and then include most if not all of the following topics:
+a collection, and then include most if not all the following topics:
 
   - mission, vision, and values statement
   - purpose of CDP statement (scope may be included here)
