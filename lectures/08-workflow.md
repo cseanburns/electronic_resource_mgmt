@@ -32,7 +32,7 @@ purchase, and we do this because we select systems based on the needs of the
 librarians, which may be vastly different across libraries and which must rely
 on different aspects of the overall process. As you read this chapter, I want
 you to keep in mind the Samples and Healy article from the previous week's
-reading. 
+reading.
 
 As hinted at in these readings, especially in the section on acquisitions,
 budget, subscription, and purchasing in chapter two but also in the multiple
@@ -65,14 +65,15 @@ with respect to link resolver technology, and we did this not just because we
 should know about link resolvers as important components of electronic resource
 management, but also because link resolvers are a good example of the kind of
 work that is involved for systems to communicate properly. There are other
-forms of interoperability, though, and coming back to [CORE][cost_exchange] again, the
-Anderson article (chapter 2) provides a link to a white paper titled, [White
-Paper on Interoperability between Acquisitions Modules of Integrated Library
-Systems and Electronic Resource Management Systems][interop], and this paper defines
-the 13 data elements that were determined to be desired in any exchange between
-ILS software and ERM software for these software to communicate meaningfully
-with each other. By that, I mean, the data points enable meaningful use of both
-the ILS software and the ERM software, and include:
+forms of interoperability, though, and coming back to [CORE][cost_exchange]
+again, the Anderson article (chapter 2) provides a link to a white paper
+titled, [White Paper on Interoperability between Acquisitions Modules of
+Integrated Library Systems and Electronic Resource Management
+Systems][interop], and this paper defines the 13 data elements that were
+determined to be desired in any exchange between ILS software and ERM software
+for these software to communicate meaningfully with each other. By that,
+I mean, the data points enable meaningful use of both the ILS software and the
+ERM software, and include:
 
 * purchase order number
 * price

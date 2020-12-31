@@ -1,10 +1,10 @@
 # Lecture 3: Constant Disruption
 
 The first listed reading we have this week is by Marshall Breeding. Astute
-observers will note Breeding is one of the first cited in the two
-additional readings we have this week. We will read more from Breeding later in
-the semester, but I bring him up now because he oversees a website titled
-[Library Technology Guides][LTGuides] at librarytechnology.org. If you would like to
+observers will note Breeding is one of the first cited in the two additional
+readings we have this week. We will read more from Breeding later in the
+semester, but I bring him up now because he oversees a website titled [Library
+Technology Guides][LTGuides] at librarytechnology.org. If you would like to
 keep abreast of the recent news on the electronic resource industry, Breeding's
 website should be at the top of your list.
 
@@ -89,7 +89,7 @@ week, you have two major tasks:
 1. Find real, practical examples. Pick one or two of the above terms and see
    how they work in practice. Then come back here and tell us what you found.
    Use the articles to help you locate actual products or examples.
-2. Locate how these terms appear in either the Cote and Ostergaard (2017)
+1. Locate how these terms appear in either the Cote and Ostergaard (2017)
    article or the Fu and Carmen (2015). Note other terms that may appear in
    those two articles and comment on the role they play in the ERM work flow
    and the migration process.

@@ -7,30 +7,28 @@ manage them. We begin first by outlining the kinds of things that are
 electronic resources. [Karin Wikoff][Wikoff2011] (2011) outlines the major
 categories, and these include:
 
-- databases
-    - A&I databases (abstracting and indexing) / bibliographic databases
-    - full text databases
-    - journal collections, like Project Muse or JSTOR
-    - specialized and hybrid databases, like chemical databases,
-      genetic databases, stock and business databases
-    - primary source databases, like original newspaper databases,
-      oral histories, and like
-- e-journals
-    - open access or proprietary, and the issues associated with
-      these types
-- e-books
-    - one note about e-books---here the technology is rather complex
-      and differentiated depending on the copyright status, the
-      file type (PDF, ePUB, TXT, etc.), the purpose or genre (textbook,
-      fiction or non-fiction, etc.). In many cases, e-books are
-      software applications and not just plain or marked up text, and
-      they also vary by platform or the application interacting
-      with the text, which offer different types of functionality.
-- linking technologies, e.g., where metadata is embedded in a URL and
-  is sent across networks, these include:
-    - Z39.50
-    - OpenURL
-    - Federated search
+* databases
+  * A&I databases (abstracting and indexing) / bibliographic databases
+  * full text databases
+  * journal collections, like Project Muse or JSTOR
+  * specialized and hybrid databases, like chemical databases, genetic
+    databases, stock and business databases
+  * primary source databases, like original newspaper databases, oral
+    histories, and like
+* e-journals
+  * open access or proprietary, and the issues associated with these types
+* e-books
+  * one note about e-books---here the technology is rather complex and
+    differentiated depending on the copyright status, the file type (PDF, ePUB,
+    TXT, etc.), the purpose or genre (textbook, fiction or non-fiction, etc.).
+    In many cases, e-books are software applications and not just plain or
+    marked up text, and they also vary by platform or the application
+    interacting with the text, which offer different types of functionality.
+* linking technologies, e.g., where metadata is embedded in a URL and is sent
+  across networks, these include:
+  * Z39.50
+  * OpenURL
+  * Federated search
 
 The promise of linking technologies is that it allows a user to start off in
 one system, like an OPAC, and expand a query to other systems without going out
@@ -48,7 +46,7 @@ difficult enough for many reasons, but electronic resources have raised the
 ante. Just think, civilizations have had 500 years to develop and solve print
 technology, yet we've had only about four or five decades of experience with
 digital technology. We're a long way off from settling on anything stable and
-still face challenges and frustrations. 
+still face challenges and frustrations.
 
 ## Our Readings: The nature of ERM librarianship
 
@@ -64,7 +62,7 @@ to interpret the field of electronic resource librarianship. Hulseberg takes
 the view that an electronic resource librarian is, perhaps among other things,
 a technical communicator. This is much different from being someone who simply
 helps patrons with their technical problems. Rather, this is someone who
-completes advanced work in documenting and reporting technical processes. 
+completes advanced work in documenting and reporting technical processes.
 
 Hulseberg highlights four important themes about ERM: an interesting theme to
 me is *Theme Two: Collaborating in a "web of relationships."* When I was an
@@ -119,7 +117,7 @@ address all of this, I want us to consider two questions:
 1. How do we manage all of this electronic stuff? Not only does it include
    complicated technology and has an impact on our patrons, but it involves of
    different sorts of librarians.
-2. What exactly is an electronic resource librarian? I like this basic question
+1. What exactly is an electronic resource librarian? I like this basic question
    because, due to perhaps representations in the media (movies, TV shows,
    books) and the interactions we've had with librarians in our lifetimes, we
    all have pretty well-defined, whether accurate, images of what reference or

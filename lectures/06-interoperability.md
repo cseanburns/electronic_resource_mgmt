@@ -15,12 +15,12 @@ retrieve. If you have made *Google Scholar* aware that you are affiliated with
 a specific library and if the library uses a link resolver service, then:
 
 1. The metadata about the article will be extracted from the source, in this
-   case, that's *Google Scholar*, and this will be added to 
-2. the metadata about the institution (administrative metadata, like an
+   case, that's *Google Scholar*, and this will be added to
+1. the metadata about the institution (administrative metadata, like an
    institutional ID number).
-3. The metadata is converted into a URL query that queries the library's
+1. The metadata is converted into a URL query that queries the library's
    collections, and
-4. the user is then presented with *target* options (or taken directly to the
+1. the user is then presented with *target* options (or taken directly to the
    work) for retrieving the article, and the options may include full text
    access from various and possibly multiple vendors or publishers, information
    about the physical location (e.g., on the shelves) if it exists, or options
@@ -29,8 +29,8 @@ a specific library and if the library uses a link resolver service, then:
 
 [ Show how to make *Google Scholar* aware of your affiliation ]
 
-See [Link Resolver 101][lr_101] for additional details and this historical piece on
-[link resolvers][link_resolv].
+See [Link Resolver 101][lr_101] for additional details and this historical
+piece on [link resolvers][link_resolv].
 
 Consider a basic keyword search in *Google Scholar* for the term ``knowledge
 management``. One of the first items listed in the results page is to an
@@ -59,8 +59,9 @@ scillfp=11205708406455066108&
 oi=lle
 ```
 
-According to a source that describes [Google Scholar's API][google_scholar_api], some of the
-parameters above mean the following things:
+According to a source that describes [Google Scholar's
+API][google_scholar_api], some of the parameters above mean the following
+things:
 
 - output: "Parameter defines the final output you want. It can be set to json
   (default) to get a structured JSON of the results, or html to get the raw
@@ -182,7 +183,8 @@ metadata. This is another reason to have high quality metadata for our records,
 as our readings note. By implication, if we find, perhaps by an email from
 a library patron, that a link has broken in this process, it might be that the
 metadata is incorrect or has changed in some important way. Knowing the parts
-of this process aids us in deciphering possible errors that exist when the technology breaks.
+of this process aids us in deciphering possible errors that exist when the
+technology breaks.
 
 For this week, I'll provide a link to *ExLibres Alma* link resolver
 documentation, which is the link resolver product used by UK Libraries. Let's
@@ -197,7 +199,7 @@ articulate ways the technology can be evaluated.
 ## Additional information
 
 - [URL syntax components][url_syntax]
-- [URL Encode / Decode Percent Encoding][url_encode] 
+- [URL Encode / Decode Percent Encoding][url_encode]
 - [How Google Scholar works with libraries][how_gs]
 - [Surface your materials in Google Scholar (OCLC)][worldshare]
 

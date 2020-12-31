@@ -35,7 +35,7 @@ or definitely not exist as we know it if not for the standardization of the
 Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext
 Transfer Protocol (HTTP), and other internet and web related technologies that
 enable the internet and the web to work for so many users regardless of the
-operating system and the hardware they use. 
+operating system and the hardware they use.
 
 Our first article this week is written by Pat Harris and covers the basic
 reasons for the existence of [NISO][niso] (the National Information Standards
@@ -88,11 +88,11 @@ the community. Version 2 also includes a slightly modified outline, and
 [includes the following parts][terms_v2]:
 
 1. Investigating new content for purchase or addition
-2. Acquiring new content
-3. Implementation
-4. Ongoing evaluation and access, and annual review
-5. Cancellation and replacement review
-6. Preservation
+1. Acquiring new content
+1. Implementation
+1. Ongoing evaluation and access, and annual review
+1. Cancellation and replacement review
+1. Preservation
 
 At the same link just provided, they also write about this new version:
 
@@ -145,7 +145,7 @@ reports and post about it. The differences between these publications follows:
 > materials, or practices in order to give guidance to the user. These
 > documents usually represent a leading edge, exceptional model, or proven
 > industry practice. All elements of Recommended Practices are discretionary
-> and may be used as stated or modified by the user to meet specific needs. 
+> and may be used as stated or modified by the user to meet specific needs.
 
 And **Published and Approved NISO Standards** are the final, approved
 definitions that have been achieved by a consensus of the community.
@@ -165,13 +165,16 @@ still worthy of your time.
 
 Burns, C.S. (2014). Academic libraries and automation. A historical reflection
 on Ralph Halstead Parker. portal: Libraries and the Academy, 14(1), 87-102.
-http://muse.jhu.edu/article/534487 Open access copy:
-http://uknowledge.uky.edu/slis_facpub/6/
+[http://muse.jhu.edu/article/534487](http://muse.jhu.edu/article/534487)
+
+Open access copy:
+[http://uknowledge.uky.edu/slis_facpub/6/](http://uknowledge.uky.edu/slis_facpub/6/)
 
 Emery, J., & Stone, G. (2014). Techniques for Electronic Resource Management
 (TERMS): From coping to best practices. In 2014 AALL Annual Meeting and
 Conference, 12-15 July 2014, Henry B. Gonzalez Convention Center, San Antonio,
-TX. http://eprints.hud.ac.uk/id/eprint/19420/
+TX.
+[http://eprints.hud.ac.uk/id/eprint/19420/](http://eprints.hud.ac.uk/id/eprint/19420/)
 
 **Sources for NISO tasks:**
 

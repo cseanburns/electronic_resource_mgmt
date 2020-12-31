@@ -68,23 +68,23 @@ institutions?
 A quick note about the organizational charts. The chart that I created was
 based on my readings of librarian departmental reports written during the late
 1950s and early 1960s by librarians at UK. These reports are held at the
-University of Kentucky's [Special Collections Research Center][spec_coll], which is
-fortunately in the building next to mine on campus. Organizational charts have
-been around since the 1800s, but I am not sure when libraries started to create
-and use them, and I didn't see one in my research on the history of UK
-Libraries for this time period. Thus, I inferred the organizational structure
-based on the detailed reports written by the various department heads in the
-library. When you compare my chart based on the past to the current one
-provided by UK Libraries, I think you'll be intrigued by how much more
-complicated the current chart is today. The growth in electronic resources and
-technologies do not explain all of this complexity: Knowledge has become more
-specialized, and library structure will reflect that; the student population
-has grown considerably since then, in size and heterogeneity, and library
-structure will reflect that; and the theory and praxis of library management
-has evolved throughout the decades, and library structure will reflect that,
-too. Other issues are at play, but I do think that technology and e-resources
-accounts for a large portion of what we see here, and I'm looking forward to
-reading what you have to say about this.
+University of Kentucky's [Special Collections Research Center][spec_coll],
+which is fortunately in the building next to mine on campus. Organizational
+charts have been around since the 1800s, but I am not sure when libraries
+started to create and use them, and I didn't see one in my research on the
+history of UK Libraries for this time period. Thus, I inferred the
+organizational structure based on the detailed reports written by the various
+department heads in the library. When you compare my chart based on the past to
+the current one provided by UK Libraries, I think you'll be intrigued by how
+much more complicated the current chart is today. The growth in electronic
+resources and technologies do not explain all of this complexity: Knowledge has
+become more specialized, and library structure will reflect that; the student
+population has grown considerably since then, in size and heterogeneity, and
+library structure will reflect that; and the theory and praxis of library
+management has evolved throughout the decades, and library structure will
+reflect that, too. Other issues are at play, but I do think that technology and
+e-resources accounts for a large portion of what we see here, and I'm looking
+forward to reading what you have to say about this.
 
 Finally, I'd be guilty of a serious wrongdoing if I did not discuss the
 importance of having a collection development policy (CDP) and using that
@@ -94,13 +94,14 @@ or use a CDP, and if you end up working at one, then I'd highly encourage you
 to convince your colleagues of its importance. A CDP should define
 a collection, and then include most if not all the following topics:
 
-  - mission, vision, and values statement
-  - purpose of CDP statement (scope may be included here)
-  - selection criteria: this could be general but it could also include
-    subsections that focus on specific populations, genres, resource types, and more
-  - assessment and maintenance criteria 
-  - challenged materials criteria (esp important at public, K-12 libraries)
-  - weeding and/or replacement criteria
+* mission, vision, and values statement
+* purpose of CDP statement (scope may be included here)
+* selection criteria: this could be general but it could also include
+  subsections that focus on specific populations, genres, resource types, and
+  more
+* assessment and maintenance criteria
+* challenged materials criteria (esp important at public, K-12 libraries)
+* weeding and/or replacement criteria
 
 Included in this transcript are links to two policies, one from the [University
 of Maryland][er_policy] and one from the [Lexington Public
@@ -110,15 +111,15 @@ for them, and although it does not include a long discussion of electronic
 resources, they are mentioned in the policy. Neither approach is wrong but are
 catered to the specific libraries and their purposes, communities, and vision
 statements. I would like you to search on the web for more and to read through
-ones you find for how they discuss electronic resources. 
+ones you find for how they discuss electronic resources.
 
 **Links:**
 
-- UK Libraries Organizational Chart:
+* UK Libraries Organizational Chart:
   [http://libraries.uky.edu/forms/OrgChart.pdf][uk_org]
-- Open Educational Resources at UK:
+* Open Educational Resources at UK:
   [http://www.uky.edu/copyright/facultyresources/openeducationalresources][oer]
-- OER Commons: [https://www.oercommons.org/][oer2]
+* OER Commons: [https://www.oercommons.org/][oer2]
 
 [uk_org]:http://libraries.uky.edu/forms/OrgChart.pdf
 [oer]:http://www.uky.edu/copyright/facultyresources/openeducationalresources
@@ -131,13 +132,13 @@ ones you find for how they discuss electronic resources.
 
 England, L., Foge, M., Harding, J., & Miller, S. (2017). ERM Ideas
 & Innovations. Journal of Electronic Resources Librarianship, 29(2), 110–116.
-https://doi.org/10.1080/1941126X.2017.1304767
+[https://doi.org/10.1080/1941126X.2017.1304767](https://doi.org/10.1080/1941126X.2017.1304767)
 
 Lamothe, A. R. (2015). Comparing usage between dynamic and static e-reference
 collections. Collection Building, 34(3), 78–88.
-https://doi.org/10.1108/CB-04-2015-0006
+[https://doi.org/10.1108/CB-04-2015-0006](https://doi.org/10.1108/CB-04-2015-0006)
 
 Martin, H., Robles-Smith, K., Garrison, J., & Way, D. (2009). Methods and
 Strategies for Creating a Culture of Collections Assessment at Comprehensive
 Universities. Journal of Electronic Resources Librarianship, 21(3–4), 213–236.
-https://doi.org/10.1080/19411260903466269
+[https://doi.org/10.1080/19411260903466269](https://doi.org/10.1080/19411260903466269)

@@ -21,25 +21,25 @@ Dickson-Deane and Chen (2018) outline the parameters that are involved with UX.
 Let me modify their example and frame it within the context of an ERM
 experience for a patron:
 
-  - **Actor**: a user of the web resource, like a library website
-  - **Object**: the web resource, or some part of it
-  - **Context**: the setting. What's happening? What's the motivation for use?
-    What's the background knowledge? What's the action?
-  - **User Interface**: the tools made available by the object as well as the
-    look and feel. More specificlly, Parush (2017) states that "the user
-    interface mediates between the user and computer" and it includes three
-    basic components:
-    - controls: the tools used to control and interact with the system:
-      buttons, menus, voice commands, keyboards, etc
-    - displays: the information presented to the user or the hardware used to
-      present the information: screens, speakers, etc.
-    - interactions and dialogues: the exchange between the system and the user
-      including the use of the controls and responding to feedback
-  - **Interaction**: what the actor is doing with the UI
-  - **(Intended/Expected/Prior) User experience**: the intended or expected use
-    of the object. The user's expectations based on prior use.
-  - **(Actual) User experience**: the actions that took place; the actions that
-    had to be modified based on unintended results.
+* **Actor**: a user of the web resource, like a library website
+* **Object**: the web resource, or some part of it
+* **Context**: the setting. What's happening? What's the motivation for use?
+  What's the background knowledge? What's the action?
+* **User Interface**: the tools made available by the object as well as the
+  look and feel. More specificlly, Parush (2017) states that "the user
+  interface mediates between the user and computer" and it includes three basic
+  components:
+  * controls: the tools used to control and interact with the system: buttons,
+    menus, voice commands, keyboards, etc
+  * displays: the information presented to the user or the hardware used to
+    present the information: screens, speakers, etc.
+  * interactions and dialogues: the exchange between the system and the user
+    including the use of the controls and responding to feedback
+* **Interaction**: what the actor is doing with the UI
+* **(Intended/Expected/Prior) User experience**: the intended or expected use
+  of the object. The user's expectations based on prior use.
+* **(Actual) User experience**: the actions that took place; the actions that
+  had to be modified based on unintended results.
 
 These parameters would be helpful for devising a UX study that involves
 observing patrons interacting with a system and then interviewing them to
@@ -83,11 +83,11 @@ locating prior research and applying that research to your setting is
 paramount. Drawing from the literature, Chapman describes several important UX
 principles that include:
 
- - chunking
- - highlighting and prominence
- - KISS
- - choice simplification
- - choice reduction
+* chunking
+* highlighting and prominence
+* KISS
+* choice simplification
+* choice reduction
 
 In addition to user studies and prior research, libraries possess a wealth of
 data to explore and this data could provide a lot of insight. The same caveat
@@ -134,22 +134,23 @@ related literature when it's appropriate to do so.
 
 Browning, S. (2015). Data, Data, Everywhere, nor Any Time to Think: DIY
 Analysis of E-Resource Access Problems. Journal of Electronic Resources
-Librarianship, 27(1), 26–34. https://doi.org/10.1080/1941126X.2015.999521
+Librarianship, 27(1), 26–34. [https://doi.org/10.1080/1941126X.2015.999521](https://doi.org/10.1080/1941126X.2015.999521)
 
 Dickson-Deane, C., & Chen, H.-L. (Oliver). (2018). Understanding User
 Experience. In M. Khosrow-Pour (Ed.),
-Http://services.igi-global.com.ezproxy.uky.edu/resolvedoi/resolve.aspx?doi=10.4018/978-1-5225-2255-3.ch661
+[http://services.igi-global.com.ezproxy.uky.edu/resolvedoi/resolve.aspx?doi=10.4018/978-1-5225-2255-3.ch661](http://services.igi-global.com.ezproxy.uky.edu/resolvedoi/resolve.aspx?doi=10.4018/978-1-5225-2255-3.ch661)
 (Fourth Edition, pp. 7599–7608). IGI Global.
-http://www.igi.global.com/chapter/understanding-user-experience/184455
+[http://www.igi.global.com/chapter/understanding-user-experience/184455](http://www.igi.global.com/chapter/understanding-user-experience/184455)
 
 Parush, A. (2017). Human-computer interaction. In S. G. Rogelberg (Ed.), The
 SAGE Encyclopedia of Industrial and Organizational Psychology (2nd edition, pp.
-669–674). SAGE Publications, Inc. https://doi.org/10.4135/9781483386874.n229
+669–674). SAGE Publications, Inc.
+[https://doi.org/10.4135/9781483386874.n229](https://doi.org/10.4135/9781483386874.n229)
 
 Pennington, B. (2015). ERM UX: Electronic Resources Management and the User
 Experience. Serials Review, 41(3), 194–198.
-https://doi.org/10.1080/00987913.2015.1069527
+[https://doi.org/10.1080/00987913.2015.1069527](https://doi.org/10.1080/00987913.2015.1069527)
 
 Pennington, B., Chapman, S., Fry, A., Deschenes, A., & McDonald, C. G. (2016).
 Strategies to Improve the User Experience. Serials Review, 42(1), 47–58.
-https://doi.org/10.1080/00987913.2016.1140614
+[https://doi.org/10.1080/00987913.2016.1140614](https://doi.org/10.1080/00987913.2016.1140614)

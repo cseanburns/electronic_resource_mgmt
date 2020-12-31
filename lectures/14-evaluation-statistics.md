@@ -9,7 +9,7 @@ problem is that whenever we interact with electronic resources (or basically
 all activity on the web and internet), a computer server somewhere keeps a log
 of that interaction. Having logs available makes it seem that we can have
 accurate data about usage, but insight is always difficult to acquire no matter
-how much data is available to us. 
+how much data is available to us.
 
 However, it is often good data, it's simply that it's data with limitation.
 This week we learn about the efforts that have gone into standardizing usage
@@ -17,7 +17,7 @@ metrics and usage reports via Project Counter. Also, we see a few examples of
 how usage data can help inform collection development and benefit the library
 in other ways. This is an important area of electronic resource librarianship,
 but it's also an area that may overlap with other parts of librarianship. Here
-we might see job titles like [library systems administrator][ls_admin]. 
+we might see job titles like [library systems administrator][ls_admin].
 
 ## Project Counter
 
@@ -46,10 +46,10 @@ various industries. You can read more about such efforts by searching the web
 and in this [NPR interview][npr_interview]. The major reports of Project
 Counter include:
 
-  - Platforms
-  - Databases
-  - Titles
-  - Items
+* Platforms
+* Databases
+* Titles
+* Items
 
 And you can see which reports these four replace in [a table in Appendix B of
 the Code of Practice][proj_counter_app_b].
@@ -124,14 +124,13 @@ you have an interest in developing skills with systems administration, with
 various other technologies, and with some basic scripting language, this kind
 of thing, and more, is possible.
 
-
 [proj_counter]:https://www.projectcounter.org/code-of-practice-five-sections/introduction-to-counter-code-of-practice-release-5/
 [counter_v5]:https://www.projectcounter.org/code-of-practice-five-sections/foreword/
 [npr_interview]:https://www.npr.org/2020/07/09/889502179/is-it-enough-to-remove-words-with-racist-connotations-from-tech-language-hint-no
 [proj_counter_app_b]:https://www.projectcounter.org/2448-2/
 [pesch2017]:http://doi.org/10.1080/0361526X.2017.1391153
 [proq_db]:https://libraries.uky.edu/record.php?lir_id=90
-[scott2016]:https://doi.org/10.1080/0361526X.2016.1165783 
+[scott2016]:https://doi.org/10.1080/0361526X.2016.1165783
 [stone2013]:https://doi.org/10.5860/crl12-406
 [zou]:https://journal.code4lib.org/articles/10589
 [zou2]:https://acrl.ala.org/techconnect/post/analyzing-ezproxy-logs/

@@ -155,7 +155,9 @@ only a limited number of people may "check" out a work from a library at one
 time, or access a database at one time, and so forth. Thus, the budget issue has
 an impact on access and usability.
 
-As a bonus, the last time I taught this course, I reached out to Joseph Sanchez and interviewed him. Please enjoy the interview! It's long but it was a very fun exchange.
+As a bonus, the last time I taught this course, I reached out to Joseph Sanchez
+and interviewed him. Please enjoy the interview! It's long but it was a very
+fun exchange.
 
 Read more about copyright:
 
@@ -170,7 +172,7 @@ articles increase. This raises an interesting phenomenon---that although
 researchers are hurt by the lack of access to research, researchers are also
 part of the cause of the increase simply because they continue to publish more
 and more. Ironically, the result of that rate of increase is less access for
-many. 
+many.
 
 The authors also note that part of the drive to publish includes a drive to
 publish in so-called *prestigious* journal titles, where *prestigious* is
@@ -200,11 +202,11 @@ category are so much higher that the cost per cite of titles in other
 categories. Authors in P&R simply have different citation and publishing
 behaviors than authors in other categories. Second, citations do not capture
 all uses of a journal. For example, there are many journal titles that I might
-use in my courses but may not use in my research, and this is true for 
-other faculty, yet citation metrics won't reflect that kind of use. The authors
-refer to *altmetrics*, which was invented to help capture additional non-citing
-uses of scholarly products, but altmetrics is still in its infancy and is
-largely dependent on data sources and scholarly behavior that are problematic
+use in my courses but may not use in my research, and this is true for other
+faculty, yet citation metrics won't reflect that kind of use. The authors refer
+to *altmetrics*, which was invented to help capture additional non-citing uses
+of scholarly products, but altmetrics is still in its infancy and is largely
+dependent on data sources and scholarly behavior that are problematic
 themselves. Third, there are various issues with the metrics themselves. The
 *Impact Factor* is based on a calculation that is outdated and not a very
 appropriate statistical measure. The other calculations were created to address
@@ -247,8 +249,8 @@ metrics.
 ## References
 
 Bosch, S., Albee, B., & Henderson, K. (2018). Death by 1,000 Cuts.
-Library Journal, 143(7), 28–33. 
+Library Journal, 143(7), 28–33.
 
-Sanchez, J. (2015). Chapter 2. Forecasting Public Library E-content
-Costs. Library Technology Reports, 51(8), 9–15. Retrieved from
-https://journals.ala.org/index.php/ltr/article/view/5833
+Sanchez, J. (2015). Chapter 2. Forecasting Public Library E-content Costs.
+Library Technology Reports, 51(8), 9–15. Retrieved from
+[https://journals.ala.org/index.php/ltr/article/view/5833](https://journals.ala.org/index.php/ltr/article/view/5833)

@@ -2,7 +2,7 @@
 
 Samples and Healy (2014) provide a nice framework for thinking about issues
 with electronic access. They include two broad categories, *proactive
-troubleshooting* and *reactive troubleshooting* of access. 
+troubleshooting* and *reactive troubleshooting* of access.
 
 * proactive troubleshooting of access: "defined as troubleshooting access
   problems before they are identified by a patron". Some examples include:
@@ -55,17 +55,17 @@ access becomes problematic.
 
 Let me highlight a few key findings from their report:
 
-- Workflows: why does this keep coming up? It's because workflows help
-  automate a process---simplify and smooth out what needs to be done, and
-  because this is only possible when things are standardized.
-- Staffing: we'll discuss this more in a future forum, but part of the
-  problem here is that ERM has had a major impact on organizational structure,
-  but one where different libraries have responded differently. This lack of
+* Workflows: why does this keep coming up? It's because workflows help automate
+  a process---simplify and smooth out what needs to be done, and because this
+  is only possible when things are standardized.
+* Staffing: we'll discuss this more in a future forum, but part of the problem
+  here is that ERM has had a major impact on organizational structure, but one
+  where different libraries have responded differently. This lack of
   organizational standardization has its benefits regarding overall management
   practices and cultures, but it also has huge drawbacks -- and that's the
   difficulty in establishing effective, generalized workflows that include key
   participants, and to minimize as many dependencies on any one person.
-- Tracking: if there's no tracking, there's no method to systematically
+* Tracking: if there's no tracking, there's no method to systematically
   identify patterns in problems. And if that's not possible, then there's no
   method to solve those problems proactively. It's just all reactive, and
   reactive troubleshooting, as Samples and Healy indicate, results in poor

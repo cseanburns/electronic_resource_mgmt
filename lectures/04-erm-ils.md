@@ -1,7 +1,7 @@
 # Lecture 4: ERM and ILS
 
 This week we will be learning about ERM and ILS software. First off, what are
-these? 
+these?
 
 ## ILS, the Integrated Library System
 
@@ -35,12 +35,12 @@ but which is now fairly traditional! Some librarians who would work with an ILS
 include:
 
 1. Reference: who use the OPAC module
-2. Cataloging and Technical Services: who use the cataloging and serial's
+1. Cataloging and Technical Services: who use the cataloging and serial's
    modules and perhaps also the acquisition's module
-3. Circulation: who would use the circulation module
-    - Interlibrary Loan department: if such a department exists
-      because the library is big enough to have one, they would also use the
-      circulation module
+1. Circulation: who would use the circulation module
+  * Interlibrary Loan department: if such a department exists because the
+    library is big enough to have one, they would also use the circulation
+    module
 
 All of those librarians might use multiple modules of the ILS, but might
 predominately use one module more frequently than others in their day-to-day
@@ -66,27 +66,27 @@ librarian's work on particular duties and allow librarians to create work flows
 and knowledge management systems. In an ERM like the open source [CORAL
 system][coral_modules], the modules includes:
 
-- [Resources][resources_module]: a module "provides a robust database for
+* [Resources][resources_module]: a module "provides a robust database for
   tracking data related to your organization's resources ..." and "provides
   a customizable workflow tool that can be used to track, assign, and complete
   workflow tasks."
-- [Licensing][licensing_module]: a module for a "flexible document management
+* [Licensing][licensing_module]: a module for a "flexible document management
   system" that provides options to manage licensing agreements and to automate
   parts of the process.
-- [Organizations][organizations_module]: this module acts as a type of advanced
+* [Organizations][organizations_module]: this module acts as a type of advanced
   directory to manage the various organizations that impact or are involved in
   the management of electronic resources, including "publishers, vendors,
   consortia, and more."
-- [Usage Statistics][usage_statistics]: a module providing librarians with
+* [Usage Statistics][usage_statistics]: a module providing librarians with
   usage statistics of digital assets by platform and by publisher. Supports
   COUNTER and SUSHI. We'll cover COUNTER and SUSHI later in the semester, but
   as a preamble:
-    - [COUNTER][counter] "sets and maintains the standard known as the Code of
-      Practice and ensures that publishers and vendors submit annually to
-      a rigorous independent audit", and,
-    - [SUSHI][sushi] is a type of protocol to automate collecting data on usage
-      statistics.
-- [Management][management_module]: this module provides a document management
+  * [COUNTER][counter] "sets and maintains the standard known as the Code of
+    Practice and ensures that publishers and vendors submit annually to
+    a rigorous independent audit", and,
+  * [SUSHI][sushi] is a type of protocol to automate collecting data on usage
+    statistics.
+* [Management][management_module]: this module provides a document management
   system aimed at "storing documents, such as policies, processes, and
   procedures, related to the overall management of electronic resources".
 
@@ -102,15 +102,15 @@ this article (or chapter) is a handful of years old, some products are no
 longer available, have been merged into others, or sold off. Still, the article
 is helpful in describing:
 
-- the role of vendors in the ERM market
-- the importance and rise of open source ERMs as well as the mark that
+* the role of vendors in the ERM market
+* the importance and rise of open source ERMs as well as the mark that
   various homegrown solutions have made
-- related software that plays a role, including:
-    - Discovery: federated and indexed
-    - Integrated library systems
-    - Interlibrary loan software
-    - Link resolvers
-    - Ticket management software
+* related software that plays a role, including:
+  * Discovery: federated and indexed
+  * Integrated library systems
+  * Interlibrary loan software
+  * Link resolvers
+  * Ticket management software
 
 In the article by Wang & Dawes (2012), the authors describe the "next
 generation integrated library system", which should meet a few criteria that
@@ -142,22 +142,22 @@ with them and also demystify what each do.
 
 Anderson, E. K. (2014). Chapter 4: Electronic Resource Management
 Systems and Related Products. Library Technology Reports, 50(3), 30–42.
-Retrieved from https://journals.ala.org/index.php/ltr/article/view/4491
+Retrieved from [https://journals.ala.org/index.php/ltr/article/view/4491](https://journals.ala.org/index.php/ltr/article/view/4491)
 
-Miller, L. N., Sharp, D., & Jones, W. (2014). 70% and Climbing:
-E-Resources, Books, and Library Restructuring. Collection Management,
-39(2–3), 110–126. https://doi.org/10.1080/01462679.2014.901200
+Miller, L. N., Sharp, D., & Jones, W. (2014). 70% and Climbing: E-Resources,
+Books, and Library Restructuring. Collection Management, 39(2–3), 110–126.
+[https://doi.org/10.1080/01462679.2014.901200](https://doi.org/10.1080/01462679.2014.901200)
 
 Salmon, S. R. (1975). Library automation systems. New York: Marcel
 Dekker.
 
-Wang, Y., & Dawes, T. A. (2012). The Next Generation Integrated Library
-System: A Promise Fulfilled? Information Technology and Libraries,
-31(3), 76–84. https://doi.org/10.6017/ital.v31i3.1914
+Wang, Y., & Dawes, T. A. (2012). The Next Generation Integrated Library System:
+A Promise Fulfilled? Information Technology and Libraries, 31(3), 76–84.
+[https://doi.org/10.6017/ital.v31i3.1914](https://doi.org/10.6017/ital.v31i3.1914)
 
-Wilson, K. (2011). Beyond Library Software: New Tools for Electronic
-Resources Management. Serials Review, 37(4), 294–304.
-https://doi.org/10.1080/00987913.2011.10765404
+Wilson, K. (2011). Beyond Library Software: New Tools for Electronic Resources
+Management. Serials Review, 37(4), 294–304.
+[https://doi.org/10.1080/00987913.2011.10765404](https://doi.org/10.1080/00987913.2011.10765404)
 
 [coral_modules]:http://coral-erm.org/modules/
 [resources_module]:http://coral-erm.org/resources/

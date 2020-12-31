@@ -18,7 +18,7 @@ are not current job openings, but they were current within the last two years.
 To stay current about the position overall, about the specific duties involved,
 I encourage you to bookmark and stay abreast of relevant journals in the area.
 In addition to the two titles we're reading this week, pay attention and
-bookmark the [Journal of Electronic Resources Librarianship][JERL]. 
+bookmark the [Journal of Electronic Resources Librarianship][JERL].
 
 A big change since 2012, when Harnett's research ends, is that technology has
 moved to the cloud, and we manage less technology on on-site servers, where
@@ -67,14 +67,14 @@ This week I want you to think about these job advertisement studies in relation
 to what you know now about electronic resources as well as in relation to the
 kinds of advertisements you've seen since whenever you started paying attention
 to them. By the time this lecture is released you may have seen some job ads
-sent out on the [SERIALST][SERIALST] mailing list that I've asked you to subscribe to
-this semester (and as mentioned above, in case none have been forwarded while
-you've been subscribed, I'll share some that I've seen). Some of you may be
-graduating soon and are looking for employment. If so, feel free to comment on
-your experience with such advertisements. In essence, think about where you see
-yourself in these advertisements and how they impact you. Alternatively, some
-of you already have jobs in libraries---those may be considered also, in
-hindsight.
+sent out on the [SERIALST][SERIALST] mailing list that I've asked you to
+subscribe to this semester (and as mentioned above, in case none have been
+forwarded while you've been subscribed, I'll share some that I've seen). Some
+of you may be graduating soon and are looking for employment. If so, feel free
+to comment on your experience with such advertisements. In essence, think about
+where you see yourself in these advertisements and how they impact you.
+Alternatively, some of you already have jobs in libraries---those may be
+considered also, in hindsight.
 
 Although you may have only learned about these technologies that are discussed
 in these readings in the abstract, as many of you have noted in your course
