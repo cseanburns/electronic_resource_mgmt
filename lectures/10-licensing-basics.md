@@ -81,20 +81,20 @@ previous discussion forums.
 This week, after reading the material, I want you to focus on the Regan article
 and some of the questions raised there. Regan raises important questions about
 the licensing process and about effective communication and advocacy. This
-week, I want you to comment on these things, and I want you to answer some of
-the questions that Regan raises. You can do that by searching the web and
-library websites. In fact, at the beginning of the semester I asked you to
-subscribe to the SERIALST email list. It's now time to draw upon that and any
-discussions you've seen in those lists that are related. You can usually search
-the archives of those lists, if you want. Regan also mentions some other
-sources, such as [LIBLICENSE][liblicense] and [copyrightlaws.com][cclaws]. Any
-of these are fair game for discussing, but the latter is a commercial entity
-that provides material and tutorials for a kind of tuition. It might be useful
-to know about it but explore only if you want. However, LIBLICENSE provides
-model licenses as well as links to [additional model licences][add_models],
-including the above mentioned California Digital Library Standard License
-Agreement. The LIBLICENSE model license includes even more details, such as
-types of authorized uses, and the new ones include:
+week, I want you to comment on these things, and I want you to answer some
+questions that Regan raises. You can do that by searching the web and library
+websites. In fact, at the beginning of the semester I asked you to subscribe to
+the SERIALST email list. It's now time to draw upon that and any discussions
+you've seen in those lists that are related. You can usually search the
+archives of those lists, if you want. Regan also mentions some other sources,
+such as [LIBLICENSE][liblicense] and [copyrightlaws.com][cclaws]. Any of these
+are fair game for discussing, but the latter is a commercial entity that
+provides material and tutorials for a kind of tuition. It might be useful to
+know about it but explore only if you want. However, LIBLICENSE provides model
+licenses as well as links to [additional model licences][add_models], including
+the above mentioned California Digital Library Standard License Agreement. The
+LIBLICENSE model license includes even more details, such as types of
+authorized uses, and the new ones include:
 
 * course reserves
 * course packs

@@ -77,7 +77,7 @@ transported to UK's discovery service, *Primo*, by *Ex Libris*. This means that
 the URL is the effective point of data exchange between Google Scholar and UK's
 resources.
 
-In Primo, if we investigate the new URL, we see that it's an OpenURL link and
+In Primo, if we investigate the new URL, we see that it's an OpenURL link, and
 we can see the fields and values and identify the metadata (I have decomposed
 the URL for readability). The percent signs and numbers in the title field use
 [Percent-encoding][percent_encoding], and they convert characters that are URL unfriendly,

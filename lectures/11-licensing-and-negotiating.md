@@ -14,12 +14,13 @@ way of negotiating. These include:
 
 * Librarian stereotypes: I was at a dinner with a friend of mine and their
   family when my friend mentioned me going to library school. The father of my
-  friend then said, "isn't that women's work?" So this stereotype is true, and
-  you will likely have to deal with it, and if you identify as a woman, then
-  you will likely be pre-judged on appearance, by associating your name with
-  a gender, or like. My advice is to stick with Abbie Brown's suggestion to
-  focus on principle negotiation and assertive communication. And if you're
-  judged based on other stereotypes, don't tolerate that.
+  friend then said, "isn't that women's work?" So the existence of this
+  stereotype is true, and you will likely have to deal with it, and if you
+  identify as a woman, then you will likely be pre-judged on appearance, by
+  associating your name with a gender, or like. My advice is to stick with
+  Abbie Brown's suggestion to focus on principle negotiation and assertive
+  communication. And if you're judged based on other stereotypes, don't
+  tolerate that.
 * Library stereotypes: libraries are major players in the economy and have
   important economic buying power. Know that you come from this position.
 * Vendors stereotypes: these are just as incorrect. As Brown notes, the people
