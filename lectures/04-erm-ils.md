@@ -1,3 +1,11 @@
+**TO DO**: The next time this course is taught, include a discussion of:
+
+- CORAL documentation and and explanation of work flow and CORAL resources: https://docs.coral-erm.org/en/latest/resources.html#the-resource-record
+- Evergreen documentation: https://wiki.evergreen-ils.org/doku.php?id=start
+- List of libraries that use Evergreen and discuss the customized looks: https://wiki.evergreen-ils.org/doku.php?id=zzz_archive:evergreen_libraries
+- Koha and demo: https://koha-community.org/
+- Folio and demo: https://wiki.folio.org/ ; https://www.folio.org/ ; and demo sites listed on this page: https://wiki.folio.org/
+
 # Lecture 4: ERM and ILS
 
 This week we will be learning about ERM and ILS software. First off, what are these?
