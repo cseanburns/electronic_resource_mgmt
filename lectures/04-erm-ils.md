@@ -1,6 +1,6 @@
 **TO DO**: The next time this course is taught, include a discussion of:
 
-- CORAL documentation and and explanation of work flow and CORAL resources: https://docs.coral-erm.org/en/latest/resources.html#the-resource-record
+- CORAL documentation and and explanation of work flow and CORAL resources: https://docs.coral-erm.org/en/latest/index.html
 - Evergreen documentation: https://wiki.evergreen-ils.org/doku.php?id=start
 - List of libraries that use Evergreen and discuss the customized looks: https://wiki.evergreen-ils.org/doku.php?id=zzz_archive:evergreen_libraries
 - Koha and demo: https://koha-community.org/
