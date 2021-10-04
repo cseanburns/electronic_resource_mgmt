@@ -1,5 +1,9 @@
 # Lecture 6: Interoperability
 
+**Note to self:** see content at bottom to incorporate into next year's lecture.
+
+---
+
 This week we cover interoperability and link resolvers.
 
 Before this discussion gets complicated, remember that the fundamental idea of link resolvers is that link resolvers resolve links. They are a technical solution to help users of electronic resources access the full text in a library's collection based on a citation discovered in a search result, an article's list of references, or wherever else the link resolver might show up. It is meant to work for all items in a library's collection. Its reason for existence is for items that are pay-walled or for items that are inaccessible via the open web. Link resolvers are also used to acquire access through some other means, like inter-library loan, and though its use is motivated by electronic resources, it can identify resources that are located in the library stacks since such items will have a link (or a URL) in the online catalog or discovery system.
@@ -189,3 +193,38 @@ For this week, I'll provide a link to *ExLibres Alma* link resolver documentatio
 [worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
 [doinumbering]:https://www.doi.org/doi_handbook/2_Numbering.html
 [assdt]:https://serpapi.com/google-scholar-courts
+
+
+# To incorporate into the fall 2022 lecture:
+
+## OpenURL
+
+My university's library uses [OpenURL](https://en.wikipedia.org/wiki/OpenURL) and Primo/Alma's discovery service/link resolver to request sources via various bibliographic databases. Or more accurately, the university library uses Primo/Alma, which uses an OpenURL compatible link resolver.
+
+Basically, the technology is meant to help library users gain access to a library's (usually paywalled) electronic resources (or locate items in the catalog). E.g., if you're searching on Google Scholar and you see a **View Now @ \[YOUR LIBRARY\]** link next to a search result, and you click on that link, then you are using, or triggering, a link resolver to request the source. As a library user, you have to add your institution in Google Scholar via their [settings](https://scholar.google.com/scholar_settings?sciifh=1&hl=en&as_sdt=0,18#2), but if you're using a bibliographic or citation database directly provided by your library, then it should be available by default.
+
+Because OpenURL compatible link resolver technology is partly based on [query strings](https://en.wikipedia.org/wiki/Query_string), it's fun to glean all sorts of information by examining the URL: the query string component that contains the metadata for the source but also the base component that contains the vendor and institutional information and also the URL type. Namely, it turns out that Primo/Alma uses two URL types to request resources: a search URL and an OpenURL. At my institution, the base search URL looks like this:
+
+```
+https://saalck-uky.primo.exlibrisgroup.com/discovery/search?
+```
+
+The base OpenURL differs just a bit (see the end of the URL):
+
+```
+https://saalck-uky.primo.exlibrisgroup.com/discovery/openurl?
+```
+
+The base search URL appears when searching the university's online catalog (or discovery service). However, the OpenURL appears only in transit between the original resource and before reaching the final source; e.g., after clicking on a **View Now @** link and before being redirected to the full text version of the article that might be available at the original location (an open access location) or via the proxy location (e.g., [EZproxy](https://en.wikipedia.org/wiki/EZproxy)). Because the redirect happens quickly, I had to quickly copy my institution's specific OpenURL when I clicked on a **View Now** link before it redirected to the EZproxy page.
+
+My students often identify great problems to solve or are the source of great ideas. One of my students in my [electronic resource management class](https://github.com/cseanburns/electronic_resource_mgmt) noticed that [Zotero](https://www.zotero.org/) has a [locate menu](https://www.zotero.org/support/locate) that uses OpenURL resolvers to look up items in a library. By default, Zotero uses WorldCat, but it can use a specific institution's OpenURL resolver, too. I had completely forgotten about this. I think I stopped trying to use it years ago because the WorldCat default stopped working. Anyway, when I investigated, I noticed that my institution wasn't available via Zotero or listed on their page of [OpenURL resolvers](https://www.zotero.org/support/locate/openurl_resolvers).
+
+At the time, I didn't know what my institution's exact OpenURL was, but I was able to figure it out by comparing the syntax and values from other Primo URLs listed on Zotero's page of OpenURL resolvers and because I had just written a lecture on link resolvers. So by comparing OpenURLs and by using the info from my lecture, where I had discussed the components of link resolver URLs, I was able to derive my institution's specific OpenURL (base component plus institutional info), which is:
+
+```
+https://saalck-uky.primo.exlibrisgroup.com/discovery/openurl?institution=01SAA_UKY&vid=01SAA_UKY:UKY
+```
+
+I added that to Zotero, and it worked, and then I posted the OpenURL info to Zotero's forum, and they've added it to their OpenURL resolver page. That's pretty cool.
+
+If anyone who comes across this post and is curious about how to add this info to Zotero, [another library](https://library.sacredheart.edu/zotero/advanced/usingLibraryLookup) has created a video on this. The directions cover adding a specific OpenURL to Zotero and on how to use Zotero's Library Lookup functionality.
