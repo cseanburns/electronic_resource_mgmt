@@ -1,4 +1,4 @@
-# Lecture 15: Privacy and Security
+## Lecture 15: Privacy and Security
 
 Breeding starts off with [Chapter 1][breeding_1] from [this week's
 reading][breeding_2] of [Library Technology Reports][ltr] with the following

@@ -1,4 +1,4 @@
-# Lecture 2: Desperately Seeking an ERM Librarian
+## Lecture 2: Desperately Seeking an ERM Librarian
 
 ## Introduction
 

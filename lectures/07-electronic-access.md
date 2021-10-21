@@ -1,4 +1,4 @@
-# Lecture 7: Electronic Access
+## Lecture 7: Electronic Access
 
 As I've stated in previous lecture, **Access** is the paramount principle of librarianship, and all other issues, from censorship to information retrieval or to usability, within LIS, are on some level derived from or framed by that principle of **Access**.
 

@@ -1,4 +1,4 @@
-# Lecture 9: Market and Economics
+## Lecture 9: Market and Economics
 
 ## Copyright and Budgets
 

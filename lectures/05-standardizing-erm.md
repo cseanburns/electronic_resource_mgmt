@@ -1,4 +1,4 @@
-# Lecture 5: Standardizing Terms for Electronic Resource Management
+## Lecture 5: Standardizing Terms for Electronic Resource Management
 
 Awhile ago now, I conducted some historical research on a librarian named Ralph Parker. Inspired by technological advances in automation, specifically the use of the punched cards and machines, Parker began to apply this technology to library circulation processes in the 1930s and thus became the first person to automate part of the library's work flow. By the mid-1960s, Parker's decades long pursuit of library automation led to some major advances, including the founding of [OCLC][oclc]. Meanwhile, the punched card system he continued to develop eventually led to massive increases in circulation and better service to patrons. In the mid-60s he wrote the following about the installation and launch of a new punched card system to help automate circulation:
 

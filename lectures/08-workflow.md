@@ -1,4 +1,4 @@
-# Lecture 8: Workflow
+## Lecture 8: Workflow
 
 If all goes according to plan, this week's readings on electronic resource management and on workflow analysis should help put prior material into context and act as a bridge to the material we will discuss in much of the remaining weeks of the semester.
 

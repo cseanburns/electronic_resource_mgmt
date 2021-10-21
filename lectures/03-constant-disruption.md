@@ -1,4 +1,4 @@
-# Lecture 3: Constant Disruption
+## Lecture 3: Constant Disruption
 
 The first listed reading we have this week is by Marshall Breeding. Astute observers will note Breeding is one of the first cited in the two additional readings we have this week. We will read more from Breeding later in the semester, but I bring him up now because he oversees a website titled [Library Technology Guides][LTGuides] at librarytechnology.org. If you would like to keep abreast of the recent news on the electronic resource industry, Breeding's website should be at the top of your list.
 

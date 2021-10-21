@@ -1,4 +1,4 @@
-# Lecture 14: Evaluation and Statistics
+## Lecture 14: Evaluation and Statistics
 
 We've discussed problems this semester with defining terms, and we have learned
 that a lot of effort has been expended into standardizing them. We have also

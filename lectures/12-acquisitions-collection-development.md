@@ -1,4 +1,4 @@
-# Lecture 12: Acquisitions and Collections Development
+## Lecture 12: Acquisitions and Collections Development
 
 Class, this week we discuss aspects of collection development and acquisitions,
 which is a complex problem for electronic resources. To rehash, in the

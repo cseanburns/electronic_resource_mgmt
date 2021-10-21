@@ -1,4 +1,4 @@
-# Lectures on Electronic Resource Management
+## Lectures on Electronic Resource Management
 
 **Author:** Sean Burns, PhD  
 **Title:** Lectures on Electronic Resource Management  

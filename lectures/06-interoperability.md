@@ -1,4 +1,4 @@
-# Lecture 6: Interoperability
+## Lecture 6: Interoperability
 
 **Note to self:** see content at bottom to incorporate into next year's lecture.
 

@@ -1,4 +1,4 @@
-# Lecture 1: The ERM Librarian
+## Lecture 1: The ERM Librarian
 
 ## Introduction
 
