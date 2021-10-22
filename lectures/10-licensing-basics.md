@@ -1,10 +1,17 @@
 ## Lecture 10: Licensing Basics
 
-This week we start our two-week coverage on licensing. Licensing is at the top of the list of most important aspects of electronic resource management, and we're starting our coverage it now because it was necessary to learn about the technical and the economic as a prerequisite.
+This week we start two week's of discussion on licensing. Licensing is at the top of the list of most important aspects of electronic resource management. We start our coverage now because it was necessary to learn about the technical and the economic aspects of ERM work as a prerequisite.
+
+First, we should not that there is a hierarchical difference between [copyright law][copyrightgov] and contract law. In short, although copyright is a kind of [temporary *right*][whatiscopyright] (ante public domain status), unlike other types of rights (e.g., legal or civil rights), it is a *right* that can be transferred or sold by way of a contract. Contract law, thus, supersedes copyright law.
+
+For example, [licensing agreements][licensingagreements] offer copyright or intellectual property owners a contractual framework. This framework functions as a contractual agreement among two or more parties, and it enables the parties involved to participate, within some range of time (all contracts must have starting and ending dates), in an owner's intellectual property under certain conditions. Librarians enter into licensing agreements of all kinds. The types of things that are licensed include bibliographic databases, ILS/ERM software, and of course, e-content. Unfortunately, regarding the latter, entering a licensing agreement for e-content means that libraries do not own that content but only have access for a period of time, as defined in the contract. This is unlike print works, which fall under the first-sale doctrine. That is, once a library ones, for example, a physical book, it owns it for as long as they want to or can own it. Basically, the existence of a licensing agreement between a library and an intellectual property owner entails lack of ownership of the *item* (think of item as defined by the *Functional Requirements for Bibliographic Records* [FRBR][frbr] model).
+
+[copyrightgov]:https://www.copyright.gov/
+[whatiscopyright]:https://www.copyright.gov/what-is-copyright/
+[licensingagreements]:https://www.esports.law/blog/licensing-agreements-components-and-concerns
+[frbr]:https://www.loc.gov/cds/downloads/FRBR.PDF
 
 The readings are pretty straightforward, but let's preview some basics, which are nicely outlined in Weir (2016) (not in the reading but referenced below):
-
-* There is a difference between copyright law and contract law. In short, contract law overrides copyright law. This is why, for example, authors may sign over their copyrights to publishers, among other things.
 
 * There are two general types of licensing agreements:
     * **End user agreements** are generally the kind that people accept when they use some kind of software or some service.
@@ -37,11 +44,11 @@ We have three additional readings this week. One of the readings covers SERU: A 
 [seru2]:https://groups.niso.org/apps/group_public/download.php/8593/RP-7-2012_SERU.pdf
 [seru3]:https://www.niso.org/standards-committees/seru
 
-The other reading is the [NASIG Core Competencies for Electronic Resources Librarians][nasig_cc]. We have already visited this, and although it doesn't specifically cover licensing, I added it to this week's reading list for a couple of reasons. First, it's a reminder that when we talk about electronic resource management, we talk about a comprehensive list of responsibilities, skills, technologies, and more, and I need to keep this on our radar. Second, because the Regan reading specifically mentions these competencies, and I thought it would good to reintroduce them here.
+The other reading is the [NASIG Core Competencies for Electronic Resources Librarians][nasigcc]. We have already visited this, and although it doesn't specifically cover licensing, I added it to this week's reading list for a couple of reasons. First, it's a reminder that when we talk about electronic resource management, we talk about a comprehensive list of responsibilities, skills, technologies, and more, and I need to keep this on our radar. Second, because the Regan reading specifically mentions these competencies, and I thought it would good to reintroduce them here.
 
-[nasic_cc]:https://www.nasig.org/Core-Competencies
+[nasigcc]:https://www.nasig.org/Core-Competencies
 
-This week, after reading the material, I want you to focus on the Regan article and some of the questions raised there. Regan raises important questions about the licensing process, about effective communication, and about advocacy. I want you to comment on these issues, and I want you to answer some questions that Regan raises. You can do that by searching the web and library websites. In fact, at the beginning of the semester I asked you to subscribe to the SERIALST email list. It's now time to draw upon that and any discussions you've seen in those lists that are related. You can usually search the archives of those lists, especially since traffic has been a bit light recently. Regan mentions some other sources, such as [LIBLICENSE][liblicense] and [copyrightlaws.com][cclaws]. Any of these are fair game for our discussions, but the latter is a commercial entity that provides material and tutorials for a kind of tuition. It might be useful to know about it, but explore only if you want. However, LIBLICENSE provides model licenses as well as links to [additional model licences][add_models], including the above mentioned California Digital Library Standard License Agreement. The LIBLICENSE model license includes even more details, such as types of authorized uses, and details that include provisions on:
+This week, after reading the material, I want you to focus on the Regan article and some of the questions raised there. Regan raises important questions about the licensing process, about effective communication, and about advocacy. I want you to comment on these issues, and I want you to answer some questions that Regan raises. You can do that by searching the web and library websites. In fact, at the beginning of the semester I asked you to subscribe to the SERIALST email list. It's now time to draw upon that and any discussions you've seen in those lists that are related. You can usually search the archives of those lists, especially since traffic has been a bit light recently. Regan mentions some other sources, such as [LIBLICENSE][liblicense] and [copyrightlaws.com][cclaws]. Any of these are fair game for our discussions, but the latter is a commercial entity that provides material and tutorials for a kind of tuition. It might be useful to know about it, but explore only if you want. However, LIBLICENSE provides model licenses as well as links to [additional model licences][addmodels], including the above mentioned California Digital Library Standard License Agreement. The LIBLICENSE model license includes even more details, such as types of authorized uses, and details that include provisions on:
 
 * course reserves
 * course packs
@@ -52,7 +59,7 @@ This week, after reading the material, I want you to focus on the Regan article 
 
 [liblicense]:http://liblicense.crl.edu/
 [cclaws]:https://www.copyrightlaws.com/
-[add_models]:http://liblicense.crl.edu/licensing-information/model-license/
+[addmodels]:http://liblicense.crl.edu/licensing-information/model-license/
 
 ## References
 
