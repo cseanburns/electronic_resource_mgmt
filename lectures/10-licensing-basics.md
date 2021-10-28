@@ -1,3 +1,8 @@
+- Note: Add article discussion and any follow up articles on this topic to next year's lecture regarding:
+    - I Set Out to Build the Next Library of Alexandria. Now I Wonder: Will There Be Libraries in 25 Years?
+    - Brewster Kahle
+    - https://time.com/6108581/internet-archive-future-books/
+
 ## Lecture 10: Licensing Basics
 
 This week we start two week's of discussion on licensing. Licensing is at the top of the list of most important aspects of electronic resource management. We start our coverage now because it was necessary to learn about the technical and the economic aspects of ERM work as a prerequisite.
