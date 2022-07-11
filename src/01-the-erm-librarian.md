@@ -18,27 +18,28 @@ that are electronic resources.
 and these include:
 
 * databases
-  * A&I databases (abstracting and indexing) / bibliographic databases
-  * full text databases
-  * journal collections, like Project Muse or JSTOR
-  * specialized and hybrid databases, like chemical databases, genetic
-    databases, stock and business databases
-  * primary source databases, like original newspaper databases, oral
-    histories, and like
+    * A&I databases (abstracting and indexing) / bibliographic databases full
+      text databases
+    * journal collections, like Project Muse or JSTOR
+    * specialized and hybrid databases, like chemical databases, genetic
+      databases, stock and business databases
+    * primary source databases, like original newspaper databases, oral
+      histories, and like
 * e-journals
-  * open access or proprietary, and the issues associated with these types
+    * open access or proprietary, and the issues associated with these types
 * e-books
-  * one note about e-books---here the technology is rather complex and
-    differentiated depending on the copyright status, the file type (PDF, ePUB,
-    TXT, etc.), the purpose or genre (textbook, fiction or non-fiction, etc.).
-    In many cases, e-books are software applications and not just plain or
-    marked up text, and they also vary by platform or the application
-    interacting with the text, which offer different types of functionality.
+    * one note about e-books---here the technology is rather complex and
+      differentiated depending on the copyright status, the file type (PDF,
+      ePUB, TXT, etc.), the purpose or genre (textbook, fiction or non-fiction,
+      etc.). In many cases, e-books are software applications and not just
+      plain or marked up text, and they also vary by platform or the
+      application interacting with the text, which offer different types of
+      functionality.
 * linking technologies, e.g., where metadata is embedded in a URL and is sent
   across networks, these include:
-  * Z39.50
-  * OpenURL
-  * Federated search
+    * Z39.50
+    * OpenURL
+    * Federated search
 
 The promise of linking technologies is that it allows an authenticated user to 
 start off in one system, like an OPAC, and expand a query to other systems 
