@@ -1,6 +1,15 @@
 [book]
-authors = ["C. Sean Burns"]
+title = "Electronic Resource Management"
+authors = "C. Sean Burns"
+description = "Lectures on library electronic resource management"
 language = "en"
 multilingual = false
 src = "src"
-title = "Electronic Resource Management"
+
+[output.html]
+git-repository-url = "https://github.com/cseanburns/electronic_resource_mgmt"
+site-url = "https://cseanburns.net"
+
+[output.html.print]
+enable = true
+page-break = true
