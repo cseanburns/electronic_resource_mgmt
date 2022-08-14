@@ -1,9 +1,12 @@
 # Electronic Resource Management in Libraries
 
 Author: C. Sean Burns  
-Date: 2022-03-08  
+Date: 2022-08-13  
 Email: [sean.burns@uky.edu](sean.burns@uky.edu)  
+Website: [cseanburns.net](https://cseanburns.net)  
 Twitter: [@cseanburns](https://twitter.com/cseanburns)   
-Website: [cseanburns.net](https://cseanburns.net)
+GitHub: [@cseanburns](https://github.com/cseanburns)
 
-This short book is based on a series of lectures for my course on electronic resource management. This is a very rough draft, and I plan to polish it up and complete it during the Fall 2022 semester.
+This is a rough draft of a short book based on a series of lectures for my course on electronic resource management.
+
+I plan to complete this work during the Fall 2022 semester.
