@@ -1,5 +1,1 @@
-# Patrons
-
-## Introduction
-
-Note: Write part introduction.
+# Chapter Four: Patrons

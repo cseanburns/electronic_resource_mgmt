@@ -1,5 +1,1 @@
-# Technologies and Standards
-
-## Introduction
-
-Note: Write part introduction.
+# Chapter Two: Technologies and Standards

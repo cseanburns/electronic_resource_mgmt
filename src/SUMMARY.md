@@ -1,7 +1,7 @@
 # Summary
 
-[Electronic Resource Management in Libraries](./intro-erm-libraries.md)
-
+[Electronic Resource Management in Libraries](./p0-intro-erm-libraries.md)
+  
 - [Electronic Resource Librarians](./p1-er-librarians.md)
     - [The ERM Librarian](./01-the-erm-librarian.md)
     - [Desparately Seeking an ERM Librarian](./02-desperately-seeking-erm-librarian.md)

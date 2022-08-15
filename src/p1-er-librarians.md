@@ -1,7 +1,1 @@
-# Electronic Resource Librarians
-
-## Introduction
-
-Electronic resource librarians ...
-
-Note: Write part introduction.
+# Chapter 1: Electronic Resource Librarians
