@@ -14,7 +14,7 @@ This semester we're learning about electronic resources
 and about how to manage them.
 We begin by outlining the kinds of things
 that are electronic resources.
-[Karin Wikoff][Wikoff2011] (2011) outlines the major categories,
+[Karin Wikoff][wikoff2011] (2011) outlines the major categories,
 and these include:
 
 * **databases**
@@ -160,7 +160,7 @@ to retrieve freely available works on the web,
 instead of at the library.
 As a result, what becomes of the core jurisdiction of the librarian?
 And of the electronic resource librarian, in particular?
-In concrete terms: a [recent paper][Klitzing2019] (Klitzing, 2019)
+In concrete terms: a [recent paper][klitzing2019] (Klitzing, 2019)
 reported that researchers state they use
 Google Scholar 83% of the time and
 EBSCOhost 29% of the time to find relevant material.
@@ -264,21 +264,35 @@ As we start to address all of this, I want us to consider two questions:
    This is something different, right? And it's not likely to be a position
    that's ever really captured and presented publicly.
 
-## Additional References
+## Readings / References
+
+Hulseberg, A. (2016). Technical communicator: A new model for the electronic
+resources librarian? Journal of Electronic Resources Librarianship, 28(2),
+84–92. [https://doi.org/10.1080/1941126X.2016.1164555][hulseberg2016]
+
+Stachokas, G. (2018). The Electronic Resources Librarian: From Public Service
+Generalist to Technical Services Specialist. Technical Services Quarterly,
+35(1), 1–27. [https://doi.org/10.1080/07317131.2017.1385286](stachokas2018)
+
+Zhu, X. (2016). Driven adaptation: A grounded theory study of licensing
+electronic resources. Library & Information Science Research, 38(1), 69–80.
+[https://doi.org/10.1016/j.lisr.2016.02.002][zhu2016]
+
+## Optional Readings / Additional References
 
 Klitzing, N., Hoekstra, R., & Strijbos, J-W. (2019). Literature practices:
 Processes leading up to a citation. *Journal of Documentation, 75*(1).
-[https://doi.org/10.1108/JD-03-2018-0047](https://doi.org/10.1108/JD-03-2018-0047)
+[https://doi.org/10.1108/JD-03-2018-0047][klitzing2019]
 
 Wikoff, K. (2011). Electronics Resources Management in the Academic Library: A
 Professional Guide. ABC-CLIO.
-[http://www.worldcat.org/oclc/940697515](http://www.worldcat.org/oclc/940697515)
+[http://www.worldcat.org/oclc/940697515][wikoff2011]
 
 [stachokas2018]:https://doi.org/10.1080/07317131.2017.1385286
 [hulseberg2016]:https://doi.org/10.1080/1941126X.2016.1164555
 [zhu2016]:https://doi.org/10.1016/j.lisr.2016.02.002
-[Wikoff2011]:http://www.worldcat.org/oclc/940697515
-[Klitzing2019]:https://doi.org/10.1108/JD-03-2018-0047
+[wikoff2011]:http://www.worldcat.org/oclc/940697515
+[klitzing2019]:https://doi.org/10.1108/JD-03-2018-0047
 [copyrightsearch]:https://search.copyright.gov/search?utf8=%E2%9C%93&affiliate=copyright&sort_by=&query=%22first+sale+doctrine%22
 [pubchem]:https://pubchem.ncbi.nlm.nih.gov/
 [genbank]:https://www.ncbi.nlm.nih.gov/genbank/
