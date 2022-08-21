@@ -12,83 +12,88 @@ In this section, I will:
 
 This semester we're learning about electronic resources
 and about how to manage them.
-We begin by outlining the kinds of things
+Let's begin by outlining the kinds of things
 that are electronic resources.
 [Karin Wikoff][wikoff2011] (2011) outlines the major categories,
 and these include:
 
-* **databases**
-  * **A&I databases** (abstracting and indexing)
-  * **bibliographic databases** full text databases
-  * **journal collections**
-    * Project Muse
-    * JSTOR
-  * **specialized and hybrid databases**
-    * chemical databases: e.g., [Pubchem][pubchem]
-    * genetic databases: e.g.,  [GenBank][genbank]
-    * stock databases: e.g., [Nasdaq][nasdaq]
-  * **primary source databases**
-    * original newspapers: e.g., [Chronicling America][caLOC] 
-    * oral histories: e.g., [Louie B. Nunn Center for Oral History][nunn] 
-* ejournals
-* ebooks (see note below)
-* linking technologies: e.g., technologies that embed metadata in URLs and send
-  across networks:
-    * Z39.50
-    * OpenURL
-    * Federated search
+- **databases**
+  - **A&I databases** (abstracting and indexing)
+  - **bibliographic databases** full text databases
+  - **journal collections**
+    - Project Muse
+    - JSTOR
+  - **specialized and hybrid databases**
+    - chemical databases: e.g., [Pubchem][pubchem]
+    - genetic databases: e.g.,  [GenBank][genbank]
+    - stock databases: e.g., [Nasdaq][nasdaq]
+  - **primary source databases**
+    - original newspapers: e.g., [Chronicling America][caLOC] 
+    - oral histories: e.g., [Louie B. Nunn Center for Oral History][nunn]
+- **ejournals**
+- **ebooks** (see note below)
+- **linking technologies**:
+  - [Z39.50][z39niso]
+  - [OpenURL][openURLniso]
+  - [Federated search, aka Metasearch][metaniso]
 
-> Ebooks: The technology is rather complicated and
+[z39niso]:https://www.niso.org/publications/ansiniso-z3950-2003-s2014
+[openURLniso]:https://www.niso.org/publications/z3988-2004-r2010
+[metaniso]:https://www.niso.org/standards-committees/metasearch-initiative
+
+> Ebook technology is rather complicated and
 > differentiated depending on the copyright status,
-> the file type (PDF, ePUB, TXT, etc.),
+> the file type (PDF, ePUB, TXT, etc.), and
 > the purpose or genre
 > (textbook, fiction or non-fiction, etc.).
-> In some  cases, ebooks are software applications and
-> not just plain or marked up text, and
-> they also vary by platform or
-> the application interacting with the text,
-> which offer different types of functionality.
+> In some cases, ebooks are software applications and
+> not just plain or marked up text.
+> They also vary by platform or
+> the application used to interact with the text,
+> each of which mayh offer different types of functionality.
 
 Linking technologies allow users
 to begin in one search system,
-like an OPAC, and
-extend a query to other systems
-without initiating searches in those other systems.
-For example, a user begins a search on WorldCat.org and
-finds a book that's available at a nearby library.
-The  user only needs to click on the local library link and
-be transferred to that library's OPAC.
-If that works (it doesn't always),
-then the user may submit a request to pick up the book.
-That involves additional actions,
-including  logging into the user's library account. 
+like a discovery service,
+which extends that query to other systems
+without requiring the user to
+initiate searches in those other systems.
+For example,
+a user begins a search in a library's discovery system,
+like UK Library's [InfoKat][infokat]
+(powered by Primo ([Breeding, 2006][breeding2006]).
+InfoKat identifies multiple articles there
+related to the query,
+even though those articles are all located in other
+full text systems, like EBSCOHost, ProQuest, or JSTOR.
 
 ## Framing
 
-As you surmise from the above list,
-electronic resources are a major part of any library,
-whether academic, public, school, or special.
-The need to manage them and
-incorporate the management of them
-into a library work flow requires
-attending to many parts of a big system.
-This will be much of what we'll discuss and
-learn about this semester.
-It will get complicated.
 The print only era of libraries
 was difficult enough for many reasons, but
 managing print and using print resources
 was comparably a more linear process.
 Electronic resources have raised the stakes
 That might be expected:
-civilizations had 500 years
+civilizations have had 500 years
 to develop and solve print technology,
-yet we have had only about three  or so decades of
+yet we have had only about three plus decades of
 experience with digital technology.
 We are a long way off from stability, and
 many of the challenges and frustrations
 ahead of us are not simply technical but
 also social and legal.
+
+As you may surmise from the outline at the top of this page,
+electronic resources are a major part of any library,
+whether academic, public, school, or special.
+The need to manage them with
+efficient work flows requires
+attending to many parts of a big system.
+This will be much of what we will discuss and
+learn about, especially because
+there is a lot of complexity in these systems and
+these systems have had a major impact on librarianship itself.
 
 ## Our Readings: The nature of ERM librarianship
 
@@ -110,7 +115,8 @@ that this division is leading to different areas of specialization:
 those who focus on
 "licensing, acquisitions, and collection development" (p. 15),
 and those who focus on
-"metadata, discovery, management of knowledge bases, and
+"metadata, discovery, management of 
+[knowledge bases][kbniso], and
 addressing technical problems" (p. 15).
 This rings true to me.
 In my own observations,
@@ -121,7 +127,7 @@ one of the above areas and not both.
 
 In the second article,
 [Hulseberg][hulseberg2016] (2016) uses
-the field of technical communication (TC)
+the field of [technical communication (TC)][techcomm]
 to interpret the field of electronic resource librarianship.
 Hulseberg (2016) takes the view that an
 electronic resource librarian is, among other things,
@@ -141,20 +147,23 @@ would be one involving connecting people in different silos
 to each other by helping them communicate with each other.
 It turns out that,
 under Hulseberg's (2016) view,
-electronic resource librarianship does this work.
+electronic resource librarianship does this work,
+which is pretty cool.
 However, the other themes are just as important, and
 in particular, Theme Four, about jurisdiction,
 highlights one of the major disruptive acts on librarianship
 in the last thirty or forty years.
 
-Consider that most people, researchers and scholars included,
+As an example,
+consider that most people,
+researchers and scholars included,
 use non-library provided resources to locate information.
 Additionally, more works, scholarly and non-scholarly,
 are freely and publicly available on the web,
 e.g., as [open access (OA)][oa].
-This means that the library
-is becoming disintermediated
-as a result of people using sites non-library services,
+This might mean that the library
+[is becoming disintermediated][burns2013]
+as a result of people using non-library services,
 like Google or Google Scholar,
 to retrieve freely available works on the web,
 instead of at the library.
@@ -173,23 +182,29 @@ The third article, by [Zhu][zhu2016] (2016),
 places a different theoretical lens
 on what it means to be an electronic resource librarian.
 Zhu (2016) posits that the licensing aspect of
-electronic resource management significantly influenced
+electronic resource management significantly influences
 ER librarianship identity.
 One reason why Zhu's (2016) findings are insightful is
 due to the fact that we often license electronic resources
 rather than buy them.
-Copyright law, historically, has provided librarians
-with their most important legal justification
-for collecting and lending works:
+
+The crux centers around copyright law, which
+provides librarians
+with an important legal justification
+for lending works:
 the [First Sale Doctrine][copyrightsearch].
 Copyright law provides copyright owners with the
 right to distribute their work, but
-the first sale doctrine holds that if you buy a book,
+the First Sale Doctrine holds that if you buy a copy of a book,
 then you have a right to lend or sell your copy.
 This doctrine is fundamental to librarianship but
-also raises problems today since most digital works
+also raises problems since most digital works
 (ebooks, etc)
 are licensed and not bought by libraries.
+Thus the First Sale Doctrine does not apply
+to such works.
+That ALA has a guide on this issue
+([ALA, 2022][alaFirstSale]).
 
 Stachokas (2018), Hulseberg (2016), and Zhu (2016)
 present the historical and environmental forces
@@ -199,16 +214,16 @@ each of these authors discuss important themes
 that function as evidence of these identities.
 In our discussions this week,
 we should focus on these themes and
-how you make sense of it all.
+how to make sense of it all.
 
 ## Conclusion
 
-Electronic resource librarianship is one of the
-most fascinating areas of librarianship to me.
+Electronic resource librarianship is a
+fascinating areas of librarianship.
 Because digital technologies have woven their way
-into all parts of the contemporary library ecosystem,
+into all parts of the modern library ecosystem,
 and because these digital technologies bring with them
-a slew of legal and social challenges,
+a slew of technical, legal, and social challenges,
 electronic resource librarians have had,
 as these technologies have developed,
 to maintain a holistic view of this ecosystem just
@@ -218,16 +233,16 @@ require maintaining that holistic, interconnected view.
 The course takes that holistic view and
 divides it into four parts for study.
 In the first part,
-we will continue to study the nature of the work itself:
-of what it means to be an electronic resource librarian.
+we will study the nature of the work itself:
+what it means to be an electronic resource librarian.
 
-In the second part, we will learn about the technologies
+In the second part, we learn about the technologies
 that an electronic resource librarian uses and
 the conditions that shape these technologies.
 We will learn about integrated library systems (ILS) and
-how these systems conform (or not) to standards,
+how these systems conform (or not) to standards, and
 how they foster or obstruct 
-interoperability and electronic access.
+interoperability and access.
 
 In the third part, we focus on processes and their contexts.
 We will study the electronic resource librarian's workflow,
@@ -235,14 +250,15 @@ the economics and the markets of electronic resources,
 what is involved in licensing these resources and
 negotiating with vendors.
 
-At the end, we will focus on patrons and end users;
+At the end, we focus on patrons and end users;
 that is, those we serve. 
 Because electronic resources are digital,
-usage of them leaves behind traces of that usage.
+when we use them, we leave behind traces of that usage.
 This means we will study how that usage is measured and
 what those measurements can validly say.
-Electronic resources means having to use websites, and
-thus we will study how electronic resource librarians
+Electronic resources likewise means having to use websites
+and other eresource interfaces, and
+hence we will study how electronic resource librarians
 are involved in user experience studies.
 Because usage leaves traces of personal information,
 we will end this course on topics related to the
@@ -251,18 +267,23 @@ who use them.
 
 ## Discussion Questions
 
-As we start to address all of this, I want us to consider two questions:
+As we start to address all of this,
+I want us to consider two questions:
 
-1. How do we manage all of this electronic stuff? Not only does it include
-   complicated technology and has an impact on our patrons, but it involves of
-   different sorts of librarians.
-1. What exactly is an electronic resource librarian? I like this basic question
-   because, due to perhaps representations in the media (movies, TV shows,
-   books) and the interactions we've had with librarians in our lifetimes, we
-   all have pretty well-defined, whether accurate, images of what reference or
-   cataloging librarians are. But what about an electronic resource librarian?
-   This is something different, right? And it's not likely to be a position
-   that's ever really captured and presented publicly.
+1. How do we manage all of this electronic stuff? Not only
+   does it include complicated technology and has an impact
+   on our patrons, but it involves of different sorts of
+   librarians.
+1. What exactly is an electronic resource librarian? I like
+   this basic question because, due to perhaps
+   representations in the media (movies, TV shows, books)
+   and the interactions we've had with librarians in our
+   lifetimes, we all have pretty well-defined, whether
+   accurate, images of what reference or cataloging
+   librarians are. But what about an electronic resource
+   librarian? This is something different, right? And it's
+   not likely to be a position that's ever really captured
+   and presented publicly.
 
 ## Readings / References
 
@@ -279,6 +300,15 @@ electronic resources. Library & Information Science Research, 38(1), 69–80.
 [https://doi.org/10.1016/j.lisr.2016.02.002][zhu2016]
 
 ## Optional Readings / Additional References
+
+ALA. (2022, June 27). LibGuides: Copyright for Libraries:
+First Sale Doctrine.
+[https://libguides.ala.org/copyright/firstsale][alaFirstSale]
+
+
+Breeding, M. (2006). OPAC sustenance: Ex Libris to serve up
+Primo. Smart Libraries Newsletter, 26(03), 1.
+[https://librarytechnology.org/document/11856][breeding2006]
 
 Klitzing, N., Hoekstra, R., & Strijbos, J-W. (2019). Literature practices:
 Processes leading up to a citation. *Journal of Documentation, 75*(1).
@@ -300,3 +330,9 @@ Professional Guide. ABC-CLIO.
 [caLOC]:https://chroniclingamerica.loc.gov/
 [nunn]:https://kentuckyoralhistory.org/
 [oa]:https://sparcopen.org/open-access/
+[infokat]:https://saalck-uky.primo.exlibrisgroup.com/discovery/search?vid=01SAA_UKY%3AUKY&lang=en
+[breeding2006]:https://librarytechnology.org/document/11856/
+[kbniso]:https://www.niso.org/standards-committees/kbart/kbart-frequently-asked-questions
+[techcomm]:https://www.stc.org/about-stc/defining-technical-communication/
+[burns2013]:http://hdl.handle.net/10355/37582
+[alaFirstSale]:https://libguides.ala.org/copyright/firstsale
