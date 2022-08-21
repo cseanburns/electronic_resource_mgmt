@@ -22,25 +22,27 @@ that analyze electronic resource librarian job advertisements.
 Additionally, the reading list includes
 the NASIG core competencies
 for electronic resource librarianship.
-I suggest that you review the core competencies list
+I suggest that you review the list of core competencies
 before you read the articles.
 
 These articles are of interest since
 they capture a description of electronic resource librarianship
-in its earlier years.
+in earlier years.
 There are many social, political, and economic conditions that
 have stayed about the same since these articles were published,
 and these conditions help fixate the work of the ERM librarian,
 but constant changes in technologies and types of electronic resources
-have meant that eletronic resource librarians are
+have meant that electronic resource librarians are
 constantly adapting to new work flows.
 Our Murdoch (2010) reading makes this point.
 
 Though the technology differs,
-the descriptions and duties of ER jobs are still on the mark.
+the descriptions and duties of ER jobs are still
+on the mark in many ways.
 I posted links to job announcements
 in the discussion forum to demonstrate this.
-The job announcements were emailed to the [SERIALST][serialst]
+Most of those job announcements
+were emailed to the [SERIALST][serialst]
 email list (please subscribe to it) and
 are not current job openings, but
 they were current within the last few years.
@@ -58,7 +60,9 @@ with the [last section's](01-the-erm-librarian.html) discussions
 on the nature of ERM librarianship.
 I will withhold linking to these advertisements since I don't expect
 the links to persist as the positions get filled.
-But several sources outline the following requested qualifications:
+But several sources outline the following requested qualifications, and
+I think the **themes** from the prior section come through
+in this list:
 
 - provide "consistent and reliable access to the Library's electronic resources
   and establishing workflows that maintain discovery and use of all Library
@@ -93,8 +97,8 @@ But several sources outline the following requested qualifications:
   activity of electronic resources"
 - establish and "documents library procedures and best practices for the
   acquisition, licensing, implementation, assessment, and budgeting of
-  electronic resources" - work "with colleagues [...] to optimize resource
-  discovery"
+  electronic resources"
+- work "with colleagues [...] to optimize resource discovery"
 - work "with vendors to resolve technical issues and manages EZproxy for remote
   access"
 - "collects, analyzes, and presents use, purchase, and availability data of
@@ -109,7 +113,7 @@ To stay current about the position overall and
 about the specific duties involved,
 I encourage you to bookmark and
 stay abreast of relevant journals in the area.
-In addition to the two publication titles drawn from for this
+In addition to the two publication titles used in this
 section's readings
 and to the SERIALST list I have asked you to subscribe to,
 I recommend that you bookmark the
@@ -117,11 +121,10 @@ I recommend that you bookmark the
 
 ### Our Readings
 
-In this section,
-we start with Murdock's (2010) overview of the
+Now let's start with Murdock's (2010) overview of the
 electronic resource librarian's position
-in the first decade of this century.
-We proceed to Harnett's (2014) work that describes the
+in the first decade of this century, and
+proceed to Harnett's (2014) work that describes the
 electronic resource librarian's duties around ten years ago.
 NASIG's core competencies were also published around ten years ago
 and have only received minor revisions since then.
@@ -144,7 +147,7 @@ which lists a 'timeline of commercial ERM developments and standards.'
 These technologies and standards
 continue today,
 and have, via hindsight,
-strongly shaped the how electronic resources currently work.
+strongly shaped how electronic resources currently work.
 This timeline includes what's now referred to
 as the A-Z list of serials,
 which started in 2000,
@@ -156,7 +159,7 @@ SUSHI usage statistics protocol from 2006,
 and SERU from 2007.
 We will explore each of these topics in future sections.
 
-Murdock's (2010) analysis shows that some of the duties
+Murdock's (2010) analysis shows that some duties
 started to wane in the early years.
 Website maintenance and deployment (see Fig 13),
 for example,
@@ -184,7 +187,7 @@ as the position has divided into two areas
 (cf., technical services aspect and collection development aspect),
 and as electronic resources have grown and become more
 dominant in the intervening years.
-ER librarians will still liaison with their communities but
+ER librarians still liaison with their communities but
 in different ways (i.e., not as reference librarians).
 
 A big change since 2012,
@@ -192,9 +195,10 @@ when Harnett's (2014) research ends,
 is that more technology has moved to the cloud.
 What this means is that we rely less on onsite servers,
 where those servers might be managed by library IT (or other IT).
-This requires different types of technological skills
+Switching from local IT infrastructure to
+cloud based IT infrastructure
+requires different types of technological skills
 and suggests that conceptual knowledge
-(e.g., the kind that we tend to focus on in library schools)
 is paramount.
 (This is my opinion, but it's based on years of
 doing and teaching systems administration work.)
@@ -204,7 +208,7 @@ piece of software for managing metadata
 (aside: however, conceptual and practical knowledge
 cannot so easily be divorced from each other).
 Metadata standards and schemes change far less often
-than the software.
+than the software used to enter or administer metadata.
 
 Cloud-based solutions have changed
 the field in other ways.
@@ -212,13 +216,13 @@ Hosted software means
 the software isn't purchased but leased,
 and leasing involves outside vendors
 who must have the technological skill sets
-and resources to manage the technology.
-So we rely, in very important ways, on others more:
-we are more dependent on other actors in the
+and resources to manage and provide the technology.
+So we rely, in very important ways, and
+are more dependent on other actors in the
 publishing and e-resource provider ecosystem.
 That involves a lot of trust, and
-it means more negotiations between
-librarians and vendors and
+it involves more negotiations between
+librarians and vendors, and
 the ability to collaborate and develop good, ethical
 relationships.
 The kind of work that may increase,
@@ -230,7 +234,8 @@ how copyright and contract law work, and
 how electronic resource collections work and
 inter-operate across platforms.
 However, again, this can be complicated.
-A couple of years ago there was an email on the SERIALST listserv
+A couple of years ago there was an email
+on the SERIALST listserv
 by a librarian that asked whether librarians
 have retained powers to negotiate and sign contracts.
 The responses were mixed.
@@ -238,12 +243,13 @@ Some librarians had the jurisdiction but
 many had lost it, per the email responses.
 Even under this scenario, though,
 technological understanding is necessary
-in order to negotiate the best deal for a library's stakeholders and
+in order to negotiate the best deal
+for a library's stakeholders and
 to acquire the best and
 most seamless product needed by library users.
 
 Even though IT continues to be outsourced,
-this doesn't mean that we can become lax
+this doesn't mean that we become lax
 in our understanding of how the technology works;
 just as we can't become lax in how librarianship
 works even though librarians answer fewer reference questions
@@ -260,7 +266,7 @@ be adept at the tech so that
 we are not bamboozled in those negotiations.
 Also, if something goes wrong,
 e.g., with the link resolver technology,
-we have to learn how to identify the likely culprit;
+we have to learn how to identify the problem;
 that is, whether the technological issue
 is the link resolver technology and not something else,
 like the OPAC technology.
@@ -276,11 +282,9 @@ like those outlined at the beginning of this section.
 In essence, think about where you see yourself
 in these advertisements and how they impact you.
 
-Although you may be only learning about
-these technologies in the abstract,
-it might be the case that most of you
-haven't had a chance to learn the electronic resource back ends.
-That doesn't disqualify you from attempts
+Although it might be the case that most of you
+haven't had a chance to learn electronic resource back ends,
+that doesn't disqualify you from attempts
 to start reflecting on this part of librarianship.
 As library users of these technologies,
 you have gathered enough abstract and practical knowledge
@@ -315,7 +319,6 @@ Acquisitions, and Technical Services, 34(1), 25–42.
 NASIG Core Competencies Task Force. (2021, April 5). NASIG Core Competencies for
 E-Resources Librarians.
 [https://nasig.org/Competencies-Eresources][nasigCore]
-
 
 [JERL]:https://www.tandfonline.com/toc/wacq20/current
 [NCC]:https://www.nasig.org/Competencies-Eresources
