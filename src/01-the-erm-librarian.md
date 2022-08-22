@@ -50,7 +50,7 @@ and these include:
 > not just plain or marked up text.
 > They also vary by platform or
 > the application used to interact with the text,
-> each of which mayh offer different types of functionality.
+> each of which may offer different types of functionality.
 
 Linking technologies allow users
 to begin in one search system,
@@ -61,7 +61,7 @@ initiate searches in those other systems.
 For example,
 a user begins a search in a library's discovery system,
 like UK Library's [InfoKat][infokat]
-(powered by Primo ([Breeding, 2006][breeding2006]).
+(powered by Primo ([Breeding, 2006][breeding2006])).
 InfoKat identifies multiple articles there
 related to the query,
 even though those articles are all located in other
@@ -73,7 +73,7 @@ The print only era of libraries
 was difficult enough for many reasons, but
 managing print and using print resources
 was comparably a more linear process.
-Electronic resources have raised the stakes
+Electronic resources have raised the stakes.
 That might be expected:
 civilizations have had 500 years
 to develop and solve print technology,
