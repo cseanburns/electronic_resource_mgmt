@@ -1,5 +1,19 @@
 # Market and Economics
 
+Add:
+
+Grain, A. the. (2022, July 18). Legally Speaking—States
+Unsuccessful in Providing Financial Relief of eBook Terms
+for Libraries. Charleston Hub.
+https://www.charleston-hub.com/2022/07/legally-speaking-states-unsuccessful-in-providing-financial-relief-of-ebook-terms-for-libraries/
+
+Add publisher's perspective:
+
+Sisto, M. C. (2022). Publishing and Library E-Lending: An
+Analysis of the Decade Before Covid-19. Publishing Research
+Quarterly, 38(2), 405–422.
+https://doi.org/10.1007/s12109-022-09880-7
+
 ## Copyright and Budgets
 
 This week we're reading a piece on the ebook market (Sanchez, 2015), and one on
