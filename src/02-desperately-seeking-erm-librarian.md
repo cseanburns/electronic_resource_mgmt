@@ -116,8 +116,10 @@ stay abreast of relevant journals in the area.
 In addition to the two publication titles used in this
 section's readings
 and to the SERIALST list I have asked you to subscribe to,
-I recommend that you bookmark the
-[Journal of Electronic Resources Librarianship][JERL].
+I recommend that you bookmark relevant journals, like the
+[Journal of Electronic Resources Librarianship][JERL]
+and 
+[Against the Grain][atg].
 
 ### Our Readings
 
@@ -328,3 +330,4 @@ E-Resources Librarians.
 [serialst]:https://www.nasig.org/SERIALST
 [joomla]:https://www.joomla.org/
 [drupal]:https://www.drupal.org/
+[atg]:https://www.charleston-hub.com/media/atg/
