@@ -117,9 +117,9 @@ In addition to the two publication titles used in this
 section's readings
 and to the SERIALST list I have asked you to subscribe to,
 I recommend that you bookmark relevant journals, like the
-[Journal of Electronic Resources Librarianship][JERL]
-and 
-[Against the Grain][atg].
+[Journal of Electronic Resources Librarianship][JERL],
+[Against the Grain][atg], and
+[Journal of Electronic Resources in Medical Libraries][jerml]
 
 ### Our Readings
 
@@ -331,3 +331,4 @@ E-Resources Librarians.
 [joomla]:https://www.joomla.org/
 [drupal]:https://www.drupal.org/
 [atg]:https://www.charleston-hub.com/media/atg/
+[jerml]:https://www.tandfonline.com/toc/werm20/current
