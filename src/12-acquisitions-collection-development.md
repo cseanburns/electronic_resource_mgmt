@@ -1,5 +1,9 @@
 # Acquisitions and Collections Development
 
+Note:
+Add resources:
+https://openstax.org/subjects
+
 Class, this week we discuss aspects of collection development and acquisitions,
 which is a complex problem for electronic resources. To rehash, in the
 print-only days, acquiring resources was a *more-than-it-is-now* linear
