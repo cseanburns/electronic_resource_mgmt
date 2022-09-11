@@ -393,6 +393,7 @@ articulate ways the technology can be evaluated.
 
 ## Additional information
 
+- [OpenURL Crossref Documentation][openurlCrossref]
 - [URL syntax components][urlsyntax]
 - [URL Encode / Decode Percent Encoding][urlencode]
 - [How Google Scholar works with libraries][howgs]
@@ -586,6 +587,7 @@ Content.
 [lr101]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
 [lrusage]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
 [mcdonald2004]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+[openurlCrossref]:https://www.crossref.org/documentation/retrieve-metadata/openurl/
 [openurlResolvers]:https://www.zotero.org/support/locate/openurl_resolvers
 [percentencoding]:https://en.wikipedia.org/wiki/Percent-encoding
 [querystring]:https://en.wikipedia.org/wiki/Query_string
