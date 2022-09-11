@@ -398,7 +398,7 @@ articulate ways the technology can be evaluated.
 - [URL Encode / Decode Percent Encoding][urlencode]
 - [How Google Scholar works with libraries][howgs]
 - [Surface your materials in Google Scholar (OCLC)][worldshare]
-
+- [360 KB: Overview of the Knowledgebase][exlibrisKB]
 ## Appendix A
 
 ### How I Enhanced Zotero by Hacking OpenURL
@@ -573,6 +573,7 @@ Content.
 [brown2021]:https://doi.org/10.1080/0361526X.2021.2008581
 [chisare2017]:https://doi.org/10.1080/1941126X.2017.1304765
 [doinumbering]:https://www.doi.org/doi_handbook/2_Numbering.html
+[exlibrisKB]:https://knowledge.exlibrisgroup.com/360_KB/Knowledge_Articles/360_KB%3A_Overview_of_the_Knowledgebase
 [ezproxy]:https://www.oclc.org/en/ezproxy.html
 [gethttp]:https://www.w3schools.com/tags/ref_httpmethods.asp
 [googlescholaralma]:https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/030Resource_Management/150Publishing_Electronic_Holdings_to_Google_Scholar
