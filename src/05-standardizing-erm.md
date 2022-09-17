@@ -243,7 +243,7 @@ Some of this material is repeated in version 2 of TERMS,
 but version 2 was created in order to address changes and
 to include more input from the community.
 Version 2 also includes a slightly modified outline, and
-[includes the following parts][terms_v2]:
+[includes the following parts][termsV2]:
 
 1. Investigating new content for purchase or addition
 1. Acquiring new content
