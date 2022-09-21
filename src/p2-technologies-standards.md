@@ -1,3 +1,3 @@
 # Chapter Two: Technologies and Standards
 
-This chapter will be updated (8/20/2022).
+Chapter 2 is completed (9/21/2022).

@@ -327,7 +327,7 @@ product in this arena, and
 in fact we use EZproxy at UK.
 When we access any paywalled work,
 like a journal article,
-you may have noticed
+you may notice
 the **ezproxy.uky.edu**
 string of text in a URL.
 For example,
@@ -351,7 +351,8 @@ a simple subdomain of
 (you can tell because
 the components are separated
 by dashes instead of periods),
-which is no different than
+As a subdomain,
+it is no different than
 the **www** in **www.google.com** or
 the **maps** in **maps.google.com**.
 The original URL is
@@ -366,15 +367,19 @@ the interesting thing about
 the original URL is that it
 is in fact a 
 **sciencedirect.com** address.
-These are two different servers,
-as different as
+Even though "sciencedirect"
+appears in the **uky.edu** URL,
+it is not a "sciencedirect.com" server.
+They are two different servers,
+from two different organizations,
+and are as different as
 **uky.edu** and **google.com**.
 
 The reason we read an article
 or some other paywalled content
 at a **uky.edu** address and not
 at a, e.g.,
-**sciencedirect.com** address,
+**sciencedirect.com** address
 is because of the way
 proxy servers work.
 In essence,
@@ -402,7 +407,7 @@ Instead, the proxy server
 acts as a go-between.
 See [Day (2017)][day2017]
 for a more technical
-and accessible
+and yet accessible
 description of the process.
 
 Proxy servers provide access
@@ -422,7 +427,8 @@ when on campus.
 
 If we are off-campus,
 access is authenticated
-via a login method.
+via a login method to
+the proxy server.
 When we attempt to access
 paywalled content from off-campus,
 we will see an EZproxy login URL.
@@ -449,7 +455,7 @@ provide access
 is based on what is
 called SAML authentication.
 The main product that provides
-SAML authentication is
+SAML authentication for libraries is
 [OpenAthens][openathens].
 
 Unlike a proxy / IP
@@ -472,7 +478,7 @@ users are authenticated via
 an identity provider,
 which would be the library.
 The library provides identification
-through the organization's
+by connecting to its organization's
 identity management system,
 such as *adfs*, or
 [Active Directory Federation Services][adfs].
@@ -483,14 +489,13 @@ then provides access to
 the content to the patron.
 For more details,
 see [What is SAML?][saml] and
-an [OpenAthens software demo][oademo].
+this detailed [OpenAthens software demo][oademo].
 
 One of the benefits of this method
 is that URLs are not proxied,
 which means that content is not
 delivered to the patron
-from a proxy URL like 
-the one above.
+from a proxy server like  EZproxy.
 Instead, patrons access the
 original source directly.
 From a patron's perspective,
@@ -513,31 +518,30 @@ the SAML method.
 
 The Samples & Healy (2014) and
 the Carter & Traill (2017) articles
-largely speak to issues related
-to troubleshooting issues
+address troubleshooting strategies 
 with electronic resources.
 One additional thing to note
-about these readings is the
-how the organization's structure
-influences issues with workflow and
-with the continued transition from
+about these readings is
+how the organizational structure
+influences workflows and how
+the continued transition from
 a print-era model of library processes
-to an electronic one.
+to an electronic one remains problematic.
 Even once that transition is complete,
 both readings make the case that
 strategy and preparation are
 needed to deal with these issues.
-The Buhler & Cataldo (2016) article,
+The Buhler & Cataldo (2016) article
 shows how confusing e-resources
-are to patrons, and
+are to patrons and
 how the move to digital has
 complicated all genres,
 or "containers", as
-the authors name it.
+the authors name them.
 Such "ambiguity" has
 implications not only for
 how users find and identify
-electronic resources, but
+electronic resources but
 on how librarians manage
 access to them.
 
@@ -564,6 +568,15 @@ paywalled content, as
 nearly as seamless as accessing
 content via a search engine or
 other source.
+Although neither will never be
+able to offer completely seamless
+access as long there are paywalled
+sources in library collections,
+the job of an electronic resource
+librarian is often to make sure
+they work as well as possible.
+This will often mean working 
+with vendors and colleagues.
 
 ## References
 
