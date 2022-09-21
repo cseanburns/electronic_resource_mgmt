@@ -1079,7 +1079,7 @@ Libraries and the Academy, 14(1), 87–102.
 apps banned - and they're getting results. NBC News.
 <a href="https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103">https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-two-technologies-and-standards"><a class="header" href="#chapter-two-technologies-and-standards">Chapter Two: Technologies and Standards</a></h1>
-<p>This chapter will be updated (8/20/2022).</p>
+<p>Chapter 2 is completed (9/21/2022).</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="erm-and-ils"><a class="header" href="#erm-and-ils">ERM and ILS</a></h1>
 <h2 id="introduction-3"><a class="header" href="#introduction-3">Introduction</a></h2>
 <p>This week we learn about ERM and ILS software.
@@ -2696,7 +2696,7 @@ product in this arena, and
 in fact we use EZproxy at UK.
 When we access any paywalled work,
 like a journal article,
-you may have noticed
+you may notice
 the <strong>ezproxy.uky.edu</strong>
 string of text in a URL.
 For example,
@@ -2717,7 +2717,8 @@ a simple subdomain of
 (you can tell because
 the components are separated
 by dashes instead of periods),
-which is no different than
+As a subdomain,
+it is no different than
 the <strong>www</strong> in <strong>www.google.com</strong> or
 the <strong>maps</strong> in <strong>maps.google.com</strong>.
 The original URL is
@@ -2729,14 +2730,18 @@ the interesting thing about
 the original URL is that it
 is in fact a 
 <strong>sciencedirect.com</strong> address.
-These are two different servers,
-as different as
+Even though &quot;sciencedirect&quot;
+appears in the <strong>uky.edu</strong> URL,
+it is not a &quot;sciencedirect.com&quot; server.
+They are two different servers,
+from two different organizations,
+and are as different as
 <strong>uky.edu</strong> and <strong>google.com</strong>.</p>
 <p>The reason we read an article
 or some other paywalled content
 at a <strong>uky.edu</strong> address and not
 at a, e.g.,
-<strong>sciencedirect.com</strong> address,
+<strong>sciencedirect.com</strong> address
 is because of the way
 proxy servers work.
 In essence,
@@ -2764,7 +2769,7 @@ Instead, the proxy server
 acts as a go-between.
 See <a href="https://libtechlaunchpad.com/2017/04/25/proxy-servers-basics-and-resources/">Day (2017)</a>
 for a more technical
-and accessible
+and yet accessible
 description of the process.</p>
 <p>Proxy servers provide access
 either through a login server
@@ -2782,7 +2787,8 @@ content fairly seamless,
 when on campus.</p>
 <p>If we are off-campus,
 access is authenticated
-via a login method.
+via a login method to
+the proxy server.
 When we attempt to access
 paywalled content from off-campus,
 we will see an EZproxy login URL.
@@ -2803,7 +2809,7 @@ provide access
 is based on what is
 called SAML authentication.
 The main product that provides
-SAML authentication is
+SAML authentication for libraries is
 <a href="https://www.openathens.net/">OpenAthens</a>.</p>
 <p>Unlike a proxy / IP
 authentication process,
@@ -2825,7 +2831,7 @@ users are authenticated via
 an identity provider,
 which would be the library.
 The library provides identification
-through the organization's
+by connecting to its organization's
 identity management system,
 such as <em>adfs</em>, or
 <a href="https://en.wikipedia.org/wiki/Active_Directory_Federation_Services">Active Directory Federation Services</a>.
@@ -2836,13 +2842,12 @@ then provides access to
 the content to the patron.
 For more details,
 see <a href="https://www.onelogin.com/learn/saml">What is SAML?</a> and
-an <a href="https://www.youtube.com/watch?v=8o4syOJsIf0">OpenAthens software demo</a>.</p>
+this detailed <a href="https://www.youtube.com/watch?v=8o4syOJsIf0">OpenAthens software demo</a>.</p>
 <p>One of the benefits of this method
 is that URLs are not proxied,
 which means that content is not
 delivered to the patron
-from a proxy URL like 
-the one above.
+from a proxy server like  EZproxy.
 Instead, patrons access the
 original source directly.
 From a patron's perspective,
@@ -2863,31 +2868,30 @@ the SAML method.</p>
 <h2 id="conclusion-3"><a class="header" href="#conclusion-3">Conclusion</a></h2>
 <p>The Samples &amp; Healy (2014) and
 the Carter &amp; Traill (2017) articles
-largely speak to issues related
-to troubleshooting issues
+address troubleshooting strategies 
 with electronic resources.
 One additional thing to note
-about these readings is the
-how the organization's structure
-influences issues with workflow and
-with the continued transition from
+about these readings is
+how the organizational structure
+influences workflows and how
+the continued transition from
 a print-era model of library processes
-to an electronic one.
+to an electronic one remains problematic.
 Even once that transition is complete,
 both readings make the case that
 strategy and preparation are
 needed to deal with these issues.
-The Buhler &amp; Cataldo (2016) article,
+The Buhler &amp; Cataldo (2016) article
 shows how confusing e-resources
-are to patrons, and
+are to patrons and
 how the move to digital has
 complicated all genres,
 or &quot;containers&quot;, as
-the authors name it.
+the authors name them.
 Such &quot;ambiguity&quot; has
 implications not only for
 how users find and identify
-electronic resources, but
+electronic resources but
 on how librarians manage
 access to them.</p>
 <p>I added the
@@ -2912,7 +2916,16 @@ provide seamless access to
 paywalled content, as
 nearly as seamless as accessing
 content via a search engine or
-other source.</p>
+other source.
+Although neither will never be
+able to offer completely seamless
+access as long there are paywalled
+sources in library collections,
+the job of an electronic resource
+librarian is often to make sure
+they work as well as possible.
+This will often mean working 
+with vendors and colleagues.</p>
 <h2 id="references-1"><a class="header" href="#references-1">References</a></h2>
 <p>Samples, J., &amp; Healy, C. (2014). Making it look easy: Maintaining the magic of
 access. <em>Serials Review, 40</em>, 105-117.
@@ -3878,15 +3891,6 @@ journal article. That is, you've noticed the <strong>ezproxy.uky.edu</strong> st
 URL for a journal that you've accessed via UK Libraries' installation of
 EZproxy, and the URL <code>https://login.ezproxy.uky.edu/login</code> is the log in URL.
 Zou specifically references <a href="https://web.archive.org/web/20210716020704/https://acrl.ala.org/techconnect/post/analyzing-ezproxy-logs/">the standard way</a> of analyzing these logs
-(take a look at the page at that link), which can be insightful and helpful,
-but Zou's method makes the analysis of these logs more visual and real-time.
-The main weakness with Zou's method is that it seems to me to be highly
-dependent on Zou doing the work. If Zou leaves their library, then this
-customized analysis might not last. Still, it's good to know that if you have
-an interest in developing skills with systems administration, with various
-other technologies, and with some basic scripting language, this kind of thing,
-and more, is possible.</p>
-<p>[Zou (2015][zou2015] references <a href="https://web.archive.org/web/20210716020704/https://acrl.ala.org/techconnect/post/analyzing-ezproxy-logs/">the standard way</a> of analyzing these logs
 (take a look at the page at that link), which can be insightful and helpful,
 but Zou's method makes the analysis of these logs more visual and real-time.
 The main weakness with Zou's method is that it seems to me to be highly
