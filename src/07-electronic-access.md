@@ -310,6 +310,9 @@ but who can blame anyone.
 
 ## Access and Authentication
 
+Let's spend some a bit of time
+on the technologies around
+and access and authentication.
 Much of what exists in a
 library's electronic collections is paywalled,
 therefore librarians use software
@@ -476,7 +479,10 @@ uses for authentication.
 In the OpenAthens case,
 users are authenticated via
 an identity provider,
-which would be the library.
+which would be the library
+or the broader institution
+(and usually via some
+other software service).
 The library provides identification
 by connecting to its organization's
 identity management system,
