@@ -357,7 +357,7 @@ to facilitate standardized workflows.
 - [NISO: Technical Reports][technical]
 - [NISO: Standards][standards]
 
-## References
+## Readings / References
 
 Emery, J., & Stone, G. (2017, March 17). Announcing TERMS
 ver2.0. TERMS: Techniques for electronic resource
@@ -380,7 +380,7 @@ techniques for electronic resource management (TERMS). *The
 Serials Librarian, 66*(1–4), 212–219.
 [https://doi.org/10.1080/0361526X.2014.880028][hosburgh2014]
 
-## Optional Readings / Additional References
+## Additional References
 
 Burns, C. S. (2014). Academic libraries and automation: A
 historical reflection on Ralph Halstead Parker. *Portal:
@@ -402,7 +402,6 @@ Practices [Conference]. 2014 AALL Annual Meeting and
 Conference, Henry B. Gonzalez Convention Center San Antonio,
 TX.
 [http://eprints.hud.ac.uk/id/eprint/19420/][emery2014]
-
 
 Flexner, J. M. (1927). *Circulation Work in Public
 Libraries*. American Library Association.

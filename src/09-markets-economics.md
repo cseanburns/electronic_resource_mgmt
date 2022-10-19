@@ -600,7 +600,7 @@ peer-review) but not publisher versions
 (versions after formatting, etc.).
 We'll see how this plays out.
 
-## Reading / References
+## Readings / References
 
 Bosch, S., Albee, B., & Henderson, K. (2018). Death by 1,000 cuts. *Library
 Journal, 143*(7), 28–33.
@@ -610,7 +610,7 @@ Sanchez, J. (2015). Chapter 2. Forecasting public library e-content costs.
 *Library Technology Reports, 51*(8), 9–15. Retrieved from
 [https://journals.ala.org/index.php/ltr/article/view/5833][sanchez2015]
 
-## Additional Readings / References
+## Additional References
 
 Paganelli, A. (2022). Legally Speaking—States Unsuccessful in Providing
 Financial Relief of eBook Terms for Libraries. Against the Grain, 34(3).

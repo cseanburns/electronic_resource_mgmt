@@ -584,7 +584,7 @@ they work as well as possible.
 This will often mean working 
 with vendors and colleagues.
 
-## References
+## Readings / References
 
 Samples, J., & Healy, C. (2014). Making it look easy: Maintaining the magic of
 access. *Serials Review, 40*, 105-117.
@@ -599,7 +599,7 @@ Buhler, A., & Cataldo, T. (2016). Identifying e-resources: An exploratory study
 of university students. *Library Resources & Technical Services, 60*, 22-37.
 [https://doi.org/10.5860/lrts.60n1.23][buhler2016]
 
-## Additional Readings / References
+## Additional References
 
 Breeding, M. (2008). OCLC Acquires EZproxy. Smart Libraries Newsletter, 28(03),
 1–2.

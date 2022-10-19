@@ -277,7 +277,7 @@ transition between
 all we have studied thus far,
 and what we study going forward.
 
-## References
+## Readings / References
 
 Anderson, E. K. (2014). Chapter 2: Elements of electronic resource management.
 *Library Technology Reports, 50*(3).
@@ -287,7 +287,7 @@ Anderson, E. K. (2014). Chapter 3: Workflow analysis. *Library Technology
 Reports, 50*(3).
 [https://journals.ala.org/index.php/ltr/article/view/4493/5259][anderson2014b]
 
-## Additional Readings / References
+## Additional References
 
 Anderson, E. K. (2014). Chapter 4: Electronic resource management systems and
 related products. *Library Technology Reports, 50*(3).

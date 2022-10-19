@@ -376,7 +376,7 @@ climbing: E-resources, books, and library restructuring.
 *Collection Management, 39*(2–3), 110–126.
 [https://doi.org/10.1080/01462679.2014.901200][miller2014]
 
-## Optional Readings / Additional References
+## Additional References
 
 Anderson, E. K. (2014). Chapter 4: Electronic Resource
 Management Systems and Related Products. Library Technology

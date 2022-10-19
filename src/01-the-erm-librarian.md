@@ -299,7 +299,7 @@ Zhu, X. (2016). Driven adaptation: A grounded theory study of licensing
 electronic resources. Library & Information Science Research, 38(1), 69–80.
 [https://doi.org/10.1016/j.lisr.2016.02.002][zhu2016]
 
-## Optional Readings / Additional References
+## Additional References
 
 ALA. (2022, June 27). LibGuides: Copyright for Libraries:
 First Sale Doctrine.
