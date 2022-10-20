@@ -2,21 +2,36 @@
 
 ## Introduction
 
-Licenses, licensing, and
-negotiating licenses can be
-one of the most important parts
-electronic resource management.
-Due to the significance of
-this area of work,
-it is only after we
-we have learned
-about the technical and
-the economic aspects of
-ERM work that
-can begin our coverage of this
-important topic.
+I think it's fair to say
+that what characterizes
+electronic resource management the most
+is licensing.
+For if something is licensed,
+then it's most likely e-content or related,
+and by definition, it's not owned by a library,
+and thus it's a *temporary* item in the collection,
+and thus requires special management.
 
-To start, we should refresh ourselves
+Licensing requires understanding other
+aspects of electronic resource management, too.
+While an ERM librarian's job duties might
+be solely focused on the technical aspects
+of the work,
+i.e., those things we covered in prior sections,
+an ERM librarian whose primary job
+duty is to participate in the
+licensing process must have a good grasp
+of the technical for no reason
+other than that it is the technical
+that is licensed.
+In other words,
+it's probably a good thing
+to understand what is being licensed.
+Thus, this is an area of ERM librarianship
+that might take time to work up to.
+
+Before we get to that, though,
+we should refresh ourselves
 on the basics of copyright law,
 since what is being licensed is a
 fact of its existence.
@@ -56,7 +71,7 @@ in the Constitution
 to carve out some protection space
 for the authors or inventors
 from the public,
-for a limited time,
+for *a limited time*,
 in order to *promote
 the Progress of Science and useful Arts*.
 But in the end,
@@ -69,7 +84,8 @@ it takes preemptive status
 over other laws that are
 less universal,
 laws that are *in personam* (Rub, 2017).
-What creates tension is that
+On the other hand,
+what creates tension is that
 it is a kind of *right* that can
 be transferred or sold by way of a contract;
 that is, it is *in personam*.
@@ -83,13 +99,72 @@ and services.
 > a specific person only;
 > imposing a personal liability (Google Dictionary).
 
+In short, copyright exists in a unique space
+where it functions as a basic right,
+embedded in the earliest part of the
+US Constitution;
+it exists as a temporary bulwark
+against public ownership for
+the public good;
+and unlike other, basic rights,
+copyright is transferable,
+much like property is transferable.
+
+This all gets more complicated when
+licensing enters the picture, and
+this largely has to do with three things.
+First, the history of software
+reflects the history of print,
+in as much as source code relied
+on a physical medium,
+like a floppy disk or magnetic tape,
+to be distributed,
+just as a book had to be printed
+to be distributed.
+Second, the internet and greater
+availability of higher bandwidth speeds
+enabled, like books, software to
+be distributed as easily as any
+other digital object.
+Third, it wasn't originally
+clear that software, or source code
+in particular, was copyrightable,
+but the Copyright Office at the
+Library of Congress eventually
+decided that it was eligible.
+This elibility became codified
+in an 1980 amendment to
+the 1976 Copyright Act.
+This cemented the ability for 
+software copyright owners to lease
+their source code,
+especially once that code was
+free of a physical expression,
+and thereby evade the First Sale Doctrine,
+to users without transferring ownership
+of the expression to users.
+
+See:
+
+- [Fifty-Five Years of Software Copyright][fiftyfive]
+- [Computer Software Copyright Act of 1980][csca1980]
+- [Copyright Timeline: A History of Copyright in the United States][copyrightarl]
+- [The Computer Software Copyright Act of 1980][csca1980]
+
+[csca1980]:https://itlaw.fandom.com/wiki/Computer_Software_Copyright_Act_of_1980
+[fiftyfive]:https://mostlyiphistory.com/2019/05/19/fifty-five-years-of-software-copyright/
+[copyrightarl]:https://www.arl.org/copyright-timeline/
+[csca1980]:https://www.c2st.org/the-computer-software-copyright-act-of-1980/
+
+## Licensing Agreements
+
 [Licensing agreements][licensingagreements]
 offer copyright or intellectual property
+(patents, trademarks)
 owners a contractual framework.
-This framework functions as a
-contractual agreement among
-two or more parties, and
-it enables the parties involved
+This framework functions as an
+agreement among two or more parties.
+It enables the parties involved
 to participate,
 within some range of time
 (all contracts must have
@@ -101,8 +176,8 @@ agreements of all sorts.
 Licences cover bibliographic databases,
 ILS/ERM software, and
 of course, e-content.
-Unfortunately, regarding the latter,
-entering a licensing agreement for
+
+Entering a licensing agreement for
 e-content means that libraries
 do not own that content but
 only have access for a limited period of time,
@@ -118,10 +193,10 @@ ownership of the *item*
 *Functional Requirements for Bibliographic Records*
 [FRBR][frbr] model).
 
-## About Licenses
+## Licenses
 
 Weir (2016) provides a nice outline
-licenses and what they include.
+of licenses and what they include.
 According to Weir,
 there are two general types
 of licensing agreements:
@@ -178,50 +253,120 @@ and is well worth a read:
 * Business
 * Management
 
-We have three additional readings this week. One of the readings covers SERU: A
-Shared Electronic Resource Understanding, by NISO. We also have a short article
-by Regan that provides some guidelines on becoming competent on licensing.
+## Standardizing Agreements
 
-[SERU][seru2], [Shared Electronic Resource Understanding][seru3], is a NISO
-collaborative document that helped standardize some aspects of the licensing
-process and can be used as "an alternative to a license agreement" if a
-provider and a library agrees to use it. Like the standard licensing structure
-that Weir (2016) outlines, SERU includes parts that describe use, inappropriate
-use, access, and more but also posits other stipulations, such as
+Like the various technologies that
+we have covered,
+NISO and its members moved toward
+forming a document that helps
+create a common license framework.
+The result was
+[SERU: A Shared Electronic Resource Understanding][seru].
+Although all licenses share some
+basic similarities,
+as discussed in Weir (2016) above,
+the details of the hundreds of licenses
+a large library has to handle
+can get lost in a sea of variability.
+
+[SERU is a NISO recommended practice][seruDoc]
+helps to resolve this.
+It fosters a common approach
+to some aspects of the licensing process and
+in fact can be used as
+"an alternative to a license agreement"
+if a provider and a library agrees to use it.
+Like the standard licensing structure
+that Weir (2016) outlines,
+SERU includes parts that
+describe use, inappropriate use,
+access, and more
+but also posits other stipulations,
+such as
 confidentiality and privacy.
 
-[seru2]:https://groups.niso.org/apps/group_public/download.php/8593/RP-7-2012_SERU.pdf
-[seru3]:https://www.niso.org/standards-committees/seru
+## NASIG Core Competencies
 
-The other reading is the [NASIG Core Competencies for Electronic Resources
-Librarians][nasigcc]. We have already visited this, and although it doesn't
-specifically cover licensing, I added it to this week's reading list for a
-couple of reasons. First, it's a reminder that when we talk about electronic
-resource management, we talk about a comprehensive list of responsibilities,
-skills, technologies, and more, and I need to keep this on our radar. Second,
-because the Regan reading specifically mentions these competencies, and I
-thought it would good to reintroduce them here.
+We have addressed the
+[NASIG Core Competencies for Electronic Resources Librarians (NCC)][nasigcc]
+in earlier sections.
+The NCC is a reminder 
+of the centrality of licensing
+for the ERM librarian.
+Section 1.2 states:
 
-[nasigcc]:https://www.nasig.org/Core-Competencies
+> Thorough knowledge of electronic resource licensing and the legal
+> framework in which it takes place.  Since licenses govern the use of
+> most library electronic resources and have conditions that cannot
+> knowingly  be  violated,  an ERL with responsibilities related to
+> licensing must demonstrate familiarity with how and for whom an
+> organization licenses content, as well as the concepts, implications,
+> and contract language pertaining to such issues as archival rights,
+> perpetual access and interlibrary loan.  A practical working
+> understanding of issues such as copyright and fair use will allow ERLs
+> to obtain the least restrictive, most library-friendly licensing terms
+> during publisher/vendor license negotiations.
 
-This week, after reading the material, I want you to focus on the Regan article
-and some of the questions raised there. Regan raises important questions about
-the licensing process, about effective communication, and about advocacy. I
-want you to comment on these issues, and I want you to answer some questions
-that Regan raises. You can do that by searching the web and library websites.
-In fact, at the beginning of the semester I asked you to subscribe to the
-SERIALST email list. It's now time to draw upon that and any discussions you've
-seen in those lists that are related. You can usually search the archives of
-those lists, especially since traffic has been a bit light recently. Regan
-mentions some other sources, such as [LIBLICENSE][liblicense] and
-[copyrightlaws.com][cclaws]. Any of these are fair game for our discussions,
-but the latter is a commercial entity that provides material and tutorials for
-a kind of tuition. It might be useful to know about it, but explore only if you
-want. However, LIBLICENSE provides model licenses as well as links to
-[additional model licences][addmodels], including the above mentioned
-California Digital Library Standard License Agreement. The LIBLICENSE model
-license includes even more details, such as types of authorized uses, and
-details that include provisions on:
+Even though I have covered NCC
+in earlier sections,
+it's a reminder that when
+we talk about electronic resource management,
+we talk about a comprehensive
+list of responsibilities,
+skills, technologies, and more, and
+that we should keep this on our radar.
+Second, the [Regan (2015)][regan2015]
+specifically mentions these competencies
+with respect to the importance of
+learning more about the licensing process.
+
+I think it's still true,
+seven years after publication and
+as Regan (2015) states,
+that few library schools cover licensing
+and license negotiations and
+more broadly,
+electronic resource management, but
+I think that's changing.
+Even if it's covered, like here,
+Regan's advice is still important and
+the essential questions they ask
+are relevant even if you have
+extensive experience with the process.
+
+What is also relevant is the
+additional theme that Regan (2015)
+covers about the importance
+of advocating.
+Many people are nervous about the
+idea of having to negotiate a license
+for an e-product, but
+in reality,
+such work is not done outside of a team.
+And that team will likely include
+people who work outside of libraries.
+This makes it important to advocate
+for the library and the licensing process.
+
+## LIBLICENSE 
+
+[LIBLICENSE][liblicense] is a resource
+to assist librarians in crafting, adopting,
+and managing licenses for electronic resources.
+The project is aimed at university libraries, but
+is relevant to other library types, too.
+The [model licenses][addmodels] page provides a link
+to the main template, but
+also links to additional model licenses
+that cover the United States,
+the United Kingdom, and Canada
+from various institutional perspectives,
+including consortial licensing.
+
+The LIBLICENSE model license
+includes helpful details,
+such as types of authorized uses and
+provisions on:
 
 * course reserves
 * course packs
@@ -229,6 +374,30 @@ details that include provisions on:
 * scholarly sharing
 * scholarly citation
 * text and data mining
+
+It's important to note that anything
+that is covered in a license is subject
+to negotiation between the library and
+the vendor.
+That does not meant that terms will
+be accepted between the parties, but
+if something is unfavorable or not
+in the best interests of your institution
+and patrons,
+then that needs to be discussed by all parties.
+
+These model licenses are invaluable
+not only from a practicing perspective but
+also from an educational perspective.
+The more you review,
+the more comfortable you will become
+working with them.
+And, as we will learn in the next section,
+one of the most important parts of the
+negotiating process is being prepared
+to negotiate.
+That entails being familiar with the
+basic license model.
 
 ## Readings / References
 
@@ -255,17 +424,19 @@ Negotiation. In R. O. Weir (Ed.), Managing electronic resources: a LITA
 guide. Chicago: ALA TechSource, an imprint of the American Library
 Association.
 
-[nasig]:[https://nasig.org/Competencies-Eresources]
-[regan2015]:https://doi.org/10.1080/0361526X.2015.1026225
-[seru]:http://www.niso.org/publications/rp/RP-7-2012_SERU.pdf
-[liblicense]:http://liblicense.crl.edu/
-[cclaws]:https://www.copyrightlaws.com/
-[addmodels]:http://liblicense.crl.edu/licensing-information/model-license/
-[contractlaw]:https://www.law.cornell.edu/wex/contract
 [a1s8c8]:https://constitution.congress.gov/browse/essay/artI-S8-C8-1/ALDE_00013060/
-[rub2017]:https://papers.ssrn.com/abstract=2926253
+[addmodels]:http://liblicense.crl.edu/licensing-information/model-license/
+[cclaws]:https://www.copyrightlaws.com/
+[contractlaw]:https://www.law.cornell.edu/wex/contract
 [copyrightgov]:https://www.copyright.gov/
-[whatiscopyright]:https://www.copyright.gov/what-is-copyright/
-[licensingagreements]:https://www.esports.law/blog/licensing-agreements-components-and-concerns
 [frbr]:https://www.loc.gov/cds/downloads/FRBR.PDF
+[liblicense]:http://liblicense.crl.edu/
+[licensingagreements]:https://www.esports.law/blog/licensing-agreements-components-and-concerns
+[nasigcc]:https://www.nasig.org/Core-Competencies
+[nasig]:[https://nasig.org/Competencies-Eresources]
 [publicdomain]:https://fairuse.stanford.edu/overview/public-domain/welcome/
+[regan2015]:https://doi.org/10.1080/0361526X.2015.1026225
+[rub2017]:https://papers.ssrn.com/abstract=2926253
+[seruDoc]:http://www.niso.org/publications/rp/RP-7-2012_SERU.pdf
+[seru]:https://www.niso.org/standards-committees/seru
+[whatiscopyright]:https://www.copyright.gov/what-is-copyright/
