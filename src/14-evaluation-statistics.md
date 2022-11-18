@@ -4,7 +4,7 @@
 
 We've discussed problems 
 with defining terms, and
-we have learned that a lot of
+we have learned that much
 effort has been expended
 into standardizing them.
 We have also seen that the
@@ -15,28 +15,34 @@ linked in some way.
 All this complexity makes the
 measurement of *usage* that
 much more complicated.
-The problem is that when
+The complication arises when
 electronic resources
 (or basically all activity on the web
-and internet) are accessed,
+and internet) are accessed from client machines,
 a computer server somewhere
-keeps a log of tha  interaction.
+keeps a log of that access.
 Having logs available makes
-it seem that we can have accurate data
-about usage,
+it seem that we can have
+accurate data about usage,
 but it's not a guarantee, and
-the insight we may be able to glean
+the insight we may glean
 is always difficult to acquire no
 matter how much data is available to us.
 
-Example web server access log entry (I've obfuscated the IP address and the
-website domain):
+> ```
+> 999.999.999.999 - - [18/Nov/2022:04:40:38 +0000] "GET /index.html HTTP/1.1" 200 494 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
+> ```
+>
+> Example web server access log entry,
+> with obfuscated IP address.
+> Simply by visiting a site,
+> the web server is able to log
+> the client's IP address, the timestamp,
+> the page the client requested,
+> the client's operating system type and version,
+> and the client's web browser type and version.
 
-```
-99.999.99.99 - - [21/Oct/2021:10:54:35 -0400] "GET /favicon.ico HTTP/1.1" 404 517 "https://WEBSITE.edu/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0"
-```
-
-Access log type data can be
+Access log data like above can be
 good data to explore, but
 we have to be mindful that all
 data has limitations, and
@@ -44,7 +50,7 @@ that there are different ways
 to define what usage means.
 For example, the log snippet above
 indicates that I visited that
-link at that server, but
+a page named *index.html* on that server, but
 does that mean that I really
 **used** that website even though
 I accessed it?
@@ -57,18 +63,17 @@ there is software, like Google Analytics,
 that would be able
 to collect additional usage data.)
 
-Now we learn about the efforts that
-have gone into standardizing usage
-metrics and usage reports via
-Project Counter.
-Also, we see a few examples of
-how usage data can help inform
-collection development and benefit
-the library in other ways.
-This is an important area of
-electronic resource librarianship,
-but it's also an area that may
-overlap with other parts of librarianship,
+As with other things we have discussed,
+there have been efforts to standardize
+electronic resource usage.
+It's an important process because
+usage data informs
+collection development and
+benefits the library in other ways.
+Discussions about usage do belong
+to the domain of electronic resource librarianship,
+but it also overlaps with
+other areas of librarianship,
 such as systems librarianship or
 collection development.
 Here we might see job
@@ -76,11 +81,14 @@ titles like [library systems administrator][lsadmin].
 
 ## Project Counter
 
-Project Counter is a Code of Practice
-that seeks to help provide more
-informative and consistent reporting
-of electronic resource usage. From
-[Project Counter][projcounter]:
+Project Counter is the primary attempt
+to standardize how usage is defined,
+measured, collected, and shared.
+It is a Code of Practice
+that provides informative and
+consistent reporting
+of electronic resource usage.
+From [Project Counter][projcounter]:
 
 > Since its inception in 2002, COUNTER has been focused on
 > providing a code of practice that helps ensure librarians
@@ -98,7 +106,7 @@ of electronic resource usage. From
 > the current Code of Practice.
 
 These reports were designed to
-help solve a problem that will likely
+solve a problem that will likely
 never completely be solved, but
 it's still an important and useful effort.
 The main goal of Counter is to provide
@@ -126,10 +134,6 @@ let's review the introduction to the
 [Code of Practice][projcounter],
 which articulates the purpose, scope,
 application, and more of Counter.
-
-[ Note: Review the Introduction to the Code of Practice ]
-
-## Readings
 
 [Pesch (2017)][pesch2017] provides a
 helpful introduction to the history of
@@ -179,6 +183,8 @@ interlibrary loan, the metrics, and
 other limitations described
 in the Conclusion section of this article.
 
+## The Value of Metrics
+
 We move away from Project Counter with the
 [Stone and Ramsden (2013)][stone2013].
 I introduce this article because it
@@ -206,7 +212,9 @@ quantitative metrics alone but supports
 its findings through qualitative research.
 There's only so much a usage metric can say.
 
-Finally, I would like you to be
+## Using Metrics
+
+I would like you to be
 aware of the
 [*code\{4\}lib* journal][code4lib]
 and this article by [Zou][zou2015] is pretty cool.
@@ -256,28 +264,82 @@ with various other technologies,
 and with some basic scripting language,
 this kind of thing, and more, is possible.
 
-## References / Readings
+## Getting Creative
+
+[Smith & Arneson (2017)][smith2017] detail
+very creative and fun ways to collect usage data
+about resource usage when vendors do not provide
+usage data.
+In the first part of this article,
+Smith describes how they analyzed
+their link resolver reports
+to infer what users were accessing
+in their collections.
+Arneson's section describes using a
+Linux file search utility called ``grep``
+to construct search queries of the EZproxy logs
+and deduce usage of specific electronic resources. 
+Since both methods require sifting through
+log entries like the one I highlighted above,
+the process requires some sleuthing, testing,
+time, and patience.
+However, once figured out,
+the process and reports can easily be
+automated.
+
+## Conclusion
+
+Librarians used a variety of techniques
+to collect usage data in the print era, but
+like many things we've learned about,
+electronic resources have complicated things.
+First, because more data is available about
+usage with electronic resources,
+before that data can be used,
+it has to be defined.
+Project Counter is an attempt to define
+what usage means and how to report it.
+
+Quantitative metrics should will never
+be able to provide a complete picture
+of how a library's collections are used, but
+they are an important part.
+Not only do they help librarians manage
+their collections,
+they also help librarians show proof 
+of their collection's importance to their
+communities.
+Furthermore, with a little
+skill, practice, and creativity,
+usage logs can also be used to build
+cool apps (Zou, 2015)
+or help fill in the gaps when
+vendors fall short in their requirements
+(Smith & Arneson, 2017).
+
+## Readings / References
 
 Pesch, O. (2017). COUNTER Release 5: What’s New and What It
-Means to Libraries. The Serials Librarian, 73(3–4), 195–207.
+Means to Libraries. *The Serials Librarian, 73*(3–4),
+195–207.
 [https://doi.org/10.1080/0361526X.2017.1391153][pesch2017]
 
 Scott, M. (2016). Predicting Use: COUNTER Usage Data Found
 to be Predictive of ILL Use and ILL Use to be Predictive of
-COUNTER Use. Serials Librarian, 71(1), 20–24.
+COUNTER Use. *Serials Librarian, 71*(1), 20–24.
 [https://doi.org/10.1080/0361526X.2016.1165783][scott2016]
 
 Stone, G., & Ramsden, B. (2013). Library impact data
 project: Looking for the link between library usage and
-student attainment. College & Research Libraries, 74 (6).
+student attainment. *College & Research Libraries, 74*(6).
 [http://doi.org/10.5860/crl12-406][stone2013]
 
 Zou, Q. (2015). A novel open source approach to monitor
-Ezproxy Users’ activities. code{4}lib Journal, 29 .
+Ezproxy Users’ activities. *code{4}lib Journal, 29*.
 [http://journal.code4lib.org/articles/10589][zou2015]
 
 Smith, K., & Arneson, J. (2017). Determining usage when
-vendors do not provide data. Serials Review, 43(1), 46–50.
+vendors do not provide data. *Serials Review, 43*(1), 46–50.
 [https://doi.org/10.1080/00987913.2017.1281788][smith2017]
 
 [code4lib]:https://code4lib.org/
