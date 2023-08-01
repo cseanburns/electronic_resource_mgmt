@@ -11,7 +11,7 @@
     - [Standardizing ERM](./05-standardizing-erm.md)
     - [Interoperability](./06-interoperability.md)
     - [Electronic Access](./07-electronic-access.md)
-- [Processes and Contexts](./p3-processes-contexts.md)
+- [E-resource Stewardship](./p3-e-resource-stewardship.md)
     - [The ERM Workflow](./08-workflow.md)
     - [Markets and Economics of Electronic Resources](./09-markets-economics.md)
     - [Licensing Basics](./10-licensing-basics.md)
