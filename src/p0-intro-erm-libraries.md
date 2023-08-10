@@ -27,8 +27,8 @@ edit for clarity when I discover some aspect
 of the book causes confusion or
 does not provide enough information.
 
-**To do list:**
-
-- Write section introductions
+Please use the search function on this site to search for specific topics or
+keywords. If the reader desires a PDF copy of this work, the printer icon at
+the top right of the page will print to PDFs.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
