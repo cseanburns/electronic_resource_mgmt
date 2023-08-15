@@ -1,8 +1,7 @@
 # Electronic Resource Management in Libraries
 
 Author: C. Sean Burns  
-Date version 1: 2022-08-13  
-Date version 2: 2023-08-01 (in-progress)  
+Date, version 1: 2022-08-15  
 Email: [sean.burns@uky.edu](sean.burns@uky.edu)  
 Website: [cseanburns.net](https://cseanburns.net)  
 GitHub: [@cseanburns](https://github.com/cseanburns)
