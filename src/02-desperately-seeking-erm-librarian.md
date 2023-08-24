@@ -48,7 +48,7 @@ are not current job openings, but
 they were current within the last few years.
 
 To follow up on more current advertisements for ER librarians,
-I did a Google search on August 15, 2022 using the following query:
+I did a Google search on August 24, 2023 using the following query:
 
 ```
 "electronic resource librarian" job
@@ -302,9 +302,12 @@ but for now let's reflect on the following questions:
   Competencies][NCC]?
   - Where are you strong?
   - Where would you like to improve?
-- What can you (and we, as a course community) do to help each of you get there?
+- What can you (and we, as a course community) do to help each of you get
+  there?
   - What's your path?
   - What can you practice?
+- Do a job search for electronic resource management. How do the job ads align
+  with the how the position is described in the readings?
 
 ## Readings / References
 
