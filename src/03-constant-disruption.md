@@ -113,14 +113,17 @@ that you will rarely find more advanced scholarly resources
 in public libraries.
 These differences in needs, due to different communities,
 will change the emphasis on some aspects
-of the ERM work flow.
+of the ERM workflow.
 
-> Aside: As an example, see the impact that the current
-> book bans are having on ebook providers and note all
-> the parties involved in these situations, including:
-> superintendents, county officials, county school system,
-> school district employees, etc.
-> [NBC News][nbc2022]
+> Aside: As an example, see the impact that the current book bans are having on
+> ebook providers and note all the parties involved in these situations,
+> including: superintendents, county officials, county school system, school
+> district employees, etc. [Ingram, 2022][nbc2022].
+>
+> In a newer development, ChatGPT is being used to satisfy the legal
+> requirements [Iowa school districts (Opsahl, 2023)][senate496] must follow to
+> remove books that contain any sexual content from school libraries ([Paul,
+> 2023][popsci2023]).
 
 Another reason why our reading lists
 lean toward the academic setting is not because
@@ -131,10 +134,10 @@ electronic resources and public librarians publish very little.
 For example, I conducted a search in [LISTA][listaUK]
 with the following query,
 which returned just three results in 2021 when I first ran
-the query and four results in August 2022 when I ran it again.
+the query, four results in August 2022, and four results again
+in August 2023.
 In fact, a new article wasn't published since the 2021
 query. Rather, LISTA just added an addition item from 2015.
-
 
 ```
 (DE "ELECTRONIC information resources management")  AND  (DE "PUBLIC libraries")
@@ -142,8 +145,8 @@ query. Rather, LISTA just added an addition item from 2015.
 
 It does not get much better if I expand the query
 to include some additional thesauri terms.
-This query returns only six results in 2021 and seven in
-2022:
+This query returns only six results in 2021,
+seven in 2022, and eight in 2023:
 
 ```
 (DE "PUBLIC librarians" OR DE "PUBLIC librarianship" OR DE "PUBLIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
@@ -151,13 +154,13 @@ This query returns only six results in 2021 and seven in
 
 However, if I focus that query on academic libraries,
 then the results increase substantially.
-The following query returns 51 hits in 2021 and 57 in 2022:
+The following query returns 51 hits in 2021, 57 in 2022, and 61 in 2023:
 
 ```
 (DE "ELECTRONIC information resources management")  AND  (DE "ACADEMIC libraries")
 ```
 
-And this query returns 82 results in 2021 and 90 in 2022:
+And this query returns 82 results in 2021, 90 in 2022, and 97 in 2023:
 
 ```
 (DE "ACADEMIC librarians" OR DE "ACADEMIC librarianship" OR DE "ACADEMIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
@@ -184,7 +187,7 @@ electronic resource management from the
 public library perspective, and
 a quick search in the school media sphere
 mirrors this issue, too.
-The following search return zero results in 2021 and in 2022:
+The following search return zero results in 2021, 2022, and 2023:
 
 ```
 (DE "LIBRARY media specialists")  AND  (DE "ELECTRONIC information resources management")
@@ -205,10 +208,9 @@ to look for in these three articles.
 
 Librarians started to migrate to
 electronic resource management in the 1970s.
-Breeding mentions this.
-This is when it happened en masse, but the seeds were
+Breeding mentions this, but the seeds were
 planted well before this.
-I published [a paper][burns2014] a few years ago that
+Nearly a decade ago, I published [a paper][burns2014] that
 provides a historical account of the first library
 automation project,
 which took place in the 1930s with
@@ -245,7 +247,7 @@ are ancient entities,
 libraries and librarianship as we understand them today
 did not modernize until the late 1800s but more
 so starting in the 1920s and 1930s.
-It was then that some in the profession began to hone in on
+It during this later time frame when some in the profession began to hone in on
 the major complexities and challenges,
 social and technological,
 involved in **organizing** and **retrieving** information
@@ -260,7 +262,7 @@ users, communities, and so forth.
 
 Yet consider when those people laid the groundwork
 for a library science nearly 100 years ago,
-librarians only managed print and the primary means of
+librarians only managed print, and the primary means of
 accessing print collections was through a physical building.
 With the introduction of computer systems in the 1960s and
 with better networking technologies in the 1980s and 1990s,
@@ -280,42 +282,45 @@ They include:
 - Library service platforms (LSP)
 - Integrated library systems (ILS)
 
+> Not all but many of the above terms are defined in [ODLIS: Online Dictionary for Library and Information Science][odlis].
+
+[odlis]:https://odlis.abc-clio.com/
+
 Unless you already have some solid experience
 with these things, and even after reading Breeding's
 article, these terms may still be abstract.
 So, this week, you have two major tasks:
 
-1. Find real, practical examples. Pick one or two of the
-   above terms and see how they work in practice. Then come
-   back here and tell us what you found. Use the articles to
-   help you locate actual products or examples.
-1. Locate how these terms appear in either the Cote and
-   Ostergaard (2017) article or the Fu and Carmen (2015).
-   Note other terms that may appear in those two articles
-   and comment on the role they play in the ERM work flow
+1. Find real, practical examples. Pick one or two of the above terms and see
+   how they work in practice. Then come back here and tell us what you found.
+   Use the articles to help you locate actual products or examples. See
+   Breedings [Library Technology Guides][LTGuides] for reference.
+1. Locate how these terms appear in either the Cote and Ostergaard (2017)
+   article or the Fu and Carmen (2015). Note other terms that may appear in
+   those two articles and comment on the role they play in the ERM workflow
    and the migration process.
 
-### Work flow
+### Workflow
 
 As you work on this task,
-I ask that you pay attention to the emphasis on work flow.
-The idea of a **work flow** is a major theme in this course
+I ask that you pay attention to the emphasis on [workflow][workflow].
+The idea of a **workflow** is a major theme in this course
 because it is a major part of
 electronic resource management.
-We'll come back to the idea over and over this semester.
+We'll come back to the idea throughout this work.
 Also, as we read the Cote and Ostergaard (2017) and
 the Fu and Carmen (2015) article,
 we will learn about how migrating to new systems is a
 major, expensive, and time-consuming project, and
 one of the great things about
-these two articles is that it documents the work flows
+these two articles is that it documents the workflows
 used in these migrations.
 If you become involved some day in a migration process,
 you should use articles like these to assist you and
 to help you make evidence-based decisions about what
 you need to accomplish.
 And like what these authors have done,
-I'd encourage you to document and publish what you learned.
+I would encourage you to document and publish what you learned.
 In the print era,
 there were some cases where librarians had
 to migrate to new systems, too.
@@ -324,7 +329,7 @@ started by classifying collections using the
 Dewey Decimal Classification system, but
 then began to convert to the
 Library of Congress Classification system after
-the mid-20th century.
+the mid-20<sup>th</sup> century.
 This was no small task.
 Today, migration is big business in the library world
 (see Breeding's site for other examples)
@@ -364,6 +369,11 @@ Ingram, D. (2022, May 12). Some parents now want e-reader
 apps banned - and they're getting results. NBC News.
 [https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103][nbc2022]
 
+Opsahl, R., May 26, I. C. D., & 2023. (2023, May 26). Governor signs education
+bills, including ban on school books depicting sex. Iowa Capital Dispatch.
+[https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/][senate496]
+
+Paul, A. (2023, August 14). School district uses ChatGPT to help ban library books. *Popular Science*. [https://www.popsci.com/technology/iowa-chatgpt-book-ban/][popsci2023]
 
 [mergerHistory]:https://librarytechnology.org/mergers/
 [LTGuides]:https://librarytechnology.org/
@@ -376,3 +386,6 @@ apps banned - and they're getting results. NBC News.
 [listaUK]:https://libguides.uky.edu/803
 [lexpublib]:https://lexpublib.org/
 [carlILS]:https://librarytechnology.org/product/carlx/
+[workflow]:https://en.wikipedia.org/wiki/Workflow
+[popsci2023]:https://www.popsci.com/technology/iowa-chatgpt-book-ban/
+[senate496]:https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/
