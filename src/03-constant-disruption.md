@@ -118,12 +118,14 @@ of the ERM workflow.
 > Aside: As an example, see the impact that the current book bans are having on
 > ebook providers and note all the parties involved in these situations,
 > including: superintendents, county officials, county school system, school
-> district employees, etc. [Ingram, 2022][nbc2022].
+> district employees, etc. [Ingram, 2022][ingram2022].
 >
 > In a newer development, ChatGPT is being used to satisfy the legal
-> requirements [Iowa school districts (Opsahl, 2023)][senate496] must follow to
+> requirements [Iowa school districts (Opsahl, 2023)][opsahl2023] must follow to
 > remove books that contain any sexual content from school libraries ([Paul,
-> 2023][popsci2023]).
+> 2023][paul2023]). There's a worthwhile response to criticisms about this
+> and about the overall law in a [recent New York Times article (Exman,
+> 2023)][exman2023].
 
 Another reason why our reading lists
 lean toward the academic setting is not because
@@ -365,15 +367,17 @@ historical reflection on Ralph Halstead Parker. Portal:
 Libraries and the Academy, 14(1), 87–102.
 [https://doi.org/10.1353/pla.2013.0051][burns2014]
 
+Exman, B. (2023, September 1). Opinion | A Word on Censorship From the Book-Banning Monster of Iowa. *The New York Times*. [https://www.nytimes.com/2023/09/01/opinion/book-ban-schools-iowa.html][exman2023]
+
 Ingram, D. (2022, May 12). Some parents now want e-reader
 apps banned - and they're getting results. NBC News.
-[https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103][nbc2022]
+[https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103][ingram2022]
 
 Opsahl, R., May 26, I. C. D., & 2023. (2023, May 26). Governor signs education
 bills, including ban on school books depicting sex. Iowa Capital Dispatch.
-[https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/][senate496]
+[https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/][opsahl2023]
 
-Paul, A. (2023, August 14). School district uses ChatGPT to help ban library books. *Popular Science*. [https://www.popsci.com/technology/iowa-chatgpt-book-ban/][popsci2023]
+Paul, A. (2023, August 14). School district uses ChatGPT to help ban library books. *Popular Science*. [https://www.popsci.com/technology/iowa-chatgpt-book-ban/][paul2023]
 
 [mergerHistory]:https://librarytechnology.org/mergers/
 [LTGuides]:https://librarytechnology.org/
@@ -382,10 +386,12 @@ Paul, A. (2023, August 14). School district uses ChatGPT to help ban library boo
 [cote2017]:https://doi.org/10.1080/0361526X.2017.1285128
 [fu2015]:https://digitalcommons.cwu.edu/libraryfac/30/
 [burns2014]:https://doi.org/10.1353/pla.2013.0051
-[nbc2022]:https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103
+[ingram2022]:https://www.nbcnews.com/tech/tech-news/library-apps-book-ban-schools-conservative-parents-rcna26103
 [listaUK]:https://libguides.uky.edu/803
 [lexpublib]:https://lexpublib.org/
 [carlILS]:https://librarytechnology.org/product/carlx/
 [workflow]:https://en.wikipedia.org/wiki/Workflow
-[popsci2023]:https://www.popsci.com/technology/iowa-chatgpt-book-ban/
-[senate496]:https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/
+[paul2023]:https://www.popsci.com/technology/iowa-chatgpt-book-ban/
+[opsahl2023]:https://iowacapitaldispatch.com/2023/05/26/governor-signs-education-bills-including-ban-on-school-books-depicting-sex/
+[exman2023]:https://www.nytimes.com/2023/09/01/opinion/book-ban-schools-iowa.html
+
