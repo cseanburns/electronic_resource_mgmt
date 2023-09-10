@@ -35,7 +35,7 @@ other areas of their [resource management] operations"
 
 ### Administration
 
-In order to provide the above services,
+In order to provide the above functions,
 the ILS/LSP has an administrative interface
 that librarians use to manage their resources.
 The interface contains a set of
@@ -70,9 +70,12 @@ For example, the [Alma LSP][almalsp]
 provides modules dedicated to
 acquisitions, resources, discovery (via Primo),
 fulfillment, administration, and analytics.
+This is part of what differentiates a LSP
+from an ILS.
 Please take a moment and read
 about these modules in
-[Evergreen's][evergreen] documentation
+[Evergreen's][evergreen] documentation,
+which is an ILS,
 and visit the Alma and LibLime links to
 learn more about their specifically LSP products.
 
@@ -95,7 +98,7 @@ Until fairly recently,
 the **OPAC**
 was the primary way to locate and access
 items in library collections.
-However, in many ILS/LSPs
+However, in LSPs
 the OPAC has evolved into a **discovery system**,
 depending on what and
 how it searches its records and other factors.
@@ -152,15 +155,16 @@ In short:
   
 An ILS/LSP is therefore,
 as Stephen Salmon stated in 1975,
-a non-traditional way of doing traditional things,
+a "non-traditional" way of doing traditional things,
 such as "acquisitions, cataloging, and circulation,"
-but which is now fairly traditional!
+but which has now become fairly routine!
 
 Electronic resource librarians might work extensively with
-a resources or like module in order to administer
-the library's digital assets (e.g., contracts, etc.),
-but all librarians will use one or more of the
-ILS/LSP modules.
+specific resources or modules
+in order to administer
+the library's digital assets
+(e.g., contracts, etc.),
+but all librarians use one or more of the ILS/LSP modules.
 For example,
 when I worked in reference at a small academic library,
 I used the Millennium ILS to check out books to users,
@@ -190,22 +194,28 @@ see the links in the text above and visit the following:
   - [iii innovative][innovative]
   - [EBSCO Discovery Service][ebdiscovery]
 
-## ERM, the Electronic Resource Management System
+## ERMS, the Electronic Resource Management System
 
-ERM is an acronym for *electronic resource management system*.
+ERMS is an acronym for *electronic resource management system*.
 Its function is born from the need to manage
 a library's **digital assets**,
 for example, the licenses that a library has signed.
 In order to manage assets like licenses,
-the ERM can keep track of the signatories,
+the ERMS can keep track of the signatories,
 the terms of the license/contracts,
 specific documents related to these processes,
 and more.
-An ERM may or may not be integrated
+An ERMS may or may not be integrated
 with a library's ILS software.
-But it's most likely part of a LSP solution.
+But it's most likely integrated in a LSP solution.
 The Alma LSP, for example, is a LSP that also provides
 [electronic resource management][almaerm].
+In short,
+a library that uses an ILS may also be using
+a separate ERMS product.
+However, many LSPs have built in
+ERMS functionality,
+thereby not requiring a second ERMS product.
 
 Like the ILS/LSP,
 ERM software is generally divided into modules
