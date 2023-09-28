@@ -310,35 +310,42 @@ but who can blame anyone.
 
 ## Access and Authentication
 
-Let's spend some a bit of time
-on the technologies around
-and access and authentication.
-Much of what exists in a
-library's electronic collections is paywalled,
-therefore librarians use software
-that authenticates users before
-they acquire access.
-This is generally required
-in agreements with content vendors.
+In this section,
+we'll delve into the technological frameworks that
+facilitate access to and authentication of library electronic collections.
+Given that a significant portion
+of these resources are behind paywalls,
+libraries employ specialized software
+to verify user credentials before granting access.
+These authentication measures are not just best practices
+but are often mandated by contractual agreements with content providers.
 
 There are two main technologies
 used to authenticate users.
-The first is through an IP / proxy server.
-Here, [EZproxy][ezproxyex] (OCLC)
+The first is through an IP / proxy server, and
+the second is through what is called SAML authentication.
+We address these two authentication types below.
+
+### Proxy Authentication
+
+[EZproxy][ezproxyex] (OCLC)
 is the main 
-product in this arena, and
-in fact we use EZproxy at UK.
+product of the first type.
 When we access any paywalled work,
 like a journal article,
-you may notice
-the **ezproxy.uky.edu**
-string of text in a URL.
+you may notice something like
+**ezproxy.uky.edu**
+in the string of text in a URL.
 For example,
 the following is an EZProxy URL:
 
 ```
 https://www-sciencedirect-com.ezproxy.uky.edu/science/article/pii/S030645730500004X
 ```
+
+> Note that UK Libraries, which I use in these examples, is transitioning away
+> from EZProxy and adopting OpenAthens, which is SAML based. More on that
+> below.
 
 The interesting thing about
 this URL is that it has a
@@ -452,6 +459,8 @@ EZproxy authentication here:
 https://login.ezproxy.uky.edu/menu
 ```
 
+### SAML Authentication
+
 The second main technology
 used to authenticate and
 provide access
@@ -461,28 +470,33 @@ The main product that provides
 SAML authentication for libraries is
 [OpenAthens][openathens].
 
+SAML, or
+*Security Assertion Markup Language*,
+is an XML-based standard that
+exchanges and authorizes data between parties,
+in particular,
+between an identity provider (IdP) and
+a service provider (SP).
+
 Unlike a proxy / IP
 authentication process,
-SAML is a type of identity
-verification system.
+SAML's main function is that of a
+identity verification system.
 Under this method,
-libraries offer a single sign-on
-process, and
-once authenticated,
-patrons have access to
-all SAML ready
+libraries offer a single sign-on process,
+and once authenticated,
+patrons have access to all SAML ready
 content or service providers.
 The process is similar to
 the [Duo Single Sign-On][duo]
-service our university
-uses for authentication.
+service many universities
+use for authentication.
 In the OpenAthens case,
 users are authenticated via
 an identity provider,
 which would be the library
 or the broader institution
-(and usually via some
-other software service).
+(and usually via some other software service).
 The library provides identification
 by connecting to its organization's
 identity management system,
@@ -501,11 +515,11 @@ One of the benefits of this method
 is that URLs are not proxied,
 which means that content is not
 delivered to the patron
-from a proxy server like  EZproxy.
+from a proxy server like EZproxy.
 Instead, patrons access the
 original source directly.
 From a patron's perspective,
-this makes sharing URLs nicer.
+this facilitese sharing clean, unproxied URLs.
 As far as I can tell,
 one of the downsides might
 be privacy related.
@@ -519,6 +533,34 @@ masks the patron's IP address
 and browser information.
 This wouldn't be true under
 the SAML method.
+
+In a bit more detail,
+a SAML-based authentication process
+is described below:
+
+1. **User Request**: A user tries to access a resource on the service provider (e.g., a paywalled library article).
+2. **Redirection**: If the user is not already authenticated, the service provider redirects the user to the identity provider (IdP), often passing along a SAML request.
+3. **Authentication**: The IdP challenges the user to provide valid credentials (e.g., username and password). If the user is already authenticated with the IdP (e.g., already logged into a university portal), this step may be skipped.
+4. **Assertion Creation**: Upon successful authentication, the IdP generates a SAML assertion, which is an XML document that includes the user's authorization information.
+5. **Response**: The IdP sends this SAML assertion back to the service provider, often as part of a SAML response package.
+6. **Verification**: The service provider verifies the SAML assertion (often by checking a digital signature) to ensure it came from a trusted IdP.
+7. **Access Granted**: Once the assertion is verified, the service provider grants the user access to the requested resource.
+8. **Session**: A session is established for the user, allowing them to access other resources without needing to re-authenticate for a certain period.
+
+In the context of a library,
+the IdP could be a university's authentication system,
+and the service provider could be a database of academic journals.
+When a student tries to access an article,
+they would be redirected to log in through the university's system.
+Once authenticated,
+the university's system would send a
+SAML assertion to the journal database,
+confirming that the student is authorized to access the content.
+
+This method is particularly useful for organizations
+like universities that have multiple service providers
+(e.g., different databases, internal services, etc.)
+but want to offer a single sign-on (SSO) experience for their users.
 
 ## Conclusion
 
