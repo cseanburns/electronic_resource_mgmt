@@ -249,7 +249,7 @@ our preferred database for viewing the full text.
 
 In scenarios where there is only one source to the content
 provided by the library,
-the transfer to Promo to OpenAthens to the Emerald full-text
+the transfer to Primo to OpenAthens to the Emerald full-text
 occurs swiftly,
 providing a seamless user experience.
 
