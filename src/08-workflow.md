@@ -20,10 +20,10 @@ we learned about:
 * why electronic resources have introduced so much *constant disruption* across
   libraries.
 
-This latter point is largely
-due to, among other things,
-the fact that the
-print-era involved largely
+Among other things,
+this latter point is largely
+due to the fact that the
+print-era largely involved
 (or at least more so)
 a linear process of
 collection management
@@ -36,8 +36,9 @@ Then we learned
 about the functions and
 modules offered by:
 
-* electronic resource management software and
-* integrated library system software. 
+* electronic resource management software,
+* integrated library system software, and
+* library service platforms.
 
 To understand those
 systems better,
@@ -83,7 +84,7 @@ into newer topics
 like licensing, COUNTER, and SUSHI,
 which we'll cover in
 greater detail towards
-the end of this work.
+the end of this module.
 
 In the second
 [Anderson article (chapter 3)][anderson2014b],
@@ -181,7 +182,7 @@ journals, databases, and more.
 We have discussed interoperability and
 what it takes for
 multiple systems to
-connect and transfer content
+connect and transfer data
 between each other.
 We primarily discussed this with
 respect to link resolver technology,
@@ -234,13 +235,11 @@ the ERM software, and include:
 * invoice note (Medeiros, 2008).
 
 That white paper contains
-example and worthwhile
+examples and worthwhile
 use cases and
 stories from major libraries, and
-these cases are
-rather helpful reads.
-This paper is well worth
-reading to get
+these cases are helpful reads.
+The paper provides
 a sense of how standards
 are created through a
 process of comparing,
@@ -272,10 +271,11 @@ of the electronic resource industry,
 the process of licensing and negotiation, and
 about the evaluation and statistics of usage.
 Think of this section 
-as a foundation and as a
-transition between
+as a foundation,
+a transition between,
+and a reflection on
 all we have studied thus far,
-and what we study going forward.
+and what we will study going forward.
 
 ## Readings / References
 
