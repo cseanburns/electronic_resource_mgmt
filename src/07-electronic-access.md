@@ -626,6 +626,16 @@ they work as well as possible.
 This will often mean working 
 with vendors and colleagues.
 
+## Additional Sources
+
+- [How SAML works and enables single sign-on][howsaml]
+- [Differences Between SAML V2.0 and SAML V1.1][samldiffs]
+- [AD FS Overview][adfsoverview]
+
+[howsaml]:https://www.csoonline.com/article/563215/how-saml-works-and-enables-single-sign-on.html
+[samldiffs]:https://shibboleth.atlassian.net/wiki/spaces/SHIB/pages/1929379982/SAMLDiffs
+[adfsoverview]:https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/ad-fs-overview
+
 ## Readings / References
 
 Samples, J., & Healy, C. (2014). Making it look easy: Maintaining the magic of
