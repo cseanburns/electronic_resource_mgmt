@@ -64,7 +64,7 @@ These exclusive and all-encompassing
 rights are designed to allow
 copyright owners a monopoly
 of their property.
-While it is good to incentivize
+While it is good to motivate
 the creation of intellectual property,
 without restrictions,
 there would be little to no
@@ -104,14 +104,14 @@ may buy a physical copy of a work,
 like a book, a DVD, a painting, and
 literally own that specific copy.
 First sale doctrine does not
-grant us reproduction rights,
+grant reproduction rights,
 as listed in
 [Section 106][sec106]
 of the 1976 copyright law, but
-it does allow us to distribute
+it does allow anyone to distribute
 the singular, physical representation or
 embodiment of the work
-that we have purchased.
+that they have purchased.
 Thus, the first sale doctrine
 is why libraries were able to thrive
 throughout the 20th century,
@@ -190,6 +190,8 @@ like bold, italics, and like,
 HTML documents with markup,
 XML documents like EPUB, and
 then also PDFs and others.
+Recently, they started using AI
+[to convert their books to audiobooks][gutenbergmicro]
 Why so many file formats?
 Text is text, right?
 In the print space,
@@ -264,6 +266,19 @@ like the Kindle,
 which would have to be bought.
 That, we should note,
 adds additional expense.
+
+> Take note of the recent lawsuit against the Internet Archive (IA) in
+> [Hachette v. Internet Archive][hachette]. In the early days of the pandemic,
+> the Internet Archive started lending books through
+> [OpenLibrayr.org][openlibrary] that were mostly not available as ebooks. The
+> IA only lent these books if a library owned a physical copy and limited
+> lending to the amount of physical copies owned. This is called [Controlled
+> Digital Lending (CDL)][cdl], which the IA argued was *Fair Use*. Four
+> publishers sued the IA and won the initial suit in March. The decision will
+> be appealed but has already emboldened [other media companies to sue the
+> IA][nytimesIA]. But at stake is the basic notion of whether ebooks can be
+> bought or must be perpetually licensed, until at least they enter the [public
+> domain][public_domain]. 
 
 ## Impact on Ebook Collections
 
@@ -374,6 +389,12 @@ that e-content entails.
 However, as Paganelli notes,
 these efforts have largely
 not succeeded.
+And Brewster Kahle,
+the founder of the Internet Archive,
+[has recently highlighted][kahle_guardian]
+the growing attacks on library budgets
+that make this the outcomes
+for library budgets more pessimistic.
 From a publisher's perspective,
 [Sisto (2022)][sisto2022]
 argues that the general
@@ -450,9 +471,9 @@ because citation metrics indicate,
 at some level, the use of the work.
 That is, a citation to
 an article in a journal title
-means, ideally, that the authors
+means, hopefully, that the authors
 citing that article have read the article
-and use the knowledge from that work
+and used the knowledge from that work
 to add new knowledge.
 Historically, when Eugene
 Garfield invented the *Impact Factor*,
@@ -464,7 +485,7 @@ of citations.
 
 However, citation metrics should
 never be the sole or even primary
-tool to evaluate research, though.
+tool to evaluate research.
 While they may provide good
 information, there are many caveats.
 First, there are different
@@ -533,7 +554,7 @@ does not necessarily indicate quality:
 just use.
 
 The authors also discuss some
-issues with *Gold Open Access* and
+issues with *Gold Open Access (OA)* and
 the idea that Gold OA may compound
 the cost problem.
 This is where authors
@@ -549,11 +570,14 @@ might compound the problem.
 As an example,
 *PLOS ONE* is one of the largest
 gold OA journals
-and charges an
-[APC of $1,805 USD][pubfees]
-(that's $110 more than it was in 2021 and
-$210 more than it was in 2020, when
-I wrote the first draft of this section).
+and in 2023,
+they charge an
+[APC of $1,931][pubfees].
+This is $336 more than
+what they charged in 2020,
+when I wrote the first draft of this section,
+which represents an overall 21.07% increase
+(see Table 1 below).
 In 2018, 32 papers were published in
 PLOS ONE that included at least
 one author from the University
@@ -577,6 +601,14 @@ it still may not reduce cost
 on taxpayers at large,
 which are who fund much of
 publishing much of this research.
+
+| Year | PLOS ONE APC Fee | $ increase | % increase |
+| ---- | ---------------- | ---------- | ---------- |
+| 2020 | $1595            |            |            |
+| 2021 | $1695            | $100       | 6.27%      |
+| 2022 | $1805            | $110       | 6.49%      |
+| 2023 | $1931            | $126       | 6.98%      |
+*Table 1: APC fees for PLOS ONE*
 
 The 2022 [public access mandate][publicaccess2022]
 issued by The White House
@@ -639,3 +671,10 @@ Quarterly, 38(2), 405–422.
 [sec106]:https://www.copyright.gov/title17/92chap1.html#106
 [sec109]:http://www.copyright.gov/title17/92chap1.html#109
 [sisto2022]:https://doi.org/10.1007/s12109-022-09880-7
+[gutenbergmicro]:https://customers.microsoft.com/en-us/story/1646266241611394912-project-gutenberg-nonprofit-azure-synapse-analytics-azure-ai-services
+[hachette]:https://en.wikipedia.org/wiki/Hachette_v._Internet_Archive
+[openlibrary]:https://openlibrary.org/
+[cdl]:https://en.wikipedia.org/wiki/Controlled_digital_lending
+[nytimesIA]:https://www.nytimes.com/2023/08/13/business/media/internet-archive-emergency-lending-library.html
+[public_domain]:https://copyright.universityofcalifornia.edu/use/public-domain.html
+[kahle_guardian]:https://www.theguardian.com/commentisfree/2023/oct/09/us-library-system-attack-digital-licensing
