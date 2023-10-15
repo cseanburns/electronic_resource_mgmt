@@ -477,7 +477,7 @@ and used the knowledge from that work
 to add new knowledge.
 Historically, when Eugene
 Garfield invented the *Impact Factor*,
-it was partly so as a
+it was partly as a
 tool for librarians to use in
 collection management because he
 recognized this use-based theory
@@ -588,7 +588,7 @@ This amounts to about $1020
 per institution, in 2018 dollars,
 paid for by the authors and not
 libraries.
-For UK authors, this also amounts
+For UKY authors, this also amounts
 to over $32,640 spent on APCs
 (32 * $1020).
 This is about $27K more than
@@ -598,9 +598,8 @@ in Table 1 of the reading.
 So even if open access reduced
 costs to libraries,
 it still may not reduce cost
-on taxpayers at large,
-which are who fund much of
-publishing much of this research.
+on taxpayers,
+who fund much of of this research.
 
 | Year | PLOS ONE APC Fee | $ increase | % increase |
 | ---- | ---------------- | ---------- | ---------- |
@@ -624,7 +623,7 @@ expenditures to develop their own policies,
 and that could mean that such policies
 result in Gold OA agency-specific mandates
 or Green OA mandates.
-Green OA means allows pre-prints
+Green OA allows pre-prints to
 be made available (article versions 
 before peer-review) or
 post-prints (article versions after
