@@ -27,10 +27,11 @@ that is licensed.
 In other words,
 it's probably a good thing
 to understand what is being licensed.
-Thus, this is an area of ERM librarianship
-that might take time to work up to.
+Thus, this is why we spent time
+on the technical aspects
+before working on licensing.
 
-Before we get to that, though,
+Before we get into licensing,
 we should refresh ourselves
 on the basics of copyright law,
 since what is being licensed is a
@@ -61,39 +62,43 @@ which states:
 > and Inventors the exclusive Right to their
 > respective Writings and Discoveries.
 
-My reading of this has been,
-and note, this is my reading and
-not necessarily legal dogma,
-that *respective Writings and Discoveries*
-belong to the public;
-as such, this clause was articulated
-in the Constitution
-to carve out some protection space
-for the authors or inventors
-from the public,
-for *a limited time*,
-in order to *promote
-the Progress of Science and useful Arts*.
-But in the end,
-it is the public that is served
-and that ultimately owns these creations.
-
-The clause gives copyright owners
-a *right*, and as a right,
-it takes preemptive status
-over other laws that are
-less universal,
-laws that are *in personam* (Rub, 2017).
+The clause in the U.S. Constitution
+grants copyright holders specific,
+exclusive rights,
+which inherently creates a tension
+between public and private interests.
+On one hand,
+these exclusive rights operate
+much like private property,
+allowing copyright owners to control
+the use of their creations and
+even transfer or sell these
+rights through contracts,
+which are in personam by nature (Rub, 2017).
 On the other hand,
-what creates tension is that
-it is a kind of *right* that can
-be transferred or sold by way of a contract;
-that is, it is *in personam*.
-Under this view,
-copyrighted work is property (Rub, 2017),
-and as property,
-it can be traded for goods
-and services.
+these rights are not absolute;
+they are granted for a "limited time" and
+with the ultimate aim of serving the
+public interest by enriching the
+cultural and intellectual commons.
+
+This dual nature of copyright--its
+function as a form of private property
+that can be transacted, and
+its overarching goal to
+promote public welfare--adds layers
+of complexity to its legal treatment.
+While copyright law grants
+certain exclusive rights
+that can be enforced against
+individuals through **in personam** legal actions,
+these rights are also designed to be
+temporary and ultimately benefit the public.
+Therefore, copyright exists as both a
+personal right that can be legally
+enforced against specific individuals and
+a mechanism intended to
+serve broader societal goals.
 
 > *in personam*: made against or affecting
 > a specific person only;
@@ -108,7 +113,14 @@ against public ownership for
 the public good;
 and unlike other, basic rights,
 copyright is transferable,
-much like property is transferable.
+since it is a type of property right.
+
+> Copyright is a type of economic right. However, other types of *rights*
+> cannot be treated as property. These include natural rights (life, liberty,
+> and the pursuit of happiness), civil rights (right to vote, right to a fair
+> trial, protections against discrimination), political rights (right to
+> protest, run for public office), and social rights (right to healthcare,
+> education, and housing).
 
 This all gets more complicated when
 licensing enters the picture, and
@@ -132,7 +144,7 @@ in particular, was copyrightable,
 but the Copyright Office at the
 Library of Congress eventually
 decided that it was eligible.
-This elibility became codified
+This eligibility became codified
 in an 1980 amendment to
 the 1976 Copyright Act.
 This cemented the ability for 
@@ -173,7 +185,7 @@ in an owner's intellectual property
 under certain conditions.
 Librarians enter into licensing
 agreements of all sorts.
-Licences cover bibliographic databases,
+Licenses cover bibliographic databases,
 ILS/ERM software, and
 of course, e-content.
 
@@ -252,6 +264,14 @@ and is well worth a read:
 * Licensing
 * Business
 * Management
+
+> Licenses generally must include a scope (what rights are being granted and
+> what limitations exist), a duration (how long the license will last),
+> territory (where the license applies), fees or royalties (whether the
+> licensee has to pay for the license, and if so, how much), revocation terms
+> (under what circumstances the license can be revoked, and warranties and
+> liabilities (any guarantees provided by either party and limitations on
+> liability).
 
 ## Standardizing Agreements
 
