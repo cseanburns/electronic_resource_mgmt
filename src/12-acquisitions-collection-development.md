@@ -23,8 +23,7 @@ The above is a simplistic take, but
 there are additional vectors
 to be aware of with electronic resources.
 First, as we have learned,
-libraries may or, more likely,
-may not own digital works,
+libraries may not own digital works,
 and different subscription services
 require different kinds of contracts.
 Second, electronic resources
@@ -47,8 +46,11 @@ when they write that:
 Although a world where the
 format dictates so much makes
 an intriguing world,
-it can be problematic and worrisome.
-We think that content should be king and
+it can be problematic and worrisome
+that it does dictate so much.
+We think that content,
+and not format,
+should be king and
 that "collection managers should focus
 on the content of the information provided,
 regardless of the actual form in which the
@@ -56,15 +58,15 @@ information arrives"
 [(Harloe & Budd, 1994, p. 83)][harloe1994].
 We have already learned that some
 [formats cost more](09-markets-economics.html),
-but we must also ask,
+but we must also ask new questions:
 how does format (or *form*) either prevent
 or facilitate access?
 If you catch the implicit gotcha there,
 you can see that a thread
 connects acquisitions,
 collections development, and usability,
-the latter which we'll learn more
-about later in this work.
+since usability is an *access problem*.
+We will cover usability issues later.
 
 In a collection development course,
 you would unquestionably focus on
@@ -85,8 +87,8 @@ library organizational hierarchy.
 
 ### Organizational Hierarchy
 
-A quick note about the organizational hierarchy.
-Such hierarchies are often graphically
+A quick note about the organizational hierarchy,
+which are often graphically
 presented in organizational charts.
 I developed an organizational chart
 based on my readings of librarian
@@ -99,10 +101,11 @@ archived at the University of Kentucky's
 [Special Collections Research Center][speccoll].
 Organizational charts have been
 around since the 1800s, but
-I am not sure when libraries started to
-create and use them, and
-I didn't see one in my research
-on UK Libraries for this time period.
+I do not think they were commonly used
+in libraries until at least the
+latter half of the 20th century.
+(I didn't see one in my research
+on UK Libraries for this time period.)
 Thus, I inferred an organizational structure
 based on the detailed reports written
 by the various department heads in the
@@ -126,10 +129,36 @@ Center.
 </figcaption>
 </figure>
 
-> Aside: The most recent organizational chart for UK
-> Libraries is from 2019. Much has changed since then,
-> including a new Dean, but the general idea should hold
-> about the complexity of the modern library.
+> Aside 1: The most recent organizational chart for UK Libraries is from 2019,
+> and they may have decided to stop making them. Much has changed since then,
+> including a new Dean, but the general point I am making should hold about the
+> complexity of the modern library. 
+>
+> Aside 2: The concept of organizational charts dates back to the 19th century,
+> Based some cursory searching, the first known chart was created in 1855 by
+> Daniel McCallum, a railway general superintendent. McCallum, with the
+> assistance of a draftsman and civil engineer named George Holt Henshaw,
+> designed an organizational chart for the New York and Erie Railway to
+> showcase the division of administrative duties and the number and class of
+> employees engaged in each department ([Organimi 2020][organimi2020],
+> [Lanteria 2021][lanteria2021]). This chart was initially referred to as a
+> "Diagram representing a plan of organization" and was not yet called an
+> organizational chart ([Organimi 2020][organimi2020], [Pingboard][pingboard]).
+> 
+> The terminology "organization chart" became more common in the early 20th
+> century, and by 1914, a certain Brinton advocated for broader use of
+> organizational charts ([Wikipedia Organizational Chart][org-wikipedia]). The
+> use of organizational charts gained more traction in industrial engineering
+> circles and became more popular among businesses and enterprises in the
+> latter half of the 20th century ([Miro 2021][miro2021]).
+>
+> These early developments set the stage for modern organizational charts,
+> which have now become crucial tools for delineating responsibilities,
+> hierarchy, and the structural framework within organizations across various
+> sectors. From a historical perspective, a study of organizational charts of
+> the years can shed insight on how the organization evolves, especially when
+> cross-referencing that evolution with other changes, such as the introduction
+> of electronic resources in libraries.
 
 This complexity is very interesting.
 The growth in electronic resources,
@@ -235,6 +264,10 @@ Would this change their fundamental mission?
 Would it change the game for them as
 educational institutions?
 
+> Aside: If interested in following developments in open educational resources,
+> then I highly recommend subscribing to the [SPARC Open Education Forum email
+> list][sparcOER].
+
 ## Collection Development Policies of Electronic Resources
 
 Finally, I'd be guilty of a
@@ -328,19 +361,25 @@ e-resources. Journal of Librarianship and Information
 Science, 45(2), 103–112.
 [https://doi.org/10.1177/0961000611435253][hill2013]
 
+[collegeboard]:https://research.collegeboard.org/media/pdf/trends-in-college-pricing-student-aid-2022.pdf
 [england2017]:https://doi.org/10.1080/1941126X.2017.1304767
 [erpolicy]:https://library.louisiana.edu/about-us/policies-procedures/e-resources-serials-management
 [harloe1994]:https://doi.org/10.1016/0099-1333(94)90043-4
 [hill2013]:https://doi.org/10.1177/0961000611435253
 [lamothe2015]:https://doi.org/10.1108/CB-04-2015-0006
+[lanteria2021]:https://www.lanteria.com/news/complete-guide-making-organizational-chart
 [lexpubpolicy]:https://www.lexpublib.org/collection-development-policy
 [libretexts]:https://libretexts.org/
 [martin2009]:https://doi.org/10.1080/19411260903466269
+[miro2021]:https://miro.com/blog/organizational-chart/
 [oer2]:https://www.oercommons.org/
 [oer]:https://www.uky.edu/copyright/facultyresources/openeducationalresources
 [oerlibguide]:https://libguides.uky.edu/c.php?g=222941&p=6722485
 [openstax]:https://openstax.org/
+[organimi2020]:https://www.organimi.com/the-evolution-of-org-charts/
+[org-wikipedia]:https://en.wikipedia.org/wiki/Organizational_chart
+[pingboard]:https://pingboard.com/org-charts/evolution-org-charts
+[sparcOER]:https://sparcopen.org/our-work/sparc-oe-forum/
 [speccoll]:http://libraries.uky.edu/SC
-[ukorg]:https://web.archive.org/web/20190722033735/https://libraries.uky.edu/forms/OrgChart.pdf
-[collegeboard]:https://research.collegeboard.org/media/pdf/trends-in-college-pricing-student-aid-2022.pdf
 [statistica]:https://www.statista.com/statistics/741558/us-public-school-textbook-expenditure/
+[ukorg]:https://web.archive.org/web/20190722033735/https://libraries.uky.edu/forms/OrgChart.pdf
