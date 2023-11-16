@@ -286,11 +286,10 @@ Usability Study of the Primo Mobile Interface. Journal of
 Web Librarianship.
 [http://www.tandfonline.com/doi/abs/10.1080/19322909.2020.1784820][adams2020]
 
-Dickson-Deane, C., & Chen, H.-L. (Oliver). (2018).
-Understanding user experience. In M. Khosrow-Pour (Ed.),
-*Encyclopedia of Information Science and Technology* (Fourth
-Edition, pp. 7599–7608). IGI Global.
-[http://www.igi.global.com/chapter/understanding-user-experience/184455][dickson2018]
+Dickson-Deane, C., & Chen, H.O. (2018). Understanding user experience. In M.
+Khosrow-Pour (Ed.), *Encyclopedia of Information Science and Technology.
+*Fourth Edition pp. 7599–7608*. IGI Global.
+[https://doi.org/10.4018/978-1-5225-2255-3.ch661][dickson2018]
 
 Hamlett, A., & Georgas, H. (2019). In the Wake of Discovery:
 Student Perceptions, Integration, and Instructional Design.
@@ -310,7 +309,7 @@ Experience. Serials Review, 42(1), 47–58.
 
 [adams2020]:http://www.tandfonline.com/doi/abs/10.1080/19322909.2020.1784820
 [browning2015]:https://doi.org/10.1080/1941126X.2015.999521
-[dickson2018]:http://www.igi.global.com/chapter/understanding-user-experience/184455
+[dickson2018]:https://doi.org/10.4018/978-1-5225-2255-3.ch661
 [hamlett2019]:https://doi.org/10.1080/19322909.2019.1598919
 [kraft2022]:https://doi.org/10.1016/j.acalib.2022.102541
 [parush2017]:https://doi.org/10.4135/9781483386874.n229
