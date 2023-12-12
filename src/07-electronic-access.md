@@ -534,6 +534,8 @@ and browser information.
 This wouldn't be true under
 the SAML method.
 
+> Note: The library would have access to EZproxy logs, which would include much of the user's activity while using the proxy.
+
 In a bit more detail,
 a SAML-based authentication process
 is described below:
