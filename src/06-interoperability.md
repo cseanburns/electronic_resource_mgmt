@@ -541,24 +541,26 @@ This URL contains the following components:
 - emerald  : indicates the second level domain name
 - .com     : indicates the top level domain
 
-Under a standard configuration,
-the rest of the URL indicates directory (or folder)
-location information on the *emerald.com* server.
-The following suggests
-that the article is seven directories (or folders) deep on
-the *emerald.com* server:
-
-- /insight/content/doi/10.1108/10650740510632208/full/html
+Under a standard web server configuration,
+the rest of the URL
+(after the **.com**)
+indicates a possible
+directory path to the location of the
+article on the Emerald web server,
+but it's likely that the
+content management system used by Emerald
+does not necessarily map to directories or folders
+on their servers.
 
 The DOI (digital object identifier)
-for this article is part of the above URL and
+for this article is embedded in the above URL and
 is specifically
 ``10.1108/10650740510632208``.
 The DOI is composed of a [prefix and a suffix][doinumbering].
 The prefix includes the following elements:
 
-- 10 : this is the directory indicator
-- 1108 : the registrant code for this specific journal
+- 10 : signifies the DOI registration agency, which is always "10" for DOIs managed by the [International DOI Federation (IDF)][idf]
+- 1108 : the registrant code that distinguishes the organization that registered the DOI (e.g., publisher, data center, library)
 
 The suffix refers to the following element:
 
@@ -603,12 +605,12 @@ Content.
 [chisare2017]:https://doi.org/10.1080/1941126X.2017.1304765
 [doinumbering]:https://www.doi.org/doi_handbook/2_Numbering.html
 [exlibrisKB]:https://knowledge.exlibrisgroup.com/360_KB/Knowledge_Articles/360_KB%3A_Overview_of_the_Knowledgebase
-[openathens]:https://www.openathens.net/
 [gethttp]:https://www.w3schools.com/tags/ref_httpmethods.asp
 [googlescholaralma]:https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/030Resource_Management/150Publishing_Electronic_Holdings_to_Google_Scholar
 [googleScholar]:https://scholar.google.com
 [gslibrary]:https://scholar.google.com/intl/en/scholar/libraries.html
 [howgs]:https://scholar.google.com/intl/en/scholar/libraries.html
+[idf]:https://www.doi.org/
 [illiadopenurl]:https://support.atlas-sys.com/hc/en-us/articles/360011910073-OpenURL-Configuration
 [johnson2015]:https://doi.org/10.1080/1941126X.2015.999519
 [kasprowski2012]:https://doi.org/10.1080/0361526X.2012.652480
@@ -617,6 +619,8 @@ Content.
 [lr101]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
 [lrusage]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
 [mcdonald2004]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+[nisoOpenURL]:https://www.niso.org/publications/z3988-2004-r2010
+[openathens]:https://www.openathens.net/
 [openurlCrossref]:https://www.crossref.org/documentation/retrieve-metadata/openurl/
 [openurlResolvers]:https://www.zotero.org/support/locate/openurl_resolvers
 [percentencoding]:https://en.wikipedia.org/wiki/Percent-encoding
@@ -628,4 +632,3 @@ Content.
 [utf8]:https://www.w3schools.com/tags/ref_urlencode.asp
 [worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
 [zotero]:https://www.zotero.org/
-[nisoOpenURL]:https://www.niso.org/publications/z3988-2004-r2010
