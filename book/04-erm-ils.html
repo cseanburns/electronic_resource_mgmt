@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -10,7 +10,7 @@
         
         <meta name="description" content="Lectures on the management of library electronic resources">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -31,7 +31,7 @@
         <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -61,42 +61,71 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <ol class="chapter"><li class="chapter-item expanded affix "><a href="p0-intro-erm-libraries.html">Electronic Resource Management in Libraries</a></li><li class="chapter-item expanded "><a href="p1-er-librarians.html"><strong aria-hidden="true">1.</strong> Electronic Resource Librarians</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="01-the-erm-librarian.html"><strong aria-hidden="true">1.1.</strong> The ERM Librarian</a></li><li class="chapter-item expanded "><a href="02-desperately-seeking-erm-librarian.html"><strong aria-hidden="true">1.2.</strong> Desparately Seeking an ERM Librarian</a></li><li class="chapter-item expanded "><a href="03-constant-disruption.html"><strong aria-hidden="true">1.3.</strong> Constant Disruption</a></li></ol></li><li class="chapter-item expanded "><a href="p2-technologies-standards.html"><strong aria-hidden="true">2.</strong> Technologies and Standards</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="04-erm-ils.html" class="active"><strong aria-hidden="true">2.1.</strong> The ERM and the ILS</a></li><li class="chapter-item expanded "><a href="05-standardizing-erm.html"><strong aria-hidden="true">2.2.</strong> Standardizing ERM</a></li><li class="chapter-item expanded "><a href="06-interoperability.html"><strong aria-hidden="true">2.3.</strong> Interoperability</a></li><li class="chapter-item expanded "><a href="07-electronic-access.html"><strong aria-hidden="true">2.4.</strong> Electronic Access</a></li></ol></li><li class="chapter-item expanded "><a href="p3-e-resource-stewardship.html"><strong aria-hidden="true">3.</strong> E-resource Stewardship</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="08-workflow.html"><strong aria-hidden="true">3.1.</strong> The ERM Workflow</a></li><li class="chapter-item expanded "><a href="09-markets-economics.html"><strong aria-hidden="true">3.2.</strong> Markets and Economics of Electronic Resources</a></li><li class="chapter-item expanded "><a href="10-licensing-basics.html"><strong aria-hidden="true">3.3.</strong> Licensing Basics</a></li><li class="chapter-item expanded "><a href="11-licensing-and-negotiating.html"><strong aria-hidden="true">3.4.</strong> Licensing and Negotiating</a></li><li class="chapter-item expanded "><a href="12-acquisitions-collection-development.html"><strong aria-hidden="true">3.5.</strong> Acquisitions and Collection and Development</a></li></ol></li><li class="chapter-item expanded "><a href="p4-patrons.html"><strong aria-hidden="true">4.</strong> Patrons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="13-user-experience.html"><strong aria-hidden="true">4.1.</strong> User Experience</a></li><li class="chapter-item expanded "><a href="14-evaluation-statistics.html"><strong aria-hidden="true">4.2.</strong> Evaluation and Measurement</a></li><li class="chapter-item expanded "><a href="15-security-privacy.html"><strong aria-hidden="true">4.3.</strong> Security and Privacy</a></li></ol></li></ol>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -169,12 +198,12 @@ becoming more common these days.</p>
 are both large and small.
 The main idea between them is the same
 in the sense that they are both
-&quot;used by librarians to manage their internal
-work and external services,&quot; such as
-&quot;acquiring and describing collection resources,
+"used by librarians to manage their internal
+work and external services," such as
+"acquiring and describing collection resources,
 making those resources available to their
 users through appropriate channels, and
-other areas of their [resource management] operations&quot;
+other areas of their [resource management] operations"
 (<a href="https://librarytechnology.org/document/25609">Breeding, 2020, para. 1</a>).</p>
 <h3 id="administration"><a class="header" href="#administration">Administration</a></h3>
 <p>In order to provide the above functions,
@@ -198,7 +227,7 @@ although they may be named variously.</p>
 I've linked to documentation on modules provided by
 the <a href="http://docs.evergreen-ils.org/">Evergreen</a> open source ILS system.
 LibLime's <a href="https://liblime.com/bibliovation/">Bibliovation</a> LSP offers
-comparably named modules for 
+comparably named modules for
 discovery, circulation, cataloging, serials,
 acquisitions, and systems administration.
 Other ILS/LSP solutions may offer specific modules
@@ -264,7 +293,7 @@ author, title, subject, etc. and searched collections,
 at first print but later electronic, held by the library.
 A discovery system can search additional text,
 if available, and can more easily link to items
-not in the library collection but which can be acquired 
+not in the library collection but which can be acquired
 through interlibrary loan.
 A discovery system can also integrate with bibliographic
 databases and
@@ -292,8 +321,8 @@ library's collections.</li>
 </ul>
 <p>An ILS/LSP is therefore,
 as Stephen Salmon stated in 1975,
-a &quot;non-traditional&quot; way of doing traditional things,
-such as &quot;acquisitions, cataloging, and circulation,&quot;
+a "non-traditional" way of doing traditional things,
+such as "acquisitions, cataloging, and circulation,"
 but which has now become fairly routine!</p>
 <p>Electronic resource librarians might work extensively with
 specific resources or modules
@@ -315,7 +344,7 @@ As our reading by
 the rise in electronic resources has vastly influenced
 the ways librarians structure their organizations,
 whose structures were originally informed
-by the dictates of a &quot;print-based world&quot;.</p>
+by the dictates of a "print-based world".</p>
 <p>To learn more about the ILS
 and current iterations that we now call LSPs,
 see the links in the text above and visit the following:</p>
@@ -365,38 +394,38 @@ In an ERM like the open source
 <a href="http://coral-erm.org/modules/">CORAL system</a>,
 the modules include:</p>
 <ul>
-<li><a href="http://coral-erm.org/resources/">Resources</a>: a module &quot;provides a robust
+<li><a href="http://coral-erm.org/resources/">Resources</a>: a module "provides a robust
 database for tracking data related to your organization's
-resources ...&quot; and &quot;provides a customizable workflow tool
+resources ..." and "provides a customizable workflow tool
 that can be used to track, assign, and complete workflow
-tasks.&quot;</li>
-<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a &quot;flexible
-document management system&quot; that provides options to
+tasks."</li>
+<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a "flexible
+document management system" that provides options to
 manage licensing agreements and to automate parts of the
 process.</li>
 <li><a href="http://coral-erm.org/organizations/">Organizations</a>: this module acts as
 a type of advanced directory to manage the various
 organizations that impact or are involved in the
-management of electronic resources, including &quot;publishers,
-vendors, consortia, and more.&quot;</li>
+management of electronic resources, including "publishers,
+vendors, consortia, and more."</li>
 <li><a href="http://coral-erm.org/usage-statistics/">Usage Statistics</a>: a module providing
 librarians with usage statistics of digital assets by
 platform and by publisher. Supports COUNTER and SUSHI.
 We'll cover COUNTER and SUSHI later in the semester, but
 as a preamble:
 <ul>
-<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> &quot;sets and maintains the standard
+<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> "sets and maintains the standard
 known as the Code of Practice and ensures that
 publishers and vendors submit annually to a rigorous
-independent audit&quot;, and,</li>
+independent audit", and,</li>
 <li><a href="https://www.niso.org/standards-committees/sushi">SUSHI</a> is a type of protocol to automate
 collecting data on usage statistics.</li>
 </ul>
 </li>
 <li><a href="http://coral-erm.org/management/">Management</a>: this module provides a
-document management system aimed at &quot;storing documents,
+document management system aimed at "storing documents,
 such as policies, processes, and procedures, related to
-the overall management of electronic resources&quot;.</li>
+the overall management of electronic resources".</li>
 </ul>
 <h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
 <p>In our readings this week,
@@ -485,7 +514,7 @@ but for those interested,
 I briefly describe them below.</p>
 <p>In the article by Wang and Dawes (2012),
 the authors describe the
-&quot;next generation integrated library system&quot;,
+"next generation integrated library system",
 which should meet a few criteria that
 include the ability to merge ILS software with ERM software.
 ERM software solutions exist because
@@ -541,7 +570,7 @@ Management Systems and Related Products. Library Technology
 Reports, 50(3), 30–42.
 <a href="https://journals.ala.org/index.php/ltr/article/view/4491">https://journals.ala.org/index.php/ltr/article/view/4491</a></p>
 <p>Breeding, M. (2015). <em>Library Technology Reports, 51</em>(4).
-Chapters 1-5. 
+Chapters 1-5.
 <a href="https://journals.ala.org/index.php/ltr/issue/view/509">https://journals.ala.org/index.php/ltr/issue/view/509</a></p>
 <p>Breeding, M. (2020). Smart libraries Q&amp;A: Differences
 between ILS and LSP. <em>Smart Libraries Newsletter, 40</em>(10),
@@ -576,7 +605,7 @@ electronic resources management. <em>Serials Review, 37</em>(4),
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="05-standardizing-erm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="05-standardizing-erm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -590,7 +619,7 @@ electronic resources management. <em>Serials Review, 37</em>(4),
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="05-standardizing-erm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="05-standardizing-erm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

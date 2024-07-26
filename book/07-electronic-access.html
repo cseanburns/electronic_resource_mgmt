@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -10,7 +10,7 @@
         
         <meta name="description" content="Lectures on the management of library electronic resources">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -31,7 +31,7 @@
         <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -61,42 +61,71 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <ol class="chapter"><li class="chapter-item expanded affix "><a href="p0-intro-erm-libraries.html">Electronic Resource Management in Libraries</a></li><li class="chapter-item expanded "><a href="p1-er-librarians.html"><strong aria-hidden="true">1.</strong> Electronic Resource Librarians</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="01-the-erm-librarian.html"><strong aria-hidden="true">1.1.</strong> The ERM Librarian</a></li><li class="chapter-item expanded "><a href="02-desperately-seeking-erm-librarian.html"><strong aria-hidden="true">1.2.</strong> Desparately Seeking an ERM Librarian</a></li><li class="chapter-item expanded "><a href="03-constant-disruption.html"><strong aria-hidden="true">1.3.</strong> Constant Disruption</a></li></ol></li><li class="chapter-item expanded "><a href="p2-technologies-standards.html"><strong aria-hidden="true">2.</strong> Technologies and Standards</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="04-erm-ils.html"><strong aria-hidden="true">2.1.</strong> The ERM and the ILS</a></li><li class="chapter-item expanded "><a href="05-standardizing-erm.html"><strong aria-hidden="true">2.2.</strong> Standardizing ERM</a></li><li class="chapter-item expanded "><a href="06-interoperability.html"><strong aria-hidden="true">2.3.</strong> Interoperability</a></li><li class="chapter-item expanded "><a href="07-electronic-access.html" class="active"><strong aria-hidden="true">2.4.</strong> Electronic Access</a></li></ol></li><li class="chapter-item expanded "><a href="p3-e-resource-stewardship.html"><strong aria-hidden="true">3.</strong> E-resource Stewardship</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="08-workflow.html"><strong aria-hidden="true">3.1.</strong> The ERM Workflow</a></li><li class="chapter-item expanded "><a href="09-markets-economics.html"><strong aria-hidden="true">3.2.</strong> Markets and Economics of Electronic Resources</a></li><li class="chapter-item expanded "><a href="10-licensing-basics.html"><strong aria-hidden="true">3.3.</strong> Licensing Basics</a></li><li class="chapter-item expanded "><a href="11-licensing-and-negotiating.html"><strong aria-hidden="true">3.4.</strong> Licensing and Negotiating</a></li><li class="chapter-item expanded "><a href="12-acquisitions-collection-development.html"><strong aria-hidden="true">3.5.</strong> Acquisitions and Collection and Development</a></li></ol></li><li class="chapter-item expanded "><a href="p4-patrons.html"><strong aria-hidden="true">4.</strong> Patrons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="13-user-experience.html"><strong aria-hidden="true">4.1.</strong> User Experience</a></li><li class="chapter-item expanded "><a href="14-evaluation-statistics.html"><strong aria-hidden="true">4.2.</strong> Evaluation and Measurement</a></li><li class="chapter-item expanded "><a href="15-security-privacy.html"><strong aria-hidden="true">4.3.</strong> Security and Privacy</a></li></ol></li></ol>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -168,21 +197,21 @@ They include two broad categories,
 <em>proactive troubleshooting</em> and
 <em>reactive troubleshooting</em> of access.</p>
 <ul>
-<li>proactive troubleshooting of access: &quot;defined as troubleshooting access
-problems before they are identified by a patron&quot;. Some examples include:
+<li>proactive troubleshooting of access: "defined as troubleshooting access
+problems before they are identified by a patron". Some examples include:
 <ul>
-<li>&quot;letting public-facing library staff know about planned database
-downtime&quot;</li>
-<li>&quot;doing a complete inventory to make sure that every database paid for is
+<li>"letting public-facing library staff know about planned database
+downtime"</li>
+<li>"doing a complete inventory to make sure that every database paid for is
 in fact 'turned on'</li>
 </ul>
 </li>
-<li>reactive troubleshoot of access: &quot;defined as troubleshooting access issues as
-problems are identified and reported by a patron&quot;. Some examples include:
+<li>reactive troubleshoot of access: "defined as troubleshooting access issues as
+problems are identified and reported by a patron". Some examples include:
 <ul>
-<li>&quot;fixing broken links&quot;</li>
-<li>&quot;fixing incorrect coverage date ranges in the catalog&quot;</li>
-<li>&quot;patron education about accessing full text&quot;</li>
+<li>"fixing broken links"</li>
+<li>"fixing incorrect coverage date ranges in the catalog"</li>
+<li>"patron education about accessing full text"</li>
 </ul>
 </li>
 </ul>
@@ -195,12 +224,12 @@ The Samples and Healy (2014)
 report is a great example
 of systematic study.
 The authors identify a problem that
-had grown &quot;organically,&quot;
+had grown "organically,"
 collected and analyzed data, and
 then generalized from it by outlining
-a &quot;detailed workflow&quot;
-to &quot;improve the timeliness and
-accuracy of electronic resource work.&quot;
+a "detailed workflow"
+to "improve the timeliness and
+accuracy of electronic resource work."
 Practically, studies like
 this promise to improve
 productivity and work flows
@@ -334,7 +363,7 @@ internet and the web
 have flattened genres.
 By that I mean they
 have made it difficult
-to distinguish among works 
+to distinguish among works
 like magazine articles, news articles,
 journal articles, encyclopedia articles,
 ebooks, etc.
@@ -440,7 +469,7 @@ actual, documented, historical precursors
 to <em>Google</em> and to <em>Google Scholar</em>.
 But today, these search engines
 are erroneously considered source material
-(e.g, &quot;I found it on Google&quot;).
+(e.g, "I found it on Google").
 Few, I think, would have considered
 a print index as source material,
 but rather as a <strong>reference</strong> item,
@@ -470,7 +499,7 @@ the second is through what is called SAML authentication.
 We address these two authentication types below.</p>
 <h3 id="proxy-authentication"><a class="header" href="#proxy-authentication">Proxy Authentication</a></h3>
 <p><a href="https://www.oclc.org/en/ezproxy.html">EZproxy</a> (OCLC)
-is the main 
+is the main
 product of the first type.
 When we access any paywalled work,
 like a journal article,
@@ -511,11 +540,11 @@ in fact:</p>
 <p>As opposed to the first URL,
 the interesting thing about
 the original URL is that it
-is in fact a 
+is in fact a
 <strong>sciencedirect.com</strong> address.
-Even though &quot;sciencedirect&quot;
+Even though "sciencedirect"
 appears in the <strong>uky.edu</strong> URL,
-it is not a &quot;sciencedirect.com&quot; server.
+it is not a "sciencedirect.com" server.
 They are two different servers,
 from two different organizations,
 and are as different as
@@ -541,7 +570,7 @@ makes the resource request
 to the original server,
 which relays that content
 back to the proxy server (EZproxy),
-which then sends 
+which then sends
 the content to our browser.
 This means that when we request
 an article in a journal
@@ -688,7 +717,7 @@ but want to offer a single sign-on (SSO) experience for their users.</p>
 <h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
 <p>The Samples &amp; Healy (2014) and
 the Carter &amp; Traill (2017) articles
-address troubleshooting strategies 
+address troubleshooting strategies
 with electronic resources.
 One additional thing to note
 about these readings is
@@ -706,9 +735,9 @@ shows how confusing e-resources
 are to patrons and
 how the move to digital has
 complicated all genres,
-or &quot;containers&quot;, as
+or "containers", as
 the authors name them.
-Such &quot;ambiguity&quot; has
+Such "ambiguity" has
 implications not only for
 how users find and identify
 electronic resources but
@@ -719,7 +748,7 @@ EZproxy and OpenAthens
 content in order to complete
 the technical discussions we
 have had in recent weeks on
-integrated library systems, 
+integrated library systems,
 electronic resource management systems,
 link resolvers,
 and standards.
@@ -744,7 +773,7 @@ sources in library collections,
 the job of an electronic resource
 librarian is often to make sure
 they work as well as possible.
-This will often mean working 
+This will often mean working
 with vendors and colleagues.</p>
 <h2 id="additional-sources"><a class="header" href="#additional-sources">Additional Sources</a></h2>
 <ul>
@@ -791,7 +820,7 @@ Resources Librarianship, 33</em>(3), 215–223.
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="p3-e-resource-stewardship.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="p3-e-resource-stewardship.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -805,7 +834,7 @@ Resources Librarianship, 33</em>(3), 215–223.
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="p3-e-resource-stewardship.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="p3-e-resource-stewardship.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

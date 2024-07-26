@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Electronic Resource Management</title>
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex">
 
 
         <!-- Custom HTML head -->
         
         <meta name="description" content="Lectures on the management of library electronic resources">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -32,7 +32,7 @@
         <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -62,42 +62,71 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <ol class="chapter"><li class="chapter-item expanded affix "><a href="p0-intro-erm-libraries.html">Electronic Resource Management in Libraries</a></li><li class="chapter-item expanded "><a href="p1-er-librarians.html"><strong aria-hidden="true">1.</strong> Electronic Resource Librarians</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="01-the-erm-librarian.html"><strong aria-hidden="true">1.1.</strong> The ERM Librarian</a></li><li class="chapter-item expanded "><a href="02-desperately-seeking-erm-librarian.html"><strong aria-hidden="true">1.2.</strong> Desparately Seeking an ERM Librarian</a></li><li class="chapter-item expanded "><a href="03-constant-disruption.html"><strong aria-hidden="true">1.3.</strong> Constant Disruption</a></li></ol></li><li class="chapter-item expanded "><a href="p2-technologies-standards.html"><strong aria-hidden="true">2.</strong> Technologies and Standards</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="04-erm-ils.html"><strong aria-hidden="true">2.1.</strong> The ERM and the ILS</a></li><li class="chapter-item expanded "><a href="05-standardizing-erm.html"><strong aria-hidden="true">2.2.</strong> Standardizing ERM</a></li><li class="chapter-item expanded "><a href="06-interoperability.html"><strong aria-hidden="true">2.3.</strong> Interoperability</a></li><li class="chapter-item expanded "><a href="07-electronic-access.html"><strong aria-hidden="true">2.4.</strong> Electronic Access</a></li></ol></li><li class="chapter-item expanded "><a href="p3-e-resource-stewardship.html"><strong aria-hidden="true">3.</strong> E-resource Stewardship</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="08-workflow.html"><strong aria-hidden="true">3.1.</strong> The ERM Workflow</a></li><li class="chapter-item expanded "><a href="09-markets-economics.html"><strong aria-hidden="true">3.2.</strong> Markets and Economics of Electronic Resources</a></li><li class="chapter-item expanded "><a href="10-licensing-basics.html"><strong aria-hidden="true">3.3.</strong> Licensing Basics</a></li><li class="chapter-item expanded "><a href="11-licensing-and-negotiating.html"><strong aria-hidden="true">3.4.</strong> Licensing and Negotiating</a></li><li class="chapter-item expanded "><a href="12-acquisitions-collection-development.html"><strong aria-hidden="true">3.5.</strong> Acquisitions and Collection and Development</a></li></ol></li><li class="chapter-item expanded "><a href="p4-patrons.html"><strong aria-hidden="true">4.</strong> Patrons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="13-user-experience.html"><strong aria-hidden="true">4.1.</strong> User Experience</a></li><li class="chapter-item expanded "><a href="14-evaluation-statistics.html"><strong aria-hidden="true">4.2.</strong> Evaluation and Measurement</a></li><li class="chapter-item expanded "><a href="15-security-privacy.html"><strong aria-hidden="true">4.3.</strong> Security and Privacy</a></li></ol></li></ol>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -152,7 +181,7 @@
 <p>Author: C. Sean Burns<br />
 Date, version 1: 2024-02-14<br />
 Email: <a href="sean.burns@uky.edu">sean.burns@uky.edu</a><br />
-Website: <a href="https://cseanburns.github.io/csb/">cseanburns.github.io/csb/</a><br />
+Website: <a href="https://cseanburns.net">cseanburns.net</a>
 GitHub: <a href="https://github.com/cseanburns">@cseanburns</a></p>
 <p>This short book is based on a
 series of lectures for my
@@ -235,7 +264,7 @@ and these include:</p>
 </li>
 <li><strong>primary source databases</strong>
 <ul>
-<li>original newspapers: e.g., <a href="https://chroniclingamerica.loc.gov/">Chronicling America</a> </li>
+<li>original newspapers: e.g., <a href="https://chroniclingamerica.loc.gov/">Chronicling America</a></li>
 <li>oral histories: e.g., <a href="https://kentuckyoralhistory.org/">Louie B. Nunn Center for Oral History</a></li>
 </ul>
 </li>
@@ -312,21 +341,21 @@ surveys the history of this specialist/generalist librarian role.
 Stachokas (2018) finds that
 the electronic resource librarian has their feet
 planted in technical services and collection development,
-that this requires a holistic understanding of the 
+that this requires a holistic understanding of the
 electronic resource work flow,
 of its embeddedness in the scholarly and library ecosystem, and
 that this division is leading to different areas of specialization:
 those who focus on
-&quot;licensing, acquisitions, and collection development&quot; (p. 15),
+"licensing, acquisitions, and collection development" (p. 15),
 and those who focus on
-&quot;metadata, discovery, management of 
+"metadata, discovery, management of
 <a href="https://www.niso.org/standards-committees/kbart/kbart-frequently-asked-questions">knowledge bases</a>, and
-addressing technical problems&quot; (p. 15).
+addressing technical problems" (p. 15).
 This rings true to me.
 In my own observations,
 I've noticed that job announcements have increasingly stressed
 one of the above areas and not both.</p>
-<h3 id="the-technical-communicator-as-the-bridge"><a class="header" href="#the-technical-communicator-as-the-bridge">The Technical Communicator as the &quot;Bridge&quot;</a></h3>
+<h3 id="the-technical-communicator-as-the-bridge"><a class="header" href="#the-technical-communicator-as-the-bridge">The Technical Communicator as the "Bridge"</a></h3>
 <p>In the second article,
 <a href="https://doi.org/10.1080/1941126X.2016.1164555">Hulseberg</a> (2016) uses
 the field of <a href="https://www.stc.org/about-stc/defining-technical-communication/">technical communication (TC)</a>
@@ -340,7 +369,7 @@ Rather, this is someone who completes advanced work in
 documenting and reporting technical processes.</p>
 <p>Hulseberg (2016) highlights four important themes about ERM:
 the interesting themes to me are
-<em>Theme one: Metaphors of &quot;bridge&quot; and &quot;translator&quot;</em>, and
+<em>Theme one: Metaphors of "bridge" and "translator"</em>, and
 <em>Theme Two: Collaborating in a web of relationships</em>.
 When I was an undergraduate,
 I imagined the job that I wanted
@@ -433,7 +462,7 @@ that an electronic resource librarian uses and
 the conditions that shape these technologies.
 We will learn about integrated library systems (ILS) and
 how these systems conform (or not) to standards, and
-how they foster or obstruct 
+how they foster or obstruct
 interoperability and access.</p>
 <p>In the third part, we focus on processes and their contexts.
 We will study the electronic resource librarian's workflow,
@@ -441,7 +470,7 @@ the economics and the markets of electronic resources,
 what is involved in licensing these resources and
 negotiating with vendors.</p>
 <p>At the end, we focus on patrons and end users;
-that is, those we serve. 
+that is, those we serve.
 Because electronic resources are digital,
 when we use them, we leave behind traces of that usage.
 This means we will study how that usage is measured and
@@ -540,7 +569,7 @@ are not current job openings, but
 they were current within the last few years.</p>
 <p>To follow up on more current advertisements for ER librarians,
 I did a Google search on August 24, 2023 using the following query:</p>
-<pre><code>&quot;electronic resource librarian&quot; job
+<pre><code>"electronic resource librarian" job
 </code></pre>
 <p>Results are consistent with past qualifications listed in the links
 mentioned above and
@@ -552,50 +581,50 @@ But several sources outline the following requested qualifications, and
 I think the <strong>themes</strong> from the prior section come through
 in this list:</p>
 <ul>
-<li>provide &quot;consistent and reliable access to the Library's electronic resources
+<li>provide "consistent and reliable access to the Library's electronic resources
 and establishing workflows that maintain discovery and use of all Library
-collections&quot;</li>
-<li>analyze &quot;feasibility of technical platforms&quot;</li>
-<li>&quot;resource licensing and contracting&quot;</li>
-<li>&quot;copyright compliance&quot;</li>
-<li>&quot;vendor negotiations&quot;</li>
-<li>&quot;Acts as a bridge across multiple Library units&quot;</li>
-<li>enhance &quot;access and use&quot;</li>
-<li>design a &quot;system of access&quot;</li>
-<li>analyze &quot;staff and user issues with discovery of resources&quot;</li>
-<li>coordinate &quot;system administration responsibilities for integrated library
-system (Ex Libris Alma/Primo VE) with Technical Services Librarian&quot;</li>
-<li>&quot;create reports in Alma and individual databases as needed, including but not
+collections"</li>
+<li>analyze "feasibility of technical platforms"</li>
+<li>"resource licensing and contracting"</li>
+<li>"copyright compliance"</li>
+<li>"vendor negotiations"</li>
+<li>"Acts as a bridge across multiple Library units"</li>
+<li>enhance "access and use"</li>
+<li>design a "system of access"</li>
+<li>analyze "staff and user issues with discovery of resources"</li>
+<li>coordinate "system administration responsibilities for integrated library
+system (Ex Libris Alma/Primo VE) with Technical Services Librarian"</li>
+<li>"create reports in Alma and individual databases as needed, including but not
 limited to usage statistics, user experience statistics, collection analysis
-and overlap&quot;</li>
-<li>monitor &quot;listservs for Alma and Primo VE&quot;</li>
-<li>manage &quot;administrative and troubleshooting functions for EZ Proxy and
-e-resource vendors for access and authentication&quot;</li>
-<li>evaluate &quot;the scope and quality of research resources available&quot;</li>
-<li>&quot;reviews and negotiates licenses for [...] purchased resources and manages the
+and overlap"</li>
+<li>monitor "listservs for Alma and Primo VE"</li>
+<li>manage "administrative and troubleshooting functions for EZ Proxy and
+e-resource vendors for access and authentication"</li>
+<li>evaluate "the scope and quality of research resources available"</li>
+<li>"reviews and negotiates licenses for [...] purchased resources and manages the
 acquisition, activation, and troubleshooting of all purchased and subscribed
-electronic resources for the Library.&quot;</li>
-<li>gathers and analyzes &quot;serials, e-books, database usage, and other related
-assessment data&quot;</li>
-<li>oversees &quot;the activities of the serials acquisitions unit&quot;</li>
-<li>maintain &quot;responsibility for licensing and the management of electronic
-information resources [...] as well as the shared consortial resources&quot;</li>
-<li>assist in &quot;planning and developing policies and workflows&quot;</li>
-<li>partner &quot;with the Acquisitions Librarian and staff on the ordering and payment
-activity of electronic resources&quot;</li>
-<li>establish and &quot;documents library procedures and best practices for the
+electronic resources for the Library."</li>
+<li>gathers and analyzes "serials, e-books, database usage, and other related
+assessment data"</li>
+<li>oversees "the activities of the serials acquisitions unit"</li>
+<li>maintain "responsibility for licensing and the management of electronic
+information resources [...] as well as the shared consortial resources"</li>
+<li>assist in "planning and developing policies and workflows"</li>
+<li>partner "with the Acquisitions Librarian and staff on the ordering and payment
+activity of electronic resources"</li>
+<li>establish and "documents library procedures and best practices for the
 acquisition, licensing, implementation, assessment, and budgeting of
-electronic resources&quot;</li>
-<li>work &quot;with colleagues [...] to optimize resource discovery&quot;</li>
-<li>work &quot;with vendors to resolve technical issues and manages EZproxy for remote
-access&quot;</li>
-<li>&quot;collects, analyzes, and presents use, purchase, and availability data of
-electronic resources&quot;</li>
-<li>&quot;works collaboratively to support metadata maintenance for electronic
-resources and both print and digital serials&quot;</li>
-<li>develop and implement &quot;submissions to a shared University institutional
-repository&quot;</li>
-<li>works &quot;under the supervision of the Associate Director for Technical Services&quot;</li>
+electronic resources"</li>
+<li>work "with colleagues [...] to optimize resource discovery"</li>
+<li>work "with vendors to resolve technical issues and manages EZproxy for remote
+access"</li>
+<li>"collects, analyzes, and presents use, purchase, and availability data of
+electronic resources"</li>
+<li>"works collaboratively to support metadata maintenance for electronic
+resources and both print and digital serials"</li>
+<li>develop and implement "submissions to a shared University institutional
+repository"</li>
+<li>works "under the supervision of the Associate Director for Technical Services"</li>
 </ul>
 <p>To stay current about the position overall and
 about the specific duties involved,
@@ -661,10 +690,10 @@ can work as library websites,
 taking off around 2007 to 2009,
 around the time that Murdock shows this area of activity declining.</p>
 <p>One of Murdock's (2010) conclusions is that
-employers sought &quot;to hire those who are able to perform
+employers sought "to hire those who are able to perform
 traditional librarian duties, such as reference and
 instructional service, in addition to e-resource specific
-tasks&quot; (p. 37).
+tasks" (p. 37).
 Based on what we see in job advertisements today,
 this seems to be much less the case as
 electronic resource librarians have become more specialized,
@@ -935,26 +964,26 @@ the query, four results in August 2022, and four results again
 in August 2023.
 In fact, a new article wasn't published since the 2021
 query. Rather, LISTA just added an addition item from 2015.</p>
-<pre><code>(DE &quot;ELECTRONIC information resources management&quot;)  AND  (DE &quot;PUBLIC libraries&quot;)
+<pre><code>(DE "ELECTRONIC information resources management")  AND  (DE "PUBLIC libraries")
 </code></pre>
 <p>It does not get much better if I expand the query
 to include some additional thesauri terms.
 This query returns only six results in 2021,
 seven in 2022, and eight in 2023:</p>
-<pre><code>(DE &quot;PUBLIC librarians&quot; OR DE &quot;PUBLIC librarianship&quot; OR DE &quot;PUBLIC libraries&quot;) AND  (DE &quot;ELECTRONIC resource librarians&quot; OR  DE &quot;ELECTRONIC information resources management&quot;)
+<pre><code>(DE "PUBLIC librarians" OR DE "PUBLIC librarianship" OR DE "PUBLIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
 </code></pre>
 <p>However, if I focus that query on academic libraries,
 then the results increase substantially.
 The following query returns 51 hits in 2021, 57 in 2022, and 61 in 2023:</p>
-<pre><code>(DE &quot;ELECTRONIC information resources management&quot;)  AND  (DE &quot;ACADEMIC libraries&quot;)
+<pre><code>(DE "ELECTRONIC information resources management")  AND  (DE "ACADEMIC libraries")
 </code></pre>
 <p>And this query returns 82 results in 2021, 90 in 2022, and 97 in 2023:</p>
-<pre><code>(DE &quot;ACADEMIC librarians&quot; OR DE &quot;ACADEMIC librarianship&quot; OR DE &quot;ACADEMIC libraries&quot;) AND  (DE &quot;ELECTRONIC resource librarians&quot; OR  DE &quot;ELECTRONIC information resources management&quot;)
+<pre><code>(DE "ACADEMIC librarians" OR DE "ACADEMIC librarianship" OR DE "ACADEMIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
 </code></pre>
 <p>We could continue to explore <strong>LISTA</strong> or other databases
 for relevant material on ERM and public libraries, and
 we would find more.
-For example, more results are retrieved when I attach 
+For example, more results are retrieved when I attach
 terms like <strong>e-resources</strong>, <strong>integrated library systems</strong>,
 <strong>discovery platforms</strong>, or <strong>ebooks</strong> to a public library
 search in LISTA.
@@ -972,7 +1001,7 @@ public library perspective, and
 a quick search in the school media sphere
 mirrors this issue, too.
 The following search return zero results in 2021, 2022, and 2023:</p>
-<pre><code>(DE &quot;LIBRARY media specialists&quot;)  AND  (DE &quot;ELECTRONIC information resources management&quot;)
+<pre><code>(DE "LIBRARY media specialists")  AND  (DE "ELECTRONIC information resources management")
 </code></pre>
 <p>If you go into public librarianship or
 school media librarianship,
@@ -1184,12 +1213,12 @@ becoming more common these days.</p>
 are both large and small.
 The main idea between them is the same
 in the sense that they are both
-&quot;used by librarians to manage their internal
-work and external services,&quot; such as
-&quot;acquiring and describing collection resources,
+"used by librarians to manage their internal
+work and external services," such as
+"acquiring and describing collection resources,
 making those resources available to their
 users through appropriate channels, and
-other areas of their [resource management] operations&quot;
+other areas of their [resource management] operations"
 (<a href="https://librarytechnology.org/document/25609">Breeding, 2020, para. 1</a>).</p>
 <h3 id="administration"><a class="header" href="#administration">Administration</a></h3>
 <p>In order to provide the above functions,
@@ -1213,7 +1242,7 @@ although they may be named variously.</p>
 I've linked to documentation on modules provided by
 the <a href="http://docs.evergreen-ils.org/">Evergreen</a> open source ILS system.
 LibLime's <a href="https://liblime.com/bibliovation/">Bibliovation</a> LSP offers
-comparably named modules for 
+comparably named modules for
 discovery, circulation, cataloging, serials,
 acquisitions, and systems administration.
 Other ILS/LSP solutions may offer specific modules
@@ -1279,7 +1308,7 @@ author, title, subject, etc. and searched collections,
 at first print but later electronic, held by the library.
 A discovery system can search additional text,
 if available, and can more easily link to items
-not in the library collection but which can be acquired 
+not in the library collection but which can be acquired
 through interlibrary loan.
 A discovery system can also integrate with bibliographic
 databases and
@@ -1307,8 +1336,8 @@ library's collections.</li>
 </ul>
 <p>An ILS/LSP is therefore,
 as Stephen Salmon stated in 1975,
-a &quot;non-traditional&quot; way of doing traditional things,
-such as &quot;acquisitions, cataloging, and circulation,&quot;
+a "non-traditional" way of doing traditional things,
+such as "acquisitions, cataloging, and circulation,"
 but which has now become fairly routine!</p>
 <p>Electronic resource librarians might work extensively with
 specific resources or modules
@@ -1330,7 +1359,7 @@ As our reading by
 the rise in electronic resources has vastly influenced
 the ways librarians structure their organizations,
 whose structures were originally informed
-by the dictates of a &quot;print-based world&quot;.</p>
+by the dictates of a "print-based world".</p>
 <p>To learn more about the ILS
 and current iterations that we now call LSPs,
 see the links in the text above and visit the following:</p>
@@ -1380,38 +1409,38 @@ In an ERM like the open source
 <a href="http://coral-erm.org/modules/">CORAL system</a>,
 the modules include:</p>
 <ul>
-<li><a href="http://coral-erm.org/resources/">Resources</a>: a module &quot;provides a robust
+<li><a href="http://coral-erm.org/resources/">Resources</a>: a module "provides a robust
 database for tracking data related to your organization's
-resources ...&quot; and &quot;provides a customizable workflow tool
+resources ..." and "provides a customizable workflow tool
 that can be used to track, assign, and complete workflow
-tasks.&quot;</li>
-<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a &quot;flexible
-document management system&quot; that provides options to
+tasks."</li>
+<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a "flexible
+document management system" that provides options to
 manage licensing agreements and to automate parts of the
 process.</li>
 <li><a href="http://coral-erm.org/organizations/">Organizations</a>: this module acts as
 a type of advanced directory to manage the various
 organizations that impact or are involved in the
-management of electronic resources, including &quot;publishers,
-vendors, consortia, and more.&quot;</li>
+management of electronic resources, including "publishers,
+vendors, consortia, and more."</li>
 <li><a href="http://coral-erm.org/usage-statistics/">Usage Statistics</a>: a module providing
 librarians with usage statistics of digital assets by
 platform and by publisher. Supports COUNTER and SUSHI.
 We'll cover COUNTER and SUSHI later in the semester, but
 as a preamble:
 <ul>
-<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> &quot;sets and maintains the standard
+<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> "sets and maintains the standard
 known as the Code of Practice and ensures that
 publishers and vendors submit annually to a rigorous
-independent audit&quot;, and,</li>
+independent audit", and,</li>
 <li><a href="https://www.niso.org/standards-committees/sushi">SUSHI</a> is a type of protocol to automate
 collecting data on usage statistics.</li>
 </ul>
 </li>
 <li><a href="http://coral-erm.org/management/">Management</a>: this module provides a
-document management system aimed at &quot;storing documents,
+document management system aimed at "storing documents,
 such as policies, processes, and procedures, related to
-the overall management of electronic resources&quot;.</li>
+the overall management of electronic resources".</li>
 </ul>
 <h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
 <p>In our readings this week,
@@ -1500,7 +1529,7 @@ but for those interested,
 I briefly describe them below.</p>
 <p>In the article by Wang and Dawes (2012),
 the authors describe the
-&quot;next generation integrated library system&quot;,
+"next generation integrated library system",
 which should meet a few criteria that
 include the ability to merge ILS software with ERM software.
 ERM software solutions exist because
@@ -1556,7 +1585,7 @@ Management Systems and Related Products. Library Technology
 Reports, 50(3), 30–42.
 <a href="https://journals.ala.org/index.php/ltr/article/view/4491">https://journals.ala.org/index.php/ltr/article/view/4491</a></p>
 <p>Breeding, M. (2015). <em>Library Technology Reports, 51</em>(4).
-Chapters 1-5. 
+Chapters 1-5.
 <a href="https://journals.ala.org/index.php/ltr/issue/view/509">https://journals.ala.org/index.php/ltr/issue/view/509</a></p>
 <p>Breeding, M. (2020). Smart libraries Q&amp;A: Differences
 between ILS and LSP. <em>Smart Libraries Newsletter, 40</em>(10),
@@ -1668,7 +1697,7 @@ Assuming the librarian in the 1930s used
 the Newark system,
 when a book was to be checked out,
 the librarian needed to enter the details on a
-&quot;book card, a date slip and a book pocket for each book&quot;
+"book card, a date slip and a book pocket for each book"
 (Flexner, 1927, p. 78).
 Flexner goes on to outline the process:</p>
 <blockquote>
@@ -1776,7 +1805,7 @@ to draw up licenses for an electronic resources,
 as we'll discuss later.
 We are also interested in standardizing,
 as Flexner (1927) would say,
-&quot;routines&quot;, processes, or workflows.
+"routines", processes, or workflows.
 Thus, our additional readings are on TERMS,
 or <em>Techniques for Electronic Resource Management</em>.
 TERMS is not a true standard, but
@@ -1879,15 +1908,15 @@ The differences between these publications follows:</p>
 <blockquote>
 <p>NISO Technical Reports provide useful information about a
 particular topic, but do not make specific recommendations
-about practices to follow. They are thus &quot;descriptive&quot;
-rather than &quot;prescriptive&quot; in nature. Proposed standards
+about practices to follow. They are thus "descriptive"
+rather than "prescriptive" in nature. Proposed standards
 that do not result in consensus may get published as
 technical reports.</p>
 </blockquote>
 <p><strong>Recommended Practices:</strong></p>
 <blockquote>
-<p>NISO Recommended Practices are &quot;best practices&quot; or
-&quot;guidelines&quot; for methods, materials, or practices in order
+<p>NISO Recommended Practices are "best practices" or
+"guidelines" for methods, materials, or practices in order
 to give guidance to the user. These documents usually
 represent a leading edge, exceptional model, or proven
 industry practice. All elements of Recommended Practices
@@ -1944,7 +1973,7 @@ Libraries and the Academy, 14</em>(1), 87–102.
 <a href="https://doi.org/10.1353/pla.2013.0051">https://doi.org/10.1353/pla.2013.0051</a>, or:
 <a href="http://uknowledge.uky.edu/slis_facpub/6/">http://uknowledge.uky.edu/slis_facpub/6/</a></p>
 <p>Breeding, M. (2015). <em>Library Technology Reports, 51</em>(4).
-Chapters 1-5. 
+Chapters 1-5.
 [https://journals.ala.org/index.php/ltr/issue/view/509][breeding2015]</p>
 <p>Emery, J., &amp; Stone, G. (2013). <em>Library Technology Reports, 49</em>(2).
 Chapters 1-8.
@@ -2023,7 +2052,7 @@ can show up based on a query on any of the above platforms,
 even if none of these search or discovery platforms provide
 full text access to the article:</p>
 <blockquote>
-<p>Brown, D. (2021). &quot;Through a glass, darkly:: Lessons learned
+<p>Brown, D. (2021). "Through a glass, darkly:: Lessons learned
 starting over as an electronic resources librarian. <em>The
 Serials Librarian, 81</em>(3–4), 246–252.
 <a href="https://doi.org/10.1080/0361526X.2021.2008581">https://doi.org/10.1080/0361526X.2021.2008581</a></p>
@@ -2033,7 +2062,7 @@ but they present a technological problem, too.
 That problem is:
 how do I link to the main source?</p>
 <p>One way to know if our library provides access
-to the above source and others like it is 
+to the above source and others like it is
 through a link resolver.
 We see UK's link resolver in action when
 we see a <strong>View Now @ UK</strong> button or link.
@@ -2255,7 +2284,7 @@ Selection and bibliographic control.</strong>
 Since this is not available via UK Libraries,
 I would have to request the item
 through interlibrary loan.
-When I do that, 
+When I do that,
 the link resolver triggers
 <a href="https://support.atlas-sys.com/hc/en-us/articles/360011910073-OpenURL-Configuration">ILLiad</a>,
 which is used for interlibrary loan.
@@ -2266,7 +2295,7 @@ its context reflects the service being used
 <em>Primo</em>, <em>Illiad</em>, etc.) which determines
 the metadata elements in the URL.
 Note that some elements are empty
-(e.g., <strong>rft.date=&amp;</strong> is an empty value for the date field 
+(e.g., <strong>rft.date=&amp;</strong> is an empty value for the date field
 versus <strong>rft.genre=book&amp;</strong>, which holds the value <strong>book</strong>
 for the genre field).</p>
 <pre><code>https://lib.uky.edu/ILLiad/illiad.dll?
@@ -2425,11 +2454,11 @@ engines, database, or websites
 (like <em>Wikipedia</em>).
 The parameters (i.e., search terms)
 are part of a query string, too.
-It's also important to 
+It's also important to
 understand the base part of a URL (link) because
 the <strong>link</strong> in link resolver is the
 part of the whole process.
-A URL for an  article can looks like this: </p>
+A URL for an  article can looks like this:</p>
 <pre><code>https://www.emerald.com/insight/content/doi/10.1108/10650740510632208/full/html
 </code></pre>
 <p>This URL contains the following components:</p>
@@ -2457,7 +2486,7 @@ is specifically
 The DOI is composed of a <a href="https://www.doi.org/doi_handbook/2_Numbering.html">prefix and a suffix</a>.
 The prefix includes the following elements:</p>
 <ul>
-<li>10 : signifies the DOI registration agency, which is always &quot;10&quot; for DOIs managed by the <a href="https://www.doi.org/">International DOI Federation (IDF)</a></li>
+<li>10 : signifies the DOI registration agency, which is always "10" for DOIs managed by the <a href="https://www.doi.org/">International DOI Federation (IDF)</a></li>
 <li>1108 : the registrant code that distinguishes the organization that registered the DOI (e.g., publisher, data center, library)</li>
 </ul>
 <p>The suffix refers to the following element:</p>
@@ -2511,21 +2540,21 @@ They include two broad categories,
 <em>proactive troubleshooting</em> and
 <em>reactive troubleshooting</em> of access.</p>
 <ul>
-<li>proactive troubleshooting of access: &quot;defined as troubleshooting access
-problems before they are identified by a patron&quot;. Some examples include:
+<li>proactive troubleshooting of access: "defined as troubleshooting access
+problems before they are identified by a patron". Some examples include:
 <ul>
-<li>&quot;letting public-facing library staff know about planned database
-downtime&quot;</li>
-<li>&quot;doing a complete inventory to make sure that every database paid for is
+<li>"letting public-facing library staff know about planned database
+downtime"</li>
+<li>"doing a complete inventory to make sure that every database paid for is
 in fact 'turned on'</li>
 </ul>
 </li>
-<li>reactive troubleshoot of access: &quot;defined as troubleshooting access issues as
-problems are identified and reported by a patron&quot;. Some examples include:
+<li>reactive troubleshoot of access: "defined as troubleshooting access issues as
+problems are identified and reported by a patron". Some examples include:
 <ul>
-<li>&quot;fixing broken links&quot;</li>
-<li>&quot;fixing incorrect coverage date ranges in the catalog&quot;</li>
-<li>&quot;patron education about accessing full text&quot;</li>
+<li>"fixing broken links"</li>
+<li>"fixing incorrect coverage date ranges in the catalog"</li>
+<li>"patron education about accessing full text"</li>
 </ul>
 </li>
 </ul>
@@ -2538,12 +2567,12 @@ The Samples and Healy (2014)
 report is a great example
 of systematic study.
 The authors identify a problem that
-had grown &quot;organically,&quot;
+had grown "organically,"
 collected and analyzed data, and
 then generalized from it by outlining
-a &quot;detailed workflow&quot;
-to &quot;improve the timeliness and
-accuracy of electronic resource work.&quot;
+a "detailed workflow"
+to "improve the timeliness and
+accuracy of electronic resource work."
 Practically, studies like
 this promise to improve
 productivity and work flows
@@ -2677,7 +2706,7 @@ internet and the web
 have flattened genres.
 By that I mean they
 have made it difficult
-to distinguish among works 
+to distinguish among works
 like magazine articles, news articles,
 journal articles, encyclopedia articles,
 ebooks, etc.
@@ -2783,7 +2812,7 @@ actual, documented, historical precursors
 to <em>Google</em> and to <em>Google Scholar</em>.
 But today, these search engines
 are erroneously considered source material
-(e.g, &quot;I found it on Google&quot;).
+(e.g, "I found it on Google").
 Few, I think, would have considered
 a print index as source material,
 but rather as a <strong>reference</strong> item,
@@ -2813,7 +2842,7 @@ the second is through what is called SAML authentication.
 We address these two authentication types below.</p>
 <h3 id="proxy-authentication"><a class="header" href="#proxy-authentication">Proxy Authentication</a></h3>
 <p><a href="https://www.oclc.org/en/ezproxy.html">EZproxy</a> (OCLC)
-is the main 
+is the main
 product of the first type.
 When we access any paywalled work,
 like a journal article,
@@ -2854,11 +2883,11 @@ in fact:</p>
 <p>As opposed to the first URL,
 the interesting thing about
 the original URL is that it
-is in fact a 
+is in fact a
 <strong>sciencedirect.com</strong> address.
-Even though &quot;sciencedirect&quot;
+Even though "sciencedirect"
 appears in the <strong>uky.edu</strong> URL,
-it is not a &quot;sciencedirect.com&quot; server.
+it is not a "sciencedirect.com" server.
 They are two different servers,
 from two different organizations,
 and are as different as
@@ -2884,7 +2913,7 @@ makes the resource request
 to the original server,
 which relays that content
 back to the proxy server (EZproxy),
-which then sends 
+which then sends
 the content to our browser.
 This means that when we request
 an article in a journal
@@ -3031,7 +3060,7 @@ but want to offer a single sign-on (SSO) experience for their users.</p>
 <h2 id="conclusion-3"><a class="header" href="#conclusion-3">Conclusion</a></h2>
 <p>The Samples &amp; Healy (2014) and
 the Carter &amp; Traill (2017) articles
-address troubleshooting strategies 
+address troubleshooting strategies
 with electronic resources.
 One additional thing to note
 about these readings is
@@ -3049,9 +3078,9 @@ shows how confusing e-resources
 are to patrons and
 how the move to digital has
 complicated all genres,
-or &quot;containers&quot;, as
+or "containers", as
 the authors name them.
-Such &quot;ambiguity&quot; has
+Such "ambiguity" has
 implications not only for
 how users find and identify
 electronic resources but
@@ -3062,7 +3091,7 @@ EZproxy and OpenAthens
 content in order to complete
 the technical discussions we
 have had in recent weeks on
-integrated library systems, 
+integrated library systems,
 electronic resource management systems,
 link resolvers,
 and standards.
@@ -3087,7 +3116,7 @@ sources in library collections,
 the job of an electronic resource
 librarian is often to make sure
 they work as well as possible.
-This will often mean working 
+This will often mean working
 with vendors and colleagues.</p>
 <h2 id="additional-sources"><a class="header" href="#additional-sources">Additional Sources</a></h2>
 <ul>
@@ -3162,7 +3191,7 @@ on workflow analysis should
 put prior material into context and
 act as a bridge to the material
 we discuss in the
-remaining sections of this work. </p>
+remaining sections of this work.</p>
 <p>To recap: in the beginning
 we learned about:</p>
 <ul>
@@ -3197,7 +3226,7 @@ we learned about
 standards, technical reports,
 and recommended best practices
 by studying documents
-prepared by NISO and 
+prepared by NISO and
 its members, and
 component technologies
 such as:</p>
@@ -3240,7 +3269,7 @@ greater detail towards
 the end of this module.</p>
 <p>In the second
 <a href="https://journals.ala.org/index.php/ltr/article/view/4493/5259">Anderson article (chapter 3)</a>,
-we learn how to 
+we learn how to
 carefully consider a
 library's work flow before
 selecting which ERM
@@ -3353,10 +3382,10 @@ the <a href="https://journals.ala.org/index.php/ltr/article/view/4493/5259">Ande
 provides a link to a
 <a href="https://old.diglib.org/standards/ERMI_Interop_Report_20080108.pdf">white paper</a>
 on the interoperability
-of acquisitions modules between 
+of acquisitions modules between
 integrated library systems and
 electronic resource management systems.
-This paper defines 
+This paper defines
 13 data elements that were
 determined to be desired in
 any exchange between
@@ -3406,18 +3435,18 @@ Anderson has written,
 but in particular, the
 <a href="https://journals.ala.org/index.php/ltr/article/view/4491/5255">Electronic Resource Management Systems and Related Products</a>.</p>
 <p>In short,
-this section's topic 
+this section's topic
 provides a foundation
-for the remaining topics 
+for the remaining topics
 we study.
-In particular, 
+In particular,
 they will help frame what
 we learn when we study
 the markets and economics
 of the electronic resource industry,
 the process of licensing and negotiation, and
 about the evaluation and statistics of usage.
-Think of this section 
+Think of this section
 as a foundation,
 a transition between,
 and a reflection on
@@ -3455,7 +3484,7 @@ we cover the basics of copyright,
 how copyright creates monopolies, and
 how those monopolies,
 in the digital era, are
-able to demand substantial sums of 
+able to demand substantial sums of
 money for electronic resources, and
 finally, how this impacts
 library budgets.</p>
@@ -3552,7 +3581,7 @@ throughout the 20th century,
 lend material, and preserve it.
 More mundanely, it's also why
 I can buy a book at a bookstore and
-later give it away or sell it to someone. </p>
+later give it away or sell it to someone.</p>
 <p>The digital medium
 makes things messier,
 as it tends to do.
@@ -3614,7 +3643,7 @@ self-contained.
 Ebooks, however, arrive in
 all shapes and sizes.
 <a href="https://www.gutenberg.org/">Project Gutenberg</a>
-distributes public domain ebooks in 
+distributes public domain ebooks in
 various file formats
 that include plain text documents,
 that have no presentation markup
@@ -3708,7 +3737,7 @@ publishers sued the IA and won the initial suit in March. The decision will
 be appealed but has already emboldened <a href="https://www.nytimes.com/2023/08/13/business/media/internet-archive-emergency-lending-library.html">other media companies to sue the
 IA</a>. But at stake is the basic notion of whether ebooks can be
 bought or must be perpetually licensed, until at least they enter the <a href="https://copyright.universityofcalifornia.edu/use/public-domain.html">public
-domain</a>. </p>
+domain</a>.</p>
 </blockquote>
 <h2 id="impact-on-ebook-collections"><a class="header" href="#impact-on-ebook-collections">Impact on Ebook Collections</a></h2>
 <p>What does this mean for
@@ -3800,7 +3829,7 @@ even if these limitations
 are marketed as selling points.
 In practice,
 this may mean that only a limited
-number of people may &quot;check&quot;
+number of people may "check"
 out a work from a library at one time,
 or access a database at one time, and
 so forth.
@@ -3829,8 +3858,8 @@ libraries and publishers is misleading.
 Instead, the author argues,
 the landscape is much more complex, and
 the publishers have made a number
-of attempts to &quot;make their e-lending
-policies better for librarians&quot;
+of attempts to "make their e-lending
+policies better for librarians"
 (2018-2019: Policy Updates and
 Different Opinions sect, para 6).
 Personally, I'm not sure I buy
@@ -3946,7 +3975,7 @@ The <em>Impact Factor</em> is based on an
 outdated calculation and is thus
 not a very appropriate statistical
 measure.
-The other metrics 
+The other metrics
 were created to address that but
 may have other problems.
 And four, the use of the metrics,
@@ -4031,9 +4060,9 @@ issued by The White House
 <a href="https://www.whitehouse.gov/ostp/">Office of Science and Technology Policy</a>
 might make things more <em>interesting</em>.
 The <a href="https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf">OSTP memorandum</a> states that
-&quot;federally funded research must be
+"federally funded research must be
 publicly accessible without an embargo
-on their free and public release.&quot;
+on their free and public release."
 This mandate requires that federal
 agencies with research and development
 expenditures to develop their own policies,
@@ -4041,7 +4070,7 @@ and that could mean that such policies
 result in Gold OA agency-specific mandates
 or Green OA mandates.
 Green OA allows pre-prints to
-be made available (article versions 
+be made available (article versions
 before peer-review) or
 post-prints (article versions after
 peer-review) but not publisher versions
@@ -4102,7 +4131,7 @@ how the two types of laws are related,
 since licensing entails negotiating,
 signing, and managing contracts.</p>
 <h2 id="copyright-and-contracts"><a class="header" href="#copyright-and-contracts">Copyright and Contracts</a></h2>
-<p>There is a complicated tension 
+<p>There is a complicated tension
 between <a href="https://www.copyright.gov/">copyright law</a> and
 <a href="https://www.law.cornell.edu/wex/contract">contract law</a>.
 In short, copyright is
@@ -4135,7 +4164,7 @@ rights through contracts,
 which are in personam by nature (Rub, 2017).
 On the other hand,
 these rights are not absolute;
-they are granted for a &quot;limited time&quot; and
+they are granted for a "limited time" and
 with the ultimate aim of serving the
 public interest by enriching the
 cultural and intellectual commons.</p>
@@ -4204,7 +4233,7 @@ decided that it was eligible.
 This eligibility became codified
 in an 1980 amendment to
 the 1976 Copyright Act.
-This cemented the ability for 
+This cemented the ability for
 software copyright owners to lease
 their source code,
 especially once that code was
@@ -4337,7 +4366,7 @@ helps to resolve this.
 It fosters a common approach
 to some aspects of the licensing process and
 in fact can be used as
-&quot;an alternative to a license agreement&quot;
+"an alternative to a license agreement"
 if a provider and a library agrees to use it.
 Like the standard licensing structure
 that Weir (2016) outlines,
@@ -4351,7 +4380,7 @@ confidentiality and privacy.</p>
 <p>We have addressed the
 <a href="https://www.nasig.org/Core-Competencies">NASIG Core Competencies for Electronic Resources Librarians (NCC)</a>
 in earlier sections.
-The NCC is a reminder 
+The NCC is a reminder
 of the centrality of licensing
 for the ERM librarian.
 Section 1.2 states:</p>
@@ -4536,7 +4565,7 @@ table, and although each
 side has their own self-interests,
 stereotypes prevent connection.
 And reflecting on any stereotypes
-we have also reduces anxiety in 
+we have also reduces anxiety in
 the negotiation process.</p>
 <h2 id="community"><a class="header" href="#community">Community</a></h2>
 <p>As a negotiator,
@@ -4649,7 +4678,7 @@ described it, and then shelved it.
 And maybe, depending on the
 type of the library,
 weeded it from the collection
-at some future date 
+at some future date
 during their regular
 course of collection assessment.</p>
 <p>The above is a simplistic take, but
@@ -4683,10 +4712,10 @@ that it does dictate so much.
 We think that content,
 and not format,
 should be king and
-that &quot;collection managers should focus
+that "collection managers should focus
 on the content of the information provided,
 regardless of the actual form in which the
-information arrives&quot;
+information arrives"
 <a href="https://doi.org/10.1016/0099-1333(94)90043-4">(Harloe &amp; Budd, 1994, p. 83)</a>.
 We have already learned that some
 <a href="09-markets-economics.html">formats cost more</a>,
@@ -4760,7 +4789,7 @@ Center.
 <p>Aside 1: The most recent organizational chart for UK Libraries is from 2019,
 and they may have decided to stop making them. Much has changed since then,
 including a new Dean, but the general point I am making should hold about the
-complexity of the modern library. </p>
+complexity of the modern library.</p>
 <p>Aside 2: The concept of organizational charts dates back to the 19th century,
 Based some cursory searching, the first known chart was created in 1855 by
 Daniel McCallum, a railway general superintendent. McCallum, with the
@@ -4769,9 +4798,9 @@ designed an organizational chart for the New York and Erie Railway to
 showcase the division of administrative duties and the number and class of
 employees engaged in each department (<a href="https://www.organimi.com/the-evolution-of-org-charts/">Organimi 2020</a>,
 <a href="https://www.lanteria.com/news/complete-guide-making-organizational-chart">Lanteria 2021</a>). This chart was initially referred to as a
-&quot;Diagram representing a plan of organization&quot; and was not yet called an
+"Diagram representing a plan of organization" and was not yet called an
 organizational chart (<a href="https://www.organimi.com/the-evolution-of-org-charts/">Organimi 2020</a>, <a href="https://pingboard.com/org-charts/evolution-org-charts">Pingboard</a>).</p>
-<p>The terminology &quot;organization chart&quot; became more common in the early 20th
+<p>The terminology "organization chart" became more common in the early 20th
 century, and by 1914, a certain Brinton advocated for broader use of
 organizational charts (<a href="https://en.wikipedia.org/wiki/Organizational_chart">Wikipedia Organizational Chart</a>). The
 use of organizational charts gained more traction in industrial engineering
@@ -4863,7 +4892,7 @@ educational resources.</p>
 I believe,
 pushed to faculty to replace
 proprietary textbooks.
-However, it's useful to ask 
+However, it's useful to ask
 whether libraries ought to collect
 and acquire these resources,
 which would involve promoting
@@ -4990,10 +5019,10 @@ enhancing patron engagement, trust, and satisfaction.</p>
 <p>What is user experience?
 <a href="https://doi.org/10.4018/978-1-5225-2255-3.ch661">Dickson-Deane and Chen (2018)</a>
 write that
-&quot;user experience determines
+"user experience determines
 the quality of an interaction
 being used by an actor in
-order to achieve a specific outcome&quot;
+order to achieve a specific outcome"
 (Intro section, para 1).
 <a href="https://doi.org/10.4135/9781483386874.n229">Parush (2017)</a>
 highlights adjacent terms
@@ -5017,7 +5046,7 @@ this entails understanding both the
 systems and technologies involved
 and the users interacting
 with these systems and technologies.</p>
-<p>Dickson-Deane and Chen (2018) 
+<p>Dickson-Deane and Chen (2018)
 outline the parameters involved with UX.
 Let me modify their example and
 frame it within the context of an ERM
@@ -5037,8 +5066,8 @@ website.</li>
 <li><strong>User Interface</strong>: The tools available by the object and
 the look and feel.
 <ul>
-<li>More specifically, Parush (2017) states that &quot;the user
-interface mediates between the user and computer&quot; and it
+<li>More specifically, Parush (2017) states that "the user
+interface mediates between the user and computer" and it
 includes three basic components:
 <ul>
 <li><em>controls</em>: The tools used to control and interact
@@ -5144,7 +5173,7 @@ implementation of its A-Z Database List.
 The results of this study are interesting.
 As Kraft et al. (2022) point out,
 librarians have long made efforts
-to reduce the use of library terminology 
+to reduce the use of library terminology
 in their messaging to patrons,
 since this only serves as a point of confusion.
 However, their focus group participants
@@ -5310,7 +5339,7 @@ kind of study.
 -->
 <div style="break-before: page; page-break-before: always;"></div><h1 id="evaluation-and-statistics"><a class="header" href="#evaluation-and-statistics">Evaluation and Statistics</a></h1>
 <h2 id="introduction-13"><a class="header" href="#introduction-13">Introduction</a></h2>
-<p>We've discussed problems 
+<p>We've discussed problems
 with defining terms, and
 we have learned that much
 effort has been expended
@@ -5337,7 +5366,7 @@ the insight we may glean
 is always difficult to acquire no
 matter how much data is available to us.</p>
 <blockquote>
-<pre><code>999.999.999.999 - - [18/Nov/2022:04:40:38 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 494 &quot;-&quot; &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0&quot;
+<pre><code>999.999.999.999 - - [18/Nov/2022:04:40:38 +0000] "GET /index.html HTTP/1.1" 200 494 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
 </code></pre>
 <p>Example web server access log entry,
 with obfuscated IP address.
@@ -5572,7 +5601,7 @@ in their collections.
 Arneson's section describes using a
 Linux file search utility called <code>grep</code>
 to construct search queries of the EZproxy logs
-and deduce usage of specific electronic resources. 
+and deduce usage of specific electronic resources.
 Since both methods require sifting through
 log entries like the one I highlighted above,
 the process requires some sleuthing, testing,
@@ -5597,7 +5626,7 @@ of how a library's collections are used, but
 they are an important part.
 Not only do they help librarians manage
 their collections,
-they also help librarians show proof 
+they also help librarians show proof
 of their collection's importance to their
 communities.
 Furthermore, with a little
@@ -5627,7 +5656,7 @@ Ezproxy Users’ activities. <em>code{4}lib Journal, 29</em>.
 vendors do not provide data. <em>Serials Review, 43</em>(1), 46–50.
 <a href="https://doi.org/10.1080/00987913.2017.1281788">https://doi.org/10.1080/00987913.2017.1281788</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="privacy-and-security"><a class="header" href="#privacy-and-security">Privacy and Security</a></h1>
-<p><a href="http://dx.doi.org/10.5860/ltr.52n4">Breeding (2016)</a> begins 
+<p><a href="http://dx.doi.org/10.5860/ltr.52n4">Breeding (2016)</a> begins
 with the following statement:</p>
 <blockquote>
 <p>Libraries have a long tradition of taking extraordinary
@@ -5706,14 +5735,14 @@ raised other problems.
 Not long after the Patriot Act
 was passed after 9/11,
 FBI agents ordered a Connecticut librarian to
-<a href="https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html">&quot;identify patrons who had used
+<a href="https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html">"identify patrons who had used
 library computers online at a
-specific time one year earlier&quot;</a>.
+specific time one year earlier"</a>.
 Per the law,
 the librarians involved were
 placed under a gag order,
 which prevented them from speaking out.
-This led to a lawsuit against the 
+This led to a lawsuit against the
 US Attorney General.
 Eventually the librarians were released
 from their gag order and
@@ -5778,8 +5807,8 @@ Overall, their findings highlight
 the lack of alignment between
 the values of librarians and the profit-based
 motives of vendors.
-It's also important to note how 
-unresponsive many vendors were to 
+It's also important to note how
+unresponsive many vendors were to
 their requests to participate in data collection.
 Remember that <a href="https://www.niso.org/publications/rp-7-2012-seru">SERU</a> has a
 section in its recommended practice
