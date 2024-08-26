@@ -169,7 +169,7 @@ to retrieve freely available works on the web,
 instead of at the library.
 As a result, what becomes of the core jurisdiction of the librarian?
 And of the electronic resource librarian, in particular?
-In concrete terms: a recent paper ([Klitzing, 2009][klitzing2019])
+In concrete terms: a recent paper ([Klitzing, 2019][klitzing2019])
 reported that researchers state they use
 Google Scholar 83% of the time and
 EBSCOhost 29% of the time to find relevant material.
