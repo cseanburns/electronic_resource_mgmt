@@ -2,7 +2,7 @@
 
 ## Key Points
 
-In this section, you will:
+In this section, we're going to address the following points:
 
 1. **The Role of the ERM Librarian:** The ERM librarian requires a holistic
    understanding across technical services, collection development, and a
@@ -12,8 +12,8 @@ In this section, you will:
 2. **Constant Disruption:** ERM is an area of librarianship that faces constant
    technological changes, making it challenging to find continuity. This
    disruption is what makes the field dynamic but also complex.
-3. **Conceptual vs. Practical Knowledge:** Conceptual understanding of relevant
-   technologies is as critical than practical skills, and both are
+3. **Conceptual and Practical Knowledge:** Conceptual understanding of relevant
+   technologies is as critical as practical skills, and both are
    interconnected.
 4. **Library Types:** Much of the ERM literature and resources focus on
    academic libraries, but ERM principles apply to public, school, and other
