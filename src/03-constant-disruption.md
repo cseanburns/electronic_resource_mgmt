@@ -52,8 +52,8 @@ In the [Desperately Seeking an ERM Librarian](02-desperately-seeking-erm-librari
 we reviewed a list of qualifications from current job advertisements for electronic resource librarian positions.
 In Murdock (2010), we learned how these kinds of qualifications are tied to various technological developments.
 As the technology changes, and it changes a lot (see **aside** below), so do the qualifications.
-One of the big takeaways from Harnett's (2014) article, for me at least,is that conceptual knowledge of the relevant technology
-is as important than practical knowledge, although the two are not always so easily divorced from each other.
+One of the big takeaways from Harnett's (2014) article, for me at least, is that conceptual knowledge of the relevant technology
+is as important as the practical knowledge, although the two are not always so easily divorced from each other.
 
 > Aside: See The Library Technology Guides' page on [*The History of Mergers and Acquisitions*][mergerHistory]
 > *in the Library Technology Industry* to get a sense of how much change has taken place in the last 40+ years.
@@ -76,7 +76,7 @@ He provides an outline of the various components of electronic resources, and he
 ### The Focus on Academic Libraries is Misleading
 
 One caveat, though:
-while all the articles on our list this week are focused on academic libraries, the terms, concepts, and processes described in these articles are relevant to other areas of librarianship
+while all the articles on our list this week are focused on academic libraries, the terms, concepts, and processes described in these articles are relevant to other areas of librarianship.
 These include public librarianship, school media librarianship, and so forth.
 Differences in processes and in some details will arise due to organizational or other contextual differences among these library types.
 Organizationally, for example, public libraries are connected to municipalities, county governments, state libraries, and to public library consortia.
@@ -86,7 +86,7 @@ The same is true for public schools.
 In such cases, school boards and school districts will likely be involved (see **aside** below).
 Contextual differences that shape electronic resource management include user communities.
 An academic library serves its students, faculty, staff, and perhaps the public to some degree.
-However, a public library serves its local community.
+However, a public library serves its local community, which can be more diverse.
 Such differences will shape ERM workflows and other choices, like the chosen vendors and publishers.
 For example, academic libraries provide more scholarly sources, and public libraries provide more ebooks and audiobooks and less e-journals.
 This means that you might find services like OverDrive/Libby, Epic, and Hoopla offered by public libraries but not in academic ones,
@@ -173,9 +173,9 @@ which at its heart is nothing more than a big document retrieval system.
 
 In the process of migrating from print to electronic, all sorts of things had to change, but all that change rests on the major premise of librarianship:
 **to provide access by organizing information in order to retrieve information**.
-Although you may have often heard that libraries are ancient entities,
+Although you may have heard that libraries are ancient entities,
 libraries and librarianship as we understand them today did not modernize until the late 1800s but more so starting in the 1920s and 1930s.
-It during this later time frame when some in the profession began to hone in on the major complexities and challenges,
+It was during this later time frame when some in the profession began to hone in on the major complexities and challenges,
 social and technological, involved in **organizing** and **retrieving** information in order to provide **access**.
 The challenges with organizing and retrieving information that they identified nearly 100 years ago were indeed major and problematic.
 Fortuitously, it gave rise to what we now called *library science*:
@@ -184,7 +184,7 @@ the rigorous study of libraries, librarianship, collections, users, communities,
 Yet consider when those people laid the groundwork for a library science nearly 100 years ago, librarians only managed print,
 and the primary means of accessing print collections was through a physical building.
 With the introduction of computer systems in the 1960s and with better networking technologies in the 1980s and 1990s,
-issues with organizing and retrieving information grew exponentially.
+issues with organizing and retrieving information to provide access to it grew exponentially.
 This exponential increase created new complexities and launched an entire new field, what we now call *information science*.
 
 All right, back to the ground level.
@@ -219,20 +219,20 @@ So, this week, you have two major tasks:
 As you work on this task, I ask that you pay attention to the emphasis on [workflow][workflow].
 The idea of a **workflow** is a major theme in this course because it is a major part of electronic resource management.
 We'll come back to the idea throughout this work.
-Also, as we read the Cote and Ostergaard (2017) and the Fu and Carmen (2015) article,
+Also, as we read the Cote and Ostergaard (2017) and the Fu and Carmen (2015) articles,
 we will learn about how migrating to new systems is a major, expensive, and time-consuming project.
 One of the great things about these two articles is that they document the workflows used in these migrations.
 If you become involved some day in a migration process, you should use articles like these to assist you and
 to help you make evidence-based decisions about what you need to accomplish.
 And like what these authors have done, I would encourage you to document and publish what you learned.
 In the print era, there were some cases where librarians had to migrate to new systems, too.
-For example, some research libraries in the U.S. started by classifying collections using the Dewey Decimal Classification system,
+For example, some academic libraries in the U.S. initially classified their collections using the Dewey Decimal Classification system,
 but then began to convert to the Library of Congress Classification system after the mid-20<sup>th</sup> century.
 This was no small task.
 Today, migration is big business in the library world (see Breeding's site for other examples).
 First, this is because the technology changes fast.
 Second, there are a number of competing electronic resource management products that librarians can choose for their communities,
-which they might be inclined to do if the migration provides an advantage to their users, communities, and themselves.
+and they might be inclined to do that if the migration provides an advantage to their users, communities, and themselves.
 
 ## Conclusion
 
