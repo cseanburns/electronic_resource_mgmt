@@ -108,7 +108,7 @@ These differences in needs, due to different communities, will change the emphas
 Another reason why our reading lists lean toward the academic setting is not because electronic resource management is not relevant to public or other types of libraries.
 Rather, it is because academic librarians publish more about electronic resources and public librarians publish very little.
 For example, I conducted a search in [LISTA][listaUK] with the following query, which returned just three results in 2021 when I first ran
-the query, four results in August 2022, and four results again in August 2023.
+the query, four results in August 2022, and four results again in August 2023 and again in August 2024.
 In fact, a new article wasn't published since the 2021 query. Rather, LISTA just added an addition item from 2015.
 
 ```
@@ -116,20 +116,20 @@ In fact, a new article wasn't published since the 2021 query. Rather, LISTA just
 ```
 
 It does not get much better if I expand the query to include some additional thesauri terms.
-This query returns only six results in 2021, seven in 2022, and eight in 2023:
+This query returns only six results in 2021, seven in 2022, eight in 2023 and eight again in 2024:
 
 ```
 (DE "PUBLIC librarians" OR DE "PUBLIC librarianship" OR DE "PUBLIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
 ```
 
 However, if I focus that query on academic libraries, then the results increase substantially.
-The following query returns 51 hits in 2021, 57 in 2022, and 61 in 2023:
+The following query returns 51 hits in 2021, 57 in 2022, 61 in 2023, and 64 in 2024:
 
 ```
 (DE "ELECTRONIC information resources management")  AND  (DE "ACADEMIC libraries")
 ```
 
-And this query returns 82 results in 2021, 90 in 2022, and 97 in 2023:
+And this query returns 82 results in 2021, 90 in 2022, 97 in 2023, and 100 in 2024:
 
 ```
 (DE "ACADEMIC librarians" OR DE "ACADEMIC librarianship" OR DE "ACADEMIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
@@ -140,13 +140,12 @@ For example, more results are retrieved when I attach terms like **e-resources**
 or **ebooks** to a public library search in LISTA.
 But the results are nearly always much less than academic library searches.
 Another example, my local library system, [Lexington Public Library][lexpublib],
-uses the [CARL][carlILS] integrated library system,
-but there doesn't appear to be any articles in LISTA about it since 2015.
+uses the [CARL][carlILS] integrated library system, but there doesn't appear to be any articles in LISTA about it since 2015.
 
 Anyway, you get the picture.
 There simply isn't a lot of material on electronic resource management from the public library perspective.
 A quick search in the school media sphere mirrors this issue, too.
-The following search return zero results in 2021, 2022, and 2023:
+The following search return zero results in 2021, 2022, 2023, and 2024:
 
 ```
 (DE "LIBRARY media specialists")  AND  (DE "ELECTRONIC information resources management")
