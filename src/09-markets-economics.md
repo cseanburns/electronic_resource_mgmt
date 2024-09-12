@@ -268,17 +268,22 @@ That, we should note,
 adds additional expense.
 
 > Take note of the recent lawsuit against the Internet Archive (IA) in
-> [Hachette v. Internet Archive][hachette]. In the early days of the pandemic,
-> the Internet Archive started lending books through
-> [OpenLibrayr.org][openlibrary] that were mostly not available as ebooks. The
-> IA only lent these books if a library owned a physical copy and limited
-> lending to the amount of physical copies owned. This is called [Controlled
-> Digital Lending (CDL)][cdl], which the IA argued was *Fair Use*. Four
-> publishers sued the IA and won the initial suit in March. The decision will
-> be appealed but has already emboldened [other media companies to sue the
-> IA][nytimesIA]. But at stake is the basic notion of whether ebooks can be
-> bought or must be perpetually licensed, until at least they enter the [public
-> domain][public_domain]. 
+> [Hachette v. Internet Archive][hachette].
+> In the early days of the pandemic,
+> the Internet Archive lent books that were mostly not available as ebooks
+> through [OpenLibrayr.org][openlibrary]. The IA only lent these books if a
+> library owned a physical copy and they limited lending to the amount of
+> physical copies owned. This is called
+> [Controlled Digital Lending (CDL)][cdl],
+> which attempts to mirror how physical copies are lent and which
+> the IA argued was *Fair Use*. Four publishers sued the IA and won the initial
+> suit. The decision was appealed but emboldened [other media companies to sue
+> the IA][nytimesIA]. In September 2024, the IA lost the appeal when the [US
+> Second Circuit Court of Appeals][lost_appeal] upheld the lower court's
+> ruling. At stake is the basic notion of whether ebooks can be bought or must
+> be perpetually licensed, until at least they enter the
+> [public domain][public_domain]. Given IA has lost the appeal, CDL will likely cease
+> to exist unless legislation changes it. 
 
 ## Impact on Ebook Collections
 
@@ -654,26 +659,27 @@ Quarterly, 38(2), 405–422.
 
 [bobbsmerrillvStraus]:https://en.wikipedia.org/wiki/Bobbs-Merrill_Co._v._Straus
 [bosch2018]:https://www.libraryjournal.com/story/death-1000-cuts-periodicals-price-survey-2018
+[cdl]:https://en.wikipedia.org/wiki/Controlled_digital_lending
 [copy1976]:https://www.copyright.gov/title17/
 [firstsale]:https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine
 [folio]:https://en.wikipedia.org/wiki/Folio
+[gutenbergmicro]:https://customers.microsoft.com/en-us/story/1646266241611394912-project-gutenberg-nonprofit-azure-synapse-analytics-azure-ai-services
+[hachette]:https://en.wikipedia.org/wiki/Hachette_v._Internet_Archive
 [intervention]:http://www.columbia.edu/~em36/wpdos/wptoword.html
+[kahle_guardian]:https://www.theguardian.com/commentisfree/2023/oct/09/us-library-system-attack-digital-licensing
+[lost_appeal]:https://www.theregister.com/2024/09/05/appeals_court_internet_archive_copyright/
 [mattheweffect]:http://www.garfield.library.upenn.edu/merton/matthew1.pdf
+[nytimesIA]:https://www.nytimes.com/2023/08/13/business/media/internet-archive-emergency-lending-library.html
+[openlibrary]:https://openlibrary.org/
 [ostp]:https://www.whitehouse.gov/ostp/
 [ostpmemo]:https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
 [paganelli2022]:https://www.charleston-hub.com/2022/07/legally-speaking-states-unsuccessful-in-providing-financial-relief-of-ebook-terms-for-libraries/
 [projectgutenberg]:https://www.gutenberg.org/
 [pubfees]:https://www.plos.org/publication-fees
 [publicaccess2022]:https://www.whitehouse.gov/ostp/news-updates/2022/08/25/ostp-issues-guidance-to-make-federally-funded-research-freely-available-without-delay/
+[public_domain]:https://copyright.universityofcalifornia.edu/use/public-domain.html
 [quarto]:https://en.wikipedia.org/wiki/Quarto
 [sanchez2015]:https://journals.ala.org/index.php/ltr/article/view/5833
 [sec106]:https://www.copyright.gov/title17/92chap1.html#106
 [sec109]:http://www.copyright.gov/title17/92chap1.html#109
 [sisto2022]:https://doi.org/10.1007/s12109-022-09880-7
-[gutenbergmicro]:https://customers.microsoft.com/en-us/story/1646266241611394912-project-gutenberg-nonprofit-azure-synapse-analytics-azure-ai-services
-[hachette]:https://en.wikipedia.org/wiki/Hachette_v._Internet_Archive
-[openlibrary]:https://openlibrary.org/
-[cdl]:https://en.wikipedia.org/wiki/Controlled_digital_lending
-[nytimesIA]:https://www.nytimes.com/2023/08/13/business/media/internet-archive-emergency-lending-library.html
-[public_domain]:https://copyright.universityofcalifornia.edu/use/public-domain.html
-[kahle_guardian]:https://www.theguardian.com/commentisfree/2023/oct/09/us-library-system-attack-digital-licensing
