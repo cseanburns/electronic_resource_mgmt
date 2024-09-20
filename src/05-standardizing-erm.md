@@ -25,14 +25,14 @@ By the end of this lecture, you should be able to:
 ## Introduction
 
 Awhile ago now, I conducted some historical research on a librarian named Ralph Parker.
-Inspired by technological advances in automation, specifically the use of the punched cards and machines,
+Inspired by technological advances in automation, specifically the use of punched cards and machines,
 Parker began to apply this technology to library circulation processes in the 1930s.
-He thus became the first person to automate part of the library's work flow.
+He thus became the first person to automate part of the library's workflow.
 By the mid-1960s, Parker's decades long pursuit of library automation led to some major advances, including the founding of [OCLC][oclc].
 Meanwhile, the punched card system he continued to develop eventually led to massive increases in circulation and better service to patrons.
 In the mid-60s he wrote the following about the installation and launch of a new punched card system to help automate circulation:
 
-> To the delight of the patrons it requires only four seconds to check out materials (as cited in Burns, 2014).
+> "To the delight of the patrons it requires only four seconds to check out materials" (as cited in Burns, 2014).
 
 I think about that quote often.
 When I read that in his annual report in the archives at the University of Missouri, I could feel his giddiness with these results.
@@ -59,7 +59,7 @@ Well, two routines are important for circulation. The first involves membership 
 First, if the patron was not yet a member of a library, then they had to register to become one.
 Hence, the first routine was to check their membership and register them as borrowers if they were not yet a member or if their membership had expired.
 If this was a public library, then the process varied depending if the member was an adult or a youth (or *juveniles* in the lingo of the time).
-This routine involved completing an application card, creating and filing member record, and issuing the borrower a card of their own,
+This routine involved completing an application card, creating and filing a member record, and issuing the borrower a card of their own,
 i.e., their **borrower's card**.
 
 ### Charging
@@ -91,13 +91,13 @@ Similarly, today's electronic resource management systems rely on standardized p
 can efficiently manage resources and serve patrons, much like Parker's early automation work with circulation.
 This work also indirectly improved processes throughout the library.
 Once circulation standards stabilized and technology like punched cards became available,
-then it became possible to automate other processes for the library.
+then it became possible to automate other library processes.
 And this was good; the effects were that automation increased circulation and that an automated circulation process
 [Saved The Time Of The Reader][ranganathan], *down to four seconds to be exact!*
 
 This is all to say that standards and technology go hand and hand and that the details matter when thinking about standards.
 How does this relationship work?
-Standards enable multiple groups of competing interests to form consensus around how technology should work.
+Standards enable multiple groups of competing interests to form a consensus around how a technology should work.
 When this happens, multiple parties receive payoffs at the expense of any single party acquiring a monopoly.
 This is true for the design of screwdrivers, the width of railroad tracks, the temperature scale.
 It is certainly true for how information is managed and exchanged.
@@ -120,21 +120,22 @@ Another historical note: As Harris (2006) elaborates in the article, NISO came i
 This was the same decade that Ralph Parker began working on his punched card system.
 Not long before this, in the late 1920s, the first library science graduate program launched at the University of Chicago.
 In the early 1930s, the first research based journal started, *The Library Quarterly*.
-We often hear how long libraries have existed, and it's true that there were quite a few accomplishments before the 1930s.
+We often hear how long libraries have existed (since ancient times), and it's true that there were quite a few accomplishments before the 1930s.
 Yet it is this time period (for these and a number of other reasons) that marks the modern era of libraries.
 
 ### TERMS
 
-We also are not simply interested in standards that deal the forms used to catalog and charge a book, to create member records,
+We also are not simply interested in standards that deal with the forms used to catalog and charge a book, to create member records,
 and to draw up licenses for an electronic resources, as we'll discuss later.
 We are also interested in standardizing, as Flexner (1927) would say, "routines", processes, or workflows.
 We discuss other standards in our readings on TERMS, or *Techniques for Electronic Resource Management*.
-TERMS is not a true standard, but more of a *de facto* or proposed standard that helps outline the electronic resource management work flow.
+
+TERMS is not a true standard, but more of a *de facto* or proposed standard that helps outline the electronic resource management workflow.
 It was developed to address the growing complexities of managing electronic records, where varying workflows, inconsistent processes,
-and a lack of standardization were creating efficiencies for libraries trying to provide access to digital content.
+and a lack of standardization were creating inefficiencies for libraries trying to provide access to digital content.
 Version 1 of TERMS is described by the TERMS authors in an issue of [Library Technology Reports][terms1].
 Although it has been replaced by a [newer version][terms2],
-it still functions as a thorough introduction to the ERM work flow and provides guidance and suggestions on electronic resource management.
+it still functions as a thorough introduction to the ERM workflow and provides guidance and suggestions on electronic resource management.
 For example, in [chapter 7][chapter7] of the LTS report on TERMS version 1,
 the authors provide information on the importance of working with providers or vendors in case of cancellation of a resource.
 They write:
@@ -149,7 +150,7 @@ They write:
 > two down the line!
 
 Some of this material is repeated in version 2 of TERMS,
-but version 2 was created in order to address changes and to include more input from the community.
+but version 2 was created to include more input from the community.
 Version 2 also includes a slightly modified outline, and [includes the following parts][termsV2]:
 
 1. Investigating new content for purchase or addition
@@ -171,9 +172,8 @@ At the same link just provided, they also write about this new version:
 > well it completes our goal of getting access to patrons who want to use these
 > resources.
 
-As such, the outline and the content described in these two versions of TERMS is very much centered on the ERM work flow.
-TERMS is a guide and framework for thinking on the different aspects of the electronic resource life-cycle within the library,
-and it helps provide librarians with a set of questions and points of investigation.
+As such, the outline and the content described in these two versions of TERMS is very much centered on the ERM workflow.
+TERMS is a guide and framework for thinking on the different aspects of the electronic resource life-cycle within the library.
 For example, let's consider Term item 1, which is to investigate new content for purchase or addition.
 In a presentation by the [Emery and Stone (2014)][emery2014], they suggest that this involves the following steps, partly paraphrased:
 
