@@ -1,4 +1,4 @@
-# Standardizing Terms for Electronic Resource Management
+# Standardizing Electronic Resource Management
 
 By the end of this lecture, you should be able to:
 
