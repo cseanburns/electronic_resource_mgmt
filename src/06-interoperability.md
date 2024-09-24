@@ -12,26 +12,26 @@ By the end of this lecture, you should be able to:
 
 ## Introduction
 
-[Managing](Managing) electronic resources in libraries involves a complex web of technologies and services, each with its own set of challenges.
+[Managing](Managing) electronic resources in libraries involves a complex web of technologies and services, each presenting its own set of challenges.
 One challenge is the intricacy of navigating paywalls to access a library's digital content.
 This section examines the complications that arise when accessing paywalled materials.
 We explore how technologies like OpenURL link resolvers streamline this process and enhance interoperability between multiple services.
 
 ## Problem
 
-We take it for granted that we can seamlessly follow links to websites and webpages on the web, or do so without much fuss.
+We take it for granted that we can seamlessly follow links to websites and webpages or do so with minimal fuss.
 It gets more complicated when we want access to works that are behind paywalls, despite where such works have been found:
 search engines, bibliographic databases, OPACs (online public access catalogs), or discovery services.
 In these cases, direct links to sources identified in these services do not provide full text access.
 
 The issue becomes complex when a library subscribes to a journal or magazine.
-Access is often provided through third-party services, not just the publisher's default site.
-Example third-party services include bibliographic databases, like EBSCOhost or ProQuest.
+Access is often provided through third-party services, not solely the publisher's default site.
+Examples of these third-party services include bibliographic databases like EBSCOhost or ProQuest.
 Also, libraries provide multiple discovery points and ways to access the same works, such as through bibliographic databases with overlapping scopes.
 Bibliographic databases can tell us that an item exists when we search for it, but a library may not subscribe to the publication or
 the item might be in the stacks, stored off site or at another library altogether.
-These issues, along with the challenges presented by paywalls, necessitate layers of complexity,
-such as the use of proxy servers for user authentication, that make access complicated.
+These issues, along with the challenges presented by paywalls, introduce additional layers of complexity.
+This includes the need for proxy servers for user authentication, which complicate access further.
 
 Consider the journal *Serials Librarian*.
 It is published by *Taylor &amp; Francis Online* / *Routledge*.
@@ -67,7 +67,7 @@ In *Social Science Premium Collection*, the link looks like this:
 https://www.proquest.com/docview.accesstofulltextlinks.detailsorabstractoutboundlinks.externallink:externallink/https:$2f$2fsaalck-uky.primo.exlibrisgroup.com$2fopenurl$2f01SAA_UKY$2f01SAA_UKY:UKY$3furl_ver$3dZ39.88-2004$26rft_val_fmt$3dinfo:ofi$2ffmt:kev:mtx:journal$26genre$3darticle$26sid$3dProQ:ProQ$253Alibraryscience$26atitle$3d$2526ldquo$253BThrough$2ba$2bGlass$252C$2bDarkly$2526rdquo$253B$253A$2bLessons$2bLearned$2bStarting$2bover$2bas$2ban$2bElectronic$2bResources$2bLibrarian$26title$3dThe$2bSerials$2bLibrarian$26issn$3d0361526X$26date$3d2021-11-01$26volume$3d81$26issue$3d3-4$26spage$3d246$26au$3dBrown$252C$2bDaniel$26isbn$3d$26jtitle$3dThe$2bSerials$2bLibrarian$26btitle$3d$26rft_id$3dinfo:eric$2f$26rft_id$3dinfo:doi$2f10.1080$252F0361526X.2021.2008581/MSTAR_2645781371/LinkResolver/1193?t:ac=2645781371/Record/D137B205B8D14795PQ/1
 ```
 
-Clicking on either of the above links in their respective databases sends us to *Primo*, UK Library's discovery service.
+Clicking either of the above links in their respective databases redirects us to *Primo*, the UK Library's discovery service.
 
 If we had clicked on *EBSCOhost*'s **View Now** link, the *Primo* link will result in the following:
 
@@ -160,7 +160,7 @@ https://saalck-uky.primo.exlibrisgroup.com/openurl/01SAA_UKY/01SAA_UKY:UKY?sid=g
 The original publisher of this article is *Emerald*, and the full text is available through *Emerald eJournals Premier*.
 This information is processed by *Primo*, UK's discovery and delivery service.
 *Primo* redirects our query to the UK Library's proxy service, which is **OpenAthens** (as of the summer of 2023, formerly it was **EZProxy**).
-After authenticating ourselves using our secure (we hope!) university account login, we gain access to the full text from Emerald.
+After securely authenticating through our university account login, we gain access to the full text from Emerald.
 
 Should alternative databases like *EBSCOhost* and/or *ProQuest* provide access,
 and not the original publisher (e.g., Emerald in this case),
@@ -266,14 +266,13 @@ rfr_id=
 Our readings this week by [Kasprowski (2012)][kasprowski2012], [Johnson et al. (2015)][johnson2015], and [Chisari et al. (2017)][chisare2017]
 discuss link resolver technology, migration to new link resolver services, and
 methods to evaluate link resolver technology from both the systems and a user's perspective.
-It may not be necessary to learn how to hack your way through the OpenURL syntax, as I have above (or below: See Appendix A)
-or other aspects of link resolver URL formatting.
-But it is a good idea to acquire a basic understanding of how the URLs work in this process.
+While it may not be necessary to master OpenURL syntax or the intricacies of link resolver URL formatting, as demonstrated here (and in Appendix A),
+it's beneficial to acquire a basic understanding of how these URLs function in this process.
 
 Let me re-emphasize that the key way that link resolvers work is by embedding citation metadata within the link resolver URL,
 including administrative metadata.
 For this to work, it means we high quality metadata for our records, as our readings note.
-If a link breaks during this process, perhaps reported by a library patron, the cause could be incorrect or outdated metadata.
+If we receive a report, perhaps reported by a library patron, about a broken link in this process, the cause could be incorrect or outdated metadata.
 Knowing the parts of this process aids us in deciphering possible errors that exist when the technology breaks.
 
 For this week, see the *ExLibres Alma* link resolver documentation, which is the link resolver product used by UK Libraries.
