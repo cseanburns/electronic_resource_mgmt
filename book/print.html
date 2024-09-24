@@ -1514,23 +1514,23 @@ Techniques for Electronic Resource Management (TERMS): From Coping to Best Pract
 <li>Evaluate the effectiveness of link resolver technology from both system and user perspectives based on case studies.</li>
 </ol>
 <h2 id="introduction-5"><a class="header" href="#introduction-5">Introduction</a></h2>
-<p><a href="Managing">Managing</a> electronic resources in libraries involves a complex web of technologies and services, each with its own set of challenges.
+<p><a href="Managing">Managing</a> electronic resources in libraries involves a complex web of technologies and services, each presenting its own set of challenges.
 One challenge is the intricacy of navigating paywalls to access a library's digital content.
 This section examines the complications that arise when accessing paywalled materials.
 We explore how technologies like OpenURL link resolvers streamline this process and enhance interoperability between multiple services.</p>
 <h2 id="problem"><a class="header" href="#problem">Problem</a></h2>
-<p>We take it for granted that we can seamlessly follow links to websites and webpages on the web, or do so without much fuss.
+<p>We take it for granted that we can seamlessly follow links to websites and webpages or do so with minimal fuss.
 It gets more complicated when we want access to works that are behind paywalls, despite where such works have been found:
 search engines, bibliographic databases, OPACs (online public access catalogs), or discovery services.
 In these cases, direct links to sources identified in these services do not provide full text access.</p>
 <p>The issue becomes complex when a library subscribes to a journal or magazine.
-Access is often provided through third-party services, not just the publisher's default site.
-Example third-party services include bibliographic databases, like EBSCOhost or ProQuest.
+Access is often provided through third-party services, not solely the publisher's default site.
+Examples of these third-party services include bibliographic databases like EBSCOhost or ProQuest.
 Also, libraries provide multiple discovery points and ways to access the same works, such as through bibliographic databases with overlapping scopes.
 Bibliographic databases can tell us that an item exists when we search for it, but a library may not subscribe to the publication or
 the item might be in the stacks, stored off site or at another library altogether.
-These issues, along with the challenges presented by paywalls, necessitate layers of complexity,
-such as the use of proxy servers for user authentication, that make access complicated.</p>
+These issues, along with the challenges presented by paywalls, introduce additional layers of complexity.
+This includes the need for proxy servers for user authentication, which complicate access further.</p>
 <p>Consider the journal <em>Serials Librarian</em>.
 It is published by <em>Taylor &amp; Francis Online</em> / <em>Routledge</em>.
 It has the following site as its homepage:</p>
@@ -1556,7 +1556,7 @@ In <em>LISTA</em>, that link looks like this:</p>
 <p>In <em>Social Science Premium Collection</em>, the link looks like this:</p>
 <pre><code>https://www.proquest.com/docview.accesstofulltextlinks.detailsorabstractoutboundlinks.externallink:externallink/https:$2f$2fsaalck-uky.primo.exlibrisgroup.com$2fopenurl$2f01SAA_UKY$2f01SAA_UKY:UKY$3furl_ver$3dZ39.88-2004$26rft_val_fmt$3dinfo:ofi$2ffmt:kev:mtx:journal$26genre$3darticle$26sid$3dProQ:ProQ$253Alibraryscience$26atitle$3d$2526ldquo$253BThrough$2ba$2bGlass$252C$2bDarkly$2526rdquo$253B$253A$2bLessons$2bLearned$2bStarting$2bover$2bas$2ban$2bElectronic$2bResources$2bLibrarian$26title$3dThe$2bSerials$2bLibrarian$26issn$3d0361526X$26date$3d2021-11-01$26volume$3d81$26issue$3d3-4$26spage$3d246$26au$3dBrown$252C$2bDaniel$26isbn$3d$26jtitle$3dThe$2bSerials$2bLibrarian$26btitle$3d$26rft_id$3dinfo:eric$2f$26rft_id$3dinfo:doi$2f10.1080$252F0361526X.2021.2008581/MSTAR_2645781371/LinkResolver/1193?t:ac=2645781371/Record/D137B205B8D14795PQ/1
 </code></pre>
-<p>Clicking on either of the above links in their respective databases sends us to <em>Primo</em>, UK Library's discovery service.</p>
+<p>Clicking either of the above links in their respective databases redirects us to <em>Primo</em>, the UK Library's discovery service.</p>
 <p>If we had clicked on <em>EBSCOhost</em>'s <strong>View Now</strong> link, the <em>Primo</em> link will result in the following:</p>
 <pre><code>https://saalck-uky.primo.exlibrisgroup.com/discovery/openurl?institution=01SAA_UKY&amp;vid=01SAA_UKY:UKY&amp;date=20220701&amp;issue=3%2F4&amp;isbn=&amp;spage=246&amp;title=Serials%20Librarian&amp;atitle=%22Through%20a%20Glass,%20Darkly%22:%20Lessons%20Learned%20Starting%20over%20as%20an%20Electronic%20Resources%20Librarian.&amp;sid=EBSCO:Library,%20Information%20Science%20%26%20Technology%20Abstracts:156075536&amp;volume=81&amp;pages=246-252&amp;issn=0361526X&amp;au=Brown,%20Daniel&amp;genre=article&amp;ID=doi:10.1080%2F0361526X.2021.2008581
 </code></pre>
@@ -1640,7 +1640,7 @@ Clicking that link will reveal the OpenURL, which contains the article's metadat
 <p>The original publisher of this article is <em>Emerald</em>, and the full text is available through <em>Emerald eJournals Premier</em>.
 This information is processed by <em>Primo</em>, UK's discovery and delivery service.
 <em>Primo</em> redirects our query to the UK Library's proxy service, which is <strong>OpenAthens</strong> (as of the summer of 2023, formerly it was <strong>EZProxy</strong>).
-After authenticating ourselves using our secure (we hope!) university account login, we gain access to the full text from Emerald.</p>
+After securely authenticating through our university account login, we gain access to the full text from Emerald.</p>
 <p>Should alternative databases like <em>EBSCOhost</em> and/or <em>ProQuest</em> provide access,
 and not the original publisher (e.g., Emerald in this case),
 <em>Primo</em> would present us with options to select our preferred database for viewing the full text.</p>
@@ -1733,13 +1733,12 @@ rfr_id=
 <p>Our readings this week by <a href="https://doi.org/10.1080/0361526X.2012.652480">Kasprowski (2012)</a>, <a href="https://doi.org/10.1080/1941126X.2015.999519">Johnson et al. (2015)</a>, and <a href="https://doi.org/10.1080/1941126X.2017.1304765">Chisari et al. (2017)</a>
 discuss link resolver technology, migration to new link resolver services, and
 methods to evaluate link resolver technology from both the systems and a user's perspective.
-It may not be necessary to learn how to hack your way through the OpenURL syntax, as I have above (or below: See Appendix A)
-or other aspects of link resolver URL formatting.
-But it is a good idea to acquire a basic understanding of how the URLs work in this process.</p>
+While it may not be necessary to master OpenURL syntax or the intricacies of link resolver URL formatting, as demonstrated here (and in Appendix A),
+it's beneficial to acquire a basic understanding of how these URLs function in this process.</p>
 <p>Let me re-emphasize that the key way that link resolvers work is by embedding citation metadata within the link resolver URL,
 including administrative metadata.
 For this to work, it means we high quality metadata for our records, as our readings note.
-If a link breaks during this process, perhaps reported by a library patron, the cause could be incorrect or outdated metadata.
+If we receive a report, perhaps reported by a library patron, about a broken link in this process, the cause could be incorrect or outdated metadata.
 Knowing the parts of this process aids us in deciphering possible errors that exist when the technology breaks.</p>
 <p>For this week, see the <em>ExLibres Alma</em> link resolver documentation, which is the link resolver product used by UK Libraries.
 Let's discuss this documentation in the forum. I want you to find and explain other instances of link resolvers.
