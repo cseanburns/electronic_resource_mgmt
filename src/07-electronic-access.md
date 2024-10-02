@@ -36,7 +36,7 @@ Such studies also help librarians identify the kinds of software solutions that 
 If interested, I suggest reading [Lowe et al., 2021][lowe2021] about the impact of COVID-19 on electronic resource management.
 Six authors individually describe access issues at their respective institutions.
 They show how issues of pricing, acquisitions, training, user expectations, and budgets affect electronic access.
-I suggest reading articles like this in light of the framework provided by Samples and Healy (2014)
+I suggest reading articles like this in light of the framework provided by Samples and Healy (2014).
 Stories like these, about this impact of the pandemic on electronic access, can help guide us in developing proactive troubleshooting procedures.
 They can minimize future issues, pandemic or otherwise, at our own institutions.
 
@@ -49,17 +49,16 @@ Samples and Healy (2014) say something important against a common assumption abo
 > section, para. 6).
 
 Hence, unlike a printed work that, once cataloged, may be shelved for decades or longer without major problems of access,
-electronic resources require constant and active attention to maintain accessibility to them.
+electronic resources require constant and active attention to maintain access.
 Ebooks, for example, can create metadata problems.
-For example, often what's important about scholarly ebooks, in particular, are the chapters they include.
+Often what's important about scholarly ebooks, in particular, are the chapters they include.
 Hence metadata describing ebook components is important, along with providing links to those chapters in discovery systems.
 This difference between item-level cataloging and title-level cataloging, as Samples and Healy describe,
 can lead to confusing and problematic results when considering different genres and what those genres contain.
 
-Or, note that they discuss how a series of links are involved starting from the source of discovery.
-From an OPAC or a discovery layer to the retrieved item, it can be difficult in determining which of these links and
-which of those services is broken when access becomes problematic.
-From our last section, consider all the URLs that are processed in going from source to target.
+Or, note that they discuss the series of links involved starting from the source of discovery to the retrieval of an item.
+It can be difficult to determine which of these links and which of those services is broken when access becomes problematic.
+From our last section, consider all the URLs that are processed and all the technologies used in going from target to source.
 
 Let me highlight a few key findings from their report:
 
