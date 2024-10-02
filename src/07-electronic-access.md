@@ -48,7 +48,7 @@ Samples and Healy (2014) say something important against a common assumption abo
 > ebooks to be available one day, but not the next (*The Complexity of ERM*
 > section, para. 6).
 
-Hence, unlike a printed work that, once cataloged, may be shelved for decades or longer without major problems of access,
+Hence, unlike a printed work that once cataloged may be shelved for decades or longer without major problems of access,
 electronic resources require constant and active attention to maintain access.
 Ebooks, for example, can create metadata problems.
 Often what's important about scholarly ebooks, in particular, are the chapters they include.
@@ -69,14 +69,14 @@ Let me highlight a few key findings from their report:
   library organizational structure, but one where different libraries have
   responded differently. This lack of organizational standardization has its
   benefits regarding overall management practices and cultures, but it also has
-  huge drawbacks. These drawbacks form the difficulty in establishing
+  drawbacks. These drawbacks form the difficulty in establishing
   effective, generalized workflows that include key participants and minimize
   as many dependencies on any one person.
 * **Tracking**: if there's no tracking of usage, there's no method to
   systematically identify patterns in problems. And if that's not possible,
   then there's no method to solve those problems proactively. It becomes all
   reactive troubleshooting. And reactive troubleshooting, as Samples and Healy
-  indicate, results in poor patron experiences. We'll discuss tracking when we
+  indicate, results in poor patron experiences. We'll discuss tracking
   during the week on Evaluation and Measurement section.
 
 We commonly get the line that discovery systems are a great solution to all the disparate resources that librarians subscribe to.
@@ -97,8 +97,9 @@ Today, a traditional first year college student was born around the year 2006 an
 The problem this raises is that although electronic resources are electronic or digital, they are still based on genres that originated in the print age.
 Yet as digital works, they lack the physical characteristics that distinguished one genre from the other.
 For example, by looking at each web page, what's the difference between a longer *NY Times* article
-(traditionally a newspaper article) and an article in the *New Yorker* (traditionally a magazine article) in their online forms?
-Aside from some aesthetic differences, they are both presented on web pages.
+(traditionally a newspaper article) and an article in the *New Yorker* (traditionally a magazine article)?
+Aside from some aesthetic differences, they are both presented as web pages.
+
 Bracketing aside my years of experience with these sources, it's not altogether obvious, based on any kind of cursory examination,
 that we can tell that they're entirely different genres.
 However, there are important informational differences between the two, how they were written,
@@ -109,11 +110,12 @@ It was generally okay to cite articles from special encyclopedias because they f
 like art, music, science, culture, and were usually more in-depth in their coverage.
 Examples include the *Encyclopedia of GIS*, the *Encyclopedia of Evolution*, *The Kentucky African American Encyclopedia*,
 *The Encyclopedia of Virtual Art Carving Toraja--Indonesia*, and so forth.
-Although there are differences, [studies show][messner2013] that *Wikipedia* provides in-depth coverage like some special encyclopedias,
+[Studies show][messner2013]
+that *Wikipedia* provides in-depth coverage like some special encyclopedias and short articles like some general encyclopedias,
 thus helping to flatten the encyclopedia genre (general vs. special), too.
 
 The flattening holds true for things like *Google*.
-The best print analogy for *Google* is that of an index, which was used to locate keywords that would *refer* to source material.
+The best print analogy for *Google* is that of an index, which was used to locate keywords that would *refer* users to source material.
 The main difference between these indexes and *Google* is that the indexes were produced to cover specific publications,
 like a newspaper, or specific areas, like the *Social Science Citation Index* or the *Science Citation Index*.
 Both of these are actual, documented, historical precursors to *Google* and to *Google Scholar*.
@@ -167,7 +169,7 @@ Even though "sciencedirect" appears in the **uky.edu** URL, it is not a "science
 They are two different servers, from two different organizations, and are as different as **uky.edu** and **google.com**.
 
 The reason we read an article or some other paywalled content at a **uky.edu** address and not at a, e.g.,
-**sciencedirect.com** address, is because of the way proxy servers work.
+**sciencedirect.com** address is because of the way proxy servers work.
 In essence, when we make a request for a resource, like a journal article or a bibliographic database that's provided by a library,
 our browser makes the request to the proxy server and not to the original server.
 The proxy server then makes the resource request to the original server, which relays that content back to the proxy server (EZproxy).
@@ -264,9 +266,10 @@ These authentication and access technologies complete these discussions, which c
 that electronic resource librarians work with to provide access to paywalled content in library collections.
 Both technologies aim to provide seamless access to paywalled content, as
 nearly as seamless as accessing content via a search engine or other source.
-Although neither will never be able to offer completely seamless access as long there are paywalled sources in library collections,
-the job of an electronic resource librarian is often to make sure they work as well as possible.
+Although neither will ever be able to offer completely seamless access to paywalled sources in library collections,
+the job of an electronic resource librarian is to make sure they work as well as possible.
 This will often mean working with vendors and colleagues.
+
 ## Additional Sources
 
 - [How SAML works and enables single sign-on][howsaml]
@@ -332,7 +335,7 @@ Electronic Resources Management in the Time of COVID-19: Challenges and Opportun
 [ezproxyex]:https://www.oclc.org/en/ezproxy.html
 [howsaml]:https://www.csoonline.com/article/563215/how-saml-works-and-enables-single-sign-on.html
 [lowe2021]:https://doi.org/10.1080/1941126X.2021.1949162
-[messner2014]:https://doi.org/10.1080/15205436.2012.732649
+[messner2013]:https://doi.org/10.1080/15205436.2012.732649
 [nytimes_index]:https://photos.app.goo.gl/6wqu02M7OQzyJnCG2
 [oademo]:https://www.youtube.com/watch?v=8o4syOJsIf0
 [openathens]:https://www.openathens.net/
