@@ -273,6 +273,11 @@ Let me re-emphasize that the key way that link resolvers work is by embedding ci
 including administrative metadata.
 For this to work, it means we high quality metadata for our records, as our readings note.
 If we receive a report, perhaps reported by a library patron, about a broken link in this process, the cause could be incorrect or outdated metadata.
+However, as reported by [Montavon-Green (2023)][montavon2023], other issues that cause link resolver errors include:
+titles are not indexed even though the library provides access to them;
+titles are indexed but patrons are directed to a paywall;
+glitches in some technology such as a vendor platform;
+and various usability issues.
 Knowing the parts of this process aids us in deciphering possible errors that exist when the technology breaks.
 
 For this week, see the *ExLibres Alma* link resolver documentation, which is the link resolver product used by UK Libraries.
@@ -362,6 +367,12 @@ McDonald, J., & Van de Velde, E. F. (2004, April 1).
 The lure of linking. *Library Journal*. Library Journal Archive Content.
 [https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/][mcdonald2004]
 
+Montavon-Green, J. (2023).
+Link resolver survival skills: Using a team-based approach to diagnosing and fixing link resolver problems
+Serials Spoken Here.
+*Serials Review, 49*(3–4), 116–124.
+[https://doi.org/10.1080/00987913.2023.2174400][montavon2023]
+
 [brown2021]:https://doi.org/10.1080/0361526X.2021.2008581
 [chisare2017]:https://doi.org/10.1080/1941126X.2017.1304765
 [doinumbering]:https://www.doi.org/doi_handbook/2_Numbering.html
@@ -394,3 +405,4 @@ The lure of linking. *Library Journal*. Library Journal Archive Content.
 [utf8]:https://www.w3schools.com/tags/ref_urlencode.asp
 [worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
 [zotero]:https://www.zotero.org/
+[montavon2023]:https://doi.org/10.1080/00987913.2023.2174400
