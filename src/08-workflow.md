@@ -72,7 +72,7 @@ The article also introduces emerging concepts like licensing, COUNTER, and SUSHI
 
 > An ERM **knowledge base (KB)** contains a repository of structured information about library holdings.
 > Multiple KBs exist and are used to facilitate the management and access of electronic resources.
-> They typically includes metadata about electronic journals, databases, e-books, and other digital assets that librarians manage.
+> They typically include metadata about electronic journals, databases, e-books, and other digital assets that librarians manage.
 > The most basic KB should contain metadata about inventory information or holdings data such as:
 > publication title, identifiers like ISSNs for serials, ISBNs for monographs, etc.
 > But KBs are also used to manage catalog data, link resolver data, interlibrary loans, subscription information, and more.
@@ -91,12 +91,12 @@ as discussed in Anderson's paper on the [Elements of Electronic Resource Managem
 and in the multiple discussions about the role vendors play in electronic resource management.
 The market and the economics of this area of librarianship weigh heavily on everyday realities.
 
-We follow up on this in the next section when we will read about the market and the economics of electronic resources.
+We will follow up on this in the next section when we will read about the market and the economics of electronic resources.
 For example, in both Anderson readings, we learn about the CORE recommended practice (RP), or the [Cost of Resource Exchange][cost_exchange],
 developed by NISO.
 CORE brings together three aspects of our previous discussions: software, funds, and interoperability.
 The *CORE RP* describes how ILS and ERM systems communicate the costs of electronic resources between each other.
-Its existence hints at the pressures librarians have had in having to deal with complex budget issues.
+Its existence hints at the pressures librarians have had in dealing with complex budget issues.
 Although these articles were published before the pandemic, the pandemic continues to make these issues more complicated for libraries.
 
 While we spent time discussing technical standards, we also learn about [TERMS][terms2].
@@ -106,8 +106,8 @@ usage-related standards that outline the communication, collection, presentation
 such as ebooks, journals, databases, and more.
 
 We have discussed interoperability and what it takes for multiple systems to connect and transfer data between each other.
-We primarily discussed this with respect to link resolver technology, and we did this not just because we should know about
-link resolvers as important components of electronic resource management,
+We primarily discussed this with respect to link resolver technology.
+We did this not just because we should know about link resolvers as important components of electronic resource management,
 but also because link resolvers are a good example of the kind of work that is involved for systems to communicate properly.
 There are other forms of interoperability, though.
 Coming back to [CORE][cost_exchange] again, the [Anderson article (chapter 2)][anderson2014b]
