@@ -58,22 +58,26 @@ And we learned:
 
 Our readings in this section provide foundational insights into the complex workflows involved in electronic resource management (ERM).
 These articles guide us through key concepts like knowledge bases, workflow-based standards, and the challenges of integrating
-electornic resources into library systems.
-The readings will help us understand how libraries navigate the technical and financial aspects of managing electronic resources and
-will contextualize topics on licensing, budgeting, and systems interoperability.
+electronic resources into library systems.
+The readings show how libraries navigate the technical and financial aspects of managing electronic resources and
+contextualize topics on licensing, budgeting, and systems interoperability.
 
-> An ERM **knowledge base** is a centralized repository of structured information about library holdings.
-> It is used to facilitate the management and access of electronic resources.
-> It typically includes metadata about electronic journals, databases, e-books, and other digital assets that librarians manage.
-> Example metadata should include inventory information or holdings data such as:
+The first [Anderson article (chapter 2)][anderson2014a] helps us understand the role of knowledge bases in ER management,
+particularly how they function alongside integrated library systems (ILS), then later as separate ERM systems, and finally as modules in ILSes.
+This latter development resulted in the development of library service platforms (LSPs).
+
+Anderson frames resource management by discussing five parts: knowledge bases, budgets, administration, licensing, and reports.
+It outlines the challenges these systems face for these parts to work together.
+The article also introduces emerging concepts like licensing, COUNTER, and SUSHI, which are topics that will be explored more thoroughly later.
+
+> An ERM **knowledge base (KB)** contains a repository of structured information about library holdings.
+> Multiple KBs exist and are used to facilitate the management and access of electronic resources.
+> They typically includes metadata about electronic journals, databases, e-books, and other digital assets that librarians manage.
+> The most basic KB should contain metadata about inventory information or holdings data such as:
 > publication title, identifiers like ISSNs for serials, ISBNs for monographs, etc.
+> But KBs are also used to manage catalog data, link resolver data, interlibrary loans, subscription information, and more.
 > There are several KB products, but as an example, see [GOKb Global Open Knolwedge Base][gokb])
 > and a list of publications about this open source product: [GOKb Publications][gokb_pubs].
-
-The first [Anderson article (chapter 2)][anderson2014a] helps us understand the role of a knowledge base in ERM,
-particularly how it functions alongside integrated library systems and ERM systems.
-It outlines the challenges these systems face when working together and introduces emerging concepts
-like licensing, COUNTER, and SUSHI, which are topics that will be explored more thoroughly later.
 
 In [Anderson's second article (chapter 3)][anderson2014b],
 the emphasis shifts to the importance of analyzing a library's workflow before selecting ERM software.
@@ -87,16 +91,16 @@ as discussed in Anderson's paper on the [Elements of Electronic Resource Managem
 and in the multiple discussions about the role vendors play in electronic resource management.
 The market and the economics of this area of librarianship weigh heavily on everyday realities.
 
-We follow up on this in the next section when we begin to read more about the market and the economics of electronic resources.
+We follow up on this in the next section when we will read about the market and the economics of electronic resources.
 For example, in both Anderson readings, we learn about the CORE recommended practice (RP), or the [Cost of Resource Exchange][cost_exchange],
-that was developed by NISO.
+developed by NISO.
 CORE brings together three aspects of our previous discussions: software, funds, and interoperability.
-Here this *CORE RP* describes how the ILS and ERM systems can communicate the costs of electronic resources between each other.
+The *CORE RP* describes how ILS and ERM systems communicate the costs of electronic resources between each other.
 Its existence hints at the pressures librarians have had in having to deal with complex budget issues.
 Although these articles were published before the pandemic, the pandemic continues to make these issues more complicated for libraries.
 
-While we spent time discussing technical standards, we also learned about [TERMS][terms2],
-an attempt to standardize the language and processes involved with electronic resource management.
+While we spent time discussing technical standards, we also learn about [TERMS][terms2].
+This is an attempt to standardize the language and processes involved with electronic resource management.
 Aside from the CORE standard, we learn about standardizing attempts at licensing, which includes the *COUNTER* and *SUSHI*
 usage-related standards that outline the communication, collection, presentation, and the formatting of usage statistics for electronic resources
 such as ebooks, journals, databases, and more.
