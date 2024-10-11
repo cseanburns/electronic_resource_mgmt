@@ -115,7 +115,7 @@ like the Kindle, which would have to be bought to read Kindle ebooks.
 That, we should note, adds additional expense.
 
 > Take note of the recent lawsuit against the Internet Archive (IA) in [Hachette v. Internet Archive][hachette].
-> In the early days of the pandemic, the Internet Archive lent books that were mostly not available as ebooks through [OpenLibrayr.org][openlibrary]. 
+> In the early days of the pandemic, the Internet Archive lent books through [OpenLibrary.org][openlibrary]. 
 > The IA only lent these books if a library owned a physical copy and they limited lending to the amount of physical copies owned.
 > This is called [Controlled Digital Lending (CDL)][cdl].
 > It's a method that mirrors how physical copies are lent and which the IA argued was *Fair Use*.
@@ -135,7 +135,7 @@ As [Sanchez (2015)][sanchez2015] puts it,
 
 > At its simplest, this takes the form of paying x dollars per year per title during the length of the contract (Forecasting sect, para 4).
 
-The conundrum is this under an increasing licensing model:
+The conundrum is this:
 When the total supply of works increases, e.g., the total number of published books increase, as they do each year,
 then it means renting more and more without ever completely acquiring.
 It also means that libraries may have to hold collections at a stable number or provide access to fewer works over time.
@@ -167,7 +167,7 @@ Thus, the budget issue has an impact on access and usability.
 There have been recent attempts to address these issues.
 [Paganelli (2022)][paganelli2022] describes some state by state efforts to lessen the financial burdens on libraries that e-content entails.
 However, as Paganelli notes, these efforts have largely not succeeded.
-And Brewster Kahle, the founder of the Internet Archive, [has recently highlighted][kahle_guardian]
+And Brewster Kahle, the founder of the Internet Archive, [has highlighted][kahle_guardian]
 the growing attacks on library budgets that make this the outcomes for library budgets more pessimistic.
 From a publisher's perspective, [Sisto (2022)][sisto2022] argues that the general narrative about the tension between
 libraries and publishers is misleading.
@@ -184,7 +184,7 @@ Read more about copyright:
 
 Although ebooks likely represent the biggest impact on public library budgets, academic libraries are largely concerned with scholarly journals.
 Like Sanchez (2015), [Bosch, Albee, & Henderson (2018)][bosch2018] show that the major issue is that academic library budgets are declining or
-holding flat even though prices continue to increase for journal titles and even though the number of published articles increase.
+holding flat even though prices continue to increase for journal titles and at the same time that more articles are published.
 This raises an interesting phenomenon: although researchers are hurt by the lack of access to research,
 researchers are also part of the cause of the supply (we publish too much!).
 
@@ -212,7 +212,7 @@ For example, there are many journal titles that I might use in my courses but ma
 and this is true for other faculty.
 Yet citation metrics won't reflect that kind of use.
 The authors refer to *altmetrics*, which was invented to help capture non-citing uses of scholarly products,
-but altmetrics is still in its infancy and is largely dependent on data sources and scholarly behavior that are problematic themselves.
+but altmetrics is largely dependent on data sources and scholarly behavior that are problematic themselves.
 Third, there are various issues with the metrics themselves.
 The *Impact Factor* is based on an outdated calculation and is thus not a very appropriate statistical measure.
 The other metrics were created to address that but may have other problems.
@@ -249,7 +249,7 @@ So even if open access reduced costs to libraries, it still may not reduce cost 
 > Gold OA costs are generally paid out of research funds (like grants) and not out of researcher's pockets.
   
 The 2022 [public access mandate][publicaccess2022] issued by The White House [Office of Science and Technology Policy][ostp]
-might make things more *interesting*.
+might make things more interesting.
 The [OSTP memorandum][ostpmemo] states that "federally funded research must be publicly accessible without an embargo on their free and public release."
 This mandate requires that federal agencies with research and development expenditures to develop their own policies,
 and that could mean that such policies result in Gold OA agency-specific mandates or Green OA mandates.
@@ -268,8 +268,8 @@ does not apply to digital works in the same way.
 This was confirmed by the recent court battle between the Internet Archive and various publishers.
 The implication places significant constraints on libraries' abilities to offer digital content.
 
-As libraries face the challenge of renting rather than owning ebooks and ejournals, budget constrains grow more severe.
-The impact of these constrains is felt not only in public libraries but also in academic institutions,
+As libraries face the challenge of renting rather than owning ebooks and ejournals, budget constraints grow more severe.
+The impact of these constraints is felt not only in public libraries but also in academic institutions,
 where the need to access high-cost scholarly journals competes with limited financial resources.
 The trend towards Gold Open Access offers some potential for greater access to research.
 However, the rising publication costs for authors and grant funders may strain research funding and complicate the landscape further.
