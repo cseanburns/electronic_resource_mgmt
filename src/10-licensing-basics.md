@@ -24,7 +24,7 @@ This is why we spent time on the technical aspects before studying licensing.
 
 Before we get into licensing, we should refresh ourselves on the basics of copyright law, since what is being licensed is a fact of copyright.
 Since licensing involves negotiating, signing, and managing contracts,
-We should know something about contract law, too, and how the two types of laws are related.
+we should know something about contract law, too, and how the two types of laws are related.
 
 ## Copyright and Contracts
 
@@ -115,9 +115,11 @@ The existence of a licensing agreement between a library and an intellectual pro
 Weir (2016) provides a nice outline of licenses and what they include.
 According to Weir, there are two general types of licensing agreements:
 
-* **End user agreements**: these are generally the kind that people accept when they use some kind of software or some service.
-* **Site agreements**: these are the agreements librarians get involved in when they negotiate for things like databases.Here, *site* refers
-  to the organizational entity.
+* **End user agreements**: these are generally the kind that people accept when
+  they use some kind of software or some service.
+* **Site agreements**: these are the agreements librarians get involved in when
+  they negotiate for things like databases. Here, *site* refers to the
+  organizational entity.
 
 Licenses must include a variety of components.
 Weir (2016) outlines the parts of a standard license.
@@ -153,7 +155,7 @@ Additionally, licenses generally must include:
 - territory: where the license applies,
 - fees or royalties: whether the licensee has to pay for the license, and if so, how much,
 - revocation terms: under what circumstances the license can be revoked, and
-- warranties and liabilities: any guarantees provided by either party and limitations on liability).
+- warranties and liabilities: any guarantees provided by either party and limitations on liability.
 
 As an example, the California Digital Library, via the University of California, provides a [checklist][checklist] and
 a copy of their standard license agreement.
@@ -172,7 +174,7 @@ The result was [SERU: A Shared Electronic Resource Understanding][seru].
 Although all licenses share some basic similarities, as discussed in Weir (2016) above,
 the details of the hundreds of licenses a large library has to handle can get lost in a sea of variability.
 
-[SERU is a NISO recommended practice][seruDoc] helps to resolve this.
+[SERU as a NISO recommended practice][seruDoc] helps to resolve this.
 It fosters a common approach to some aspects of the licensing process and in fact can be used as "an alternative to a license agreement"
 if both a provider and a library agree to use it.
 Like the standard licensing structure that Weir (2016) outlines, SERU includes parts that describe use, inappropriate use,
