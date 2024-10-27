@@ -20,7 +20,7 @@ Licensing requires understanding other aspects of electronic resource management
 An ERM librarian's job duties might be solely focused on the technical aspects of the work, i.e., those things we covered in the prior chapter.
 However, an ERM librarian whose primary job duty is to participate in the licensing process must have a good grasp of the technical.
 This is because it is the technical that is licensed.
-This is why we spent time on the technical aspects before studying on licensing.
+This is why we spent time on the technical aspects before studying licensing.
 
 Before we get into licensing, we should refresh ourselves on the basics of copyright law, since what is being licensed is a fact of copyright.
 Since licensing involves negotiating, signing, and managing contracts,
