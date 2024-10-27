@@ -17,15 +17,14 @@ For if something is licensed, then it's most likely e-content or an e-resource, 
 This entails that it's a *temporary* item in the collection, and thus requires special management.
 
 Licensing requires understanding other aspects of electronic resource management, too.
-An ERM librarian's job duties might be solely focused on the technical aspects of the work, i.e., those things we covered in prior sections.
+An ERM librarian's job duties might be solely focused on the technical aspects of the work, i.e., those things we covered in the prior chapter.
 However, an ERM librarian whose primary job duty is to participate in the licensing process must have a good grasp of the technical.
 This is because it is the technical that is licensed.
-In other words, it's probably a good thing to understand what is being licensed.
 This is why we spent time on the technical aspects before studying on licensing.
 
-Before we get into licensing, we should refresh ourselves on the basics of copyright law, since what is being licensed is a fact of its existence.
+Before we get into licensing, we should refresh ourselves on the basics of copyright law, since what is being licensed is a fact of copyright.
 Since licensing involves negotiating, signing, and managing contracts,
-We should know something about contract law, and how the two types of laws are related.
+We should know something about contract law, too, and how the two types of laws are related.
 
 ## Copyright and Contracts
 
@@ -44,8 +43,8 @@ which are *in personam* by nature (Rub, 2017).
 On the other hand, these rights are not absolute.
 They are granted for a "limited time" and with the ultimate aim of serving the public interest by enriching the cultural and intellectual commons.
 
-This dual nature of copyright--its function as a form of private property that can be transacted, and
-its overarching goal to promote public welfare--adds layers of complexity to its legal treatment.
+This dual nature of copyright&mdash;its function as a form of private property that can be transacted, and
+its overarching goal to promote public welfare&mdash;adds layers of complexity to its legal treatment.
 While copyright law grants certain exclusive rights that can be enforced against individuals through **in personam** legal actions,
 these rights are also designed to be temporary and ultimately benefit the public.
 Therefore, copyright exists as both a personal right that can be legally enforced against specific individuals and a mechanism intended to
@@ -64,20 +63,22 @@ In short, copyright exists in a unique space where it functions as a basic right
 It exists as a temporary bulwark against public ownership for the public good;
 and unlike other basic rights, copyright is transferable, since it is a type of property right.
 
-> Copyright is a type of property right. However, other types of *rights* cannot be treated as property.
+> Copyright is a type of property right. However, other types of *rights* cannot be treated as property and are non-transferable.
 > These include *natural rights* (life, liberty, and the pursuit of happiness), civil rights (right to vote,
 > right to a fair trial, protections against discrimination), political rights (right to protest, run for public office),
-> and social rights (right to healthcare, education, and housing). These latter types of rights are non-transferable.
+> and social rights (right to healthcare, education, and housing).
 
 This all gets more complicated when licensing enters the picture, and this largely has to do with three things.
 First, the history of software reflects the history of print, in as much as source code relied on a physical medium,
-like a floppy disk or magnetic tape, to be distributed, just as a book had to be printed to be distributed.
-Second, the internet and increasing and more accessible bandwidth speeds enabled software to be distributed as easily as any other digital object.
+like a floppy disk or magnetic tape, to be distributed just as a book had to be printed to be distributed.
+Second, the internet, as well as increasing and more accessible bandwidth speeds,
+enabled software to be distributed as easily as other digital objects.
 Third, it wasn't originally clear that software, or source code in particular, was copyrightable,
 but the Copyright Office at the Library of Congress eventually decided that it was.
 This eligibility became codified in an 1980 amendment to the 1976 Copyright Act.
-This cemented the ability for software copyright owners to lease their source code, especially once that code was free of a physical expression,
-and thereby evade the First Sale Doctrine, to users without transferring ownership of the expression to users.
+This cemented the ability for software copyright owners to license their source code.
+Once that code was free of a physical expression, it could evade the First Sale Doctrine.
+This set the stage for licensing rather than ownership.
 
 See:
 
@@ -107,7 +108,7 @@ Entering a licensing agreement for e-content means that libraries do not own tha
 as defined in the contract.
 This is unlike print works, which fall under the first-sale doctrine.
 The existence of a licensing agreement between a library and an intellectual property owner entails lack of ownership of the **item**
-(think of **item** as defined by the *Functional Requirements for Bibliographic Records* [FRBR][frbr] model).
+(here I define **item** within the [*Functional Requirements for Bibliographic Records* (FRBR)][frbr] model).
 
 ## Licenses
 
@@ -173,7 +174,7 @@ the details of the hundreds of licenses a large library has to handle can get lo
 
 [SERU is a NISO recommended practice][seruDoc] helps to resolve this.
 It fosters a common approach to some aspects of the licensing process and in fact can be used as "an alternative to a license agreement"
-if a provider and a library agrees to use it.
+if both a provider and a library agree to use it.
 Like the standard licensing structure that Weir (2016) outlines, SERU includes parts that describe use, inappropriate use,
 access, and more but also posits other stipulations, such as confidentiality and privacy.
 
@@ -195,15 +196,11 @@ Even though we have covered NCC in earlier sections, it's a reminder that when w
 we talk about a comprehensive list of responsibilities, skills, technologies, and more, and that we should keep this on our radar.
 Second, [Regan (2015)][regan2015] specifically mentions these competencies with respect to the importance of learning more about the licensing process.
 
-I think it's still true, seven years after publication and as Regan (2015) states, that few library schools cover licensing
-and license negotiations and more broadly, electronic resource management, but I think that's changing.
-Even if it's covered, like here, Regan's advice is still important and the essential questions they ask are relevant even if you have
-extensive experience with the process.
-
-What is also relevant is the additional theme that Regan (2015) covers about the importance of advocating.
+Regan (2015) also highlights the importance of advocating.
 Many people are nervous about the idea of having to negotiate a license for an e-product, but in reality, such work is not done outside of a team.
 And that team will likely include people who work outside of libraries.
 This makes it important to advocate for the library and the licensing process.
+That is, the licensing processes should also be framed as an advocacy process.
 
 ## LIBLICENSE 
 
@@ -233,14 +230,15 @@ That entails being familiar with the basic license model.
 ## Managing Licenses
 
 Large libraries have to manage hundreds of licenses to develop collections and provide access to e-content.
-Electronic resource management software like CORAL, an open source systems designed to manage electronic resources,
+Electronic resource management software like CORAL, an open source system designed to manage electronic resources,
 or a Library Service Platform (LSP) with a corresponding ERM module, are essential tools for managing these licenses effectively.
 However, using these products still requires careful coordination between different library units to streamline workflows.
 
 Departments like circulation, cataloging, acquisitions, and interlibrary loan are all affected by specific clauses in e-content licenses.
 This means that each unit must adapt its practices to comply with these agreements.
-For example, interlibrary loan clauses can determine whether and how digital resources may be shared between libraries.
-This directly influences the policies and procedures of the ILL department.
+For example, interlibrary loan clauses in licenses can determine whether and how digital resources may be shared between libraries.
+This directly influences the policies and procedures of the ILL department and requires that the ERM librarian work with the ILL department
+when negotiating a licensing agreement.
 
 [Taulbee and Montavon-Green (2022)][taulbee2022] describe the complex process of migrating from print to e-resources during the early 2000s
 and transitioning to a new LSP a few years before the pandemic.
@@ -255,7 +253,7 @@ Integrating multiple workflows across departments is complex, but it is crucial 
 ensuring that the library can meet its patrons' needs effectively.
 
 Effective licensing management not only ensures compliance with legal terms but also enhances resource accessibility for patrons.
-Taulbee and Montavon-Green's article highlights the strategic importance of ERM tools in the libraries.
+Taulbee and Montavon-Green (2022) highlight the strategic importance of these ERM tools in the libraries.
 
 ## Conclusion
 
