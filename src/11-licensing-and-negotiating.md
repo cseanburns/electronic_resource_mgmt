@@ -81,7 +81,7 @@ what to look for, what shouldn't be given away, how to negotiate principally, an
 
 ## Conclusion
 
-Becoming a skillful negotiator takes practice, but this section will help prepare you to prepare for the process.
+Becoming a skillful negotiator takes practice, but this section will help prepare you for the process.
 The main point I want to make is this:
 if you find yourself in a position where one of your job responsibilities is to negotiate with vendors for e-resources (or for anything else),
 then come back to these sources of information and spend additional time studying them.
