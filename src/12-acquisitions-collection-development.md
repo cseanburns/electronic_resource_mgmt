@@ -1,120 +1,52 @@
 # Acquisitions and Collections Development
 
+By the end of this section, you will understand that:
+
+- Format significantly influences acquisition and access workflows.
+- Electronic resources have necessitated more specialized roles within libraries.
+- Collection Development Policies (CDPs) are crucial for managing electronic resources effectively.
+- OER initiatives are growing, and libraries may need to decide how deeply to involve themselves in the acquisition and cataloging of these resources.
+
 ## Introduction
 
-Collection development and acquisitions
-is a complex problem for
-electronic resources.
-To rehash, in the print-only days,
-acquiring resources was a
-*more-than-it-is-now* linear process.
-Librarians became aware of an item,
-sought reviews of the item,
-possibly collected the item,
-described it, and then shelved it.
-And maybe, depending on the
-type of the library,
-weeded it from the collection
-at some future date 
-during their regular
-course of collection assessment.
+Collection development and acquisitions have become significantly more complex with the rise of electronic resources.
+In contrast to the more linear acquisition processes of print resources,
+electronic resources require different contractual and technological considerations.
+Librarians now must navigate issues like differing licensing agreements and the complex technologies involved
+in handling electronic resources like ebooks, journal articles, databases, etc.
+This shift from print to electronic has fundamentally transformed collection workflows.
+As [Martin et al. (2009)][martin2009] highlight:
 
-The above is a simplistic take, but
-there are additional vectors
-to be aware of with electronic resources.
-First, as we have learned,
-libraries may not own digital works,
-and different subscription services
-require different kinds of contracts.
-Second, electronic resources
-(ebooks, journal articles, databases, etc.)
-require different handling and disseminating
-procedures due to differences in
-technologies and licenses.
-[Martin et al. (2009)][martin2009]
-pinpoint the issue
-when they write that:
-
-> As much as we would like to think our primary concerns
-> about collecting are based on content, not **format**
-> [emphasis added], e-resources have certainly challenged
-> many long-established notions of how we buy, collect,
-> preserve, and provide access to information (p. 217).
+> As much as we would like to think our primary concerns about collecting are based on content, not **format** [emphasis added],
+> e-resources have certainly challenged many long-established notions of how we buy, collect, preserve,
+> and provide access to information (p. 217).
 
 ## Collection Development
 
-Although a world where the
-format dictates so much makes
-an intriguing world,
-it can be problematic and worrisome
-that it does dictate so much.
-We think that content,
-and not format,
-should be king and
-that "collection managers should focus
-on the content of the information provided,
-regardless of the actual form in which the
-information arrives"
-[(Harloe & Budd, 1994, p. 83)][harloe1994].
-We have already learned that some
-[formats cost more](09-markets-economics.html),
-but we must also ask new questions:
-how does format (or *form*) either prevent
-or facilitate access?
-If you catch the implicit gotcha there,
-you can see that a thread
-connects acquisitions,
-collections development, and usability,
-since usability is an *access problem*.
-We will cover usability issues later.
+The conventional wisdom is that content, not format, should be the focus of collection management.
+[Harloe &amp; Budd (1994)][harloe1994] argue that "collection managers should focus on the content of the information provided,
+regardless of the actual form in which the information arrives" (p. 83).
+However, this perspective overlooks practical considerations.
+Format impacts cost, licensing, and ultimately, accessibility.
+If format matters, we need to ask:
+How does format either prevent or facilitate access?
+This question links acquisitions, collections development, and usability, since usability is an access issue.
+We'll address usability more deeply in a later section.
 
-In a collection development course,
-you would unquestionably focus on
-content and on the work that
-is involved creating a
-collection development policy (CDP),
-which I hope you do or
-spearhead if your library does not have one.
-Content and CDPs are relevant
-to the acquisition, collection, and
-management of e-resources.
-However, in a major way,
-it is also important to understand
-how the management of electronic resources
-have impacted librarian work flows and
-how that has shaped, or re-**formed**,
-library organizational hierarchy.
+In a collection development course, you would primarily focus on content.
+You would also consider the work involved in creating a collection development policy (CDP).
+Content and CDPs are key to the acquisition, collection, and management of e-resources.
+However, it is equally important to understand how the management of electronic resources
+has affected librarian workflows and reshaped library organizational hierarchies.
 
 ### Organizational Hierarchy
 
-A quick note about the organizational hierarchy,
-which are often graphically
-presented in organizational charts.
-I developed an organizational chart
-based on my readings of librarian
-departmental reports written during
-the late 1950s and early 1960s
-by librarians at the University of Kentucky, and thus,
-well before electronic resources took over.
-These departmental reports are
-archived at the University of Kentucky's
-[Special Collections Research Center][speccoll].
-Organizational charts have been
-around since the 1800s, but
-I do not think they were commonly used
-in libraries until at least the
-latter half of the 20th century.
-(I didn't see one in my research
-on UK Libraries for this time period.)
-Thus, I inferred an organizational structure
-based on the detailed reports written
-by the various department heads in the
-library at the time (*See Fig. 1*).
-When you compare my chart based on the past
-to the most [recent one provided by UK Libraries][ukorg]
-(see aside below),
-it's clear that additional complexities
-have been added.
+The complexity of library organizational hierarchies has increased significantly with the rise of electronic resources.
+I developed an organizational chart based on librarian departmental reports written during the late 1950s and early 1960s
+at the University of Kentucky---before electronic resources took over.
+These reports are archived at the University of Kentucky's [Special Collections Research Center][speccoll].
+While organizational charts have been around since the 1800s, they became more commonly used in libraries only in the latter half of the 20th century.
+Based on my research, I inferred an organizational structure during that period (see Fig. 1).
 
 <figure>
 <img src="images/1950s60sorgchartUKlibraries.png"
@@ -160,205 +92,104 @@ Center.
 > cross-referencing that evolution with other changes, such as the introduction
 > of electronic resources in libraries.
 
-This complexity is very interesting.
-The growth in electronic resources,
-associated technologies, and markets
-do not explain all of it:
-knowledge has become more specialized, and
-library organizational structure reflects that;
-student populations have grown
-considerably since then,
-in size and heterogeneity, and
-library structure will reflect that; and
-the theory and praxis of library management
-has evolved throughout the decades, and
-library structure will reflect that.
-Other issues are at play, and
-it is certainly true that
-they are all interconnected.
-However, I do think that
-technology and e-resources
-account for a large portion of
-the increasing complexity
-that we see here in the difference
-between these two organizational charts
-at different times of the Library's history.
+Comparing my chart to the most [recent one provided by UK Libraries][ukorg] (see aside below) shows additional complexity.
+The growth in electronic resources, associated technologies, and markets explains much of this complexity.
+New specialized roles have emerged to manage these resources, including digital content specialists and e-resource managers.
+Additionally, larger and more diverse student populations have influenced library structure,
+as have evolving theories and practices of library management.
 
 But again, consider the influence of format.
-[Lamothe (2015)][lamothe2015] finds
-that if electronic e-reference sources
-are collected and perpetually updated,
-then they get continually used.
-If it's a static e-resource,
-then usage declines.
-I hope additional studies pursue
-this line of questioning
-because it raises questions about the
-expectations that patrons have about content;
-perhaps something about how *fresh*
-they expect that content should be.
-It also suggests that a resource
-like Wikipedia has an advantage,
-since many articles on Wikipedia
-are regularly updated (although not all),
-and that might lead to a perception
-of Wikipedia as *fresh*,
-relative to what is in a library's
-collection.
+Technology and electronic resources account for a substantial part of the increasing complexity seen in modern organizational charts.
+For instance, [Lamothe (2015)][lamothe2015] finds that continuously updated electronic reference resources maintain high usage,
+whereas static e-resources see declining use.
+This raises questions about the expectations patrons have regarding content freshness and may explain why platforms like Wikpedia,
+much of which is frequently updated, are perceived as more current.
 
 ## Open Educational Resources
 
-Let's switch topics to discuss
-Open Educational Resources (OER),
-which is a hot topic these days.
-Textbook prices,
-[England et al. (2017)][england2017] notes,
-have skyrocketed in recent decades.
-It's suggested that college students budget
-[up to $1,240 per year in books and supplies][collegeboard],
-and [public elementary and secondary schools][statistica]
-expend nearly 2.5 billion
-dollars per year on textbooks.
-In response, libraries have
-notably moved to highlight
-open educational resources at some level.
-For example,
-UK Libraries provides resources about
-[Open Educational Resources][oer] and
-provide a LibGuide on [OER][oerlibguide].
+Now let's discuss Open Educational Resources (OER), a significant topic in today's academic libraries.
+Textbook prices, [England et al. (2017)][england2017] notes, have skyrocketed in recent decades.
+College students' budget are [up to $1,240 per year in books and supplies][collegeboard].
+[Public elementary and secondary schools][statistica] expend nearly 2.5 billion dollars per year on textbooks.
+In response, libraries have notably moved to highlight open educational resources at some level.
+For example, UK Libraries provides resources about [Open Educational Resources][oer] and provide a LibGuide on [OER][oerlibguide].
 
-Sites such as [oercommons.org][oer2],
-[openstax][openstax], [LibreTexts][libretexts],
-and others function as digital
-libraries of open access educational resources.
-The idea is to eliminate these
-exhorbitant costs,
-which put great burdens on taxpayers,
-families, and students who pay for them,
-by providing high quality,
-open access textbooks and other
-educational resources.
+Sites such as [oercommons.org][oer2], [openstax][openstax], [LibreTexts][libretexts], and
+others function as digital libraries of open access educational resources.
+These initiatives aim to reduce the costs associated with proprietary educational materials by providing high-quality, open access alternatives.
+This book is itself an OER.
 
-Most of these resources are,
-I believe,
-pushed to faculty to replace
-proprietary textbooks.
-However, it's useful to ask 
-whether libraries ought to collect
-and acquire these resources,
-which would involve promoting
-OER at a whole other level.
-For example, librarians could
-catalog OER items and
-add records for them in their
-catalogs or discovery systems
-(see [Hill & Bossaller, 2012][hill2013]
-for a comparable discussion).
-Or should libraries not be involved at all?
-This seems like a
-*duh* kind of question, but libraries,
-public or academic,
-have not traditionally collected textbooks.
-So, should they?
-Would this change their fundamental mission?
-Would it change the game for them as
-educational institutions?
+While OER initiatives are often pushed to faculty as alternatives to proprietary textbooks,
+we should ask whether librarians should play a more direct role in acquiring these resources.
+For example, should librarians catalog OER items and add them to library catalogs or discovery systems,
+thereby promoting OER at a broader level (see [Hill & Bossaller, 2012][hill2013] for a comparable discussion)?
+Traditionally, libraries, public or academic, have not collected textbooks.
+Should they start now?
+Would this transform their mission, or could it enhance their role as educational institutions?
 
 > Aside: If interested in following developments in open educational resources,
-> then I highly recommend subscribing to the [SPARC Open Education Forum email
-> list][sparcOER].
+> then I highly recommend subscribing to the [SPARC Open Education Forum email list][sparcOER].
 
 ## Collection Development Policies of Electronic Resources
 
-Finally, I'd be guilty of a
-serious wrongdoing if I did
-not discuss the importance of having
-a collection development policy (CDP) and
-using that policy to guide the collection,
-acquisition, and assessment
-of electronic resources.
-I want to emphasize the
-importance of a CDP for e-resources.
-Unfortunately, not all libraries,
-even at major institutions,
-create or use a CDP.
-If you end up working at such a library,
-I highly encourage you to
-convince your colleagues of its importance.
-A CDP should define a collection, and
-then include most if not
-all the following topics:
+A collection development policy (CDP) is crucial for guiding the collection, acquisition, and assessment of electronic resources.
+Unfortunately, not all libraries have a CDP.
+If you end up working at such a library, I highly encourage you to convince your colleagues of its importance.
+A CDP should define a collection, and then include most if not all the following topics:
 
-* mission, vision, and values statement
-* purpose of CDP statement (scope may be included here)
-* selection criteria: this could be general but it could
-  also include subsections that focus on specific
-  populations, genres, resource types, and more
-* assessment and maintenance criteria
-* challenged materials criteria (esp important at public,
-  K-12 libraries)
-* weeding and/or replacement criteria
+* Mission, vision, and values statement
+* Purpose of CDP statement (scope may be included here)
+* Selection criteria: general guidelines and specific considerations for populations, genres, resource types, etc.
+* Assessment and maintenance criteria
+* Criteria for challenged materials criteria (esp important at public, K-12 libraries)
+* Weeding and/or replacement criteria
 
-It can be helpful to see how
-libraries treat electronic resources
-in those that have policies that
-include them.
-The following two CDP policies,
-one from the
-[University of Louisiana (UL)][erpolicy] and
-one from the
-[Lexington Public Library (LPL)][lexpubpolicy].
-do contain sections on electronic resources.
-The UL CDP is not their
-main policy but a sub-CDP that
-focuses on electronic resources.
+Librarians that have included electronic resources in their CDPs provide useful case studies.
+For instance, two CDP policies, one from the [University of Louisiana (UL)][erpolicy] and one from the [Lexington Public Library (LPL)][lexpubpolicy],
+contain sections on electronic resources.
+The UL CDP is not their main policy but a sub-CDP that focuses on electronic resources.
 The LPL's policy is their main policy.
-Although it does not include a
-long discussion of electronic resources,
-electronic resources are mentioned.
-Neither approach is wrong because each
-are catered to the specific libraries and their
-purposes, communities, and vision statements.
+Both approaches reflect the libraries' unique missions and communities.
+
+> **Actionable Step**: If your library lacks a CDP, start by identifying collection gaps and collaborate with colleagues to create
+> a vision for your collection.
+> Draft a simple version and seek feedback for continuous improvement.
 
 ## Conclusion
 
-This section addressed collection development
-of electronic resources,
-how the format of electronic resources
-influences workflows,
-how electronic resources influences
-organizational hierarchies,
-how the movement to make educational
-resources open has extended to
-libraries, and
-how collection development policies
-address electronic resources.
+This section addressed the complexities of collection development for electronic resources,
+the impact of format on workflows and organizational hierarchies,
+the role of OERs in libraries, and
+the critical importance of collection development policies for e-resources.
+Electronic resources have reshaped not only what libraries collect but how they organize and manage their staff and workflows.
 
 ## Readings / References
 
-England, L., Foge, M., Harding, J., & Miller, S. (2017). ERM Ideas &
-Innovations. Journal of Electronic Resources Librarianship, 29(2), 110–116.
+England, L., Foge, M., Harding, J., & Miller, S. (2017).
+ERM ideas & innovations.
+*Journal of Electronic Resources Librarianship, 29*(2), 110–116.
 [https://doi.org/10.1080/1941126X.2017.1304767][england2017]
 
-Lamothe, A. R. (2015). Comparing usage between dynamic and static e-reference
-collections. Collection Building, 34(3), 78–88.
+Lamothe, A. R. (2015).
+Comparing usage between dynamic and static e-reference collections.
+*Collection Building, 34*(3), 78–88.
 [https://doi.org/10.1108/CB-04-2015-0006][lamothe2015]
 
-Martin, H., Robles-Smith, K., Garrison, J., & Way, D. (2009). Methods and
-Strategies for Creating a Culture of Collections Assessment at Comprehensive
-Universities. Journal of Electronic Resources Librarianship, 21(3–4), 213–236.
+Martin, H., Robles-Smith, K., Garrison, J., & Way, D. (2009).
+Methods and strategies for creating a culture of collections assessment at comprehensive universities.
+*Journal of Electronic Resources Librarianship, 21*(3–4), 213–236.
 [https://doi.org/10.1080/19411260903466269][martin2009]
 
 ## Additional References
 
-Harloe, B., & Budd, J. M. (1994). Collection development and
-scholarly communication in the era of electronic access. *The
-Journal of Academic Librarianship, 20*(2), 83–87.
+Harloe, B., & Budd, J. M. (1994).
+Collection development and scholarly communication in the era of electronic access.
+*The Journal of Academic Librarianship, 20*(2), 83–87.
 [https://doi.org/10.1016/0099-1333(94)90043-4][harloe1994]
 
-Hill, H., & Bossaller, J. (2013). Public library use of free
-e-resources. Journal of Librarianship and Information
-Science, 45(2), 103–112.
+Hill, H., & Bossaller, J. (2013).
+Public library use of free e-resources.
+*Journal of Librarianship and Information Science, 45*(2), 103–112.
 [https://doi.org/10.1177/0961000611435253][hill2013]
 
 [collegeboard]:https://research.collegeboard.org/media/pdf/trends-in-college-pricing-student-aid-2022.pdf
