@@ -100,10 +100,10 @@ as have evolving theories and practices of library management.
 
 But again, consider the influence of format.
 Technology and electronic resources account for a substantial part of the increasing complexity seen in modern organizational charts.
-For instance, [Lamothe (2015)][lamothe2015] finds that continuously updated electronic reference resources maintain high usage,
+[Lamothe (2015)][lamothe2015] finds that continuously updated electronic reference resources maintain high usage,
 whereas static e-resources see declining use.
-This raises questions about the expectations patrons have regarding content freshness and may explain why platforms like Wikpedia,
-much of which is frequently updated, are perceived as more current.
+This raises questions about the expectations patrons have regarding content freshness.
+This type of dynamism, directly influenced by format, no doubt increases the complex requirements needed to manage e-resources.
 
 ## Open Educational Resources
 
