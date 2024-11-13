@@ -44,10 +44,10 @@ a system and then interviewing them to complete the details.
 Note that the same kind of systematic thinking can be applied to evaluate other user experiences,
 like those between a librarian and an electronic resource management system.
 Often the focus is on patron user experience, but it's just as important to evaluate UX for librarians and
-to consider UX when selecting an ERM system or an ILS system.
+to consider UX when selecting an ERM system or an ILS/LSP system.
 
 In any case, these parameters help us step through and highlight the complicated process of interacting with a computer, generally, or
-a library resource, more specifically.
+a library resource more specifically.
 As with many other topics we've discussed in this book, we can incorporate these parameters into a workflow for evaluating UX.
 
 ## Complex Library Websites
@@ -60,7 +60,7 @@ your experience using them and your understanding of their technical aspects pro
 that make you more likely to identify the cause of a malfunction if you find one.
 With this ability to identify problems, problems becomes easier to solve, and the experience itself involves less anxiety.
 However, most users and patrons of these systems will not have any technical knowledge of these systems.
-Thus, when these systems break on them, their frustration with the **experience** might lead to unfortunate outcomes:
+Thus, when these systems break on them, their frustration with the experience might lead to unfortunate outcomes:
 they may not retrieve the information they need; they may not reach out to a librarian for help; or
 they may stop using the library's resources in preference for a resource of inferior quality.
 We need to remember that this happens, and if possible, to build in *proactive troubleshooting* processes
@@ -70,24 +70,24 @@ Here's the crux, though.
 As you gain more skill and expertise with these systems, you will eventually lose the ability to see these systems as a novice user, and
 that distance will only grow over time.
 To mitigate this, it is essential to actively gather data from a diverse range of users (Pennington, 2015).
-For example, gathering data from different user demographics, such as students versus faculty, or users with disabilities,
+For example, gathering data from different user demographics, such as students versus faculty, users with disabilities, or children versus teens,
 can reveal varying UX challenges that are often overlooked by experienced librarians.
 UX research that includes diverse patron feedback ensures that the needs of all user groups are taken into account.
 In short, user experience research nurtures a user centered mindset.
 
 Indeed, [Kraft et al. (2022)][kraft2022] used focus groups and surveys to collect user experience data on a library's
 implementation of its A-Z Database List.
-As they point out, librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
+As the authors point out, librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
 since this only serves as a point of confusion.
 However, their focus group participants described contrasting opinions about how color was used on the site, and
-how color was used had some fairly dramatic effects on which sources were selected to pursue.
+how color was used had some fairly dramatic, surprising effects on which sources were selected to pursue.
 The study highlights that when gathering user feedback, it is important to consider a variety of user research methods to get a fuller picture.
 We can even add additional methods, such as [card sorting][card_sorting]
 (for understanding how users group and label information) and
 [think-aloud protocols][think_aloud]
 (where users verbalize their thoughts while using a system).
-These methods provide additional insights that can complement focus groups and surveys, and they have their strengths and weaknesses.
-Regardless, selecting the appropriate approach based on research goals is key to effective UX evaluation.
+These methods provide additional insights that can complement focus groups and surveys.
+All methods have their strengths and weaknesses, but selecting the appropriate approach based on research goals is key to effective UX evaluation.
 
 ## The Data That Exists
 
@@ -96,9 +96,10 @@ we should also know that libraries already possess a wealth of data to explore, 
 Here, as we've learned before, workflows play an important role in applying mechanisms to track, report, and fix problems with
 electronic resource systems.
 [Browning (2015)][browning2015], for example, describes the use of [Bugzilla][bugzilla].
-This is software that's commonly used for software development for bug tracking and generating reports about broken code.
+This is an application that's commonly used for software development for bug tracking and generating reports about broken code.
 Once problems are identified, tools like Bugzilla can be used to categorize and to facilitate quick solutions.
-There are thus two key types of data that provide insights into UX: data about usage and data about breakage.
+It's an interesting and novel adaptation of an application designed for a different purpose, but it highlights an important takeaway;
+there are thus two key types of data that provide insights into UX: data about usage and data about breakage.
 Whereas usage data helps us understand how users interact with a system and what they do ([Fry, 2016][pennington2016]),
 breakage data focuses on identifying errors or issues that users encounter, as described by Browning (2015).
 Both kinds of data are crucial and combining both perspectives offers a more comprehensive understanding of user experience.
@@ -107,14 +108,14 @@ Both kinds of data are crucial and combining both perspectives offers a more com
 
 I agree with [McDonald (2016)][pennington2016] that despite having around 30 or so years of experience
 with web-based and other electronic resource types, we are still in the throes of disruption.
-There's much yet to learn about design for the web, just like there's a lot left to learn about how to design a home or office,
-and nothing will be settled for a while.
+There's much yet to learn about designing for the web, just like there's a lot left to learn about how designing physical spaces.
+Nothing will be settled for a while.
 Although I doubt if there will be any single dominate user experience or user interface, since there are many
 cultures, backgrounds, and aesthetics, I'm fairly sure the low-hanging fruit problems will work out soon enough.
 Remember though that 95% of the cause of all of this complexity is due to copyright issues,
 which necessitate the entire electronic resource ecosystem and the complications that are introduced by working with vendors who work with different,
 but overlapping, publishers, etc.
-If something were to change about copyright, then it's a whole new ballgame.
+If something major were to change about copyright, then it's a whole new ballgame.
 
 But in conclusion, when considering how UX research fits into library work, remember the importance of gathering data from users themselves:
 data that reveals both what works well and what doesn't.
