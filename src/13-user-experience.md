@@ -35,8 +35,8 @@ Let me modify their example and frame it within the context of an ERM experience
     - *controls*: The tools used to control and interact with the system: buttons, menus, voice commands, keyboards, etc.
     - *displays*: The information presented to the user or the hardware used to present the information: screens, speakers, etc.
     - *interactions and dialogues*: The exchange between the system and the user including the use of the controls and responding to feedback.
-- **Interaction**: What the actor is doing with the UI **(Intended/Expected/Prior)
-- User experience**: The intended or expected use of the object. The user's expectations based on prior use.
+- **Interaction**: What the actor is doing with the UI
+- **(Intended/Expected/Prior) User experience**: The intended or expected use of the object. The user's expectations based on prior use.
 - **(Actual) User experience**: The actions that took place; the actions that had to be modified based on unintended results.
 
 These parameters would be helpful for devising a UX study that involves observing patrons interacting with

@@ -72,7 +72,7 @@ The reports, for release 5 of Counter, cover four major areas:
 * Items
 
 [Pesch (2017)][pesch2017] provides a helpful introduction to the history of Project Counter and the migration from Counter version 4 to version 5.
-Table 1 in Pesch describes the four major reports (listed above).
+Table 1 in the Pesch article describes the four major reports (listed above).
 These reports include usage metrics at the broadest level and of things like EBSCOhost databases, ProQuest databases,
 SAGE resources, Web of Science databases, and so on.
 These reports come into play when users/patrons search in the overall platform but not in any single database provided by the platform.
@@ -107,7 +107,7 @@ and other limitations described in the Conclusion section of this article.
 
 ## The Value of Metrics
 
-We move away from Project Counter with the [Stone and Ramsden (2013)][stone2013].
+We move away from Project Counter with the [Stone and Ramsden (2013)][stone2013] article.
 I introduce this article because it highlights how metrics can be used to assess the value of a library,
 which is often underestimated by administration
 but constantly required in order to garner the resources needed to improve or sustain a library's resources.

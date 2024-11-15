@@ -58,7 +58,7 @@ A few years ago, the [major web browsers announced][tlsbrowsers]
 that they would no longer support Transport Layer Security (TLS) protocol versions 1.1 or earlier
 and any site that had not yet migrated to TLS version 1.2 or above would be inaccessible.
 
-TLS is used to encrypt web traffic and can be verified via the `https` protocol in a URL and the lock icon icon in your browser's URL bar.
+TLS is used to encrypt web traffic and can be verified via the `https` protocol in a URL and the lock icon in your browser's URL bar.
 It is a cryptographic protocol designed to provide secure communication over the internet.
 Using TLS cryptography means encrypting data transmitted between a user's browser and a website.
 This ensures that sensitive information such as login credentials and payment details remain private and protected from eavesdropping or tampering.
@@ -96,7 +96,7 @@ Anonymization generally means that identifiable personal information is stripped
 The data that Google collects is technically pseudonymized.
 This means that although the identifiers that Google (or some other analytics company) uses are not immediately traceable,
 and individual's identity could be linked back if certain data points were combined, such as in the Paul Revere case.
-Unlike in the late 1800s, today we have much more advanced methods, data sources, and computation to make that happen.
+Unlike in the late 1700s, today we have much more advanced methods, data sources, and computation to make that happen.
 This means that we really should have to trust these sites with that information.
 Still, the fact that libraries use these services raises some ethical questions.
 That is, libraries are trusted institutions, and the use of analytics tools like this introduces issues about how private patron data is.
