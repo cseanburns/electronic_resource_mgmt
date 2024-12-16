@@ -2,7 +2,7 @@
 
 By the end of this section, you will understand that:
 
-1. **User Experience (UX) is Multi-Dimensional**: UX encompasses various parameters like actors, objects, contexts, and interfaces. Understanding these parameters helps in evaluating how effectively users interact with library systems.
+1. **User Experience (UX) is Multi-Dimensional**: UX encompasses parameters like actors, objects, contexts, and interfaces. Understanding these parameters helps in evaluating how effectively users interact with library systems.
 2. **Importance of Gathering Data from Diverse Users**: UX research must include diverse patron feedback&emdashfrom students to faculty, and from users with disabilities&emdash;ensuring that the user experience is inclusive and addresses the needs of all patrons.
 3. **User Research Methods Enrich UX Understanding**: Incorporating user research methods, such as card sorting and think-aloud protocols, adds depth to understanding user needs and behaviors. These methods help librarians develop a more user-centered approach to system design and evaluation.
 4. **There are Different Types of Data to Inform UX**: Libraries can use both *usage data* (how users interact with a system) and *breakage data* (issues or obstacles users face) to inform decisions. Using both data types provides a fuller picture of system performance and user challenges.
@@ -48,7 +48,7 @@ to consider UX when selecting an ERM system or an ILS/LSP system.
 
 In any case, these parameters help us step through and highlight the complicated process of interacting with a computer, generally, or
 a library resource more specifically.
-As with many other topics we've discussed in this book, we can incorporate these parameters into a workflow for evaluating UX.
+As with other topics we've discussed in this book, we can incorporate these parameters into a workflow for evaluating UX.
 
 ## Complex Library Websites
 
@@ -80,7 +80,7 @@ implementation of its A-Z Database List.
 As the authors point out, librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
 since this only serves as a point of confusion.
 However, their focus group participants described contrasting opinions about how color was used on the site, and
-how color was used had some fairly dramatic, surprising effects on which sources were selected to pursue.
+how color was used had some dramatic, surprising effects on which sources were selected to pursue.
 The study highlights that when gathering user feedback, it is important to consider a variety of user research methods to get a fuller picture.
 We can even add additional methods, such as [card sorting][card_sorting]
 (for understanding how users group and label information) and
@@ -111,7 +111,7 @@ with web-based and other electronic resource types, we are still in the throes o
 There's much yet to learn about designing for the web, just like there's a lot left to learn about how designing physical spaces.
 Nothing will be settled for a while.
 Although I doubt if there will be any single dominate user experience or user interface, since there are many
-cultures, backgrounds, and aesthetics, I'm fairly sure the low-hanging fruit problems will work out soon enough.
+cultures, backgrounds, and aesthetics, I'm sure the low-hanging fruit problems will work out soon enough.
 Remember though that 95% of the cause of all of this complexity is due to copyright issues,
 which necessitate the entire electronic resource ecosystem and the complications that are introduced by working with vendors who work with different,
 but overlapping, publishers, etc.

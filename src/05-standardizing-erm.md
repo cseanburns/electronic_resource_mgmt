@@ -6,7 +6,7 @@ By the end of this lecture, you should be able to:
    standardization in processes and technologies, such as those pioneered by
    Ralph Parker, improves library operations and supports automation.
 2. **Identify key systems for managing electronic resources**: Explore the
-   various systems used for electronic resource management (ERM) and how they
+   systems used for electronic resource management (ERM) and how they
    facilitate standardization and efficiency in library workflows.
 3. **Explain the historical context of library automation**: Relate historical
    advancements in library automation, such as the use of punched cards, to
@@ -65,7 +65,7 @@ i.e., their **borrower's card**.
 ### Charging
 
 Once membership status was confirmed or created, then the circulation librarian employed a system to **charge** books to the borrower.
-Several systems had been employed up through the late 1920s,
+Different systems had been employed up through the late 1920s,
 including the **ledger system**, the **dummy system**, the **temporary slip system**, the **permanent slip or card system**, the **Browne system**,
 and eventually the [Newark charging system][newark] (see [Flexner, 1927, pp. 73-82 for details][flexner1927]).
 Assuming the librarian in the 1930s used the Newark system,
@@ -102,7 +102,7 @@ When this happens, multiple parties receive payoffs at the expense of any single
 This is true for the design of screwdrivers, the width of railroad tracks, the temperature scale.
 It is certainly true for how information is managed and exchanged.
 The internet and the web wouldn't exist or definitely not exist as we know it if not for the standardization of the Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext Transfer Protocol (HTTP), and other internet and web related technologies.
-These and other standards enable the internet and the web to work for so many users regardless of the operating system and the hardware they use.
+These and other standards enable the internet and the web to work for users regardless of the operating system and the hardware they use.
 
 ## Readings
 
@@ -112,15 +112,15 @@ Our first article this week by Harris (2006) covers the basic reasons for the ex
 (the *National Information Standards Organization*) and the kinds of standards NISO is responsible for maintaining and creating.
 These standards are directly related to libraries and fall under [three broad categories][niso2].
 They deal with **Information Creation &amp; Curation**, **Information Discovery &amp; Interchange**, and **Information Policy &amp; Analysis**.
-There are standards that touch on bibliographic information, indexing, abstracting, controlled vocabularies, and many other library important issues.
+There are standards that touch on bibliographic information, indexing, abstracting, controlled vocabularies, and other library important issues.
 If you have not before paid attention to NISO, you might now start seeing more references to the organization and the standards it publishes.
-The international library community has worked closely with NISO to develop standards for various aspects of library work.
+The international library community has worked closely with NISO to develop standards of library work.
 
 Another historical note: As Harris (2006) elaborates in the article, NISO came into existence in the mid-1930s.
 This was the same decade that Ralph Parker began working on his punched card system.
 Not long before this, in the late 1920s, the first library science graduate program launched at the University of Chicago.
 In the early 1930s, the first research based journal started, *The Library Quarterly*.
-We often hear how long libraries have existed (since ancient times), and it's true that there were quite a few accomplishments before the 1930s.
+We often hear how long libraries have existed (since ancient times), and it's true that there were modern accomplishments before the 1930s.
 Yet it is this time period (for these and a number of other reasons) that marks the modern era of libraries.
 
 ### TERMS
@@ -172,7 +172,7 @@ At the same link just provided, they also write about this new version:
 > well it completes our goal of getting access to patrons who want to use these
 > resources.
 
-As such, the outline and the content described in these two versions of TERMS is very much centered on the ERM workflow.
+As such, the outline and the content described in these two versions of TERMS is centered on the ERM workflow.
 TERMS is a guide and framework for thinking on the different aspects of the electronic resource life-cycle within the library.
 For example, let's consider Term item 1, which is to investigate new content for purchase or addition.
 In a presentation by the [Emery and Stone (2014)][emery2014], they suggest that this involves the following steps, partly paraphrased:

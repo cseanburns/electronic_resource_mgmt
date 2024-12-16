@@ -27,7 +27,7 @@ In the the preceeding sections, we learned about:
 * what kinds of criteria are sought for in new hires, and
 * why electronic resources have introduced so much *constant disruption* across libraries.
 
-Among other things, this latter point is largely due to the fact that the print-era largely involved (or at least more so)
+Among other things, this latter point is due to the fact that the print-era involved (or at least more so)
 a linear process of collection management and information use that was fundamentally altered with the introduction of electronic resources.
 
 Then we learned about the functions and modules offered by:
@@ -76,8 +76,7 @@ The article also introduces emerging concepts like licensing, COUNTER, and SUSHI
 > The most basic KB should contain metadata about inventory information or holdings data such as:
 > publication title, identifiers like ISSNs for serials, ISBNs for monographs, etc.
 > But KBs are also used to manage catalog data, link resolver data, interlibrary loans, subscription information, and more.
-> There are several KB products, but as an example, see [GOKb Global Open Knolwedge Base][gokb])
-> and a list of publications about this open source product: [GOKb Publications][gokb_pubs].
+> See [GOKb Global Open Knolwedge Base][gokb]) as an example and a list of publications about this open source product: [GOKb Publications][gokb_pubs].
 
 In [Anderson's second article (chapter 3)][anderson2014b],
 the emphasis shifts to the importance of analyzing a library's workflow before selecting ERM software.

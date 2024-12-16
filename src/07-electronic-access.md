@@ -60,7 +60,7 @@ Or, note that they discuss the series of links involved starting from the source
 It can be difficult to determine which of these links and which of those services is broken when access becomes problematic.
 From our last section, consider all the URLs that are processed and all the technologies used in going from target to source.
 
-Let me highlight a few key findings from their report:
+Let me highlight key findings from their report:
 
 * **Workflows**: why does this keep coming up? It's because workflows help
   automate a process. They simplify and smooth out what needs to be done. This
@@ -71,7 +71,7 @@ Let me highlight a few key findings from their report:
   benefits regarding overall management practices and cultures, but it also has
   drawbacks. These drawbacks form the difficulty in establishing
   effective, generalized workflows that include key participants and minimize
-  as many dependencies on any one person.
+  dependencies on any one person.
 * **Tracking**: if there's no tracking of usage, there's no method to
   systematically identify patterns in problems. And if that's not possible,
   then there's no method to solve those problems proactively. It becomes all
@@ -120,7 +120,7 @@ The main difference between these indexes and *Google* is that the indexes were 
 like a newspaper, or specific areas, like the *Social Science Citation Index* or the *Science Citation Index*.
 Both of these are actual, documented, historical precursors to *Google* and to *Google Scholar*.
 But today, these search engines are erroneously considered source material (e.g, "I found it on Google").
-Few, I think, would have considered a print index as source material, but rather as a **reference** item, since it *referred* users to sources.
+In comparison, we would not have considered a print index as source material, but rather as a **reference** item, since it *referred* users to sources.
 Nowadays, it's all mixed up, but who can blame anyone?
 
 **Example print indexes**:
@@ -183,7 +183,7 @@ Instead, the proxy server acts as a go-between.
 Proxy servers provide access either through a login server or based on the user's IP address.
 If we're on campus, then our authentication is IP based, since all devices attached to the university's network
 are assigned an IP from a pre-defined range of IP addresses.
-This makes access to paywalled content fairly seamless...when on campus.
+This attempts to make access to paywalled content seamless...when on campus.
 
 If we are off-campus, access is authenticated via a login method to the proxy server.
 When we attempt to access paywalled content from off-campus, we will see an EZproxy login URL.
@@ -209,7 +209,7 @@ in particular, between an **identity provider** (IdP) and a **service provider**
 
 Unlike a proxy / IP authentication process, SAML's main function is that of a identity verification system.
 Under this method, libraries offer a single sign-on process, and once authenticated, patrons have access to all SAML ready content or service providers.
-The process is similar to the [Duo Single Sign-On][duo] service many universities use for authentication.
+The process is similar to the [Duo Single Sign-On][duo] service universities and other organizations use for authentication.
 In the OpenAthens case, users are authenticated via an identity provider, which would be the library or the broader institution
 (and usually via some other software service).
 The library provides identification by connecting to its organization's identity management system,

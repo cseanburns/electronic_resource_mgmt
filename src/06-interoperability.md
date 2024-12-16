@@ -119,7 +119,7 @@ It works like this:
 * **URL query formation**: This collective metadata is converted into a URL
   query designed to search the library's collections through its discovery
   service.
-* **User presentation**: Users are presented with various **target options**
+* **User presentation**: Users are presented with **target options**
   for retrieving the article, or in some cases, they are taken directly to the
   full text (e.g., if only one target option exists in their library's
   collections).
@@ -127,8 +127,7 @@ It works like this:
 The term **target options** refers to the different ways to obtain the article or acquire access to other content.
 These options may include:
 
-* Full text access from various and possibly multiple vendors or publishers.
-  This is why a record in a discovery service may have multiple links to content.
+* Full text access from vendors or publishers. This is why a record in a discovery service may have multiple links to content.
 * Information about the article's physical location if available on a library's shelves.
 * Options to request the work through interlibrary loan.
 
@@ -176,7 +175,7 @@ Let's dissect a specific *Primo* URL to identify its individual components.
 
 The following Primo URL is an OpenURL link, which means *Primo* follows the OpenURL standards.
 (See [ANSI/NISO Z39.88-2004 (R2021) The OpenURL Framework for Context-Sensitive Services][nisoOpenURL].
-It is composed of various fields and values that make up the metadata.
+It is composed of fields and values that make up the metadata.
 For readability, I have broken up the URL into individual lines by metadata fields.
 The metadata fields begin after the `openurl?` keyword:
 
@@ -276,8 +275,7 @@ If we receive a report, perhaps reported by a library patron, about a broken lin
 However, as reported by [Montavon-Green (2023)][montavon2023], other issues that cause link resolver errors include:
 titles are not indexed even though the library provides access to them;
 titles are indexed but patrons are directed to a paywall;
-glitches in some technology such as a vendor platform;
-and various usability issues.
+glitches in some technology such as a vendor platform; and usability issues.
 Knowing the parts of this process aids us in deciphering possible errors that exist when the technology breaks.
 
 For this week, see the *ExLibres Alma* link resolver documentation, which is the link resolver product used by UK Libraries.
@@ -327,7 +325,7 @@ In a previous semester,
 one of my students in my electronic resource management class noticed that [Zotero][zotero] has a [locate menu][locateMenu].
 The locate menu uses OpenURL resolvers to look up items in a library.
 By default, Zotero uses *WorldCat*, but it can use a specific institution's OpenURL resolver.
-I had completely forgotten about this.
+I had forgotten about this.
 When I investigated whether my institution was listed in the Zotero locate menu,
 I found that it was not listed on Zotero's page of [OpenURL resolvers][openurlResolvers].
 

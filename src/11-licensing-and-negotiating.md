@@ -20,7 +20,7 @@ However, when we negotiate for products, especially big ticket products, we need
 
 ## Principled Negotiation
 
-[Abbie Brown (2014)][brown2014] offers a number of great tips in her talk, and I want to highlight a few things.
+[Abbie Brown (2014)][brown2014] offers a number of great tips in her talk, and I want to highlight them.
 
 First, her discussion of **principled negotiation** and **assertive communication** is important.
 Principled negotiation is about keeping negotiations professional, even when it feels personal or possibly emotional in the licensing process.
@@ -56,7 +56,7 @@ Reflecting on any stereotypes we have can reduce anxiety in the negotiation proc
 
 As a negotiator, Brown (2014) described having to work with lots of people and having to negotiate with people in her own library.
 This is a great insight.
-It's very important to talk through issues with colleagues and vendors.
+It's important to talk through issues with colleagues and vendors.
 Aligning relevant parties and even users ensures that everyone is on the same page before approaching vendors.
 This helps underscore the importance of building internal consensus.
 

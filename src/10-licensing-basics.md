@@ -4,7 +4,7 @@ By the end of this section, you will understand:
 
 - The role and importance of licensing in electronic resource management.
 - How copyright and contract law form the foundation of licensing agreements.
-- The difference between various types of licenses, including end-user and site agreements.
+- The difference between types of licenses, including end-user and site agreements.
 - The core components of licensing agreements and their impact on library operations.
 - The importance of tools like ERM software and LSPs for managing hundreds of licenses effectively.
 - Best practices for negotiating licensing terms to benefit both libraries and their patrons.
@@ -68,7 +68,7 @@ and unlike other basic rights, copyright is transferable, since it is a type of 
 > right to a fair trial, protections against discrimination), political rights (right to protest, run for public office),
 > and social rights (right to healthcare, education, and housing).
 
-This all gets more complicated when licensing enters the picture, and this largely has to do with three things.
+This all gets more complicated when licensing enters the picture, and this has to do with three things.
 First, the history of software reflects the history of print, in as much as source code relied on a physical medium,
 like a floppy disk or magnetic tape, to be distributed just as a book had to be printed to be distributed.
 Second, the internet, as well as increasing and more accessible bandwidth speeds,
@@ -143,10 +143,10 @@ They include:
   also, what are the licensor's responsibilities. This might include
   topics such as 24 hour access.
 * **Term and terminations**: Details about the terms of the contract and
-  how the contract may be terminated. Be aware that many libraries are
+  how the contract may be terminated. Be aware that libraries are
   attached to either municipal, county, or state governments and must
   adhere to relevant laws.
-* Various provisions
+* Other provisions
 
 Additionally, licenses generally must include:
 
@@ -169,7 +169,7 @@ The checklist covers four main sections, additional subsections, and is well wor
 
 ## Standardizing Agreements
 
-Like the various technologies that we have covered, NISO and its members moved toward forming a document that helps create a common license framework.
+Like the technologies that we have covered, NISO and its members moved toward forming a document that helps create a common license framework.
 The result was [SERU: A Shared Electronic Resource Understanding][seru].
 Although all licenses share some basic similarities, as discussed in Weir (2016) above,
 the details of the hundreds of licenses a large library has to handle can get lost in a sea of variability.
@@ -199,7 +199,7 @@ we talk about a comprehensive list of responsibilities, skills, technologies, an
 Second, [Regan (2015)][regan2015] specifically mentions these competencies with respect to the importance of learning more about the licensing process.
 
 Regan (2015) also highlights the importance of advocating.
-Many people are nervous about the idea of having to negotiate a license for an e-product, but in reality, such work is not done outside of a team.
+People may be nervous about the idea of having to negotiate a license for an e-product, but in reality, such work is not done outside of a team.
 And that team will likely include people who work outside of libraries.
 This makes it important to advocate for the library and the licensing process.
 That is, the licensing processes should also be framed as an advocacy process.
@@ -209,7 +209,7 @@ That is, the licensing processes should also be framed as an advocacy process.
 [LIBLICENSE][liblicense] is a resource to assist librarians in crafting, adopting, and managing licenses for electronic resources.
 The project is aimed at university libraries, but is relevant to other library types, too.
 The [model licenses][addmodels] page provides a link to the main template, but also links to additional model licenses
-that cover the United States, the United Kingdom, and Canada from various institutional perspectives, including consortial licensing.
+that cover the United States, the United Kingdom, and Canada from a variety of institutional perspectives, including consortial licensing.
 
 The LIBLICENSE model license includes helpful details, such as types of authorized uses and provisions on:
 
@@ -243,13 +243,13 @@ This directly influences the policies and procedures of the ILL department and r
 when negotiating a licensing agreement.
 
 [Taulbee and Montavon-Green (2022)][taulbee2022] describe the complex process of migrating from print to e-resources during the early 2000s
-and transitioning to a new LSP a few years before the pandemic.
+and transitioning to a new LSP a some years before the pandemic.
 Their **proactive** efforts to digitize and catalog their licenses in Alma ultimately improved efficiency of ILL services and
 the overall management of licenses.
 This example highlights the positive impact that thoughtful licensing management can have on library operations, and
 their work is a prime example of **proactive troubleshooting**.
 
-While ERM software like CORAL significantly reduces manual tracking and potential errors,
+While ERM software like CORAL reduces manual tracking and potential errors,
 its implementation also requires thorough staff training.
 Integrating multiple workflows across departments is complex, but it is crucial for maintaining compliance with licensing clauses and
 ensuring that the library can meet its patrons' needs effectively.

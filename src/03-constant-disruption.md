@@ -28,7 +28,7 @@ In this section, we're going to address the following points:
    core mission remains the same: organizing information to provide access.
 7. **Key Terms in ERM:** Importance concepts include knowledge bases, OpenURL
    link resolvers, ERM systems, library service platforms (LSPs), and
-   integrated library systems (ILS). These systems manage various aspects of
+   integrated library systems (ILS). These systems manage aspects of
    digital resources.
 8. **Emphasis on Workflows:** Workflow management is central to ERM, especially
    during system migrations, which are complex, costly, and time-consuming
@@ -40,17 +40,17 @@ In this section, we're going to address the following points:
 
 ## Introduction
 
-I think we might conclude at this point that there are many different ways to frame the role of the electronic resource librarian.
+I think we might conclude at this point that there are different ways to frame the role of the electronic resource librarian.
 In [The ERM Librarian chapter](01-the-erm-librarian.html),
 Stachokas (2018) showed how the electronic resource librarian works across technical services and collection development and
-how this requires a holistic view as well as a specialized understanding of the various processes involved.
+how this requires a holistic view as well as a specialized understanding of the processes involved.
 Huleberg (2016) illustrated how framing electronic resource librarianship as a technical communicator yields
 important insights into the work and profession.
 Zhu (2016) used the licensing aspect of electronic resource management work to show how central this activity is to the field's identity.
 
 In the [Desperately Seeking an ERM Librarian](02-desperately-seeking-erm-librarian.html) section,
 we reviewed a list of qualifications from current job advertisements for electronic resource librarian positions.
-In Murdock (2010), we learned how these kinds of qualifications are tied to various technological developments.
+In Murdock (2010), we learned how these kinds of qualifications are tied to technological developments.
 As the technology changes, and it changes a lot (see **aside** below), so do the qualifications.
 One of the big takeaways from Harnett's (2014) article, for me at least, is that conceptual knowledge of the relevant technology
 is as important as the practical knowledge, although the two are not always so easily divorced from each other.
@@ -71,7 +71,7 @@ We will read more from Breeding later, but I bring him up now because he oversee
 If you would like to keep abreast of the recent news on the electronic resource industry, Breeding's website should be at the top of your list.
  
 Breeding's *What is ERM?* article is a good one to start the week.
-He provides an outline of the various components of electronic resources, and he provides some historical context for those components.
+He provides an outline of the components of electronic resources, and he provides some historical context for those components.
 
 ### The Focus on Academic Libraries is Misleading
 
@@ -106,7 +106,7 @@ These differences in needs, due to different communities, will change the emphas
 > 2023)][exman2023].
 
 Another reason why our reading lists lean toward the academic setting is not because electronic resource management is not relevant to public or other types of libraries.
-Rather, it is because academic librarians publish more about electronic resources and public librarians publish very little.
+Rather, it is because academic librarians publish more about electronic resources and public librarians publish little.
 For example, I conducted a search in [LISTA][listaUK] with the following query, which returned just three results in 2021 when I first ran
 the query, four results in August 2022, and four results again in August 2023 and again in August 2024.
 In fact, a new article wasn't published since the 2021 query. Rather, LISTA just added an addition item from 2015.
@@ -122,7 +122,7 @@ This query returns only six results in 2021, seven in 2022, eight in 2023 and ei
 (DE "PUBLIC librarians" OR DE "PUBLIC librarianship" OR DE "PUBLIC libraries") AND  (DE "ELECTRONIC resource librarians" OR  DE "ELECTRONIC information resources management")
 ```
 
-However, if I focus that query on academic libraries, then the results increase substantially.
+However, if I focus that query on academic libraries, then the results increase.
 The following query returns 51 hits in 2021, 57 in 2022, 61 in 2023, and 64 in 2024:
 
 ```
@@ -164,7 +164,7 @@ which took place in the 1930s with [Hollerith punched cards][punched_cards].
 By the 1960s, the primary use of computers was to manage circulation.
 In the late 60s and early 70s, library automation focused on managing patron records.
 In the early 1970s, tools became available to manage and search bibliographic records.
-Hence, computers were first used mostly to manage the circulation of books, then patron records,
+Hence, computers were first used to manage the circulation of books, then patron records,
 which allowed patrons to check out works *electronically*, and then we had the ability to search for works.
 If a work of interest was located using these tools, the work could be retrieved from the shelves or ordered via interlibrary loan by snail mail.
 Full text search came much later with the introduction of better storage media, like CD-ROMs in the 1980s.
@@ -198,7 +198,7 @@ They include:
 - Library service platforms (LSP)
 - Integrated library systems (ILS)
 
-> Not all but many of the above terms are defined in [ODLIS: Online Dictionary for Library and Information Science][odlis].
+> Some of the above terms are defined in [ODLIS: Online Dictionary for Library and Information Science][odlis].
 
 [odlis]:https://odlis.abc-clio.com/
 
@@ -231,7 +231,7 @@ but then began to convert to the Library of Congress Classification system after
 This was no small task.
 Today, migration is big business in the library world (see Breeding's site for other examples).
 First, this is because the technology changes fast.
-Second, there are a number of competing electronic resource management products that librarians can choose for their communities,
+Second, there competing electronic resource management products that librarians can choose for their communities,
 and they might be inclined to do that if the migration provides an advantage to their users, communities, and themselves.
 
 ## Conclusion

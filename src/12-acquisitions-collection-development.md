@@ -2,14 +2,14 @@
 
 By the end of this section, you will understand that:
 
-- Format significantly influences acquisition and access workflows.
+- Format influences acquisition and access workflows.
 - Electronic resources have necessitated more specialized roles within libraries.
 - Collection Development Policies (CDPs) are crucial for managing electronic resources effectively.
 - OER initiatives are growing, and libraries may need to decide how deeply to involve themselves in the acquisition and cataloging of these resources.
 
 ## Introduction
 
-Collection development and acquisitions have become significantly more complex with the rise of electronic resources.
+Collection development and acquisitions have become more complex with the rise of electronic resources.
 In contrast to the more linear acquisition processes of print resources,
 electronic resources require different contractual and technological considerations.
 Librarians now must navigate issues like differing licensing agreements and the complex technologies involved
@@ -41,7 +41,7 @@ has affected librarian workflows and reshaped library organizational hierarchies
 
 ### Organizational Hierarchy
 
-The complexity of library organizational hierarchies has increased significantly with the rise of electronic resources.
+The complexity of library organizational hierarchies has increased with the rise of electronic resources.
 I developed an organizational chart based on librarian departmental reports written during the late 1950s and early 1960s
 at the University of Kentucky---before electronic resources took over.
 These reports are archived at the University of Kentucky's [Special Collections Research Center][speccoll].
@@ -107,7 +107,7 @@ This type of dynamism, directly influenced by format, no doubt increases the com
 
 ## Open Educational Resources
 
-Now let's discuss Open Educational Resources (OER), a significant topic in today's academic libraries.
+Now let's discuss Open Educational Resources (OER), a hot topic in today's academic libraries.
 Textbook prices, [England et al. (2017)][england2017] notes, have skyrocketed in recent decades.
 College students' budget are [up to $1,240 per year in books and supplies][collegeboard].
 [Public elementary and secondary schools][statistica] expend nearly 2.5 billion dollars per year on textbooks.

@@ -10,7 +10,7 @@ Specifically, we seek to:
   physical and digital assets.
 - Examine the **modular structure of ILS/LSP**. We look at how these products
   are structured into **modules** (acquisitions, circulation, cataloging, etc.)
-  to handle various library tasks and processes.
+  to handle library tasks and processes.
 - Learn about the **evolution of user interfaces** of these systems. We will
   discuss the transition from **OPACs (online public access catalogs)** to
   modern **discovery systems**, and how these systems enhance search
@@ -176,7 +176,7 @@ In an ERM like the open source [CORAL system][coral_modules], the modules includ
   system" that provides options to manage licensing agreements and to automate
   parts of the process.
 * [Organizations][organizations_module]: this module acts as a type of advanced
-  directory to manage the various organizations that impact or are involved in
+  directory to manage the organizations that impact or are involved in
   the management of electronic resources, including "publishers, vendors,
   consortia, and more."
 * [Usage Statistics][usage_statistics]: a module providing librarians with
@@ -205,8 +205,7 @@ The author's descriptions are helpful in understanding what these two software s
 The readings by [Miller, Sharp, and Jones (2014)][miller2014] and [Bahnmaier, Sherfey, and Hatfield (2020)][bahnmaier2020]
 provides context about how these technologies impact librarianship.
 Miller et al. (2014) describe a case study that shows how electronic resources have impacted organizational structure, job titles, budgets, and more.
-Likewise Bahnmaier et al. (2020) discuss aspects of this and reflect on various changes in library staffing and
-how this raises the importance of the library-vendor relationship.
+Likewise Bahnmaier et al. (2020) discuss aspects of this and reflect on changes in library staffing and how this raises the importance of the library-vendor relationship.
 
 ## Conclusion
 
@@ -251,10 +250,10 @@ I replaced those readings back in the Fall 2022 semester, but for those interest
 ---
 
 In the article by Wang and Dawes (2012), the authors describe the "next generation integrated library system",
-which should meet a few criteria that include the ability to merge ILS software with ERM software.
+which should meet the criteria that include the ability to merge ILS software with ERM software.
 ERM software solutions exist because integrated library systems (ILS) failed to include functions to manage digital assets.
 Basically, the ILS was still behaving with a print-mindset, so to speak, and was growing stagnant.
-Around the time the article was published, more ILS and ERM software began moving to the cloud, as was common among many software markets.
+Around the time the article was published, more ILS and ERM software began moving to the cloud, as was common in other software markets.
 This changed the game because it placed a burden on software companies to maintain their software.
 Based on demand and need, the LSP was created as a next-generation ILS that included ERM functionality.
 So it's likely that even though the LSP might replace the ILS/ERM combo someday,

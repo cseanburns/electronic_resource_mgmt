@@ -73,12 +73,12 @@ There are two big reasons for this.
 First, digital works are not subject to the same distribution constraints as physical works are,
 and the first sale doctrine is about distribution rights and not reproduction rights.
 If I have a physical copy of some book and give you my copy of that book, then I no longer have that copy.
-However, if I have a copy of a digital file, then as we all know, it is relatively trivial to share that file without losing access to my own copy.
+However, if I have a copy of a digital file, then as we all know, it is trivial to share that file without losing access to my own copy.
 Since digital works can be copied and distributed without losing access to the copies or to the original,
 the First Sale Doctrine does not necessarily apply to digital copies.
 Consequently, in the digital space, there are fewer limitations Section 106, and this includes on lending.
 
-Second, many digital works are like software, or at least, they are intertwined with the software and hardware needed to display them.
+Second, digital works are like software, or at least, they are intertwined with the software and hardware needed to display them.
 This is true for all kinds of documents, like HTML pages, which need a web browser or a text editor to read them;
 or audio files, which need a media player to listen to them.
 But consider ebooks as an example.
@@ -86,15 +86,15 @@ Whether a printed book is as small as a [quarto][quarto] or as large as a [folio
 or whether it has pop-ups makes no difference to its basic distribution potential and ergo its copyright status.
 These physical works are self-contained.
 Ebooks arrive in all shapes and sizes, too.
-[Project Gutenberg][projectgutenberg] distributes public domain ebooks in various file formats that include plain text documents,
+[Project Gutenberg][projectgutenberg] distributes public domain ebooks in multiple file formats that include plain text documents,
 that have no presentation markup (bold, italics, etc.), HTML documents with markup, XML documents like EPUB, and then also PDFs and others.
 Recently, they started using AI [to convert their books to audiobooks][gutenbergmicro].
 Why so many file formats?
 Text is text, right?
 In the print space, a book is simply text printed on pages of paper, even if it is sometimes printed on different sized pages or
 uses different type settings.
-But these various markups exist because they each offer presentational advantages that are tied to specific pieces of software and hardware.
-This makes them unlike the various formats used for printed books.
+But these markups exist because they each offer presentational advantages that are tied to specific pieces of software and hardware.
+This makes them unlike the formats used for printed books.
 
 Ebooks are also complicated by proprietary, encrypted file formats, like the ones that Amazon uses for Kindles
 (other e-reader and other stores also), or the popular MP3 file format for audio recordings that only recently became patent free.
@@ -137,8 +137,8 @@ As [Sanchez (2015)][sanchez2015] puts it,
 
 The conundrum is this:
 When the total supply of works increases, e.g., the total number of published books increase, as they do each year,
-then it means renting more and more without ever completely acquiring.
-It also means that libraries may have to hold collections at a stable number or provide access to fewer works over time.
+then it means renting more and more without ever acquiring.
+It also means that libraries may have to hold collections at a stable number or provide access to less works over time.
 When budgets are cut or remain stagnant, this ultimately entails a decline in the collection a library has to offer.
 Or if not a decline in the collection, then cuts in some other areas of a library, like the number of librarians or other staff.
 This is the conundrum that Sanchez raises in his article.
@@ -152,13 +152,12 @@ as they weed, how would that impact the physical space of the library?
 See figure 2.3, specifically, from Sanchez's article.
 The plot shows just how much could be lost and how little gained if the forecasts Sanchez discusses come true.
 
-There are many ways to put constraints on the supply of an item in the digital landscape,
+There are ways to put constraints on the supply of an item in the digital landscape,
 as opposed to limiting supply in the physical space, which involve fewer methods.
-That is, it's relatively easy for publishers and others to restrict the supply of physical works.
-They simply have to limit how many of those physical works are manufactured (e.g., the number of print runs).
+That is, it's easy for publishers and others to restrict the supply of physical works.
+They simply have to limit the physical works that are manufactured (e.g., the number of print runs).
 But given the nature of digital content, restricting supply is driven by the technologies available to do so,
-and since there are so many publishers and distribution points, then each one of these points will
-often create their own unique type of constraint on the supply.
+and since there are so multiple publishers and distribution points, then each one of these points will often create their own unique type of constraint on the supply.
 The result is that there will be a number of confusing methods implemented to limit constraint, even if these limitations are marketed as selling points.
 In practice, this may mean that only a limited number of people may "check" out a work from a library at one time,
 or access a database at one time, and so forth.
@@ -166,14 +165,14 @@ Thus, the budget issue has an impact on access and usability.
 
 There have been recent attempts to address these issues.
 [Paganelli (2022)][paganelli2022] describes some state by state efforts to lessen the financial burdens on libraries that e-content entails.
-However, as Paganelli notes, these efforts have largely not succeeded.
+However, as Paganelli notes, these efforts have not succeeded.
 And Brewster Kahle, the founder of the Internet Archive, [has highlighted][kahle_guardian]
 the growing attacks on library budgets that make this the outcomes for library budgets more pessimistic.
 From a publisher's perspective, [Sisto (2022)][sisto2022] argues that the general narrative about the tension between
 libraries and publishers is misleading.
 Instead, the author argues, the landscape is much more complex, and the publishers have made a number of attempts to
 "make their e-lending policies better for librarians" (2018-2019: Policy Updates and Different Opinions sect, para 6).
-Personally, I'm not sure I buy (or lease) many of Sisto's arguments, but I think one thing is clear:
+Personally, I'm not sure I buy (or lease) all of Sisto's arguments, but I think one thing is clear:
 the e-lending market is complex and miscommunication abounds.
 
 Read more about copyright:
@@ -182,7 +181,7 @@ Read more about copyright:
 
 ## Impact on eJournal Collections
 
-Although ebooks likely represent the biggest impact on public library budgets, academic libraries are largely concerned with scholarly journals.
+Although ebooks likely represent the biggest impact on public library budgets, academic libraries are more concerned with scholarly journals.
 Like Sanchez (2015), [Bosch, Albee, & Henderson (2018)][bosch2018] show that the major issue is that academic library budgets are declining or
 holding flat even though prices continue to increase for journal titles and at the same time that more articles are published.
 This raises an interesting phenomenon: although researchers are hurt by the lack of access to research,
@@ -192,7 +191,7 @@ The authors also note that part of the drive to publish includes a drive to publ
 where *prestigious* is determined by how well cited the title is.
 The authors refer to a few citation-based metrics that the research community uses to determine prestige.
 These include the long-established *Impact Factor*, which can be examined in the *Journal Citation Reports* (JCR) provided by Clarivate Analytics,
-as well as relatively newer ones, like the *SJR*, which is provided via [Scopus/Scimago][scimago].
+as well as newer ones, like the *SJR*, which is provided via [Scopus/Scimago][scimago].
 
 One motivation for using a citation metric as the basis of evaluating journal titles is because citation metrics indicate,
 at some level, the use of the work.
@@ -201,20 +200,20 @@ and used the knowledge to produce new knowledge.
 This makes such citation tools useful for librarians when [deciding to purchase a journal][garfield1999].
 
 However, citation metrics should never be the sole or even primary tool to evaluate research.
-While they may provide good information, there are many caveats.
+While they may provide good information, there are caveats.
 First, there are different fields of research, and some fields cite at different rates and at different volumes
 than other fields, and also for different reasons.
 This is why, in Table 5 of the Bosch, Albee, and Henderson (2018) article,
 the cost per cite for journals in the Philosophy & Religion category are so much higher that the cost per cite of titles in other categories.
 Authors in P&R simply have different citation and publishing behaviors than authors in other categories.
 Second, citations do not capture all uses of a journal.
-For example, there are many journal titles that I might use in my courses but may not use in my research,
+For example, there are journal titles that I might use in my courses but may not use in my research,
 and this is true for other faculty.
 Yet citation metrics won't reflect that kind of use.
 The authors refer to *altmetrics*, which was invented to help capture non-citing uses of scholarly products,
-but altmetrics is largely dependent on data sources and scholarly behavior that are problematic themselves.
-Third, there are various issues with the metrics themselves.
-The *Impact Factor* is based on an outdated calculation and is thus not a very appropriate statistical measure.
+but altmetrics is dependent on data sources and scholarly behavior that are problematic themselves.
+Third, there are issues with the metrics themselves.
+The *Impact Factor* is based on an outdated calculation and is thus not an appropriate statistical measure.
 The other metrics were created to address that but may have other problems.
 And four, the use of the metrics, regardless of which one, tends to drive publishing behavior,
 such that journal titles with higher metrics tend to attract more submissions and more attention, thus driving more citations to them.
@@ -265,7 +264,7 @@ Today, they play a central role in shaping library budgets and the management of
 This is made plain as libraries shift from owing physical collections to licensing electronic resources.
 The First Sale Doctrine, which historically enabled libraries to lend physical books,
 does not apply to digital works in the same way.
-This was confirmed by the recent court battle between the Internet Archive and various publishers.
+This was confirmed by the recent court battle between the Internet Archive and several publishers.
 The implication places significant constraints on libraries' abilities to offer digital content.
 
 As libraries face the challenge of renting rather than owning ebooks and ejournals, budget constraints grow more severe.

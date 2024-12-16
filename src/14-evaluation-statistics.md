@@ -38,7 +38,7 @@ Even if we can claim that I did, what kind of use was it?
 Can we tell from that log entry?
 In short, log data like this can't really capture the user's *intent*.
 
-> Note that we can learn quite a lot from web server access logs, and there is software, like Google Analytics,
+> Note that we can learn a lot from web server access logs, and there is software, like Google Analytics,
 > that would be able to collect additional usage data.
 
 As with other things we have discussed, there have been efforts to standardize electronic resource usage.
@@ -61,7 +61,7 @@ From [Project Counter][projcounter]:
 > To have their usage statistics and reports designated COUNTER compliant, content providers MUST provide usage statistics that conform to
 > the current Code of Practice.
 
-This code of practice was designed to solve a problem that will likely never completely be solved, but it's still an important and useful effort.
+This code of practice was designed to solve a problem that will likely never be solved altogether, but it's still an important and useful effort.
 
 The main goal of Project Counter is to provide usage reports.
 The reports, for release 5 of Counter, cover four major areas:
@@ -77,7 +77,7 @@ These reports include usage metrics at the broadest level and of things like EBS
 SAGE resources, Web of Science databases, and so on.
 These reports come into play when users/patrons search in the overall platform but not in any single database provided by the platform.
 For example, UK Libraries subscribes to the ProQuest Databases and for us that includes [35 primary databases][proqdb].
-Users can search many at the same time or search any single one.
+Users can search multiple databases at the same time or search any single one.
 The same holds for platforms like EBSCOhost, Web of Science, and others.
 These report levels continue to form the framework for release 5.1,
 which continues to build on the goals of its predecessors by providing standardized, comprehensive, and easy-to-use reports.
@@ -114,16 +114,16 @@ but constantly required in order to garner the resources needed to improve or su
 Here Stone and Ramsden investigate the correlation (not causation) between library usage and student retention.
 Increasing the latter is the Holy Grail of college and universities.
 The more students who attend college or university and finish, the more successful the college or university's mission is.
-However, many universities struggle with keeping students and often lose nearly [25% of their students][us_retention] each year.
+However, universities struggle with keeping students and often lose nearly [25% of their students][us_retention] each year.
 If this were a public library report, it might be interesting to see how well electronic library usage correlates
-to continued usage and how such a correlation might result in various outcomes defined by the library.
+to continued usage and how such a correlation might result in outcomes defined by the library.
 One nice thing about the Stone and Ramsden article is that it does not depend on quantitative metrics alone but supports
 its findings through qualitative research.
 There's only so much a usage metric can say.
 
 ## Using Metrics
 
-I would like you to be aware of the [*code\{4\}lib* journal][code4lib] and this article by [Zou][zou2015] is pretty cool.
+I would like you to be aware of the [*code\{4\}lib* journal][code4lib] and this article by [Zou][zou2015].
 Although this article overlaps with some security issues, a topic that we'll cover in the final section,
 the article also provides a way of thinking outside the box about the metrics that you have access to as an electronic resource librarian.
 Here, Zou describes a process of taking EZproxy logs (compare the example entry with the web server entry I included above)
@@ -137,11 +137,11 @@ which can be insightful and helpful, but Zou's method makes the analysis of thes
 The main weakness with Zou's method is that it seems to me to be highly dependent on Zou doing the work.
 If Zou leaves their library, then this customized analysis might not last.
 Still, it's good to know that if you have an interest in developing skills with systems administration,
-with various other technologies, and with some basic scripting language, this kind of thing, and more, is possible.
+with other technologies, and with some basic scripting language, this kind of thing, and more, is possible.
 
 ## Getting Creative
 
-[Smith & Arneson (2017)][smith2017] detail very creative and fun ways to collect usage data about resource usage when vendors do not provide usage data.
+[Smith & Arneson (2017)][smith2017] detail creative and fun ways to collect usage data about resource usage when vendors do not provide usage data.
 In the first part of this article, Smith describes how they analyzed their link resolver reports
 to infer what users were accessing in their collections.
 Arneson's section describes using a Linux file search utility called [grep][grep] to construct search queries of the EZproxy logs
@@ -152,8 +152,7 @@ However, once figured out, the process and reports can easily be automated.
 
 ## Conclusion
 
-Librarians used a variety of techniques to collect usage data in the print era,
-but like many things we've learned about, electronic resources have complicated things.
+Librarians used a variety of techniques to collect usage data in the print era, but again, electronic resources have complicated things.
 First, because more data is available about usage with electronic resources, before that data can be used, it has to be defined.
 Project Counter is an attempt to define what usage means and how to report it.
 

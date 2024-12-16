@@ -52,10 +52,9 @@ Surveillance comes in all shapes.
 
 ## Technical Aspects of Privacy
 
-Privacy and security issues can present as more mundane but still be quite important.
-Since many users of libraries of all types visit library homepages, then encrypting web and internet traffic is important.
-A few years ago, the [major web browsers announced][tlsbrowsers]
-that they would no longer support Transport Layer Security (TLS) protocol versions 1.1 or earlier
+Privacy and security issues can present as more mundane but still be important.
+Since users of libraries of all types visit library homepages, then encrypting web and internet traffic is important.
+For example, the [major web browsers announced][tlsbrowsers] that they would no longer support Transport Layer Security (TLS) protocol versions 1.1 or earlier
 and any site that had not yet migrated to TLS version 1.2 or above would be inaccessible.
 
 TLS is used to encrypt web traffic and can be verified via the `https` protocol in a URL and the lock icon in your browser's URL bar.
@@ -65,7 +64,7 @@ This ensures that sensitive information such as login credentials and payment de
 TLS replaces the older Secure Sockets Layer (SSL) protocol but itself must be continually updated as anti-security technology becomes more advanced.
 
 This news from the web browser companies was released in early March 2020, just before the pandemic.
-The browser vendors thus postponed blocking poorly encrypted websites for a few months.
+The browser vendors thus postponed blocking poorly encrypted websites.
 Still, it took time for some websites to begin using the new version of TLS and some websites,
 including library home pages, were inaccessible via some web browsers for a while even with the advanced notice.
 
@@ -76,7 +75,7 @@ These encompass important technological considerations, like web traffic encrypt
 There are also important policy considerations, too, like how third party vendors, like Primo etc., implement privacy and security mechanisms.
 [DiVittorio and Gianelli (2021)][divittorio2021] discuss the issue of privacy and security issues with third party vendors.
 Overall, their findings highlight the lack of alignment between the values of librarians and the profit-based motives of vendors.
-It's important to note how unresponsive many vendors were to their requests to participate in data collection.
+It's important to note how unresponsive vendors were to their requests to participate in data collection.
 Remember that [SERU][serurp] has a section in its recommended practice dedicated to Confidentiality and Privacy.
 In case you work at a library that does not use SERU, this is how SERU can be useful to you.
 It can inform about the kinds of provisions that a library ought to have in a license if the default provisions a vendor proposes
@@ -101,7 +100,7 @@ This means that we really should have to trust these sites with that information
 Still, the fact that libraries use these services raises some ethical questions.
 That is, libraries are trusted institutions, and the use of analytics tools like this introduces issues about how private patron data is.
 
-Also, many web pages, library web pages included, are made up of multiple types of code, including HTML, CSS, and JavaScript.
+Also, web pages, library web pages included, can be made up of multiple types of code, including HTML, CSS, and JavaScript.
 This code can be sourced from external servers and services.
 For example, the fonts that a web page uses might be sourced from a separate font server that's not controlled by a library.
 Including third-party code entails more tracking mechanisms,
@@ -109,7 +108,7 @@ since anytime a page is visited that contains a font sourced from another server
 the third party server can log that information.
 This enables more cross-referencing capabilities.
 
-Remember that security and privacy issues like this can be pretty mundane and not necessarily trendy.
+Remember that security and privacy issues like this can be mundane and not necessarily trendy.
 However, there is a trade-off.
 If we want to learn more about how users interact with library websites in order to improve usability and accessibility,
 then we have to have some of this data.
@@ -122,8 +121,7 @@ Some analytics software, such as [Matomo][matomo] or [Plausible][plausible], wer
 
 Like all things I've covered in this work, the move to electronic resources has disrupted how we think about
 and handle the privacy and security of our patrons.
-The DiVittorio and Gianelli (2021) article highlights how more than ever much of what we might like to protect and
-keep secure is completely out of librarians' control,
+The DiVittorio and Gianelli (2021) article highlights how more than ever much of what we might like to protect and keep secure is out of librarians' control,
 and that this has potential ramifications for our communities, and especially, for our marginalized and unprotected ones.
 
 When you become librarians, it's important to think about the usability of your services,
