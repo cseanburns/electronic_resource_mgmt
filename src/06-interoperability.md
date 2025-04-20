@@ -296,7 +296,7 @@ Be sure to provide links to these examples and articulate ways the technology ca
 - [How Google Scholar works with libraries][howgs]
 - [Surface your materials in Google Scholar (OCLC)][worldshare]
 - [360 KB: Overview of the Knowledgebase][exlibrisKB]
-  
+
 ## Appendix A
 
 ### How I Enhanced Zotero by Hacking OpenURL
@@ -344,7 +344,7 @@ Then I posted the OpenURL info to Zotero's forum, and they added it to their Ope
 If others are curious about how to add this info to Zotero, [another library][sacredheart] has created a video on this.
 The directions cover adding a specific OpenURL to Zotero and on how to use Zotero's Library Lookup functionality.
 
-## 
+## Appendix B
 
 Use the [`trurl`][trurl] command to parse URLs.
 The following `trurl` command decomposes the Primo URL into its major components.
