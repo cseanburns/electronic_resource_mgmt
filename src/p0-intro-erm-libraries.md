@@ -1,7 +1,8 @@
 # Electronic Resource Management in Libraries
 
 Author: C. Sean Burns  
-Date, version 1: 2024-08-23  
+Date, [Version 2: 2024-04-20](https://github.com/cseanburns/electronic_resource_mgmt/releases/tag/V2)  
+Date, [Version 1: 2024-08-23](https://github.com/cseanburns/electronic_resource_mgmt/releases/tag/V1)  
 Email: [sean.burns@uky.edu](sean.burns@uky.edu)  
 Website: [cseanburns.net](https://cseanburns.net)  
 GitHub: [@cseanburns](https://github.com/cseanburns)
