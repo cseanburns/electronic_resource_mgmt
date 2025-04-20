@@ -1370,7 +1370,8 @@ Techniques for Electronic Resource Management (TERMS): From Coping to Best Pract
 <li>Evaluate the effectiveness of link resolver technology from both system and user perspectives based on case studies.</li>
 </ol>
 <h2 id="introduction-5"><a class="header" href="#introduction-5">Introduction</a></h2>
-<p><a href="Managing">Managing</a> electronic resources in libraries involves a complex web of technologies and services, each presenting its own set of challenges.
+<p><a href="Managing">Managing</a> electronic resources in libraries involves a complex web of technologies and services,
+each presenting its own set of challenges.
 One challenge is the intricacy of navigating paywalls to access a library's digital content.
 This section examines the complications that arise when accessing paywalled materials.
 We explore how technologies like OpenURL link resolvers streamline this process and enhance interoperability between multiple services.</p>
@@ -1382,7 +1383,8 @@ In these cases, direct links to sources identified in these services do not prov
 <p>The issue becomes complex when a library subscribes to a journal or magazine.
 Access is often provided through third-party services, not solely the publisher's default site.
 Examples of these third-party services include bibliographic databases like EBSCOhost or ProQuest.
-Also, libraries provide multiple discovery points and ways to access the same works, such as through bibliographic databases with overlapping scopes.
+Also, libraries provide multiple discovery points and ways to access the same works,
+such as through bibliographic databases with overlapping scopes.
 Bibliographic databases can tell us that an item exists when we search for it, but a library may not subscribe to the publication or
 the item might be in the stacks, stored off site or at another library altogether.
 These issues, along with the challenges presented by paywalls, introduce additional layers of complexity.
@@ -1646,6 +1648,99 @@ By comparing these OpenURLs, I was able to derive my institution's specific Open
 Then I posted the OpenURL info to Zotero's forum, and they added it to their OpenURL resolver page.
 If others are curious about how to add this info to Zotero, <a href="https://library.sacredheart.edu/zotero/advanced/usingLibraryLookup">another library</a> has created a video on this.
 The directions cover adding a specific OpenURL to Zotero and on how to use Zotero's Library Lookup functionality.</p>
+<h2 id=""><a class="header" href="#"></a></h2>
+<p>Use the <a href="https://curl.se/trurl/"><code>trurl</code></a> command to parse URLs.
+The following <code>trurl</code> command decomposes the Primo URL into its major components.
+The output is sent to the <a href="https://jqlang.org/"><code>jq</code></a> command to clean up the output.</p>
+<p>Example command on Primo URL:</p>
+<pre><code>trurl "https://saalck-uky.primo.exlibrisgroup.com/discovery/search?query=any,contains,electronic%20resource%20management&amp;tab=Everything&amp;search_scope=MyInst_and_CI&amp;vid=01SAA_UKY:UKY&amp;mfacet=rtype,include,articles,1&amp;mfacet=searchcreationdate,include,2010%7C,%7C2025,1&amp;mfacet=lang,include,eng,1&amp;offset=0" --json --sort-query | jq .
+</code></pre>
+<p>Example output of Primo URL:</p>
+<pre><code>[
+  {
+    "url": "https://saalck-uky.primo.exlibrisgroup.com/discovery/search?mfacet=lang%2cinclude%2ceng%2c1&amp;mfacet=rtype%2cinclude%2carticles%2c1&amp;mfacet=searchcreationdate%2cinclude%2c2010%7c%2c%7c2025%2c1&amp;offset=0&amp;query=any%2ccontains%2celectronic+resource+management&amp;search_scope=MyInst_and_CI&amp;tab=Everything&amp;vid=01SAA_UKY%3aUKY",
+    "parts": {
+      "scheme": "https",
+      "host": "saalck-uky.primo.exlibrisgroup.com",
+      "path": "/discovery/search",
+      "query": "mfacet=lang,include,eng,1&amp;mfacet=rtype,include,articles,1&amp;mfacet=searchcreationdate,include,2010|,|2025,1&amp;offset=0&amp;query=any,contains,electronic resource management&amp;search_scope=MyInst_and_CI&amp;tab=Everything&amp;vid=01SAA_UKY:UKY"
+    },
+    "params": [
+      {
+        "key": "mfacet",
+        "value": "lang,include,eng,1"
+      },
+      {
+        "key": "mfacet",
+        "value": "rtype,include,articles,1"
+      },
+      {
+        "key": "mfacet",
+        "value": "searchcreationdate,include,2010|,|2025,1"
+      },
+      {
+        "key": "offset",
+        "value": "0"
+      },
+      {
+        "key": "query",
+        "value": "any,contains,electronic resource management"
+      },
+      {
+        "key": "search_scope",
+        "value": "MyInst_and_CI"
+      },
+      {
+        "key": "tab",
+        "value": "Everything"
+      },
+      {
+        "key": "vid",
+        "value": "01SAA_UKY:UKY"
+      }
+    ]
+  }
+]
+</code></pre>
+<p>Example command on Google Scholar URL:</p>
+<pre><code>trurl "https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C18&amp;q=electronic+resource+management&amp;oq=&amp;inst=644821257881216646" --json -sort-query
+</code></pre>
+<p>Example command of Google Scholar URL:</p>
+<pre><code>[
+  {
+    "url": "https://scholar.google.com/scholar?as_sdt=0%2c18&amp;hl=en&amp;inst=644821257881216646&amp;oq=&amp;q=electronic+resource+management",
+    "parts": {
+      "scheme": "https",
+      "host": "scholar.google.com",
+      "path": "/scholar",
+      "query": "as_sdt=0,18&amp;hl=en&amp;inst=644821257881216646&amp;oq=&amp;q=electronic resource management"
+    },
+    "params": [
+      {
+        "key": "as_sdt",
+        "value": "0,18"
+      },
+      {
+        "key": "hl",
+        "value": "en"
+      },
+      {
+        "key": "inst",
+        "value": "644821257881216646"
+      },
+      {
+        "key": "oq",
+        "value": ""
+      },
+      {
+        "key": "q",
+        "value": "electronic resource management"
+      }
+    ]
+  }
+]
+</code></pre>
+<p>See <a href="https://serpapi.com/google-scholar-api">Google Scholar API</a> for an explanation of the parameters used in Google Scholar.</p>
 <h2 id="readings--references-4"><a class="header" href="#readings--references-4">Readings / References</a></h2>
 <p>Chisare, C., Fagan, J. C., Gaines, D., &amp; Trocchia, M. (2017).
 Selecting link resolver and knowledge base software: Implications of interoperability.
