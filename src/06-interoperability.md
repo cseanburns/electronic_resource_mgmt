@@ -12,7 +12,8 @@ By the end of this lecture, you should be able to:
 
 ## Introduction
 
-[Managing](Managing) electronic resources in libraries involves a complex web of technologies and services, each presenting its own set of challenges.
+[Managing](Managing) electronic resources in libraries involves a complex web of technologies and services,
+each presenting its own set of challenges.
 One challenge is the intricacy of navigating paywalls to access a library's digital content.
 This section examines the complications that arise when accessing paywalled materials.
 We explore how technologies like OpenURL link resolvers streamline this process and enhance interoperability between multiple services.
@@ -27,7 +28,8 @@ In these cases, direct links to sources identified in these services do not prov
 The issue becomes complex when a library subscribes to a journal or magazine.
 Access is often provided through third-party services, not solely the publisher's default site.
 Examples of these third-party services include bibliographic databases like EBSCOhost or ProQuest.
-Also, libraries provide multiple discovery points and ways to access the same works, such as through bibliographic databases with overlapping scopes.
+Also, libraries provide multiple discovery points and ways to access the same works,
+such as through bibliographic databases with overlapping scopes.
 Bibliographic databases can tell us that an item exists when we search for it, but a library may not subscribe to the publication or
 the item might be in the stacks, stored off site or at another library altogether.
 These issues, along with the challenges presented by paywalls, introduce additional layers of complexity.
@@ -342,6 +344,114 @@ Then I posted the OpenURL info to Zotero's forum, and they added it to their Ope
 If others are curious about how to add this info to Zotero, [another library][sacredheart] has created a video on this.
 The directions cover adding a specific OpenURL to Zotero and on how to use Zotero's Library Lookup functionality.
 
+## 
+
+Use the [`trurl`][trurl] command to parse URLs.
+The following `trurl` command decomposes the Primo URL into its major components.
+The output is sent to the [`jq`][jq] command to clean up the output.
+
+Example command on Primo URL:
+
+```
+trurl "https://saalck-uky.primo.exlibrisgroup.com/discovery/search?query=any,contains,electronic%20resource%20management&tab=Everything&search_scope=MyInst_and_CI&vid=01SAA_UKY:UKY&mfacet=rtype,include,articles,1&mfacet=searchcreationdate,include,2010%7C,%7C2025,1&mfacet=lang,include,eng,1&offset=0" --json --sort-query | jq .
+```
+
+Example output of Primo URL:
+
+```
+[
+  {
+    "url": "https://saalck-uky.primo.exlibrisgroup.com/discovery/search?mfacet=lang%2cinclude%2ceng%2c1&mfacet=rtype%2cinclude%2carticles%2c1&mfacet=searchcreationdate%2cinclude%2c2010%7c%2c%7c2025%2c1&offset=0&query=any%2ccontains%2celectronic+resource+management&search_scope=MyInst_and_CI&tab=Everything&vid=01SAA_UKY%3aUKY",
+    "parts": {
+      "scheme": "https",
+      "host": "saalck-uky.primo.exlibrisgroup.com",
+      "path": "/discovery/search",
+      "query": "mfacet=lang,include,eng,1&mfacet=rtype,include,articles,1&mfacet=searchcreationdate,include,2010|,|2025,1&offset=0&query=any,contains,electronic resource management&search_scope=MyInst_and_CI&tab=Everything&vid=01SAA_UKY:UKY"
+    },
+    "params": [
+      {
+        "key": "mfacet",
+        "value": "lang,include,eng,1"
+      },
+      {
+        "key": "mfacet",
+        "value": "rtype,include,articles,1"
+      },
+      {
+        "key": "mfacet",
+        "value": "searchcreationdate,include,2010|,|2025,1"
+      },
+      {
+        "key": "offset",
+        "value": "0"
+      },
+      {
+        "key": "query",
+        "value": "any,contains,electronic resource management"
+      },
+      {
+        "key": "search_scope",
+        "value": "MyInst_and_CI"
+      },
+      {
+        "key": "tab",
+        "value": "Everything"
+      },
+      {
+        "key": "vid",
+        "value": "01SAA_UKY:UKY"
+      }
+    ]
+  }
+]
+```
+
+Example command on Google Scholar URL:
+
+```
+trurl "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C18&q=electronic+resource+management&oq=&inst=644821257881216646" --json -sort-query
+```
+
+Example command of Google Scholar URL:
+
+```
+[
+  {
+    "url": "https://scholar.google.com/scholar?as_sdt=0%2c18&hl=en&inst=644821257881216646&oq=&q=electronic+resource+management",
+    "parts": {
+      "scheme": "https",
+      "host": "scholar.google.com",
+      "path": "/scholar",
+      "query": "as_sdt=0,18&hl=en&inst=644821257881216646&oq=&q=electronic resource management"
+    },
+    "params": [
+      {
+        "key": "as_sdt",
+        "value": "0,18"
+      },
+      {
+        "key": "hl",
+        "value": "en"
+      },
+      {
+        "key": "inst",
+        "value": "644821257881216646"
+      },
+      {
+        "key": "oq",
+        "value": ""
+      },
+      {
+        "key": "q",
+        "value": "electronic resource management"
+      }
+    ]
+  }
+]
+```
+
+See [Google Scholar API][gs_api] for an explanation of the parameters used in Google Scholar.
+
 ## Readings / References
 
 Chisare, C., Fagan, J. C., Gaines, D., & Trocchia, M. (2017).
@@ -378,17 +488,20 @@ Serials Spoken Here.
 [gethttp]:https://www.w3schools.com/tags/ref_httpmethods.asp
 [googlescholaralma]:https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/030Resource_Management/150Publishing_Electronic_Holdings_to_Google_Scholar
 [googleScholar]:https://scholar.google.com
+[gs_api]:https://serpapi.com/google-scholar-api
 [gslibrary]:https://scholar.google.com/intl/en/scholar/libraries.html
 [howgs]:https://scholar.google.com/intl/en/scholar/libraries.html
 [idf]:https://www.doi.org/
 [illiadopenurl]:https://support.atlas-sys.com/hc/en-us/articles/360011910073-OpenURL-Configuration
 [johnson2015]:https://doi.org/10.1080/1941126X.2015.999519
+[jq]:https://jqlang.org/
 [kasprowski2012]:https://doi.org/10.1080/0361526X.2012.652480
 [lista]:https://libguides.uky.edu/803
 [locateMenu]:https://www.zotero.org/support/locate
 [lr101]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
 [lrusage]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
 [mcdonald2004]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
+[montavon2023]:https://doi.org/10.1080/00987913.2023.2174400
 [nisoOpenURL]:https://www.niso.org/publications/z3988-2004-r2010
 [openathens]:https://www.openathens.net/
 [openurlCrossref]:https://www.crossref.org/documentation/retrieve-metadata/openurl/
@@ -398,9 +511,9 @@ Serials Spoken Here.
 [SAA]:https://dictionary.archivists.org/entry/administrative-metadata.html
 [sacredheart]:https://library.sacredheart.edu/zotero/advanced/usingLibraryLookup
 [sspc]:https://libguides.uky.edu/3355
+[trurl]:https://curl.se/trurl/
 [urlencode]:https://www.url-encode-decode.com/
 [urlsyntax]:https://tools.ietf.org/html/rfc3986#page-16
 [utf8]:https://www.w3schools.com/tags/ref_urlencode.asp
 [worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
 [zotero]:https://www.zotero.org/
-[montavon2023]:https://doi.org/10.1080/00987913.2023.2174400
