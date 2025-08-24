@@ -131,13 +131,12 @@ This means we study how we measure usage and what those measurements can validly
 Since usage leaves traces of personal information, we examine topics related to the security of these resources and the privacy of those who use them.
 Electronic resources likewise means having to use websites and other e-resource interfaces, and hence we study how electronic resource librarians study user experience and conduct usability studies.
 
-## Discussion Questions
+## Questions
 
 As we start to address this, consider the following questions:
 
 1. How do we manage all of this electronic stuff? Not only does it include complicated technology and has an impact on our patrons, but it involves all different sorts of librarians.
-1. What exactly is an electronic resource librarian? This basic question critiques the representations of librarians in the media (movies, TV shows, books)
-   and the interactions we've had with librarians in our lifetimes.
+1. What exactly is an electronic resource librarian? This basic question critiques the representations of librarians in the media (movies, TV shows, books) and the interactions we've had with librarians in our lifetimes.
 
 ## Readings / References
 
