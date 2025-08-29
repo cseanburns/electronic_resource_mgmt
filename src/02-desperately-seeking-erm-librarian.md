@@ -19,7 +19,7 @@ I suggest that you review the list of core competencies before you read the arti
 We also read [Macaulay (2018)][macaulay_2018], who provides an overview of electronic resource management duties and
 describes how these duties are shared among various librarian roles.
 
-There are social, political, and economic conditions that have stayed fixed since those two articles were published.
+There are social, political, and economic conditions that have stayed fixed since the first two articles were published.
 These conditions help focus the work of the ERM librarian.
 However, constant changes in technologies and types of electronic resources mean that electronic resource librarians constantly adapt to new work flows.
 Our Murdoch (2010) reading makes this point.
@@ -27,7 +27,8 @@ Our Murdoch (2010) reading makes this point.
 To follow up on more current advertisements for ER librarians,
 we can see that [current job ads (2025) for ERM librarians][indeed_erm] remain broadly consistent with past descriptions.
 The results are consistent with years-past qualifications because the overall goal remains: to provide access to electronic resources.
-That is, the following duties in these ads may be independent of the specific technologies used:
+That is, the following duties in these ads may be independent of the specific technologies used and
+therefore hold fairly stable:
 
 - provide "consistent and reliable access to the Library's electronic resources
   and establishing workflows that maintain discovery and use of all Library
@@ -61,7 +62,7 @@ That is, the following duties in these ads may be independent of the specific te
 - works "under the supervision of the Associate Director for Technical Services"
 
 To stay current about the position overall and about the specific duties involved, I encourage you to bookmark and stay abreast of ERM journals.
-In addition to the two publication titles used in this section's readings and to the [SERIALST][serialst_list] list I have asked you to subscribe to,
+In addition to the publication titles used in this section's readings and to the [SERIALST][serialst_list] list I have asked you to subscribe to,
 I recommend that you bookmark relevant journals, like the
 [Journal of Electronic Resources Librarianship][JERL],
 [Against the Grain][atg], and
@@ -131,7 +132,7 @@ that is, whether the technological issue is the link resolver technology and not
 
 Lastly, ERM librarianship is a highly collaborative position and requires working with librarians of all types and at all levels.
 Macaulay (2018) highlights how ERM librarians work with librarians in administration, user experience, technical services, collection development, and more.
-Reported responsibilities include troubleshooting, licensing, maintaining electronic resource management records, licensing and negotiations,
+Reported responsibilities include troubleshooting, maintaining electronic resource management records, licensing and negotiations,
 and more (most of which we'll cover in future sections of this work).
 In short, ERM librarianship requires both a generalist mindset and a specialized one.
 ERM librarians may focus on a special area (e.g., technical aspects versus licensing aspects), but also, given the integration of
