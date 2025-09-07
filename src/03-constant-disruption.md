@@ -161,6 +161,8 @@ The following search return zero results in 2021, 2022, 2023, and 2024:
 If you go into public librarianship or school media librarianship, I'd encourage you to publish on electronic resources.
 It would greatly benefit your peers and those of us who teach courses like this.
 
+## Historical Context
+
 Back to Breeding.
 I understand some terms Breeding uses and the technologies he describes might still be new to us.
 Let me spend some time providing some additional background information and highlighting some things to look for in these three articles.
@@ -176,7 +178,7 @@ Hence, computers were first used to manage the circulation of books, then patron
 which allowed patrons to check out works *electronically*, and then we had the ability to search for works.
 If a work of interest was located using these tools,
 the work could be retrieved from the shelves or ordered via interlibrary loan by snail mail.
-Full text search came much later with the introduction of better storage media, like CD-ROMs in the 1980s.
+Full text search came much later with the introduction of better storage media, like CD-ROMs, in the 1980s.
 This period saw major growth when access to the internet to more institutions grew in the 1980s and the web in the early 1990s,
 which at its heart is nothing more than a big document retrieval system.
 
@@ -196,6 +198,8 @@ and the primary means of accessing print collections was through a physical buil
 With the introduction of computer systems in the 1960s and with better networking technologies in the 1980s and 1990s,
 issues with organizing and retrieving information to provide access to it grew exponentially.
 This exponential increase created new complexities and launched an entire new field, what we now call *information science*.
+
+## Key Terms
 
 All right, back to the ground level.
 Let me highlight some key terms in Breeding's article.
@@ -239,8 +243,8 @@ but then began to convert to the Library of Congress Classification system after
 This was no small task (sometimes the transition took decades).
 Today, migration is big business in the library world (see Breeding's site for other examples).
 First, this is because the technology changes fast.
-Second, there competing electronic resource management products that librarians can choose for their communities,
-and they might be inclined to do that if the migration provides an advantage to their users, communities, and themselves.
+Second, there are competing electronic resource management products that librarians can choose to use for their communities,
+and librarians might be inclined to do that if the migration provides an advantage to their users, communities, and themselves.
 
 ## Conclusion
 
