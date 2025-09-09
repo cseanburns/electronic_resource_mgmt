@@ -217,14 +217,13 @@ They include:
 Unless you already have some solid experience with these things, and even after reading Breeding's article, these terms may still be abstract.
 So, this week, you have two major tasks:
 
-1. Find real, practical examples. Pick one or two of the above terms and see
-   how they work in practice. Then come back here and tell us what you found.
-   Use the articles to help you locate actual products or examples. See
-   Breedings [Library Technology Guides][LT_guides] for reference.
-1. Locate how these terms appear in either the Cote and Ostergaard (2017)
-   article or the Fu and Carmen (2015). Note other terms that may appear in
-   those two articles and comment on the role they play in the ERM workflow
-   and the migration process.
+1. Find real, practical examples.
+   Pick one or two of the above terms and learn how they are used by electronic resource management librarians.
+   Then tell us what you found.
+   Use the articles to help you locate actual products or examples.
+   See Breedings [Library Technology Guides][LT_guides] for reference.
+1. Locate how these terms appear in either the Cote and Ostergaard (2017) article or the Fu and Carmen (2015).
+   Note other terms that may appear in those two articles and comment on the role they play in the ERM workflow and the migration process.
 
 ### Workflow
 
