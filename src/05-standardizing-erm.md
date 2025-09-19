@@ -28,25 +28,27 @@ Awhile ago now, I conducted some historical research on a librarian named Ralph 
 Inspired by technological advances in automation, specifically the use of punched cards and machines,
 Parker began to apply this technology to library circulation processes in the 1930s.
 He thus became the first person to automate part of the library's workflow.
-By the mid-1960s, Parker's decades long pursuit of library automation led to some major advances, including the founding of [OCLC][oclc].
-Meanwhile, the punched card system he continued to develop eventually led to massive increases in circulation and better service to patrons.
+By the mid-1960s, Parker's decades long pursuit of library automation led to some major advances,
+including the founding of [OCLC][oclc].
+Meanwhile, the punched card system he continued to develop eventually led to massive increases
+in circulation and better service to patrons.
 In the mid-60s he wrote the following about the installation and launch of a new punched card system to help automate circulation:
 
 > "To the delight of the patrons it requires only four seconds to check out materials" (as cited in Burns, 2014).
 
 I think about that quote often.
-When I read that in his annual report in the archives at the University of Missouri, I could feel his giddiness with these results.
+When I read that in his annual report in the archives at the University of Missouri, I could feel his giddiness.
 Until this achievement, borrowing from the library involved completing multiple forms to be sure that accurate records were kept.
 Accurate record keeping is important.
 Libraries need to protect their collections but also provide access to them, and this is not possible without accuracy.
-As stated in the [Flexner (1927)][flexner1927]:
+As stated in [Flexner (1927)][flexner1927]:
 
 > it is necessary that the library have control of these circulating books in
 > several ways. It [the library] must know where they are, it must lay down
 > rules to see that thoughtless people do not retain the books in their
 > possession unfairly, and it must provide means for securing their prompt
 > return. These and many other considerations combine to make it necessary for
-> the [ circulation ] department to install and maintain very efficient methods
+> the [circulation] department to install and maintain very efficient methods
 > to control the circulation of books, which are commonly known as routines (p.
 > 6).
 
@@ -121,13 +123,13 @@ This was the same decade that Ralph Parker began working on his punched card sys
 Not long before this, in the late 1920s, the first library science graduate program launched at the University of Chicago.
 In the early 1930s, the first research based journal started, *The Library Quarterly*.
 We often hear how long libraries have existed (since ancient times), and it's true that there were modern accomplishments before the 1930s.
-Yet it is this time period (for these and a number of other reasons) that marks the modern era of libraries.
+Yet it is this time period (for these and a number of other reasons) that marks the modern era of libraries, in my view.
 
 ### TERMS
 
 We also are not simply interested in standards that deal with the forms used to catalog and charge a book, to create member records,
 and to draw up licenses for an electronic resources, as we'll discuss later.
-We are also interested in standardizing, as Flexner (1927) would say, "routines", processes, or workflows.
+We are also interested in standardizing, as Flexner (1927) would say, "routines," processes, or workflows.
 We discuss other standards in our readings on TERMS, or *Techniques for Electronic Resource Management*.
 
 TERMS is not a true standard, but more of a *de facto* or proposed standard that helps outline the electronic resource management workflow.
