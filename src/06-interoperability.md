@@ -12,28 +12,52 @@ By the end of this lecture, you should be able to:
 
 ## Introduction
 
-[Managing](Managing) electronic resources in libraries involves a complex web of technologies and services,
+This section examines the complications that arise when accessing paywalled materials.
+Managing electronic resources in libraries involves a complex web of technologies and services,
 each presenting its own set of challenges.
 One challenge is the intricacy of navigating paywalls to access a library's digital content.
-This section examines the complications that arise when accessing paywalled materials.
-We explore how technologies like OpenURL link resolvers streamline this process and enhance interoperability between multiple services.
+We explore how technologies like OpenURL link resolvers streamline
+this process and enhance interoperability across multiple services.
+We define interoperability as the ability of library systems and vendor platforms to communicate with each other
+through standards and protocols, like [OpenURL][openurl_wiki], in order to provide access a library's collections.
 
 ## Problem
 
-We take it for granted that we can seamlessly follow links to websites and webpages or do so with minimal fuss.
-It gets more complicated when we want access to works that are behind paywalls, despite where such works have been found:
-search engines, bibliographic databases, OPACs (online public access catalogs), or discovery services.
-In these cases, direct links to sources identified in these services do not provide full text access.
+We take interoperability on the web for granted.
+Being able to seamlessly follow links to websites and webpages and acquire access or do so with minimal fuss
+is one reason the web has been so successful.
 
-The issue becomes complex when a library subscribes to a journal or magazine.
-Access is often provided through third-party services, not solely the publisher's default site.
+However, it gets complicated when we want access to works that are behind paywalls,
+despite where such works have been found:
+search engines, bibliographic databases, OPACs (online public access catalogs), or discovery services.
+In these cases, direct links to works identified in these services
+may not provide full text access without asking for payment from the user.
+For example, we might do a search on *Google Scholar*,
+find an article we think looks highly relevant to our information needs,
+click on the link, only to find that the publisher's site is asking us to pay $35 for access.
+
+What complicates this is that access is often provided through third-party services,
+not solely the publisher's default site.
 Examples of these third-party services include bibliographic databases like EBSCOhost or ProQuest.
-Also, libraries provide multiple discovery points and ways to access the same works,
+Thus, if we had started our search not in *Google Scholar* but in an EBSCOhost database,
+and then came across the same article, we might find that our library subscribes to its journal,
+and that we do have access.
+
+Furthermore, libraries provide multiple discovery points and ways to access the same works,
 such as through bibliographic databases with overlapping scopes.
-Bibliographic databases can tell us that an item exists when we search for it, but a library may not subscribe to the publication or
-the item might be in the stacks, stored off site or at another library altogether.
-These issues, along with the challenges presented by paywalls, introduce additional layers of complexity.
+Thus, we might find that the same hypothetical article we described above could be found
+not only in an EBSCOhost database but also a ProQuest database.
+
+On top of that, bibliographic databases index hundreds or thousands of titles and works,
+and therefore can tell us that an item exists when we search for it.
+But we might find that even though the database shows us that an article exists,
+we might find that our library does not subscribe to the publication,
+or the item might be in the stacks, stored off site, or at another library altogether.
+
+These issues introduce layers of complexity.
 This includes the need for proxy servers for user authentication, which complicate access further.
+
+### Example
 
 Consider the journal *Serials Librarian*.
 It is published by *Taylor &amp; Francis Online* / *Routledge*.
@@ -43,7 +67,8 @@ It has the following site as its homepage:
 
 The journal is indexed in *EBSCOhost*'s [Library, Information Science & Technology Abstracts][lista] (LISTA) database.
 It is also indexed in *ProQuest*'s [Social Science Premium Collection][sspc] (SSPC) database.
-It's also indexed in *Google Scholar*, *Google Search*, a library's discovery platform, and other databases and search engines.
+It's also indexed in *Google Scholar*, *Google Search*, a library's discovery platform, and
+other databases and search engines.
 This means that an article like the following can show up based on a query on any of the above platforms.
 This is true even if none of these search or discovery platforms provide full text access to the article:
 
@@ -53,11 +78,13 @@ This is true even if none of these search or discovery platforms provide full te
 All these **access points** are good for the user, but they present a technological problem, too.
 That problem is: how do I link to the main source?
 
+## Link Resolvers
+
 One way to know if our library provides access to the above source and others like it is through a **link resolver**.
-We see the University of Kentucky's link resolver in action when we see a **View Now @ UK** button or link.
+We see a link resolver in action when we see a **View Now @** button or link.
 When we click on that button or link in a database like the above mentioned LISTA or SSPC, we trigger the link resolver.
 That routes us through the library's discovery service.
-In *LISTA*, that link looks like this:
+In *LISTA* at my university, that link looks like this:
 
 ```
 https://web-p-ebscohost-com.ezproxy.uky.edu/ehost/SmartLink/OpenIlsLink?sid=9508afc3-4f38-4b9d-b680-71981313e0dd@redis&vid=5&sl=smartlink&st=ilslink_new&sv=sdbn%253Dlxh%2526pbt%253DAcademic%2520Journal%2526issn%253D0361526X%2526ttl%253DSerials%252520Librarian%2526stp%253DC%2526asi%253DY%2526ldc%253D%2526lna%253DAlma%252520Linking%2526lca%253DfullText%2526lo_an%253D156075536&su=https%3A%2F%2Fsaalck-uky.primo.exlibrisgroup.com%2Fopenurl%2F01SAA_UKY%2F01SAA_UKY%3AUKY%3FID%3Ddoi%3A10.1080%252F0361526X.2021.2008581%26genre%3Darticle%26atitle%3D%2522Through%2520a%2520Glass%252C%2520Darkly%2522%253A%2520Lessons%2520Learned%2520Starting%2520over%2520as%2520an%2520Electronic%2520Resources%2520Librarian.%26title%3DSerials%20Librarian%26issn%3D0361526X%26isbn%3D%26volume%3D81%26issue%3D3%252F4%26date%3D20220701%26au%3DBrown%2C%20Daniel%26spage%3D246%26pages%3D246-252%26sid%3DEBSCO%3ALibrary%252C%2520Information%2520Science%2520%2526%2520Technology%2520Abstracts%3A156075536
@@ -69,9 +96,9 @@ In *Social Science Premium Collection*, the link looks like this:
 https://www.proquest.com/docview.accesstofulltextlinks.detailsorabstractoutboundlinks.externallink:externallink/https:$2f$2fsaalck-uky.primo.exlibrisgroup.com$2fopenurl$2f01SAA_UKY$2f01SAA_UKY:UKY$3furl_ver$3dZ39.88-2004$26rft_val_fmt$3dinfo:ofi$2ffmt:kev:mtx:journal$26genre$3darticle$26sid$3dProQ:ProQ$253Alibraryscience$26atitle$3d$2526ldquo$253BThrough$2ba$2bGlass$252C$2bDarkly$2526rdquo$253B$253A$2bLessons$2bLearned$2bStarting$2bover$2bas$2ban$2bElectronic$2bResources$2bLibrarian$26title$3dThe$2bSerials$2bLibrarian$26issn$3d0361526X$26date$3d2021-11-01$26volume$3d81$26issue$3d3-4$26spage$3d246$26au$3dBrown$252C$2bDaniel$26isbn$3d$26jtitle$3dThe$2bSerials$2bLibrarian$26btitle$3d$26rft_id$3dinfo:eric$2f$26rft_id$3dinfo:doi$2f10.1080$252F0361526X.2021.2008581/MSTAR_2645781371/LinkResolver/1193?t:ac=2645781371/Record/D137B205B8D14795PQ/1
 ```
 
-Clicking either of the above links in their respective databases redirects us to *Primo*, the UK Library's discovery service.
+Clicking either of the above links in their respective databases redirects us to my university's discovery service.
 
-If we had clicked on *EBSCOhost*'s **View Now** link, the *Primo* link will result in the following:
+If we had clicked on *EBSCOhost*'s **View Now** link, the discovery service (Primo) link will result in the following:
 
 ```
 https://saalck-uky.primo.exlibrisgroup.com/discovery/openurl?institution=01SAA_UKY&vid=01SAA_UKY:UKY&date=20220701&issue=3%2F4&isbn=&spage=246&title=Serials%20Librarian&atitle=%22Through%20a%20Glass,%20Darkly%22:%20Lessons%20Learned%20Starting%20over%20as%20an%20Electronic%20Resources%20Librarian.&sid=EBSCO:Library,%20Information%20Science%20%26%20Technology%20Abstracts:156075536&volume=81&pages=246-252&issn=0361526X&au=Brown,%20Daniel&genre=article&ID=doi:10.1080%2F0361526X.2021.2008581
@@ -83,22 +110,28 @@ Among other things, you can see the publication title, the article title, the au
 > Reminder, **metadata** is data that provides information about other data, such as an article title, author, and DOI.
 > In our examples, citation metadata provides a way to retrieve the correct resource.
 
-That metadata is used to trigger a search query in the library's discovery platform (at UK, that's *InfoKat Discovery* by *Primo*).
+That metadata is used to trigger a search query in the library's discovery platform
+(at my university, that's *InfoKat Discovery* by *Primo*).
 It specifically initiates a [GET HTTP Request][gethttp].
-A GET HTTP Request is a way that web browsers request information or data from a server or resource.
+A GET HTTP Request is a way that web browsers request information or data from a server or resource
+and do so via data encoded in the URL.
 In this case *InfoKat Discovery* uses the metadata embedded in the URLs.
 
 This is primarily the work of an **OpenURL** link resolver,
 **which is a system that helps connect users to the full text of articles by using metadata from a citation**.
-The link resolver is designed to provide access to a *target* (main content) despite the *source* (where the item was found).
+The link resolver is designed to provide access to a *target* (main content) despite the *source*
+(where the item was found).
 It accomplishes this by initiating queries in an OPAC or discovery platform using the metadata embedded in a URL.
 
 OpenURL is a technical solution to the paywall problem.
 Multiple discovery platforms complicate access, and link resolvers help mitigate this issue.
-Link resolvers are designed to help users of electronic resources access a source in a library's collection based on a citation/record
-that the user discovered in a search result, an article's list of references, or wherever else the link resolver might show up.
+In short, link resolvers are designed to help users of electronic resources
+access a source in a library's collection based on a citation or record
+that the user discovered in a search result, an article's list of references, or
+wherever else the link resolver might show up.
 It is meant to work for all items in a library's collection.
-This includes print items, since print items have records in the catalog or discovery service, and those records have their own metadata-embedded URLs.
+This includes print items, since print items have records in the catalog or discovery service, and
+those records have their own metadata-embedded URLs.
 
 ## Use Cases
 
@@ -108,8 +141,9 @@ Now that we have explored the overall topic, let's dive deeper into how these te
 
 Consider a search scenario in *Google Scholar*.
 To start, users can affiliate themselves with a specific library through Google Scholar's settings.
-Once that affiliation has been set up, Google Scholar leverages an institution's *knowledge base* to facilitate access to paywalled content.
-A **knoweledge base** is a database containing details about a library's collections.
+Once that affiliation has been set up,
+Google Scholar leverages an institution's *knowledge base* to facilitate access to paywalled content.
+A **knowledge base** is a database containing details about a library's collections.
 
 It works like this:
 
@@ -129,7 +163,8 @@ It works like this:
 The term **target options** refers to the different ways to obtain the article or acquire access to other content.
 These options may include:
 
-* Full text access from vendors or publishers. This is why a record in a discovery service may have multiple links to content.
+* Full text access from vendors or publishers.
+  This is why a record in a discovery service may have multiple links to content.
 * Information about the article's physical location if available on a library's shelves.
 * Options to request the work through interlibrary loan.
 
@@ -142,16 +177,18 @@ These options may include:
 >     - e.g., University of Kentucky
 > 1. Add and save
 >
-> Now when you search in *Google Scholar*, you should see **View Now @ UK** links if your affiliation is University of Kentucky.
+> Now when you search in *Google Scholar*,
+> you should see **View Now @ UK** links if your affiliation is University of Kentucky.
 > The link should be next to search results in your affiliation's collections.
 
-> See [Link Resolver 101][lr101] for additional details and this historical piece on link resolvers [(McDonald & Van de Velde, 2004)][mcdonald2004].
+> See [Link Resolver 101][mcdonald2004] for additional details and this historical piece on link resolvers
+> (McDonald & Van de Velde, 2004).
 > Also, [Alma provides Google Scholar][googlescholaralma] documentation that is useful to read through.
 > See also [Google Scholar's][gslibrary] documentation.
 
-Consider conducting a basic keyword search in **Google Scholar** using the term `electronic resources`.
-If you are affiliated with a specific library, such as the University of Kentucky Libraries,
-you should see a **View Now @ UK** link next to at least some of the search results.
+Consider conducting a basic keyword search in *Google Scholar* using the term `electronic resources`.
+If you are affiliated with a specific library,
+you should see a **View Now @ [institution]** link next to at least some of the search results.
 Clicking that link will reveal the OpenURL, which contains the article's metadata and identifies Google as the source:
 
 ```
@@ -160,19 +197,21 @@ https://saalck-uky.primo.exlibrisgroup.com/openurl/01SAA_UKY/01SAA_UKY:UKY?sid=g
 
 The original publisher of this article is *Emerald*, and the full text is available through *Emerald eJournals Premier*.
 This information is processed by *Primo*, UK's discovery and delivery service.
-*Primo* redirects our query to the UK Library's proxy service, which is **OpenAthens** (as of the summer of 2023, formerly it was **EZProxy**).
+*Primo* redirects our query to the UK Library's proxy service,
+which is **OpenAthens** (as of the summer of 2023, formerly it was **EZProxy**).
 After securely authenticating through our university account login, we gain access to the full text from Emerald.
 
 Should alternative databases like *EBSCOhost* and/or *ProQuest* provide access,
-and not the original publisher (e.g., Emerald in this case),
 *Primo* would present us with options to select our preferred database for viewing the full text.
 
 In scenarios where there is only one source to the content provided by the library,
-the transfer to *Primo* to OpenAthens to the Emerald full-text occurs swiftly, providing a seamless user experience.
+the transfer to *Primo* to OpenAthens to the Emerald full-text occurs swiftly,
+providing (hopefully) a seamless user experience.
 
 ## Dissecting an OpenURL
 
-Understanding the anatomy of an OpenURL can help us comprehend how metadata is transmitted and processed within library systems.
+Understanding the anatomy of an OpenURL can help us comprehend how metadata is
+transmitted and processed within library systems.
 Let's dissect a specific *Primo* URL to identify its individual components.
 
 The following Primo URL is an OpenURL link, which means *Primo* follows the OpenURL standards.
@@ -203,7 +242,8 @@ The key fields used to retrieve the article are:
 - **auinit**: The author's first two initials
 - **atitle**: The title of the article
 
-> **Administrative metadata** is "data that is necessary to manage and use information resources and that is typically external to informational
+> **Administrative metadata** is
+> "data that is necessary to manage and use information resources and that is typically external to informational
 > content of resources" [Society of American Archives][SAA].
 
 These fields play crucial roles in ensuring that the correct resources are fetched from the library's database.
@@ -218,7 +258,8 @@ This makes an OpenURL an important element in providing access.
 ### In Case of Interlibrary Loan
 
 We can see another instance of this within *Primo* itself.
-In UK's InfoKat, I search for the phrase `electronic resources` and filter by the *WorldCat* options.
+Let's say that in my university's version of InfoKat,
+I search for the phrase `electronic resources` and filter by the *WorldCat* options.
 By filtering for *WorldCat* options, I'm more likely to retrieve records that are not in UK Library's collections.
 
 The first option is a work titled **Electronic Resources. Selection and bibliographic control.**
@@ -226,10 +267,11 @@ Since this is not available via UK Libraries, I would have to request the item t
 When I do that, the link resolver triggers [ILLiad][illiadopenurl], which is used for interlibrary loan.
 Note how the OpenURL looks much different here.
 Essentially, the OpenURL is contextual.
-Its context reflects the service being used (e.g., *EBSCOhost*, *ProQuest*, *Google Scholar*, *Primo*, *Illiad*, etc.).
+Its context reflects the service being used (e.g., *EBSCOhost*, *ProQuest*, *Google Scholar*, *Primo*, *ILLiad*, etc.).
 The service used determines the metadata elements in the URL.
 Note that some elements are empty.
-For example, **rft.date=&** is an empty value for the date field versus **rft.genre=book&**, which holds the value **book** for the genre field.
+For example, **rft.date=&** is an empty value for the date field versus **rft.genre=book&**,
+which holds the value **book** for the genre field.
 This demonstrates that some metadata fields are optional.
 
 ```
@@ -262,26 +304,66 @@ rfe_dat=1196192673&
 rfr_id=
 ```
 
+> **📌 Aside: What Happened to OpenURL in Primo VE?**
+>
+> Until **very** recently,
+> discovery platforms (including Primo) leaned heavily on **OpenURL**,
+> a standards-based way of passing citation metadata (author, title, DOI, etc.) into a link resolver.
+> This openness meant links were portable:
+> any database could pass metadata, and the resolver decided which full-text copy to serve.
+>
+> With Primo VE, Ex Libris has shifted much of its linking toward **record-ID based deep links**
+> (e.g., `fulldisplay?docid=alma...`).
+> These links jump straight to a record in Primo VE rather than carrying metadata through an OpenURL.
+> They are supposedly faster inside the Ex Libris ecosystem but they are definitely less interoperable:
+> the link is system-specific, opaque, and harder to reuse outside of Primo.
+>
+> The OpenURL resolver still exists,
+> but users who copy links directly from Primo's interface increasingly encounter these closed, ID-based URLs
+> rather than portable, metadata-driven OpenURLs.
+>
+> Primo VE record-based link:
+>
+> ```
+> https://saalck-uky.primo.exlibrisgroup.com/discovery/fulldisplay?
+> docid=alma9941323157502636&
+> context=L&
+> vid=01SAA_UKY:UKY&
+> lang=en&
+> search_scope=MyInst_and_CI&
+> adaptor=Local%20Search%20Engine&
+> tab=Everything&
+> query=any%2Ccontains%2Celectronic%20resources&
+> offset=0
+> ```
+> 
+> See: [Primo VE Overview][primo_ve] and [Primo VE Deep Links][primo_ve_deep_links].
+
 ## Readings
 
-Our readings this week by [Kasprowski (2012)][kasprowski2012], [Johnson et al. (2015)][johnson2015], and [Chisari et al. (2017)][chisare2017]
+Our readings this week by [Kasprowski (2012)][kasprowski2012], [Johnson et al. (2015)][johnson2015],
+and [Chisari et al. (2017)][chisare2017]
 discuss link resolver technology, migration to new link resolver services, and
 methods to evaluate link resolver technology from both the systems and a user's perspective.
-While it may not be necessary to master OpenURL syntax or the intricacies of link resolver URL formatting, as demonstrated here (and in Appendix A),
+While it may not be necessary to master OpenURL syntax or the intricacies of link resolver URL formatting,
+as demonstrated here (and in Appendix A),
 it's beneficial to acquire a basic understanding of how these URLs function in this process.
 
-Let me re-emphasize that the key way that link resolvers work is by embedding citation metadata within the link resolver URL,
+Let me re-emphasize that the key way that link resolvers work is
+by embedding citation metadata within the link resolver URL,
 including administrative metadata.
-For this to work, it means we high quality metadata for our records, as our readings note.
-If we receive a report, perhaps reported by a library patron, about a broken link in this process, the cause could be incorrect or outdated metadata.
+For this to work, it means we need high quality metadata for our records, as our readings note.
+If we receive a report, perhaps reported by a library patron, about a broken link in this process,
+the cause could be incorrect or outdated metadata.
 However, as reported by [Montavon-Green (2023)][montavon2023], other issues that cause link resolver errors include:
 titles are not indexed even though the library provides access to them;
 titles are indexed but patrons are directed to a paywall;
 glitches in some technology such as a vendor platform; and usability issues.
 Knowing the parts of this process aids us in deciphering possible errors that exist when the technology breaks.
 
-For this week, see the *ExLibres Alma* link resolver documentation, which is the link resolver product used by UK Libraries.
-Let's discuss this documentation in the forum. I want you to find and explain other instances of link resolvers.
+For this week, see the *ExLibres Alma* link resolver documentation.
+Let's discuss this documentation in the forum.
+I want you to find and explain other instances of link resolvers.
 Be sure to provide links to these examples and articulate ways the technology can be evaluated.
 
 **Documentation to read and discuss:**
@@ -324,7 +406,8 @@ e.g., after clicking on a **View Now @ UK** link and before being redirected to 
 I copied my institution's specific OpenURL when I clicked on a **View Now @ UK** link and before it redirected to the [OpenAthens][openathens] page.
 
 In a previous semester,
-one of my students in my electronic resource management class noticed that [Zotero][zotero] has a [locate menu][locateMenu].
+one of my students in my electronic resource management class noticed that [Zotero][zotero] has a
+[locate menu][locateMenu].
 The locate menu uses OpenURL resolvers to look up items in a library.
 By default, Zotero uses *WorldCat*, but it can use a specific institution's OpenURL resolver.
 I had forgotten about this.
@@ -333,7 +416,8 @@ I found that it was not listed on Zotero's page of [OpenURL resolvers][openurlRe
 
 At the time, I didn't know what my institution's exact OpenURL was,
 but I was able to figure it out by comparing the syntax and values from other Primo URLs listed on Zotero's page of OpenURL resolvers.
-By comparing these OpenURLs, I was able to derive my institution's specific OpenURL (base component plus institutional info), which is:
+By comparing these OpenURLs,
+I was able to derive my institution's specific OpenURL (base component plus institutional info), which is:
 
 ```
 https://saalck-uky.primo.exlibrisgroup.com/discovery/openurl?institution=01SAA_UKY&vid=01SAA_UKY:UKY
@@ -483,7 +567,6 @@ Serials Spoken Here.
 
 [brown2021]:https://doi.org/10.1080/0361526X.2021.2008581
 [chisare2017]:https://doi.org/10.1080/1941126X.2017.1304765
-[doinumbering]:https://www.doi.org/doi_handbook/2_Numbering.html
 [exlibrisKB]:https://knowledge.exlibrisgroup.com/360_KB/Knowledge_Articles/360_KB%3A_Overview_of_the_Knowledgebase
 [gethttp]:https://www.w3schools.com/tags/ref_httpmethods.asp
 [googlescholaralma]:https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/030Resource_Management/150Publishing_Electronic_Holdings_to_Google_Scholar
@@ -491,14 +574,12 @@ Serials Spoken Here.
 [gs_api]:https://serpapi.com/google-scholar-api
 [gslibrary]:https://scholar.google.com/intl/en/scholar/libraries.html
 [howgs]:https://scholar.google.com/intl/en/scholar/libraries.html
-[idf]:https://www.doi.org/
 [illiadopenurl]:https://support.atlas-sys.com/hc/en-us/articles/360011910073-OpenURL-Configuration
 [johnson2015]:https://doi.org/10.1080/1941126X.2015.999519
 [jq]:https://jqlang.org/
 [kasprowski2012]:https://doi.org/10.1080/0361526X.2012.652480
 [lista]:https://libguides.uky.edu/803
 [locateMenu]:https://www.zotero.org/support/locate
-[lr101]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/#LinkResolver
 [lrusage]:https://knowledge.exlibrisgroup.com/Alma/Product_Materials/050Alma_FAQs/E-Resource_Management/Link_Resolver%2C_Usage
 [mcdonald2004]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
 [montavon2023]:https://doi.org/10.1080/00987913.2023.2174400
@@ -506,6 +587,7 @@ Serials Spoken Here.
 [openathens]:https://www.openathens.net/
 [openurlCrossref]:https://www.crossref.org/documentation/retrieve-metadata/openurl/
 [openurlResolvers]:https://www.zotero.org/support/locate/openurl_resolvers
+[openurl_wiki]:https://en.wikipedia.org/wiki/OpenURL
 [percentencoding]:https://en.wikipedia.org/wiki/Percent-encoding
 [querystring]:https://en.wikipedia.org/wiki/Query_string
 [SAA]:https://dictionary.archivists.org/entry/administrative-metadata.html
@@ -517,3 +599,5 @@ Serials Spoken Here.
 [utf8]:https://www.w3schools.com/tags/ref_urlencode.asp
 [worldshare]:https://help.oclc.org/Metadata_Services/WorldShare_Collection_Manager/Choose_your_Collection_Manager_workflow/Knowledge_base_collections/Use_collection_data_with_other_services/Surface_your_materials_in_Google_Scholar
 [zotero]:https://www.zotero.org/
+[primo_ve]:https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/010Getting_Started_with_Primo_VE/005Primo_VE_Overview
+[primo_ve_deep_links]:https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/120Other_Configurations/Configuring_Redirection_for_Primo_VE_Deep_Links
