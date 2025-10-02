@@ -94,53 +94,55 @@ encyclopedia articles, ebooks, etc.
 
 Myself, I grew up learning about the differences between encyclopedia articles, journal articles,
 magazine articles, newspaper articles, book chapters, handbooks, indexes, and
-dictionaries because I grew up with the print versions.
+dictionaries based not only in their use but also by how they exist as print versions.
 By definition, these works were tangible things that looked different from each other, on the outside and in.
 Today, a traditional first year college student was born around the year 2007 and learned to read in the early to mid-2010s.
 The problem this illustrates is that although electronic resources are electronic or digital,
 they are still based on genres that originated in the print age.
 Yet as digital works, they lack the physical characteristics that distinguished one genre from the other
-(one would have been printed on, e.g., a broadsheet and the other in smaller, glossier, bounded paper).
-For example, by looking at each web page, what's the difference between a long-form *NY Times* article
+(as printed works, e.g., a newspaper on broadsheet and a magazine on smaller, glossier, bounded paper).
+For example, by looking their web pages, what's the difference between a long-form *NY Times* article
 (traditionally a newspaper article) and a long-form article in the *New Yorker* (traditionally a magazine article)?
 Aside from some aesthetic, branding differences, they are both presented as web pages.
-Is that their genre?
-Because that seems insufficient.
 
-Today, younger people, when first exposed to these sources,
-might have to dive deep into the articles in each to perhaps learn that the *NY Times*
-will focus on reporting news, events, issues, or public trends.
-And the *New Yorker* article might aim more for storytelling, interpretation, and cultural analysis.
+Today, younger people, have to engage more cognitively with information sources if they are to
+learn what their genres and uses are.
+When first exposed to these sources, that is,
+they would have to dive deep into the articles in each to perhaps learn that *NY Times* articles
+focus (generally) on reporting news, events, issues, or public trends.
+And *New Yorker* articles generally aim more for storytelling, interpretation, and cultural analysis.
 There would be other differences between the two, with respect to how journalists at each company
 source and research their topics, write in certain styles, structure their pieces, and more.
-But none of these are necessarily obvious differences on the surface.
+But none of these are necessarily obvious differences on the surface and require more engagement below the surface.
 
 In other words, bracketing aside my age group's years of experience with these sources,
 it's not altogether obvious, based on any kind of cursory examination,
-that we can tell that they're entirely different genres.
+that we can tell that these two publications are entirely different genres.
 However, as noted, there are important informational differences between the two, how they were written,
 how they were edited, how long they are, and who they were written by that lead us to consider them as different genres.
 
 Even *Wikipedia* articles pose this problem.
-Citing an encyclopedia article was never an accepted practice in academia, but this was only true for general encyclopedias.
-It was generally okay to cite articles from special encyclopedias because they focused on limited subject matters
+Citing an encyclopedia article was never an accepted practice in K-12 or college, but
+this was only true for **general encyclopedias**.
+It was generally okay to cite articles from **special encyclopedias** because they focused on limited subject matters
 like art, music, science, culture, and were usually more in-depth in their coverage.
-Examples include the *Encyclopedia of GIS*, the *Encyclopedia of Evolution*, *The Kentucky African American Encyclopedia*,
-*The Encyclopedia of Virtual Art Carving Toraja--Indonesia*, and so forth.
+Special encyclopedia examples include the *Encyclopedia of GIS*, the *Encyclopedia of Evolution*,
+*The Kentucky African American Encyclopedia*, *The Encyclopedia of Virtual Art Carving Toraja--Indonesia*, and so forth.
 [Studies show][messner2013], however, that *Wikipedia* provides in-depth coverage
 like some special encyclopedias and short articles like some general encyclopedias,
-thus helping to flatten the encyclopedia genre (general vs. special), too.
+thus helping to flatten the encyclopedia genre between general vs. special encyclopedias, too.
 
 The flattening holds true for things like *Google*.
-The best print analogy for *Google* is that of an index,
-which was used to locate keywords that would *refer* users to source material.
+The best print analogy for *Google* is that of a **periodical index**,
+which was used to locate keywords that would *refer* users to source material,
+but also bibliographies and other like reference works,
 The main difference between these indexes and *Google* is that the indexes were produced to cover specific publications,
-like a newspaper, or specific areas, like the *Social Science Citation Index* or the *Science Citation Index*.
+like a newspaper, or specific topical areas, like the *Social Science Citation Index* or the *Science Citation Index*.
 Both of these are actual, documented, historical precursors to *Google* and to *Google Scholar*.
 But today, these search engines are erroneously considered source material (e.g, "I found it on Google").
 In comparison, we would not have considered a print index as source material, but
 rather as a **reference** item, since it *referred* users to sources.
-Nowadays, it's all mixed up, but who can blame anyone?
+Nowadays, it's all mixed up, and thus who can blame anyone for mis-sourcing?
 
 **Example print indexes** (do any of these look like *Google*?):
 
