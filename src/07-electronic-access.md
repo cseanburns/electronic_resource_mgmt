@@ -36,7 +36,6 @@ Such studies also help librarians identify the kinds of software solutions that 
 If interested, I suggest reading [Lowe et al., 2021][lowe2021] about the impact of COVID-19 on electronic resource management.
 Six authors individually describe access issues at their respective institutions.
 They show how issues of pricing, acquisitions, training, user expectations, and budgets affect electronic access.
-I suggest reading articles like this in light of the framework provided by Samples and Healy (2014).
 Stories like these, about this impact of the pandemic on electronic access, can help guide us in developing proactive troubleshooting procedures.
 They can minimize future issues, pandemic or otherwise, at our own institutions.
 
@@ -52,8 +51,11 @@ Hence, unlike a printed work that once cataloged may be shelved for decades or l
 electronic resources require constant and active attention to maintain access.
 Ebooks, for example, can create metadata problems.
 Often what's important about scholarly ebooks, in particular, are the chapters they include.
-Hence metadata describing ebook components is important, along with providing links to those chapters in discovery systems.
-This difference between item-level cataloging and title-level cataloging, as Samples and Healy describe,
+Hence metadata describing ebook components is important,
+along with providing links to those chapters in discovery systems.
+This difference between item-level cataloging and title-level cataloging
+(see also [analytic entry][analytic_entry] in cataloging),
+as Samples and Healy describe,
 can lead to confusing and problematic results when considering different genres and what those genres contain.
 
 Or, note that they discuss the series of links involved starting from the source of discovery to the retrieval of an item.
@@ -90,40 +92,57 @@ This should remind us that the internet and the web have flattened genres.
 By that I mean they have made it difficult to distinguish among works like magazine articles, news articles, journal articles,
 encyclopedia articles, ebooks, etc.
 
-Myself, I grew up learning about the differences between encyclopedia articles, journal articles, magazine articles, newspaper articles,
-book chapters, handbooks, indexes, and dictionaries because I grew up with the print versions.
-By definition, these works were tangible things that looked different from each other.
-Today, a traditional first year college student was born around the year 2006 and grew up reading sometime in the last decade.
-The problem this raises is that although electronic resources are electronic or digital, they are still based on genres that originated in the print age.
-Yet as digital works, they lack the physical characteristics that distinguished one genre from the other.
-For example, by looking at each web page, what's the difference between a longer *NY Times* article
-(traditionally a newspaper article) and an article in the *New Yorker* (traditionally a magazine article)?
-Aside from some aesthetic differences, they are both presented as web pages.
+Myself, I grew up learning about the differences between encyclopedia articles, journal articles,
+magazine articles, newspaper articles, book chapters, handbooks, indexes, and
+dictionaries because I grew up with the print versions.
+By definition, these works were tangible things that looked different from each other, on the outside and in.
+Today, a traditional first year college student was born around the year 2007 and learned to read in the early to mid-2010s.
+The problem this illustrates is that although electronic resources are electronic or digital,
+they are still based on genres that originated in the print age.
+Yet as digital works, they lack the physical characteristics that distinguished one genre from the other
+(one would have been printed on, e.g., a broadsheet and the other in smaller, glossier, bounded paper).
+For example, by looking at each web page, what's the difference between a long-form *NY Times* article
+(traditionally a newspaper article) and a long-form article in the *New Yorker* (traditionally a magazine article)?
+Aside from some aesthetic, branding differences, they are both presented as web pages.
+Is that their genre?
+Because that seems insufficient.
 
-Bracketing aside my years of experience with these sources, it's not altogether obvious, based on any kind of cursory examination,
+Today, younger people, when first exposed to these sources,
+might have to dive deep into the articles in each to perhaps learn that the *NY Times*
+will focus on reporting news, events, issues, or public trends.
+And the *New Yorker* article might aim more for storytelling, interpretation, and cultural analysis.
+There would be other differences between the two, with respect to how journalists at each company
+source and research their topics, write in certain styles, structure their pieces, and more.
+But none of these are necessarily obvious differences on the surface.
+
+In other words, bracketing aside my age group's years of experience with these sources,
+it's not altogether obvious, based on any kind of cursory examination,
 that we can tell that they're entirely different genres.
-However, there are important informational differences between the two, how they were written,
+However, as noted, there are important informational differences between the two, how they were written,
 how they were edited, how long they are, and who they were written by that lead us to consider them as different genres.
+
 Even *Wikipedia* articles pose this problem.
-Citing an encyclopedia article was never an accepted practice, but this was only true for general encyclopedias.
+Citing an encyclopedia article was never an accepted practice in academia, but this was only true for general encyclopedias.
 It was generally okay to cite articles from special encyclopedias because they focused on limited subject matters
 like art, music, science, culture, and were usually more in-depth in their coverage.
 Examples include the *Encyclopedia of GIS*, the *Encyclopedia of Evolution*, *The Kentucky African American Encyclopedia*,
 *The Encyclopedia of Virtual Art Carving Toraja--Indonesia*, and so forth.
-[Studies show][messner2013]
-that *Wikipedia* provides in-depth coverage like some special encyclopedias and short articles like some general encyclopedias,
+[Studies show][messner2013], however, that *Wikipedia* provides in-depth coverage
+like some special encyclopedias and short articles like some general encyclopedias,
 thus helping to flatten the encyclopedia genre (general vs. special), too.
 
 The flattening holds true for things like *Google*.
-The best print analogy for *Google* is that of an index, which was used to locate keywords that would *refer* users to source material.
+The best print analogy for *Google* is that of an index,
+which was used to locate keywords that would *refer* users to source material.
 The main difference between these indexes and *Google* is that the indexes were produced to cover specific publications,
 like a newspaper, or specific areas, like the *Social Science Citation Index* or the *Science Citation Index*.
 Both of these are actual, documented, historical precursors to *Google* and to *Google Scholar*.
 But today, these search engines are erroneously considered source material (e.g, "I found it on Google").
-In comparison, we would not have considered a print index as source material, but rather as a **reference** item, since it *referred* users to sources.
+In comparison, we would not have considered a print index as source material, but
+rather as a **reference** item, since it *referred* users to sources.
 Nowadays, it's all mixed up, but who can blame anyone?
 
-**Example print indexes**:
+**Example print indexes** (do any of these look like *Google*?):
 
 * [Photos of the New York Times Index][nytimes_index]
 * [Photos of the Newspaper Index for the Washington Post][washpost_index]
@@ -131,10 +150,12 @@ Nowadays, it's all mixed up, but who can blame anyone?
 
 ## Access and Authentication
 
-In this section, we'll delve into the technological frameworks that facilitate access to and authentication of library electronic collections.
+In this section,
+we'll lean into the technological frameworks that facilitate access to and authentication of library electronic collections.
 Given that a significant portion of these resources are behind paywalls,
 libraries employ specialized software to verify user credentials before granting access.
-These authentication measures are not just best practices but are often mandated by contractual agreements with content providers.
+These authentication measures are not just best practices but
+are often mandated by contractual agreements with content providers.
 
 There are two main technologies used to authenticate users.
 The first is through an IP / proxy server, and the second is through what is called SAML authentication.
@@ -143,14 +164,16 @@ We address these two authentication types below.
 ### Proxy Authentication
 
 [EZproxy][ezproxyex] (OCLC) is the main product of the first type.
-When we access any paywalled work, like a journal article, you may notice something like **ezproxy.uky.edu** in the string of text in a URL.
+When we access any paywalled work, like a journal article,
+you may notice something like **ezproxy.uky.edu** in the string of text in a URL.
 For example, the following is an EZProxy URL:
 
 ```
 https://www-sciencedirect-com.ezproxy.uky.edu/science/article/pii/S030645730500004X
 ```
 
-> Note that UK Libraries, which I use in these examples, is transitioning away from EZProxy and adopting OpenAthens, which is SAML based.
+> Note that UK Libraries, which I use in these examples,
+> is transitioning away from EZProxy and adopting OpenAthens, which is SAML based.
 > More on that below.
 
 The interesting thing about this URL is that it has a **uky.edu** address even though the article
@@ -164,15 +187,18 @@ The original URL is in fact:
 https://www.sciencedirect.com/science/article/pii/S030645730500004X
 ```
 
-As opposed to the first URL, the interesting thing about the original URL is that it is in fact a **sciencedirect.com** address.
+As opposed to the first URL,
+the interesting thing about the original URL is that it is in fact a **sciencedirect.com** address.
 Even though "sciencedirect" appears in the **uky.edu** URL, it is not a "sciencedirect.com" server.
 They are two different servers, from two different organizations, and are as different as **uky.edu** and **google.com**.
 
-The reason we read an article or some other paywalled content at a **uky.edu** address and not at a, e.g.,
-**sciencedirect.com** address is because of the way proxy servers work.
-In essence, when we make a request for a resource, like a journal article or a bibliographic database that's provided by a library,
+The reason we read an article or some other paywalled content at a **uky.edu** address and not at a,
+e.g., **sciencedirect.com** address is because of the way proxy servers work.
+In essence, when we make a request for a resource,
+like a journal article or a bibliographic database that's provided by a library,
 our browser makes the request to the proxy server and not to the original server.
-The proxy server then makes the resource request to the original server, which relays that content back to the proxy server (EZproxy).
+The proxy server then makes the resource request to the original server,
+which relays that content back to the proxy server (EZproxy).
 This then sends the content to our browser.
 This means that when we request an article in a journal at sciencedirect.com or jstor.com,
 our browser never actually makes a connection to those servers.
@@ -181,8 +207,8 @@ Instead, the proxy server acts as a go-between.
 > See [Day (2017)][day2017] for a more technical and yet accessible description of the process.
 
 Proxy servers provide access either through a login server or based on the user's IP address.
-If we're on campus, then our authentication is IP based, since all devices attached to the university's network
-are assigned an IP from a pre-defined range of IP addresses.
+If we're on campus, then our authentication is IP based,
+since all devices attached to the university's network are assigned an IP from a pre-defined range of IP addresses.
 This attempts to make access to paywalled content seamless...when on campus.
 
 If we are off-campus, access is authenticated via a login method to the proxy server.
@@ -208,13 +234,15 @@ SAML, or *Security Assertion Markup Language*, is an XML-based standard that exc
 in particular, between an **identity provider** (IdP) and a **service provider** (SP).
 
 Unlike a proxy / IP authentication process, SAML's main function is that of a identity verification system.
-Under this method, libraries offer a single sign-on process, and once authenticated, patrons have access to all SAML ready content or service providers.
+Under this method, libraries offer a single sign-on process, and once authenticated,
+patrons have access to all SAML ready content or service providers.
 The process is similar to the [Duo Single Sign-On][duo] service universities and other organizations use for authentication.
-In the OpenAthens case, users are authenticated via an identity provider, which would be the library or the broader institution
-(and usually via some other software service).
+In the OpenAthens case, users are authenticated via an identity provider,
+which would be the library or the broader institution (and usually via some other software service).
 The library provides identification by connecting to its organization's identity management system,
 such as *adfs*, or [Active Directory Federation Services][adfs].
-Once a patron has been authenticated, a confirmation is sent to the content provider, which then provides access to the content to the patron.
+Once a patron has been authenticated, a confirmation is sent to the content provider,
+which then provides access to the content to the patron.
 
 > For more details, see [What is SAML?][saml] and this detailed [OpenAthens software demo][oademo].
 
@@ -240,25 +268,28 @@ In a bit more detail, a SAML-based authentication process is described below:
 7. **Access Granted**: Once the assertion is verified, the service provider grants the user access to the requested resource.
 8. **Session**: A session is established for the user, allowing them to access other resources without needing to re-authenticate for a certain period.
 
-In the context of a library, the IdP could be a university's authentication system,
+In the context of a library, the identity provider could be a university's authentication system,
 and the service provider could be a database of academic journals.
 When a patron tries to access an article, they would be redirected to log in through the university's system.
 Once authenticated, the university's system would send a SAML assertion to the journal database,
-confirming that the student is authorized to access the content.
+confirming that the patron is authorized to access the content.
 
 This method is particularly useful for organizations like universities that have multiple service providers
 (e.g., different databases, internal services, etc.) but want to offer a single sign-on (SSO) experience for their users.
 
 ## Conclusion
 
-The Samples & Healy (2014) and the Carter & Traill (2017) articles address troubleshooting strategies with electronic resources.
+The Samples & Healy (2014) and the Carter & Traill (2017) articles address
+troubleshooting strategies with electronic resources.
 One additional thing to note about these readings is how the organizational structure influences workflows and how
 the continued transition from a print-era model of library processes to an electronic one remains problematic.
-Even once that transition is complete, both readings make the case that strategy and preparation are needed to deal with these issues.
+Even once that transition is complete,
+both readings make the case that strategy and preparation are needed to deal with these issues.
 
-The Buhler & Cataldo (2016) article shows how confusing e-resources are to patrons and how the move to digital has complicated all genres,
-or "containers", as the authors name them.
-Such "ambiguity" has implications not only for how users find and identify electronic resources but on how librarians manage access to them.
+The Buhler & Cataldo (2016) article shows how confusing e-resources are to patrons and
+how the move to digital has complicated all genres, or "containers", as the authors name them.
+Such "ambiguity" has implications not only for how users find and identify electronic resources but
+on how librarians manage access to them.
 
 I added the EZproxy and OpenAthens content in order to complete the technical discussions we have had in recent weeks on
 integrated library systems, electronic resource management systems, link resolvers, and standards.
@@ -345,3 +376,4 @@ Electronic Resources Management in the Time of COVID-19: Challenges and Opportun
 [samples2014]:https://doi.org/10.1080/00987913.2014.929483
 [ubc]:https://about.library.ubc.ca/2021/06/02/openathens-transforms-user-access-to-library-resources-replacing-ezproxy-and-ip-address-authentication/
 [washpost_index]:https://photos.app.goo.gl/JpnqxzZ44dhM06cq2
+[analytic_entry]:https://dictionary.archivists.org/entry/analytical-entry.html
