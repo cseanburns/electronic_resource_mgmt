@@ -2,9 +2,9 @@
   
 By the end of this section, you should be able to:
 
-1. **Understanding Workflows**: Workflows play a central role in electronic resource management (ERM), helping to integrate tools and systems while addressing the complexities of managing electronic resources in libraries.
-2. **Interoperability and Standards**: Effective ERM depends on the ability of systems to communicate with each other. Standards like CORE, COUNTER, and SUSHI are essential for ensuring interoperability between systems, such as integrated library systems (ILS) and ERM software.
-3. **Economic Realities of ERM**: The financial aspects of managing electronic resources, including acquisitions, subscriptions, and vendor relations, are critical. These challenges have only been exacerbated by the COVID-19 pandemic, making workflow-based standards even more important.
+1. **Understanding Workflows**: Workflows play a central role in electronic resource management (ERM). They help to integrate tools and systems and address the complexities of managing electronic resources in libraries.
+2. **Interoperability and Standards**: Effective ERM depends on the ability of systems to communicate with each other. Standards like CORE, COUNTER, and SUSHI are essential for ensuring interoperability between systems.
+3. **Economic Realities of ERM**: The financial aspects of managing electronic resources, including acquisitions, subscriptions, and vendor relations, are critical. These challenges have been exacerbated by the COVID-19 pandemic, and make workflow-based standards even more important.
 4. **Customization and Flexibility**: ERM solutions must be flexible and customizable to meet the unique workflow needs of individual libraries. This makes understanding workflow analysis crucial for selecting the right systems.
 5. **Ongoing Learning**: The readings emphasize the evolving nature of electronic resource management and highlight the importance of continuously engaging with standards, technologies, and best practices to manage the complexities of modern librarianship.
 
@@ -12,23 +12,24 @@ By the end of this section, you should be able to:
 
 We now shift our focus to the centrality of **workflows** in electronic resource management.
 A **workflow** refers to a series of organized steps or tasks that are followed to complete a specific process.
-In the context of electronic resource management (ERM), workflows involve the systematic coordination of tools, systems, and people
-to manage the selection, acquistion, access, and maintenance of electronic resources such as databases, e-books, and journals.
+In the context of electronic resource management (ERM), workflows involve the systematic coordination of tools, systems, and
+people to manage the selection, acquisition, access, and maintenance of electronic resources such as databases, e-books, and journals.
 Effective ERM workflows ensure that these resources are seamlessly integrated into library systems like
 integrated library systems (ILS) and library service platforms (LSP).
 At the same time, they also address challenges related to licensing, budgeting, usage tracking, and troubleshooting.
-In short, workflows provide a framework for streamlining processes, enhancing efficiency, and ensuring that library users can
-access resources without disruption.
+In short, workflows provide a framework for streamlining processes, enhancing efficiency, and
+ensuring that library users can access resources without disruption.
 
 Before we proceed, let's recap our prior work.
-In the the preceeding sections, we learned about:
+In the preceding sections, we learned about:
 
 * what it means to be a librarian who oversees or is a part of electronic resource management,
 * what kinds of criteria are sought for in new hires, and
 * why electronic resources have introduced so much *constant disruption* across libraries.
 
-Among other things, this latter point is due to the fact that the print-era involved (or at least more so)
-a linear process of collection management and information use that was fundamentally altered with the introduction of electronic resources.
+Among other things, this latter point is due to the fact that the print-era involved (relatively speaking)
+a linear process of collection management and information use
+that was fundamentally altered with the introduction of electronic resources.
 
 Then we learned about the functions and modules offered by:
 
@@ -57,18 +58,20 @@ And we learned:
 ## Readings
 
 Our readings in this section provide foundational insights into the complex workflows involved in electronic resource management (ERM).
-These articles guide us through key concepts like knowledge bases, workflow-based standards, and the challenges of integrating
-electronic resources into library systems.
+These articles guide us through key concepts like knowledge bases, workflow-based standards, and
+the challenges of integrating electronic resources into library systems.
 The readings show how libraries navigate the technical and financial aspects of managing electronic resources and
 contextualize topics on licensing, budgeting, and systems interoperability.
 
 The first [Anderson article (chapter 2)][anderson2014a] helps us understand the role of knowledge bases in ER management,
-particularly how they function alongside integrated library systems (ILS), then later as separate ERM systems, and finally as modules in ILSes.
+particularly how they function alongside integrated library systems (ILS), then later as separate ERM systems, and
+finally as modules in ILSes.
 This latter development resulted in the development of library service platforms (LSPs).
 
 Anderson frames resource management by discussing five parts: knowledge bases, budgets, administration, licensing, and reports.
 It outlines the challenges these systems face for these parts to work together.
-The article also introduces emerging concepts like licensing, COUNTER, and SUSHI, which are topics that will be explored more thoroughly later.
+The article also introduces emerging concepts like licensing, COUNTER, and SUSHI,
+which are topics that will be explored more thoroughly later.
 
 > An ERM **knowledge base (KB)** contains a repository of structured information about library holdings.
 > Multiple KBs exist and are used to facilitate the management and access of electronic resources.
@@ -76,33 +79,38 @@ The article also introduces emerging concepts like licensing, COUNTER, and SUSHI
 > The most basic KB should contain metadata about inventory information or holdings data such as:
 > publication title, identifiers like ISSNs for serials, ISBNs for monographs, etc.
 > But KBs are also used to manage catalog data, link resolver data, interlibrary loans, subscription information, and more.
-> See [GOKb Global Open Knolwedge Base][gokb]) as an example and a list of publications about this open source product: [GOKb Publications][gokb_pubs].
+> See [GOKb Global Open Knowledge Base][gokb]) as an example and a list of publications about this open source product:
+> [GOKb Publications][gokb_pubs].
 
 In [Anderson's second article (chapter 3)][anderson2014b],
 the emphasis shifts to the importance of analyzing a library's workflow before selecting ERM software.
 Anderson underscores that workflow-based standards, even if they are not true technical standards,
 are important due to the diverse operational needs of libraries.
 Anderson's article invites us to think critically about how different libraries may prioritize distinct aspects of the ERM process.
-This article should help you draw connections to [Samples and Healy][samples2014] and their discussion of proactive versus reactive troubleshooting.
+This article should help you draw connections to [Samples and Healy][samples2014] and
+their discussion of *proactive* versus *reactive troubleshooting*.
 
-These two readings highlight the financial pressures inherent in ERM, particularly regarding acquisitions, budgets, subscriptions, and purchasing,
+These two readings highlight the financial pressures inherent in ERM,
+particularly regarding acquisitions, budgets, subscriptions, and purchasing,
 as discussed in Anderson's paper on the [Elements of Electronic Resource Management][anderson2014a]
 and in the multiple discussions about the role vendors play in electronic resource management.
 The market and the economics of this area of librarianship weigh heavily on everyday realities.
 
 We will follow up on this in the next section when we will read about the market and the economics of electronic resources.
-For example, in both Anderson readings, we learn about the CORE recommended practice (RP), or the [Cost of Resource Exchange][cost_exchange],
-developed by NISO.
+For example, in both Anderson readings, we learn about the CORE recommended practice (RP), or
+the [Cost of Resource Exchange][cost_exchange], developed by NISO.
 CORE brings together three aspects of our previous discussions: software, funds, and interoperability.
 The *CORE RP* describes how ILS and ERM systems communicate the costs of electronic resources between each other.
 Its existence hints at the pressures librarians have had in dealing with complex budget issues.
-Although these articles were published before the pandemic, the pandemic continues to make these issues more complicated for libraries.
+Although these articles were published before the pandemic,
+the pandemic continues to make these issues more complicated for libraries.
+(We will long live in a post-pandemic world.)
 
 While we spent time discussing technical standards, we also learn about [TERMS][terms2].
 This is an attempt to standardize the language and processes involved with electronic resource management.
-Aside from the CORE standard, we learn about standardizing attempts at licensing, which includes the *COUNTER* and *SUSHI*
-usage-related standards that outline the communication, collection, presentation, and the formatting of usage statistics for electronic resources
-such as ebooks, journals, databases, and more.
+Aside from the CORE standard, we learn about standardizing attempts at licensing,
+which includes the *COUNTER* and *SUSHI* usage-related standards that outline the communication, collection, presentation, and
+the formatting of usage statistics for electronic resources such as ebooks, journals, databases, and more.
 
 We have discussed interoperability and what it takes for multiple systems to connect and transfer data between each other.
 We primarily discussed this with respect to link resolver technology.
@@ -134,21 +142,23 @@ That white paper contains examples and worthwhile use cases and stories from maj
 The paper provides a sense of how standards are created through a process of comparing, contrasting, and coordinating needs and
 contexts among different entities.
 
-These Anderson readings are great because they illustrate the whole ERM process.
+These Anderson readings help illustrate the whole ERM process.
 If you are able, visit the journal issue for these two readings and read the other chapters that Anderson has written,
-but in particular, the [Electronic Resource Management Systems and Related Products][anderson2014c].
+but in particular, review the [Electronic Resource Management Systems and Related Products][anderson2014c].
 
 In short, this section's topic provides a foundation for the remaining topics we study.
-In particular, they will help frame what we learn when we study the markets and economics
-of the electronic resource industry, the process of licensing and negotiation, and about the evaluation and statistics of usage.
-Think of this section as a foundation, a transition between, and a reflection on all we have studied thus far, and what we will study going forward.
+In particular, they help frame what we learn when we study the markets and economics of the electronic resource industry,
+the process of licensing and negotiation, and about the evaluation and statistics of usage.
+Think of this section as a foundation, a transition between, and a reflection on all we have studied thus far, and
+what we will study going forward.
 
 ## Conclusion
 
 In this section, we explored the workflows that are central to electronic resource management.
-We continued to learn about the importance of standards, interoperability, and we began to gain insight into the financial pressures that libraries face.
-The readings also provided insight into how systems like ILSes and ERMSes must work together and will help further our upcoming discussions
-about market dynamics, licensing processes, and the evaluation of resource usage.
+We continued to learn about the importance of standards, interoperability, and
+we began to gain insight into the financial pressures that libraries face.
+The readings also provided insight into how systems like ILSes and ERMSes must work together and
+will help further our upcoming discussions about market dynamics, licensing processes, and the evaluation of resource usage.
 By understanding their centrality and the basic challenges in developing them,
 you will be better equipped to manage electronic resources more effectively in real-world library settings.
 
@@ -188,8 +198,8 @@ Making it look easy: Maintaining the magic of access. *Serials Review, 40*, 105-
 [anderson2014b]:https://journals.ala.org/index.php/ltr/article/view/4493/5259
 [anderson2014c]:https://journals.ala.org/index.php/ltr/article/view/4491/5255
 [cost_exchange]:https://www.niso.org/standards-committees/core-cost-resource-exchange
+[gokb]:https://gokb.org/index.html
+[gokb_pubs]:https://gokb.org/publications.html
 [medeiros2008]:https://old.diglib.org/standards/ERMI_Interop_Report_20080108.pdf
 [samples2014]:https://doi.org/10.1080/00987913.2014.929483
 [terms2]:http://6terms.tumblr.com/
-[gokb]:https://gokb.org/index.html
-[gokb_pubs]:https://gokb.org/publications.html
