@@ -37,23 +37,25 @@ and use reason, creativity, and problem solving skills to get there.
 To illustrate this, consider the following scenario:
 
 ---
+
 Sean, the electronic resource librarian, is negotiating a renewal with a database vendor
 who proposes a 12% price increase.
 
 Instead of reacting defensively, Sean begins calmly:
 
-<blockquote>I appreciate the value your database brings to our students and faculty.
+<blockquote><q>I appreciate the value your database brings to our students and faculty.
 However, our budget has not increased, so a 12% rise isn't feasible.
 Could we explore other options, such as extending the contract term or adjusting access tiers,
-to meet both our needs?</blockquote>
+to meet both our needs?</q></blockquote>
 
 The vendor pushes back, noting that <q>most institutions are accepting the new rate.</q>
 Sean replies, maintaining composure:
 
-<blockquote>I understand others may have different budgets.
+<blockquote><q>I understand others may have different budgets.
 For us, sustainability is key.
-Let's look for a structure that keeps our access stable without exceeding this year's funding.
+Let's look for a structure that keeps our access stable without exceeding this year's funding.</q>
 </blockquote>
+
 ---
 
 ## Assertive Communication
@@ -69,21 +71,21 @@ These days you could have AI to review your emails before sending.
 Here is an example of clear, respectful, and succinct communication:
 
 <blockquote>
-I understand your costs are rising, but our budget can't accommodate that increase.
-Let's look for an option that works for both of us.
+<q>I understand your costs are rising, but our budget can't accommodate that increase.
+Let's look for an option that works for both of us.</q>
 </blockquote>
 
 The above is much better than the following, aggressive response:
 
 <blockquote>
-That prices is unreasonable.
-If you can't do better, we'll take our business elsewhere.
+<q>That prices is unreasonable.
+If you can't do better, we'll take our business elsewhere.</q>
 </blockquote>
 
 Or even this passive response, which sacrifices the library's interests:
 
 <blockquote>
-Okay, if that's the new price, I guess we'll find a way to make it work.
+<q>Okay, if that's the new price, I guess we'll find a way to make it work.</q>
 </blockquote>
 
 ## Stereotypes
@@ -108,19 +110,21 @@ Consider the following scenario, where Maria addresses a stereotype head-on, and
 then resets the tone and moves the conversation toward shared goals:
 
 ---
+
 During the phone call, the vendor jokes:
 
 <blockquote>
-I know that librarians want everything for free.
+<q>I know that librarians want everything for free.</q>
 </blockquote>
 
 Maria, the electronic resources librarian, replies:
 
 <blockquote>
-I can see why you'd think cost is our only concern,
+<q>I can see why you'd think cost is our only concern,
 but our priority is long-term value and reliability for our patrons.<br>
-Let's focus on how this product supports that.
+Let's focus on how this product supports that.</q>
 </blockquote>
+
 ---
 
 ## Community
