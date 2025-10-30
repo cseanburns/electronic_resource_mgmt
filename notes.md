@@ -17,6 +17,7 @@
 1. Add article to *Interoperability* chapter:
     - https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/010Getting_Started_with_Primo_VE/005Primo_VE_Overview
     - Revise this chapter and make examples less focused on UK OpenURL
+1. UPDATE SERU etc chapter to discuss (lack of) adoption but use as a framework
 
 # Journals
 
