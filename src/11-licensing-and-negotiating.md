@@ -79,7 +79,7 @@ Let's look for an option that works for both of us.</q>
 The above is much better than the following, aggressive response:
 
 <blockquote>
-<q>That prices is unreasonable.
+<q>Those prices are unreasonable.
 If you can't do better, we'll take our business elsewhere.</q>
 </blockquote>
 
