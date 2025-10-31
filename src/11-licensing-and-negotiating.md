@@ -2,24 +2,27 @@
 
 By the end of this section, you will understand:
 
-* The importance of **principled negotiation** and **assertive communication** in the licensing process, focusing on how to maintain professionalism even during challenging negotiations.
-* How to avoid stereotypes that can hinder effective communication between librarians and vendors, and why addressing these misconceptions is crucial for successful negotiations.
+* The importance of **principled negotiation** and **assertive communication** in the licensing process,
+  focusing on how to maintain professionalism even during challenging negotiations.
+* How to avoid stereotypes that can hinder effective communication between librarians and vendors, and
+  why addressing these misconceptions is crucial for successful negotiations.
 * The value of involving your library community and internal parties during the negotiation process to ensure alignment and support.
-* The role of written documentation in negotiations, including why it is essential to clearly record agreements and expectations to protect both parties.
-* The significance of establishing workflows and checklists for negotiation, ensuring consistency and thoroughness throughout the licensing lifecycle.
-* How repeated practice and preparation can reduce anxiety and improve your effectiveness as a negotiator, including utilizing external resources.
+* The role of written documentation in negotiations,
+  including why it is essential to clearly record agreements and expectations to protect both parties.
+* The significance of establishing workflows and checklists for negotiation,
+  ensuring consistency and thoroughness throughout the licensing lifecycle.
+* How repeated practice and preparation can reduce anxiety and improve your effectiveness as a negotiator,
+  including utilizing external resources.
 
 ## Introduction
 
-Now that we know the basic structure and contents of a license for electronic resources,
-we can discuss the negotiation process.
+Now that we know the basic structure and contents of a license for electronic resources, we can discuss the negotiation process.
 
 In the prior section, we learned about attempts to standardize licensing frameworks,
 with projects like [SERU][seru] and [LIBLICENSE][liblicense].
 Even if these projects may not replace licenses,
 they help standardize the boilerplate that is commonly used among electronic resource licenses.
-Despite their success, there will likely always be some negotiation involved when licensing,
-especially big ticket products.
+Despite their success, there will likely always be some negotiation involved when licensing, especially big ticket products.
 This means we need to know what that process might look like, and how to engage in it,
 because in the end, the process is about developing relationships with vendors.
 
@@ -61,11 +64,9 @@ Let's look for a structure that keeps our access stable without exceeding this y
 ## Assertive Communication
 
 Assertive communication is being willing to express yourself.
-It means expressing your needs **clearly**, **respectfully**, and
-often **succinctly** without crossing into aggression. 
+It means expressing your needs **clearly**, **respectfully**, and often **succinctly** without crossing into aggression. 
 Aggression is never warranted.
-Brown's (2014) suggestion to have other people look at your emails,
-that might have been written in anger, before sending is golden.
+Brown's (2014) suggestion to have other people review your emails to check for tone and other issues before sending is golden.
 These days you could have AI to review your emails before sending.
 
 Here is an example of clear, respectful, and succinct communication:
@@ -121,7 +122,7 @@ Maria, the electronic resources librarian, replies:
 
 <blockquote>
 <q>I can see why you'd think cost is our only concern,
-but our priority is long-term value and reliability for our patrons.<br>
+but our priority is long-term value and reliability for our patrons.
 Let's focus on how this product supports that.</q>
 </blockquote>
 
@@ -129,8 +130,7 @@ Let's focus on how this product supports that.</q>
 
 ## Community
 
-As a negotiator, Brown (2014) described having to work with lots of people and
-even with with people in her own library.
+As a negotiator, Brown (2014) described having to work with lots of people, including people in her own library.
 This is a great insight.
 It's important to talk through issues with colleagues and vendors.
 Aligning relevant parties and even users ensures that everyone is on the same page before approaching vendors.
@@ -147,8 +147,8 @@ You therefore want to write write well and succinctly.
 
 ### Ambiguous/wordy example
 
-> It is understood that access to the database may be provided to authorized users for a reasonable duration,
-> pending future agreement between both parties regarding renewal terms as deemed necessary.
+> <q>It is understood that access to the database may be provided to authorized users for a reasonable duration,
+> pending future agreement between both parties regarding renewal terms as deemed necessary.</q>
 
 Problems with this example:
 
@@ -158,8 +158,8 @@ Problems with this example:
 
 ### Clear/direct example
 
-> The vendor will provide access to the database for one year.
-> Renewal terms will be reviewed and agreed upon by both parties before the end of the contract.
+> <q>The vendor will provide access to the database for one year.
+> Renewal terms will be reviewed and agreed upon by both parties before the end of the contract.</q>
 
 Strengths with this example:
 
@@ -169,8 +169,7 @@ Strengths with this example:
 
 ## Negotiation Workflows
 
-[Smith and Hartnett (2015)][smith2015] provide a real world example of the negotiating process
-that includes a workflow around licensing.
+[Smith and Hartnett (2015)][smith2015] provide a real world example of the negotiating process that includes a workflow around licensing.
 Remember, document everything and revisit your documentation.
 Use that documentation to formalize checklists.
 Having a workflow in place around licensing helps ensure that all bases are covered.
