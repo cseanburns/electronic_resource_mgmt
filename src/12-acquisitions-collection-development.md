@@ -10,7 +10,7 @@ By the end of this section, you will understand that:
 ## Introduction
 
 Collection development and acquisitions have become more complex with the rise of electronic resources.
-In contrast to the more linear acquisition processes of print resources,
+In contrast to the more linear acquisition processes of collecting print resources,
 electronic resources require different contractual and technological considerations.
 Librarians now must navigate issues like differing licensing agreements and the complex technologies involved
 in handling electronic resources like ebooks, journal articles, databases, etc.
@@ -28,12 +28,11 @@ The conventional wisdom is that content, not format, should be the focus of coll
 regardless of the actual form in which the information arrives" (p. 83).
 However, this perspective overlooks practical considerations.
 Format impacts cost, licensing, and ultimately, accessibility.
-If format matters, we need to ask:
-How does format either prevent or facilitate access?
+If format matters, we need to ask: how does format either prevent or facilitate access?
 This question links acquisitions, collections development, and usability, since usability is an access issue.
-We'll address usability more deeply in a later section.
+We'll address usability specifically in a later section.
 
-In a collection development course, you would primarily focus on content.
+In a collection development course, you might primarily focus on content.
 You would also consider the work involved in creating a collection development policy (CDP).
 Content and CDPs are key to the acquisition, collection, and management of e-resources.
 However, it is equally important to understand how the management of electronic resources
@@ -43,56 +42,43 @@ has affected librarian workflows and reshaped library organizational hierarchies
 
 The complexity of library organizational hierarchies has increased with the rise of electronic resources.
 I developed an organizational chart based on librarian departmental reports written during the late 1950s and early 1960s
-at the University of Kentucky---before electronic resources took over.
+at the University of Kentucky.
+This time period was obviously before the advent of electronic resources.
 These reports are archived at the University of Kentucky's [Special Collections Research Center][speccoll].
 While organizational charts have been around since the 1800s, they became more commonly used in libraries only in the latter half of the 20th century.
-Based on my research, I inferred an organizational structure during that period (see Fig. 1).
+Based on my research, I **inferred** an organizational structure during that period (see Fig. 1).
 
 <figure>
 <img src="images/1950s60sorgchartUKlibraries.png"
-alt="Organizational chart UK Libraries late 50s / early 60s"
-title="Organizational chart UK Libraries late 50s / early 60s">
+alt="Organizational chart of UK Libraries late 50s / early 60s"
+title="Organizational chart of UK Libraries late 50s / early 60s">
 <figcaption>
-Fig. 1. This is a derived organizational chart based on
-annual reports of University of Kentucky
-departmental head librarians. Research is based on reports
-held at the UK Library's Special Collections Research
-Center. 
+Fig. 1. This is a derived organizational chart based on annual reports of University of Kentucky departmental head librarians.
+Research is based on reports held at the UK Library's Special Collections Research Center. 
 </figcaption>
 </figure>
 
-> Aside 1: The most recent organizational chart for UK Libraries is from 2019,
-> and they may have decided to stop making them. Much has changed since then,
-> including a new Dean, but the general point I am making should hold about the
-> complexity of the modern library. 
->
-> Aside 2: The concept of organizational charts dates back to the 19th century,
-> Based some cursory searching, the first known chart was created in 1855 by
-> Daniel McCallum, a railway general superintendent. McCallum, with the
-> assistance of a draftsman and civil engineer named George Holt Henshaw,
-> designed an organizational chart for the New York and Erie Railway to
-> showcase the division of administrative duties and the number and class of
-> employees engaged in each department ([Organimi 2020][organimi2020],
-> [Lanteria 2021][lanteria2021]). This chart was initially referred to as a
-> "Diagram representing a plan of organization" and was not yet called an
-> organizational chart ([Organimi 2020][organimi2020], [Pingboard][pingboard]).
+> The concept of organizational charts dates back to the 19th century.
+> The first known chart was created in 1855 by Daniel McCallum, a railway general superintendent.
+> McCallum, with the assistance of a draftsman and civil engineer named George Holt Henshaw,
+> designed an organizational chart for the New York and Erie Railway to showcase the division of administrative duties and
+> the number and class of employees engaged in each department ([Organimi 2020][organimi2020]; [Lanteria 2021][lanteria2021]).
+> This chart was initially referred to as a "Diagram representing a plan of organization" and
+> was not yet called an organizational chart ([Organimi 2020][organimi2020], [Pingboard][pingboard]).
 > 
-> The terminology "organization chart" became more common in the early 20th
-> century, and by 1914, a certain Brinton advocated for broader use of
-> organizational charts ([Wikipedia Organizational Chart][org-wikipedia]). The
-> use of organizational charts gained more traction in industrial engineering
-> circles and became more popular among businesses and enterprises in the
-> latter half of the 20th century ([Miro 2021][miro2021]).
+> The terminology "organization chart" became more common in the early 20th century, and
+> by 1914 a certain Brinton advocated for broader use of organizational charts ([Wikipedia Organizational Chart][org-wikipedia]).
+> The use of organizational charts gained more traction in industrial engineering circles and
+> became more popular among businesses and enterprises in the latter half of the 20th century ([Miro 2021][miro2021]).
 >
 > These early developments set the stage for modern organizational charts,
-> which have now become crucial tools for delineating responsibilities,
-> hierarchy, and the structural framework within organizations across various
-> sectors. From a historical perspective, a study of organizational charts of
-> the years can shed insight on how the organization evolves, especially when
-> cross-referencing that evolution with other changes, such as the introduction
-> of electronic resources in libraries.
+> which have now become crucial tools for delineating responsibilities, hierarchy, and
+> the structural framework within organizations across various sectors.
+> From a historical perspective, a study of organizational charts of the years can shed insight on how the organization evolves,
+> especially when cross-referencing that evolution with other changes,
+> such as the introduction of electronic resources in libraries.
 
-Comparing my chart to the most [recent one provided by UK Libraries][ukorg] (see aside below) shows additional complexity.
+Comparing my chart to a more [recent one provided by UK Libraries][ukorg] shows additional complexity.
 The growth in electronic resources, associated technologies, and markets explains much of this complexity.
 New specialized roles have emerged to manage these resources, including digital content specialists and e-resource managers.
 Additionally, larger and more diverse student populations have influenced library structure,
@@ -108,7 +94,7 @@ This type of dynamism, directly influenced by format, no doubt increases the com
 ## Open Educational Resources
 
 Now let's discuss Open Educational Resources (OER), a hot topic in today's academic libraries.
-Textbook prices, [England et al. (2017)][england2017] notes, have skyrocketed in recent decades.
+Textbook prices, [England et al. (2017)][england2017] note, have skyrocketed in recent decades.
 College students' budget are [up to $1,240 per year in books and supplies][collegeboard].
 [Public elementary and secondary schools][statistica] expend nearly 2.5 billion dollars per year on textbooks.
 In response, libraries have notably moved to highlight open educational resources at some level.
@@ -151,13 +137,13 @@ The UL CDP is not their main policy but a sub-CDP that focuses on electronic res
 The LPL's policy is their main policy.
 Both approaches reflect the libraries' unique missions and communities.
 
-> **Actionable Step**: If your library lacks a CDP, start by identifying collection gaps and collaborate with colleagues to create
-> a vision for your collection.
+> **Actionable Step**: If your library lacks a CDP, start by identifying collection gaps and
+> collaborate with colleagues to create a vision for your collection.
 > Draft a simple version and seek feedback for continuous improvement.
 
 ## Conclusion
 
-This section addressed the complexities of collection development for electronic resources,
+This section addresses the complexities of collection development for electronic resources,
 the impact of format on workflows and organizational hierarchies,
 the role of OERs in libraries, and
 the critical importance of collection development policies for e-resources.
