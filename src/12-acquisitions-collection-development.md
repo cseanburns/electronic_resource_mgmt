@@ -27,8 +27,8 @@ The conventional wisdom is that content, not format, should be the focus of coll
 [Harloe &amp; Budd (1994)][harloe1994] argue that "collection managers should focus on the content of the information provided,
 regardless of the actual form in which the information arrives" (p. 83).
 However, this perspective overlooks practical considerations.
-Format impacts cost, licensing, and ultimately, accessibility.
-If format matters, we need to ask: how does format either prevent or facilitate access?
+Formats impact cost, licensing, and ultimately, accessibility.
+And if formats matters, we become inclined to ask: how does format either prevent or facilitate access?
 This question links acquisitions, collections development, and usability, since usability is an access issue.
 We'll address usability specifically in a later section.
 
@@ -40,13 +40,11 @@ has affected librarian workflows and reshaped library organizational hierarchies
 
 ### Organizational Hierarchy
 
-The complexity of library organizational hierarchies has increased with the rise of electronic resources.
-I developed an organizational chart based on librarian departmental reports written during the late 1950s and early 1960s
-at the University of Kentucky.
+The complexity of library organizational hierarchies has increased with the rise of electronic resources
+(although not solely due to electronic resources).
+Based on reports archived at the University of Kentucky's [Special Collections Research Center][speccoll],
+I created an organizational chart using librarian departmental reports written during the late 1950s and early 1960s (Fig 1).
 This time period was obviously before the advent of electronic resources.
-These reports are archived at the University of Kentucky's [Special Collections Research Center][speccoll].
-While organizational charts have been around since the 1800s, they became more commonly used in libraries only in the latter half of the 20th century.
-Based on my research, I **inferred** an organizational structure during that period (see Fig. 1).
 
 <figure>
 <img src="images/1950s60sorgchartUKlibraries.png"
@@ -79,8 +77,10 @@ Research is based on reports held at the UK Library's Special Collections Resear
 > such as the introduction of electronic resources in libraries.
 
 Comparing my chart to a more [recent one provided by UK Libraries][ukorg] shows additional complexity.
-The growth in electronic resources, associated technologies, and markets explains much of this complexity.
-New specialized roles have emerged to manage these resources, including digital content specialists and e-resource managers.
+The growth in electronic resources, associated technologies, markets,
+but also due to changes in how state and federal governments fund higher education, explains much of this complexity.
+But with respect to e-resources, new specialized roles have emerged to manage these resources,
+including digital content specialists and e-resource managers.
 Additionally, larger and more diverse student populations have influenced library structure,
 as have evolving theories and practices of library management.
 
