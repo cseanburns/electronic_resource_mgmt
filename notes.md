@@ -10,6 +10,7 @@
 1. Add info about Primo Research Assistant: https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/015_Getting_Started_with_Primo_Research_Assistant
 1. Add resource about E-Resource Licensing Explained: https://berkeley.pressbooks.pub/eresourcelicensingexplained/
 1. Revise *Workflow* chapter and add examples
+    - Anderson, R. (2007). It’s Not About the Workflow: Patron-Centered Practices for 21st-Century Serialists. *The Serials Librarian, 51*(3–4), 189–199. https://doi.org/10.1300/J123v51n03_13
 1. Add articles and discussions for Economics chapter:
     - https://www.arl.org/blog/maryland-is-first-state-to-expand-equitable-access-to-e-books-through-libraries/
     - https://www.reuters.com/legal/litigation/maryland-ebook-licensing-law-is-unconstitutional-us-court-rules-2022-06-14/https://www.authorsalliance.org/2025/06/30/the-author-library-alliance-supporting-fair-ebook-legislation-together/
