@@ -3431,18 +3431,38 @@ they serve as an essential guide for ERM librarians committed to enhancing patro
 <p>By the end of this section, you will understand that:</p>
 <ol>
 <li><strong>User Experience (UX) is Multi-Dimensional</strong>: UX encompasses parameters like actors, objects, contexts, and interfaces. Understanding these parameters helps in evaluating how effectively users interact with library systems.</li>
-<li><strong>Importance of Gathering Data from Diverse Users</strong>: UX research must include diverse patron feedback&amp;emdashfrom students to faculty, and from users with disabilities&amp;emdash;ensuring that the user experience is inclusive and addresses the needs of all patrons.</li>
+<li><strong>Importance of Gathering Data from Diverse Users</strong>: UX research must include diverse patron feedback, from students to faculty, and from users with disabilities&amp;emdash;ensuring that the user experience is inclusive and addresses the needs of all patrons.</li>
 <li><strong>User Research Methods Enrich UX Understanding</strong>: Incorporating user research methods, such as card sorting and think-aloud protocols, adds depth to understanding user needs and behaviors. These methods help librarians develop a more user-centered approach to system design and evaluation.</li>
 <li><strong>There are Different Types of Data to Inform UX</strong>: Libraries can use both <em>usage data</em> (how users interact with a system) and <em>breakage data</em> (issues or obstacles users face) to inform decisions. Using both data types provides a fuller picture of system performance and user challenges.</li>
 <li><strong>System Complexity Affects UX</strong>: As librarians gain expertise with systems, they may lose sight of novice user challenges. Regular UX studies can help bridge the gap between librarian expertise and novice needs, ensuring the library systems are accessible and usable for everyone.</li>
 <li><strong>Actionable User-Centered Design Principles</strong>: Strategies such as chunking, highlighting important elements, simplifying choices, and managing complexity can make user interfaces more intuitive, reducing user anxiety and improving overall usability.</li>
 </ol>
 <h2 id="introduction-12"><a class="header" href="#introduction-12">Introduction</a></h2>
-<p>What is user experience? <a href="https://doi.org/10.4018/978-1-5225-2255-3.ch661">Dickson-Deane and Chen (2018)</a> write that
-"user experience determines the quality of an interaction being used by an actor in order to achieve a specific outcome" (Intro section, para 1).
+<p>Electronic resource management sits at an awkward intersection of systems, vendors, metadata pipelines,
+licensing restrictions, and local infrastructure.
+Because of this, small design decisions on our websites can shift the emotional experience of using library resources and
+also the success of using them, which is to acquire documents of some sort.
+User experience (UX) is thus not only a matter of aesthetics or interface polish.
+It is also a way to measure how well our systems support the people who rely on them to learn, research, and
+navigate complexity.</p>
+<p>When we approach ERM work through a UX lens, we begin to understand not only how systems behave, but
+how people <em>experience</em> them.
+Patrons do not see resolver logs or mismatched metadata, but
+they do see buttons that <strong>promise</strong> <em>Full Text Availability</em> that sometimes fail to provide that full text.</p>
+<p>What follows is an introduction to a set of parameters for understanding UX.
+This chapter examines how system complexity can shape patron encounters and outlines research methods and data sources
+that librarians can use to evaluate and improve their experiences.
+The goal is not to turn every librarian into a UX specialist, but it is to encourage a mindset that
+keeps us attentive to the perspectives of novice users and
+on the structural points where their experience drifts from those of us who are not novices.</p>
+<h2 id="ux-parameters"><a class="header" href="#ux-parameters">UX Parameters</a></h2>
+<p>What is user experience then?
+<a href="https://doi.org/10.4018/978-1-5225-2255-3.ch661">Dickson-Deane and Chen (2018)</a> write that
+<q>user experience determines the quality of an interaction being used by an actor
+in order to achieve a specific outcome</q> (Intro section, para 1).
 <a href="https://doi.org/10.4135/9781483386874.n229">Parush (2017)</a> highlights adjacent terms like <em>human-computer interaction (HCI)</em> and <em>usability</em>.
 Let's say then that HCI encompasses the entire domain of interaction between people and computers and
-how that interaction is designed and that <em>user experience (UX)</em> focuses on the quality of that interaction.
+how that interaction is designed, and that <em>user experience (UX)</em> focuses on the quality of that interaction.
 These are not precise definitions, and some people might use the terms <em>UX</em> and <em>HCI</em> interchangeably.
 However, as ERM librarians, the job is to focus on the quality of the patron's experience with electronic services.
 This entails understanding both the systems and technologies involved and the users interacting with them.</p>
@@ -3474,14 +3494,22 @@ Let me modify their example and frame it within the context of an ERM experience
 <li><strong>(Intended/Expected/Prior) User experience</strong>: The intended or expected use of the object. The user's expectations based on prior use.</li>
 <li><strong>(Actual) User experience</strong>: The actions that took place; the actions that had to be modified based on unintended results.</li>
 </ul>
-<p>These parameters would be helpful for devising a UX study that involves observing patrons interacting with
+<p>Taken together, these parameters give us a systematic way to think about how people
+actually encounter the systems librarians manage.
+For ERM librarians, this matters because many of our services are assembled from multiple vendor platforms
+that are stitched together by link resolvers, discovery layers, and authentication tools.
+Each layer introduces its own controls, displays, and dialogues, and
+the same seams between them are often where UX breaks down.
+Going forward, we can use these parameters not only to describe interactions, but
+to analyze the points where novice users may struggle, misinterpret feedback, or abandon the task entirely.</p>
+<p>Furthermore, these parameters would be helpful for devising a UX study that involves observing patrons interacting with
 a system and then interviewing them to complete the details.
 Note that the same kind of systematic thinking can be applied to evaluate other user experiences,
 like those between a librarian and an electronic resource management system.
 Often the focus is on patron user experience, but it's just as important to evaluate UX for librarians and
 to consider UX when selecting an ERM system or an ILS/LSP system.</p>
-<p>In any case, these parameters help us step through and highlight the complicated process of interacting with a computer, generally, or
-a library resource more specifically.
+<p>In any case, these parameters help us step through and highlight the complicated process of interacting with a computer,
+generally, or a library resource more specifically.
 As with other topics we've discussed in this book, we can incorporate these parameters into a workflow for evaluating UX.</p>
 <h2 id="complex-library-websites"><a class="header" href="#complex-library-websites">Complex Library Websites</a></h2>
 <p>It is as a result of the complexities involved and because of a focus on systems that <a href="https://doi.org/10.1080/00987913.2015.1069527">Pennington (2015)</a>
@@ -3497,36 +3525,60 @@ they may not retrieve the information they need; they may not reach out to a lib
 they may stop using the library's resources in preference for a resource of inferior quality.
 We need to remember that this happens, and if possible, to build in <em>proactive troubleshooting</em> processes
 that anticipate and solve them before they do happen to patrons.</p>
-<p>Here's the crux, though.
-As you gain more skill and expertise with these systems, you will eventually lose the ability to see these systems as a novice user, and
+<p>Let's make this concrete.
+Imagine a first year student search for a peer-reviewed journal article.
+This is a common assignment for students at universities.
+During their search, they click a "Full Text Available" link in the discovery layer, but
+then land on a publisher page that asks them to log in or purchase the article
+(this in fact happened to me on the day that I'm writing this).
+The student reasonably concludes that the library doesn't actually have access.
+A librarian, on the other hand, immediately recognizes that the OpenURL resolver sent the wrong metadata to the publisher,
+or that the publisher mis-tagged the article.
+The librarian knows to reload the link, try an alternative source, or check the title-level holdings.</p>
+<p>From the student's perspective, the system basically "lied" to them.
+From the librarian's perspective, the system mis-routed a metadata field.</p>
+<p>This difference in people's mental models is exactly why UX work is essential.
+Patrons do not come equipped with vendor knowledge, platform histories, or metadata troubleshooting techniques.
+They only see a promise of access followed by a dead end, and
+this emotional experience of frustration, confusing, or even embarrassment is as important as the technical cause.</p>
+<p>Thus lies the crux.
+As you gain more skill and expertise with these systems,
+you will eventually lose the ability to see these systems as a novice user, and
 that distance will only grow over time.
 To mitigate this, it is essential to actively gather data from a diverse range of users (Pennington, 2015).
-For example, gathering data from different user demographics, such as students versus faculty, users with disabilities, or children versus teens,
+For example, gathering data from different user demographics,
+such as students versus faculty, users with disabilities, or children versus teens,
 can reveal varying UX challenges that are often overlooked by experienced librarians.
 UX research that includes diverse patron feedback ensures that the needs of all user groups are taken into account.
 In short, user experience research nurtures a user centered mindset.</p>
-<p>Indeed, <a href="https://doi.org/10.1016/j.acalib.2022.102541">Kraft et al. (2022)</a> used focus groups and surveys to collect user experience data on a library's
-implementation of its A-Z Database List.
-As the authors point out, librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
+<p>Indeed, <a href="https://doi.org/10.1016/j.acalib.2022.102541">Kraft et al. (2022)</a> used focus groups and surveys to
+collect user experience data on a library's implementation of its A-Z Database List.
+As the authors point out,
+librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
 since this only serves as a point of confusion.
 However, their focus group participants described contrasting opinions about how color was used on the site, and
 how color was used had some dramatic, surprising effects on which sources were selected to pursue.
-The study highlights that when gathering user feedback, it is important to consider a variety of user research methods to get a fuller picture.
+The study highlights that when gathering user feedback,
+it is important to consider a variety of user research methods to get a fuller picture.
 We can even add additional methods, such as <a href="https://www.nngroup.com/articles/card-sorting-definition/">card sorting</a>
 (for understanding how users group and label information) and
 <a href="https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/">think-aloud protocols</a>
 (where users verbalize their thoughts while using a system).
 These methods provide additional insights that can complement focus groups and surveys.
-All methods have their strengths and weaknesses, but selecting the appropriate approach based on research goals is key to effective UX evaluation.</p>
+All methods have their strengths and weaknesses, but
+selecting the appropriate approach based on research goals is key to effective UX evaluation.</p>
 <h2 id="the-data-that-exists"><a class="header" href="#the-data-that-exists">The Data That Exists</a></h2>
-<p>In addition to user studies that require conducting direct research and reading prior studies that require literature searches,
+<p>In addition to user studies that require conducting direct research and
+reading prior studies that require literature searches,
 we should also know that libraries already possess a wealth of data to explore, and this data could provide needed insight.
-Here, as we've learned before, workflows play an important role in applying mechanisms to track, report, and fix problems with
-electronic resource systems.
+Here, as we've learned before, workflows play an important role in applying mechanisms to track, report, and
+fix problems with electronic resource systems.
 <a href="https://doi.org/10.1080/1941126X.2015.999521">Browning (2015)</a>, for example, describes the use of <a href="https://www.bugzilla.org/">Bugzilla</a>.
-This is an application that's commonly used for software development for bug tracking and generating reports about broken code.
+This is an application that's commonly used for software development for bug tracking and
+generating reports about broken code.
 Once problems are identified, tools like Bugzilla can be used to categorize and to facilitate quick solutions.
-It's an interesting and novel adaptation of an application designed for a different purpose, but it highlights an important takeaway;
+It's an interesting and novel adaptation of an application designed for a different purpose, but
+it highlights an important takeaway;
 there are thus two key types of data that provide insights into UX: data about usage and data about breakage.
 Whereas usage data helps us understand how users interact with a system and what they do (<a href="https://doi.org/10.1080/00987913.2016.1140614">Fry, 2016</a>),
 breakage data focuses on identifying errors or issues that users encounter, as described by Browning (2015).
@@ -3534,21 +3586,48 @@ Both kinds of data are crucial and combining both perspectives offers a more com
 <h2 id="conclusion-10"><a class="header" href="#conclusion-10">Conclusion</a></h2>
 <p>I agree with <a href="https://doi.org/10.1080/00987913.2016.1140614">McDonald (2016)</a> that despite having around 30 or so years of experience
 with web-based and other electronic resource types, we are still in the throes of disruption.
-There's much yet to learn about designing for the web, just like there's a lot left to learn about how designing physical spaces.
+There's much yet to learn about designing for the web,
+just like there's a lot left to learn about how designing physical spaces.
 Nothing will be settled for a while.
-Although I doubt if there will be any single dominate user experience or user interface, since there are many
-cultures, backgrounds, and aesthetics, I'm sure the low-hanging fruit problems will work out soon enough.
+Although I doubt if there will be any single dominate user experience or user interface,
+since there are many cultures, backgrounds, and aesthetics,
+I'm sure the low-hanging fruit problems will work out soon enough.
 Remember though that 95% of the cause of all of this complexity is due to copyright issues,
-which necessitate the entire electronic resource ecosystem and the complications that are introduced by working with vendors who work with different,
-but overlapping, publishers, etc.
+which necessitate the entire electronic resource ecosystem and
+the complications that are introduced by working with vendors who work with different, but overlapping, publishers, etc.
 If something major were to change about copyright, then it's a whole new ballgame.</p>
-<p>But in conclusion, when considering how UX research fits into library work, remember the importance of gathering data from users themselves:
+<p>But in conclusion, when considering how UX research fits into library work,
+remember the importance of gathering data from users themselves:
 data that reveals both what works well and what doesn't.
 In conducting UX work, refer also to the information-seeking literature when it's appropriate to do so.
 This literature will yield insights into the processes people use to use these systems.
-It's essential to reflect on user-centered design principles, such as <a href="https://www.nngroup.com/articles/chunking/">chunking</a>, <a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/">highlighting</a>,
-<a href="https://www.nngroup.com/articles/simplicity-vs-choice/">simplifying choices</a>, and <a href="https://www.nngroup.com/articles/complex-application-design-framework/">managing complexity</a>.
+It's essential to reflect on user-centered design principles,
+such as <a href="https://www.nngroup.com/articles/chunking/">chunking</a>, <a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/">highlighting</a>, <a href="https://www.nngroup.com/articles/simplicity-vs-choice/">simplifying choices</a>,
+and <a href="https://www.nngroup.com/articles/complex-application-design-framework/">managing complexity</a>.
 These are strategies that can help design user interfaces that are intuitive and accessible for all users.</p>
+<h2 id="action-list"><a class="header" href="#action-list">Action List</a></h2>
+<p>Below are some practical steps for applying a UX mindset in ERM work:</p>
+<ul>
+<li>Walk through a common patron task as a novice user.
+Use a guest account and try to access an article or troubleshoot a link without relying on your expertise.
+Note every point of friction.</li>
+<li>Run one quick test with a real user.
+Ask a student (of any age) or someone from the public (if at a public library) to perform a single task
+while thinking aloud.
+Even ten minutes with them may provide insight you wouldn't otherwise get.</li>
+<li>Document all breakage that you find.
+Put this in a spreadsheet and categorize the breakage.
+Patterns will eventually emerge with enough data (e.g., broken links, access failures, patron-reported errors),
+and you could use this to create simple workflows that foster proactive troubleshooting.</li>
+<li>Remove jargon where possible.
+Review public-facing pages for terminology that makes sense to librarians but not to patrons
+(this is also a chance to ask patrons about what the terminology they encounter).
+Replace, define, or eliminate that jargon.</li>
+<li>Consult a usability or information-seeking study at least a couple of times a year.
+If you keep up with the literature, it'll strengthen your intuition about UX patterns and issues.</li>
+<li>Share findings with colleagues.
+This can help to avoid repetition of the same mistakes and encourage a culture of user-center thinking.</li>
+</ul>
 <h2 id="readings--references-11"><a class="header" href="#readings--references-11">Readings / References</a></h2>
 <p>Browning, S. (2015).
 Data, data, everywhere, nor any time to think: DIY analysis of e-resource access problems.
@@ -3589,23 +3668,41 @@ Strategies to improve the user experience.
 <p>By the end of this section, you will understand that:</p>
 <ul>
 <li>Measuring electronic resource usage involves complexities due to the varied ways users interact with content.</li>
-<li>Web server logs can provide valuable data on usage, but they come with significant limitations and do not always capture the user's intent.</li>
-<li>Project COUNTER is a key initiative in standardizing how electronic resource usage is defined, measured, collected, and shared.</li>
-<li>COUNTER provides four major reports (Platform, Database, Title, Item), each offering insights at different levels of electronic resource usage, which are crucial for informed decision-making.</li>
-<li>Usage metrics not only help in assessing the value of electronic resources but also contribute to collection development and budget justification.</li>
-<li>The effective use of metrics often involves both quantitative and qualitative approaches to provide a fuller picture of library impact.</li>
-<li>Creativity and technical skills can enhance the analysis of usage data, such as transforming access logs into dynamic visual tools.</li>
-<li>Usage data is vital for libraries to demonstrate their value to stakeholders, but interpreting this data requires careful consideration of its context and limitations.</li>
+<li>Web server logs can provide valuable data on usage, but
+they come with significant limitations and do not always capture the user's intent.</li>
+<li>Project COUNTER is a key initiative in standardizing how electronic resource usage is
+defined, measured, collected, and shared.</li>
+<li>COUNTER provides four major reports (Platform, Database, Title, Item), and
+each offers insight at different levels of electronic resource usage, which are crucial for informed decision-making.</li>
+<li>Usage metrics not only help in assessing the value of electronic resources but
+also contribute to collection development and budget justification.</li>
+<li>The effective use of metrics often involves both quantitative and qualitative approaches
+to provide a fuller picture of library impact.</li>
+<li>Creativity and technical skills can enhance the analysis of usage data,
+such as transforming access logs into dynamic visual tools.</li>
+<li>Usage data is vital for libraries to demonstrate their value to stakeholders, but
+interpreting this data requires careful consideration of its context and limitations.</li>
 </ul>
 <h2 id="introduction-13"><a class="header" href="#introduction-13">Introduction</a></h2>
-<p>We've discussed problems with defining terms, and we have learned that much effort has been expended into standardizing them.
-We have also seen that the topics that we've covered—technologies, standards, access, usability,
-workflow, markets, licensing—are linked in some way.
-All this complexity makes the <em>usage</em> measurement complicated.
-The complication arises when electronic resources (or basically all activity on the web and internet) are accessed from client machines,
-and a computer server records the client's access in a log file.
-Logs like these make it seem that we can have accurate data about usage, but it's not a guarantee.
-The insights we may glean are always difficult to acquire no matter how much data is available to us.</p>
+<p>Measuring electronic resource usage seems straightforward.
+For example, consider the following scenario:
+a user clicks the link, a server logs the event, and then a librarian (or a vendor) counts the numbers (i.e., clicks).
+However, usage is a conceptually difficult area of ERM work.
+Although logs record activity, activity is not the same as intent, engagement, or value.
+Plus, vendors will want define usage differently than librarians, and librarians must make decisions
+and perhaps negotiate with vendors, about what defines usage.</p>
+<p>The complexity is a result of the infrastructure used to provide e-resources.
+We have platforms, authentication systems, link resolvers, and more.
+Each of these layers can distort what <em>usage</em> appears to be.
+A click may indicate genuine interest in an item in the collection, but
+it could also indicate accidental navigation, simple perusal, a bot, or a failed access attempt.
+Even when we have detailed log files, these files cannot reveal what a patron wanted to accomplish or
+whether their information or document needs were met.</p>
+<p>Standardization efforts such as Project Counter exist because of this ambiguity.
+Usage will always be difficult to define, based simply on what computers are able to capture,
+but COUNTER provides a shared vocabulary so that librarians, vendors, and
+<a href="https://www.google.com/search?&amp;q=library+systems+administrator">systems librarians</a> can talk about usage in consistent terms.</p>
+<h3 id="a-scenario-about-log-ambiguity"><a class="header" href="#a-scenario-about-log-ambiguity">A Scenario about Log Ambiguity</a></h3>
 <blockquote>
 <pre><code>999.999.999.999 - - [18/Nov/2022:04:40:38 +0000] "GET /index.html HTTP/1.1" 200 494 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
 </code></pre>
@@ -3619,48 +3716,60 @@ For example, the log snippet above indicates that I visited a page named <em>ind
 does that mean that I really <strong>used</strong> that website even though I accessed it?
 Even if we can claim that I did, what kind of use was it?
 Can we tell from that log entry?
+If we could, how much should would it cost?
 In short, log data like this can't really capture the user's <em>intent</em>.</p>
 <blockquote>
 <p>Note that we can learn a lot from web server access logs, and there is software, like Google Analytics,
 that would be able to collect additional usage data.</p>
 </blockquote>
-<p>As with other things we have discussed, there have been efforts to standardize electronic resource usage.
-It's an important process because usage data informs collection development and benefits the library in other ways.
-Discussions about usage do belong to the domain of electronic resource librarianship,
-but it also overlaps with other areas of librarianship, such as systems librarianship or collection development.
-Here we might see job titles like <a href="https://www.google.com/search?&amp;q=library+systems+administrator">library systems administrator</a>.</p>
+<p>Let's make this clearer.
+Imagine a student clicks a link to a journal article in their library's discovery system.
+The link resolver routes them to a publisher page, but the PDF fails to load.
+The student refreshes the page a few times, and then gives up.</p>
+<p>In the access logs, this appears like so:</p>
+<ul>
+<li>multiple <strong>successful</strong> GET requests,</li>
+<li>a sequence of redirects,</li>
+<li>and several full-text requests.</li>
+</ul>
+<p>According to the logs, therefore, this looks like heavy usage.
+However for the student, it was a total access failure.
+Logs thus count actions and not necessarily success, and it's important to understand this because these resources cost.</p>
 <h2 id="project-counter"><a class="header" href="#project-counter">Project Counter</a></h2>
 <p>Project Counter is the primary attempt to standardize how usage is defined, measured, collected, and shared.
-It is a Code of Practice that provides informative and consistent reporting of electronic resource usage.
+As a Code of Practice, it provides informative and consistent reporting of electronic resource usage.
 From <a href="https://cop5.countermetrics.org/en/5.1/">Project Counter</a>:</p>
 <blockquote>
-<p>Since its inception in 2002, COUNTER has been focused on providing a code of practice that helps ensure librarians
+<p>Since its inception in 2002,
+COUNTER has been focused on providing a code of practice that helps ensure librarians
 have access to consistent, comparable, and credible usage reporting for their online scholarly information.
-COUNTER serves librarians, content providers, and others by facilitating the recording and exchange of online usage statistics.
+COUNTER serves librarians, content providers, and
+others by facilitating the recording and exchange of online usage statistics.
 The COUNTER Code of Practice provides guidance on data elements to be measured and definitions of these data elements,
 as well as guidelines for output report content and formatting and requirements for data processing and auditing.
-To have their usage statistics and reports designated COUNTER compliant, content providers MUST provide usage statistics that conform to
-the current Code of Practice.</p>
+To have their usage statistics and reports designated COUNTER compliant,
+content providers MUST provide usage statistics that conform to the current Code of Practice.</p>
 </blockquote>
-<p>This code of practice was designed to solve a problem that will likely never be solved altogether, but it's still an important and useful effort.</p>
-<p>The main goal of Project Counter is to provide usage reports.
-The reports, for release 5 of Counter, cover four major areas:</p>
+<p>This code of practice was designed to solve a problem that will likely never be solved altogether, but
+it's still helps to make usage meaningful across platforms.</p>
+<p>The main goal of Project Counter is to provide usage reports that standardize what is counted and how it is counted.
+The reports, for Counter release 5, cover four major types:</p>
 <ul>
 <li>Platforms</li>
 <li>Databases</li>
 <li>Titles</li>
 <li>Items</li>
 </ul>
-<p><a href="https://doi.org/10.1080/0361526X.2017.1391153">Pesch (2017)</a> provides a helpful introduction to the history of Project Counter and the migration from Counter version 4 to version 5.
+<p><a href="https://doi.org/10.1080/0361526X.2017.1391153">Pesch (2017)</a> provides a helpful introduction to the history of Project Counter and
+the migration from Counter version 4 to version 5.
 Table 1 in the Pesch article describes the four major reports (listed above).
-These reports include usage metrics at the broadest level and of things like EBSCOhost databases, ProQuest databases,
-SAGE resources, Web of Science databases, and so on.
-These reports come into play when users/patrons search in the overall platform but not in any single database provided by the platform.
-For example, UK Libraries subscribes to the ProQuest Databases and for us that includes <a href="https://www.proquest.com/databases/advanced?accountid=11836">35 primary databases</a>.
+These reports include usage metrics at the broadest level and of things like
+EBSCOhost databases, ProQuest databases, SAGE resources, Web of Science databases, and so on.
+These reports come into play when users/patrons search in the overall platform but
+not in any single database provided by the platform.
+For example, a library may subscribe to the ProQuest Databases and that may include <a href="https://www.proquest.com/databases/advanced?accountid=11836">tens of primary databases</a>.
 Users can search multiple databases at the same time or search any single one.
-The same holds for platforms like EBSCOhost, Web of Science, and others.
-These report levels continue to form the framework for release 5.1,
-which continues to build on the goals of its predecessors by providing standardized, comprehensive, and easy-to-use reports.</p>
+The same holds for platforms like EBSCOhost, Web of Science, and others.</p>
 <p>The four major reports each serve different but complementary purposes in understanding electronic resource usage.
 As mentioned above, the Platform Report provides a birds-eye overview of usage across multiple resources.
 This is essential for understanding the overall value provided by platforms like EBSCOhost or ProQuest.
@@ -3673,38 +3782,45 @@ These reports detail the usage of specific journals, articles, or chapters.
 Such reports support detailed collection analysis and decision-making for renewals or cancellations.</p>
 <p>The transition from COUNTER 5 to 5.1 introduces improvements to the clarity and consistency of these metrics.
 Per the COUNTER website, it addresses ambiguities that might have led to misinterpretations in previous versions.
-By emphasizing transparency and accuracy, COUNTER 5.1 aims to make usage statistics more actionable for libraries and content providers.
+By emphasizing transparency and accuracy,
+COUNTER 5.1 aims to make usage statistics more actionable for libraries and content providers.
 This provides justification of resource investment and can help improve the user experience.</p>
 <p><a href="https://doi.org/10.1080/0361526X.2016.1165783">Scott (2016)</a> illustrates a nice use case for how Counter reports can inform collection development.
-We've addressed the <em>Big Deal</em> packages that more libraries are trying to move away from because such deals often include access to titles
-that are not used or not relevant to a library community.
+We've addressed the <em>Big Deal</em> packages that more libraries are trying to move away from
+because such deals often include access to titles that are not used or not relevant to a library community.
 Here Scott shows that it might be possible to avoid subscribing to some services using this data,
 but it's also important to closely read through and understand the problems associated with interlibrary loan, the metrics,
 and other limitations described in the Conclusion section of this article.</p>
 <h2 id="the-value-of-metrics"><a class="header" href="#the-value-of-metrics">The Value of Metrics</a></h2>
-<p>We move away from Project Counter with the <a href="https://doi.org/10.5860/crl12-406">Stone and Ramsden (2013)</a> article.
-I introduce this article because it highlights how metrics can be used to assess the value of a library,
-which is often underestimated by administration
-but constantly required in order to garner the resources needed to improve or sustain a library's resources.
+<p>COUNTER helps standardize what we count, but librarians have a broader question:
+what does usage mean for institutional value?
+Librarians and administrators rely on metrics because they help justify budgets and programs, and
+usage data can help construct those narratives.
+<a href="https://doi.org/10.5860/crl12-406">Stone and Ramsden (2013)</a> offer such an example about how metrics
+can be used to assess the value a library creates for its institution.
 Here Stone and Ramsden investigate the correlation (not causation) between library usage and student retention.
 Increasing the latter is the Holy Grail of college and universities.
 The more students who attend college or university and finish, the more successful the college or university's mission is.
 However, universities struggle with keeping students and often lose nearly <a href="https://nces.ed.gov/ipeds/TrendGenerator/app/answer/7/32">25% of their students</a> each year.
-If this were a public library report, it might be interesting to see how well electronic library usage correlates
-to continued usage and how such a correlation might result in outcomes defined by the library.
-One nice thing about the Stone and Ramsden article is that it does not depend on quantitative metrics alone but supports
-its findings through qualitative research.
+Stone and Ramsden are able to show a correlation between e-resource usage and student retention.
+This provides some evidence to administrators that libraries and their collections support a university's mission.
+If this were a public library report, it might be interesting to see how well e-resource usage,
+such as with ebooks or audiobooks, correlates with the outcomes desired by the library.
+But note that one interesting thing about the Stone and Ramsden article is that
+it does not depend on quantitative metrics alone but supports its findings through qualitative research.
 There's only so much a usage metric can say.</p>
 <h2 id="using-metrics"><a class="header" href="#using-metrics">Using Metrics</a></h2>
-<p>I would like you to be aware of the <a href="https://code4lib.org/"><em>code{4}lib</em> journal</a> and this article by <a href="https://journal.code4lib.org/articles/10589">Zou</a>.
-Although this article overlaps with some security issues, a topic that we'll cover in the final section,
-the article also provides a way of thinking outside the box about the metrics that you have access to as an electronic resource librarian.
+<p>Standardized reports may be buttressed with the logs generated by local systems, such
+as authentication logs, link resolver logs, server logs, etc.
+This may require some technical and data analytic know-how, and thus
+I would like you to be aware of the <a href="https://code4lib.org/"><em>code{4}lib</em> journal</a>,
+which is a great source for the technical aspects of librarianship, and the article by <a href="https://journal.code4lib.org/articles/10589">Zou</a>.
+This article overlaps with some security issues, a topic that we'll cover in the final chapter,
+but it also provides a way of thinking outside the box about the metrics that
+you have access to as an electronic resource librarian.
 Here, Zou describes a process of taking EZproxy logs (compare the example entry with the web server entry I included above)
 and turning them into something useful and dynamic by incorporating additional technologies.
-Recall that <a href="https://www.oclc.org/en/ezproxy.html">EZproxy</a> is software that authenticates users and provides access given that authentication.
-We use EZproxy at UK whenever we access a paywalled journal article.
-That is, you've noticed the <strong>ezproxy.uky.edu</strong> string in any URL for a journal that you've accessed via
-UK Libraries' installation of EZproxy, and the URL <code>https://login.ezproxy.uky.edu/login</code> is the log in URL.
+<a href="https://www.oclc.org/en/ezproxy.html">EZproxy</a> is software that authenticates users and provides access given that authentication.
 Zou specifically references <a href="https://web.archive.org/web/20210716020704/https://acrl.ala.org/techconnect/post/analyzing-ezproxy-logs/">the standard way</a> of analyzing these logs (take a look at the page at that link),
 which can be insightful and helpful, but Zou's method makes the analysis of these logs more visual and real-time.
 The main weakness with Zou's method is that it seems to me to be highly dependent on Zou doing the work.
@@ -3712,24 +3828,31 @@ If Zou leaves their library, then this customized analysis might not last.
 Still, it's good to know that if you have an interest in developing skills with systems administration,
 with other technologies, and with some basic scripting language, this kind of thing, and more, is possible.</p>
 <h2 id="getting-creative"><a class="header" href="#getting-creative">Getting Creative</a></h2>
-<p><a href="https://doi.org/10.1080/00987913.2017.1281788">Smith &amp; Arneson (2017)</a> detail creative and fun ways to collect usage data about resource usage when vendors do not provide usage data.
+<p><a href="https://doi.org/10.1080/00987913.2017.1281788">Smith &amp; Arneson (2017)</a> detail creative and fun ways to collect usage data about
+resource usage when vendors do not provide usage data.
 In the first part of this article, Smith describes how they analyzed their link resolver reports
 to infer what users were accessing in their collections.
-Arneson's section describes using a Linux file search utility called <a href="https://en.wikipedia.org/wiki/Grep">grep</a> to construct search queries of the EZproxy logs
-and deduce usage of specific electronic resources.
-Since both methods require sifting through log entries like the one I highlighted above, the process requires some sleuthing, testing, time,
-and patience.
+Arneson's section describes using a Linux file search utility called <a href="https://en.wikipedia.org/wiki/Grep">grep</a>
+to construct search queries of the EZproxy logs and deduce usage of specific electronic resources.
+Since both methods require sifting through log entries like the one I highlighted above,
+the process requires some sleuthing, testing, time, and patience.
 However, once figured out, the process and reports can easily be automated.</p>
 <h2 id="conclusion-11"><a class="header" href="#conclusion-11">Conclusion</a></h2>
-<p>Librarians used a variety of techniques to collect usage data in the print era, but again, electronic resources have complicated things.
-First, because more data is available about usage with electronic resources, before that data can be used, it has to be defined.
+<p>Librarians used a variety of techniques to collect usage data in the print era, but again,
+electronic resources have complicated things.
+First, because more data is available about usage with electronic resources,
+before that data can be used, it has to be defined.
 Project Counter is an attempt to define what usage means and how to report it.</p>
-<p>Quantitative metrics should will never be able to provide a complete picture of how a library's collections are used,
+<p>Quantitative metrics will never provide a complete picture of how a library's collections are used,
 but they are an important part.
-Not only do they help librarians manage their collections, they also help librarians show proof of their collection's importance to their communities.
+Not only do they help librarians manage their collections,
+they also help librarians show proof of their collection's importance to their communities.
 Furthermore, with a little skill, practice, and creativity, usage logs can also be used to build cool apps (Zou, 2015)
 or help fill in the gaps when vendors fall short in their requirements (Smith &amp; Arneson, 2017).</p>
-<p>With all this data, though, comes a host of privacy issues, which we discuss in the next and last section.</p>
+<p>But note, all of these methods depend on some form of data.
+Before that data can be used responsively, it must be handled ethically.
+That is, the same data that makes usage analysis powerful also raises privacy concerns,
+which we explore in the last chapter.</p>
 <h2 id="readings--references-12"><a class="header" href="#readings--references-12">Readings / References</a></h2>
 <p>Pesch, O. (2017).
 COUNTER release 5: What’s new and what it means to libraries.
@@ -3766,7 +3889,8 @@ Determining usage when vendors do not provide data.
 <h2 id="introduction-14"><a class="header" href="#introduction-14">Introduction</a></h2>
 <p><a href="http://dx.doi.org/10.5860/ltr.52n4">Breeding (2016)</a> begins with the following statement:</p>
 <blockquote>
-<p>Libraries have a long tradition of taking extraordinary measures to ensure the privacy of those who use their facilities and access their materials.</p>
+<p>Libraries have a long tradition of taking extraordinary measures to ensure the privacy
+of those who use their facilities and access their materials.</p>
 </blockquote>
 <p>This is mostly true but not entirely so.
 When I was an undergraduate in the early 1990s, I remember going to the library to look for books on a sensitive topic.
@@ -3775,19 +3899,24 @@ I noticed that a friend had checked the book out before me because their name wa
 Even though I had grown up with these due date cards in library books, the privacy issues with these cards had never occurred to me.
 At the time, I decided not to check out that book because of that issue.</p>
 <p>We might be comforted in thinking that the kind of information that was supposedly revealed to me in that book would not scale up easily.
-It was a serendipitous event that involved me looking for a book on the same topic and then just happening to pick the one book that my friend had used.
-It's not likely, then, that this might pose a big problem at scale.</p>
-<p>However, let's think of that information in that due date card as <a href="https://en.wikipedia.org/wiki/Metadata">metadata</a> (data about data), and then ask, how could we use it?
+It was a serendipitous event that involved me looking for a book on the same topic and
+then just happening to pick the one book that my friend had used.</p>
+<p>However, let's think of that information in that due date card as <a href="https://en.wikipedia.org/wiki/Metadata">metadata</a> (data about data), and
+then ask, how could we use it?
 The sociologist Kieren Healy did that kind of thing with membership lists from colonial times.
 He showed that using limited data like the one I found in that book, some important things could be discovered.
 For example, <a href="https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/">Healy</a> imagined that if the British had access to simple <a href="https://en.wikipedia.org/wiki/Social_network_analysis">social network analysis (SNA)</a> methods in 1772,
-they could have identified that Paul Revere was a patriot and then have used that information to prevent or interfere with the American Revolution.
+they could have identified that Paul Revere was a patriot and then have used that information to
+prevent or interfere with the American Revolution.
 I encourage you to read his blog entry and his <a href="https://kieranhealy.org/blog/archives/2013/06/11/following-up-on-paul-revere/">follow-up reflection</a> because it is a neat <em>what-if</em> hypothetical case study.</p>
 <h2 id="modern-privacy-concerns"><a class="header" href="#modern-privacy-concerns">Modern Privacy Concerns</a></h2>
-<p>Most libraries in North America have removed due date slips, of course, and while this has removed the problem above,
-the overall migration from paper-based workflows to electronic ones have raised other problems.
-For example, in the early 2000s, not long after the Patriot Act was passed after 9/11,
-FBI agents ordered Connecticut librarians to <a href="https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html">"identify patrons who had used library computers online at a specific time one year earlier"</a>.
+<p>The privacy leak in a due date card feels small and local, but
+the shift to electronic systems radically changed the scale and stakes of privacy failures.
+This transformation is what made post-9/11 government surveillance unsettling for libraries because
+the systems built to improve service now made it easier for outside entities to seek, collect, or demand patron data.</p>
+<p>For example, in the early 2000s, not long after the Patriot Act was passed after 9/11,
+FBI agents ordered Connecticut librarians to
+<a href="https://www.courant.com/opinion/op-ed/hc-op-librarians-stand-up-to-patriot-act-again-20160927-story.html">"identify patrons who had used library computers online at a specific time one year earlier"</a>.
 Per the law, the librarians involved were placed under a gag order, which prevented them from speaking out.
 This led to a lawsuit against the US Attorney General.
 Eventually the librarians were released from their gag order and allowed to discuss the event.
@@ -3796,44 +3925,47 @@ to receive emails of works their children borrow from libraries.
 And it's not all digital.
 New <a href="https://www.theatlantic.com/magazine/archive/2024/11/texas-red-state-surveillance-book-bans-abortion/679950/?utm_source=chatgpt.com">"Snitch State" tactics</a> have motivated some librarians to remove books from their shelves.
 Surveillance comes in all shapes.</p>
-<h2 id="technical-aspects-of-privacy"><a class="header" href="#technical-aspects-of-privacy">Technical Aspects of Privacy</a></h2>
+<h2 id="technical-aspects-of-privacy-and-vendor-issues"><a class="header" href="#technical-aspects-of-privacy-and-vendor-issues">Technical Aspects of Privacy and Vendor Issues</a></h2>
 <p>Privacy and security issues can present as more mundane but still be important.
-Since users of libraries of all types visit library homepages, then encrypting web and internet traffic is important.
-For example, the <a href="https://www.zdnet.com/article/browsers-to-block-access-to-https-sites-using-tls-1-0-and-1-1-starting-this-month/">major web browsers announced</a> that they would no longer support Transport Layer Security (TLS) protocol versions 1.1 or earlier
-and any site that had not yet migrated to TLS version 1.2 or above would be inaccessible.</p>
+Since users of libraries of all types visit library homepages, then encrypting web and internet traffic is important.</p>
 <p>TLS is used to encrypt web traffic and can be verified via the <code>https</code> protocol in a URL and the lock icon in your browser's URL bar.
-It is a cryptographic protocol designed to provide secure communication over the internet.
-Using TLS cryptography means encrypting data transmitted between a user's browser and a website.
-This ensures that sensitive information such as login credentials and payment details remain private and protected from eavesdropping or tampering.
-TLS replaces the older Secure Sockets Layer (SSL) protocol but itself must be continually updated as anti-security technology becomes more advanced.</p>
-<p>This news from the web browser companies was released in early March 2020, just before the pandemic.
-The browser vendors thus postponed blocking poorly encrypted websites.
-Still, it took time for some websites to begin using the new version of TLS and some websites,
-including library home pages, were inaccessible via some web browsers for a while even with the advanced notice.</p>
-<h2 id="vendor-issues"><a class="header" href="#vendor-issues">Vendor Issues</a></h2>
-<p>Breeding (2016) introduces a variety of technologies and policies that are related to security and privacy.
-These encompass important technological considerations, like web traffic encryption.
-There are also important policy considerations, too, like how third party vendors, like Primo etc., implement privacy and security mechanisms.
-<a href="https://www.inthelibrarywiththeleadpipe.org/2021/ethical-financial-stewardship/">DiVittorio and Gianelli (2021)</a> discuss the issue of privacy and security issues with third party vendors.
+It is a cryptographic protocol designed to provide secure communication over the internet, and
+it ensures that sensitive information such as login credentials and
+browsing details remain private and protected from eavesdropping or tampering.</p>
+<p>Encrypting connections to library web pages is something that librarians can control, but
+encryption cannot safeguard patron data once it travels beyond a library's servers
+(e.g., when using a discovery layer).
+This is where privacy becomes a vendor issue as much as a technical one.
+That is, even if the main pages of a library website are secured,
+many e-resource platforms, discovery tools, and other vendor supplied products operate outside that infrastructure
+(i.e., in the so-called cloud).
+The problem is that vendors operate under different business models and
+these models may not share librarians' commitments to minimizing data collection.
+In these cases, security and privacy are determined not only by local configuration but
+by the values and practices of third-party companies.</p>
+<p>It would behoove us to discuss such things in licensing negotiations.
+In fact, <a href="https://www.inthelibrarywiththeleadpipe.org/2021/ethical-financial-stewardship/">DiVittorio and Gianelli (2021)</a> discuss the issue of privacy and security issues with third party vendors.
 Overall, their findings highlight the lack of alignment between the values of librarians and the profit-based motives of vendors.
 It's important to note how unresponsive vendors were to their requests to participate in data collection.
 Remember that <a href="https://www.niso.org/publications/rp-7-2012-seru">SERU</a> has a section in its recommended practice dedicated to Confidentiality and Privacy.
 In case you work at a library that does not use SERU, this is how SERU can be useful to you.
 It can inform about the kinds of provisions that a library ought to have in a license if the default provisions a vendor proposes
 do not include the necessary components.</p>
+<h2 id="analytics"><a class="header" href="#analytics">Analytics</a></h2>
 <p>There are pros and cons with intentionally choosing services that make library usage less private.
 For example, a number of library sites use <a href="https://marketingplatform.google.com/about/analytics/">Google Analytics</a> to track site usage and other metrics.
 Google Analytics specifically track how users interact on web pages.
 It collects page views, session duration, traffic sources (where users are coming from when they first come to your site),
 click and user flows, geolocation and device information, and more.
-The data helps website owners, including library website owners, to understand usage patterns,
-such as which pages are most popular, how long users stay on the site or page, which website features are most useful or problematic, and so on.</p>
+The data helps website owners, including library websites, to understand usage patterns,
+such as which pages are most popular, how long users stay on the site or page,
+which website features are most useful or problematic, and so on.</p>
 <p>Understanding how patrons use library websites is important, but this means that our actions, albeit somewhat anonymized,
 on these library sites are being collected and stored by Google (or some other analytic service).
 Anonymization generally means that identifiable personal information is stripped from data.
 The data that Google collects is technically pseudonymized.
 This means that although the identifiers that Google (or some other analytics company) uses are not immediately traceable,
-and individual's identity could be linked back if certain data points were combined, such as in the Paul Revere case.
+an individual's identity could be linked back if certain data points were combined, such as in the Paul Revere case.
 Unlike in the late 1700s, today we have much more advanced methods, data sources, and computation to make that happen.
 This means that we really should have to trust these sites with that information.
 Still, the fact that libraries use these services raises some ethical questions.
@@ -3853,15 +3985,29 @@ Here's where a privacy policy might come into play.
 And technical solutions are game, too.
 Some analytics software, such as <a href="https://matomo.org/">Matomo</a> or <a href="https://plausible.io/">Plausible</a>, were designed to be privacy-friendly.
 (Note, though, that I have not personally vetted or used either of these products.)</p>
+<p>In the end, the question is not whether we collect data, but what forms of surveillance are we willing to participate in?
+Even well intended choices, such as using analytic products or third-party fonts,
+that help librarians build better websites and offer better services,
+and entangle libraries in broader data ecosystems that are beyond their control.
+This is why ethical considerations must guide technical decisions.</p>
 <h2 id="conclusion-12"><a class="header" href="#conclusion-12">Conclusion</a></h2>
-<p>Like all things I've covered in this work, the move to electronic resources has disrupted how we think about
-and handle the privacy and security of our patrons.
-The DiVittorio and Gianelli (2021) article highlights how more than ever much of what we might like to protect and keep secure is out of librarians' control,
-and that this has potential ramifications for our communities, and especially, for our marginalized and unprotected ones.</p>
-<p>When you become librarians, it's important to think about the usability of your services,
-but it's also important to think about your patrons' privacy.
-Be <strong>proactive</strong> in searching for technical solutions, in developing privacy policies, and in negotiating with vendors
-to ensure that your patrons' privacy is safeguarded.</p>
+<p>The shift from print to digital resources has not only transformed workflows,
+it has also altered the moral terrain of librarianship.
+Patron data that was once scattered, ephemeral, or difficult to aggregate can now be stored, linked, traded, and
+analyzed by systems outside the libraries jurisdiction.
+As DeVittorio and Gianelli (2021) show, librarians increasingly operated within infrastructures built by
+companies whose incentives may run counter to the profession's privacy commitments.
+This tension cannot be resolved by technology alone.</p>
+<p>Protecting patron privacy requires deliberate, <strong>proactive</strong> decision-making.
+It requires negotiating contracts, limiting data collection (and not keeping it), configuring systems securely,
+and insisting that vendors meet higher ethical standards.
+It also requires imagining the lived experience of patrons who,
+because of their immigration status, health, political identity, or family situation,
+face real consequences when their reading behavior is exposed.</p>
+<p>As librarians and information professionals, your task is to ensure access and
+to safeguard the conditions that allow intellectual freedom to flourish.
+Privacy is not a secondary concern or an optional feature.
+Rather, it is a technical responsibility, a moral obligation, and it is a foundational trust that makes library use possible.</p>
 <h2 id="readings--references-13"><a class="header" href="#readings--references-13">Readings / References</a></h2>
 <p>Breeding, M. (2016).
 Chapter 1. Issues and technologies related to privacy and security.

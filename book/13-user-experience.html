@@ -182,18 +182,38 @@
 <p>By the end of this section, you will understand that:</p>
 <ol>
 <li><strong>User Experience (UX) is Multi-Dimensional</strong>: UX encompasses parameters like actors, objects, contexts, and interfaces. Understanding these parameters helps in evaluating how effectively users interact with library systems.</li>
-<li><strong>Importance of Gathering Data from Diverse Users</strong>: UX research must include diverse patron feedback&amp;emdashfrom students to faculty, and from users with disabilities&amp;emdash;ensuring that the user experience is inclusive and addresses the needs of all patrons.</li>
+<li><strong>Importance of Gathering Data from Diverse Users</strong>: UX research must include diverse patron feedback, from students to faculty, and from users with disabilities&amp;emdash;ensuring that the user experience is inclusive and addresses the needs of all patrons.</li>
 <li><strong>User Research Methods Enrich UX Understanding</strong>: Incorporating user research methods, such as card sorting and think-aloud protocols, adds depth to understanding user needs and behaviors. These methods help librarians develop a more user-centered approach to system design and evaluation.</li>
 <li><strong>There are Different Types of Data to Inform UX</strong>: Libraries can use both <em>usage data</em> (how users interact with a system) and <em>breakage data</em> (issues or obstacles users face) to inform decisions. Using both data types provides a fuller picture of system performance and user challenges.</li>
 <li><strong>System Complexity Affects UX</strong>: As librarians gain expertise with systems, they may lose sight of novice user challenges. Regular UX studies can help bridge the gap between librarian expertise and novice needs, ensuring the library systems are accessible and usable for everyone.</li>
 <li><strong>Actionable User-Centered Design Principles</strong>: Strategies such as chunking, highlighting important elements, simplifying choices, and managing complexity can make user interfaces more intuitive, reducing user anxiety and improving overall usability.</li>
 </ol>
 <h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
-<p>What is user experience? <a href="https://doi.org/10.4018/978-1-5225-2255-3.ch661">Dickson-Deane and Chen (2018)</a> write that
-"user experience determines the quality of an interaction being used by an actor in order to achieve a specific outcome" (Intro section, para 1).
+<p>Electronic resource management sits at an awkward intersection of systems, vendors, metadata pipelines,
+licensing restrictions, and local infrastructure.
+Because of this, small design decisions on our websites can shift the emotional experience of using library resources and
+also the success of using them, which is to acquire documents of some sort.
+User experience (UX) is thus not only a matter of aesthetics or interface polish.
+It is also a way to measure how well our systems support the people who rely on them to learn, research, and
+navigate complexity.</p>
+<p>When we approach ERM work through a UX lens, we begin to understand not only how systems behave, but
+how people <em>experience</em> them.
+Patrons do not see resolver logs or mismatched metadata, but
+they do see buttons that <strong>promise</strong> <em>Full Text Availability</em> that sometimes fail to provide that full text.</p>
+<p>What follows is an introduction to a set of parameters for understanding UX.
+This chapter examines how system complexity can shape patron encounters and outlines research methods and data sources
+that librarians can use to evaluate and improve their experiences.
+The goal is not to turn every librarian into a UX specialist, but it is to encourage a mindset that
+keeps us attentive to the perspectives of novice users and
+on the structural points where their experience drifts from those of us who are not novices.</p>
+<h2 id="ux-parameters"><a class="header" href="#ux-parameters">UX Parameters</a></h2>
+<p>What is user experience then?
+<a href="https://doi.org/10.4018/978-1-5225-2255-3.ch661">Dickson-Deane and Chen (2018)</a> write that
+<q>user experience determines the quality of an interaction being used by an actor
+in order to achieve a specific outcome</q> (Intro section, para 1).
 <a href="https://doi.org/10.4135/9781483386874.n229">Parush (2017)</a> highlights adjacent terms like <em>human-computer interaction (HCI)</em> and <em>usability</em>.
 Let's say then that HCI encompasses the entire domain of interaction between people and computers and
-how that interaction is designed and that <em>user experience (UX)</em> focuses on the quality of that interaction.
+how that interaction is designed, and that <em>user experience (UX)</em> focuses on the quality of that interaction.
 These are not precise definitions, and some people might use the terms <em>UX</em> and <em>HCI</em> interchangeably.
 However, as ERM librarians, the job is to focus on the quality of the patron's experience with electronic services.
 This entails understanding both the systems and technologies involved and the users interacting with them.</p>
@@ -225,14 +245,22 @@ Let me modify their example and frame it within the context of an ERM experience
 <li><strong>(Intended/Expected/Prior) User experience</strong>: The intended or expected use of the object. The user's expectations based on prior use.</li>
 <li><strong>(Actual) User experience</strong>: The actions that took place; the actions that had to be modified based on unintended results.</li>
 </ul>
-<p>These parameters would be helpful for devising a UX study that involves observing patrons interacting with
+<p>Taken together, these parameters give us a systematic way to think about how people
+actually encounter the systems librarians manage.
+For ERM librarians, this matters because many of our services are assembled from multiple vendor platforms
+that are stitched together by link resolvers, discovery layers, and authentication tools.
+Each layer introduces its own controls, displays, and dialogues, and
+the same seams between them are often where UX breaks down.
+Going forward, we can use these parameters not only to describe interactions, but
+to analyze the points where novice users may struggle, misinterpret feedback, or abandon the task entirely.</p>
+<p>Furthermore, these parameters would be helpful for devising a UX study that involves observing patrons interacting with
 a system and then interviewing them to complete the details.
 Note that the same kind of systematic thinking can be applied to evaluate other user experiences,
 like those between a librarian and an electronic resource management system.
 Often the focus is on patron user experience, but it's just as important to evaluate UX for librarians and
 to consider UX when selecting an ERM system or an ILS/LSP system.</p>
-<p>In any case, these parameters help us step through and highlight the complicated process of interacting with a computer, generally, or
-a library resource more specifically.
+<p>In any case, these parameters help us step through and highlight the complicated process of interacting with a computer,
+generally, or a library resource more specifically.
 As with other topics we've discussed in this book, we can incorporate these parameters into a workflow for evaluating UX.</p>
 <h2 id="complex-library-websites"><a class="header" href="#complex-library-websites">Complex Library Websites</a></h2>
 <p>It is as a result of the complexities involved and because of a focus on systems that <a href="https://doi.org/10.1080/00987913.2015.1069527">Pennington (2015)</a>
@@ -248,36 +276,60 @@ they may not retrieve the information they need; they may not reach out to a lib
 they may stop using the library's resources in preference for a resource of inferior quality.
 We need to remember that this happens, and if possible, to build in <em>proactive troubleshooting</em> processes
 that anticipate and solve them before they do happen to patrons.</p>
-<p>Here's the crux, though.
-As you gain more skill and expertise with these systems, you will eventually lose the ability to see these systems as a novice user, and
+<p>Let's make this concrete.
+Imagine a first year student search for a peer-reviewed journal article.
+This is a common assignment for students at universities.
+During their search, they click a "Full Text Available" link in the discovery layer, but
+then land on a publisher page that asks them to log in or purchase the article
+(this in fact happened to me on the day that I'm writing this).
+The student reasonably concludes that the library doesn't actually have access.
+A librarian, on the other hand, immediately recognizes that the OpenURL resolver sent the wrong metadata to the publisher,
+or that the publisher mis-tagged the article.
+The librarian knows to reload the link, try an alternative source, or check the title-level holdings.</p>
+<p>From the student's perspective, the system basically "lied" to them.
+From the librarian's perspective, the system mis-routed a metadata field.</p>
+<p>This difference in people's mental models is exactly why UX work is essential.
+Patrons do not come equipped with vendor knowledge, platform histories, or metadata troubleshooting techniques.
+They only see a promise of access followed by a dead end, and
+this emotional experience of frustration, confusing, or even embarrassment is as important as the technical cause.</p>
+<p>Thus lies the crux.
+As you gain more skill and expertise with these systems,
+you will eventually lose the ability to see these systems as a novice user, and
 that distance will only grow over time.
 To mitigate this, it is essential to actively gather data from a diverse range of users (Pennington, 2015).
-For example, gathering data from different user demographics, such as students versus faculty, users with disabilities, or children versus teens,
+For example, gathering data from different user demographics,
+such as students versus faculty, users with disabilities, or children versus teens,
 can reveal varying UX challenges that are often overlooked by experienced librarians.
 UX research that includes diverse patron feedback ensures that the needs of all user groups are taken into account.
 In short, user experience research nurtures a user centered mindset.</p>
-<p>Indeed, <a href="https://doi.org/10.1016/j.acalib.2022.102541">Kraft et al. (2022)</a> used focus groups and surveys to collect user experience data on a library's
-implementation of its A-Z Database List.
-As the authors point out, librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
+<p>Indeed, <a href="https://doi.org/10.1016/j.acalib.2022.102541">Kraft et al. (2022)</a> used focus groups and surveys to
+collect user experience data on a library's implementation of its A-Z Database List.
+As the authors point out,
+librarians have long made efforts to reduce the use of library terminology in their messaging to patrons
 since this only serves as a point of confusion.
 However, their focus group participants described contrasting opinions about how color was used on the site, and
 how color was used had some dramatic, surprising effects on which sources were selected to pursue.
-The study highlights that when gathering user feedback, it is important to consider a variety of user research methods to get a fuller picture.
+The study highlights that when gathering user feedback,
+it is important to consider a variety of user research methods to get a fuller picture.
 We can even add additional methods, such as <a href="https://www.nngroup.com/articles/card-sorting-definition/">card sorting</a>
 (for understanding how users group and label information) and
 <a href="https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/">think-aloud protocols</a>
 (where users verbalize their thoughts while using a system).
 These methods provide additional insights that can complement focus groups and surveys.
-All methods have their strengths and weaknesses, but selecting the appropriate approach based on research goals is key to effective UX evaluation.</p>
+All methods have their strengths and weaknesses, but
+selecting the appropriate approach based on research goals is key to effective UX evaluation.</p>
 <h2 id="the-data-that-exists"><a class="header" href="#the-data-that-exists">The Data That Exists</a></h2>
-<p>In addition to user studies that require conducting direct research and reading prior studies that require literature searches,
+<p>In addition to user studies that require conducting direct research and
+reading prior studies that require literature searches,
 we should also know that libraries already possess a wealth of data to explore, and this data could provide needed insight.
-Here, as we've learned before, workflows play an important role in applying mechanisms to track, report, and fix problems with
-electronic resource systems.
+Here, as we've learned before, workflows play an important role in applying mechanisms to track, report, and
+fix problems with electronic resource systems.
 <a href="https://doi.org/10.1080/1941126X.2015.999521">Browning (2015)</a>, for example, describes the use of <a href="https://www.bugzilla.org/">Bugzilla</a>.
-This is an application that's commonly used for software development for bug tracking and generating reports about broken code.
+This is an application that's commonly used for software development for bug tracking and
+generating reports about broken code.
 Once problems are identified, tools like Bugzilla can be used to categorize and to facilitate quick solutions.
-It's an interesting and novel adaptation of an application designed for a different purpose, but it highlights an important takeaway;
+It's an interesting and novel adaptation of an application designed for a different purpose, but
+it highlights an important takeaway;
 there are thus two key types of data that provide insights into UX: data about usage and data about breakage.
 Whereas usage data helps us understand how users interact with a system and what they do (<a href="https://doi.org/10.1080/00987913.2016.1140614">Fry, 2016</a>),
 breakage data focuses on identifying errors or issues that users encounter, as described by Browning (2015).
@@ -285,21 +337,48 @@ Both kinds of data are crucial and combining both perspectives offers a more com
 <h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
 <p>I agree with <a href="https://doi.org/10.1080/00987913.2016.1140614">McDonald (2016)</a> that despite having around 30 or so years of experience
 with web-based and other electronic resource types, we are still in the throes of disruption.
-There's much yet to learn about designing for the web, just like there's a lot left to learn about how designing physical spaces.
+There's much yet to learn about designing for the web,
+just like there's a lot left to learn about how designing physical spaces.
 Nothing will be settled for a while.
-Although I doubt if there will be any single dominate user experience or user interface, since there are many
-cultures, backgrounds, and aesthetics, I'm sure the low-hanging fruit problems will work out soon enough.
+Although I doubt if there will be any single dominate user experience or user interface,
+since there are many cultures, backgrounds, and aesthetics,
+I'm sure the low-hanging fruit problems will work out soon enough.
 Remember though that 95% of the cause of all of this complexity is due to copyright issues,
-which necessitate the entire electronic resource ecosystem and the complications that are introduced by working with vendors who work with different,
-but overlapping, publishers, etc.
+which necessitate the entire electronic resource ecosystem and
+the complications that are introduced by working with vendors who work with different, but overlapping, publishers, etc.
 If something major were to change about copyright, then it's a whole new ballgame.</p>
-<p>But in conclusion, when considering how UX research fits into library work, remember the importance of gathering data from users themselves:
+<p>But in conclusion, when considering how UX research fits into library work,
+remember the importance of gathering data from users themselves:
 data that reveals both what works well and what doesn't.
 In conducting UX work, refer also to the information-seeking literature when it's appropriate to do so.
 This literature will yield insights into the processes people use to use these systems.
-It's essential to reflect on user-centered design principles, such as <a href="https://www.nngroup.com/articles/chunking/">chunking</a>, <a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/">highlighting</a>,
-<a href="https://www.nngroup.com/articles/simplicity-vs-choice/">simplifying choices</a>, and <a href="https://www.nngroup.com/articles/complex-application-design-framework/">managing complexity</a>.
+It's essential to reflect on user-centered design principles,
+such as <a href="https://www.nngroup.com/articles/chunking/">chunking</a>, <a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/">highlighting</a>, <a href="https://www.nngroup.com/articles/simplicity-vs-choice/">simplifying choices</a>,
+and <a href="https://www.nngroup.com/articles/complex-application-design-framework/">managing complexity</a>.
 These are strategies that can help design user interfaces that are intuitive and accessible for all users.</p>
+<h2 id="action-list"><a class="header" href="#action-list">Action List</a></h2>
+<p>Below are some practical steps for applying a UX mindset in ERM work:</p>
+<ul>
+<li>Walk through a common patron task as a novice user.
+Use a guest account and try to access an article or troubleshoot a link without relying on your expertise.
+Note every point of friction.</li>
+<li>Run one quick test with a real user.
+Ask a student (of any age) or someone from the public (if at a public library) to perform a single task
+while thinking aloud.
+Even ten minutes with them may provide insight you wouldn't otherwise get.</li>
+<li>Document all breakage that you find.
+Put this in a spreadsheet and categorize the breakage.
+Patterns will eventually emerge with enough data (e.g., broken links, access failures, patron-reported errors),
+and you could use this to create simple workflows that foster proactive troubleshooting.</li>
+<li>Remove jargon where possible.
+Review public-facing pages for terminology that makes sense to librarians but not to patrons
+(this is also a chance to ask patrons about what the terminology they encounter).
+Replace, define, or eliminate that jargon.</li>
+<li>Consult a usability or information-seeking study at least a couple of times a year.
+If you keep up with the literature, it'll strengthen your intuition about UX patterns and issues.</li>
+<li>Share findings with colleagues.
+This can help to avoid repetition of the same mistakes and encourage a culture of user-center thinking.</li>
+</ul>
 <h2 id="readings--references"><a class="header" href="#readings--references">Readings / References</a></h2>
 <p>Browning, S. (2015).
 Data, data, everywhere, nor any time to think: DIY analysis of e-resource access problems.
