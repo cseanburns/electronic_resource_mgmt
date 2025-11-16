@@ -15,7 +15,8 @@ By the end of this section, you will be able to:
 
 [Breeding (2016)][breeding2016] begins with the following statement:
 
-> Libraries have a long tradition of taking extraordinary measures to ensure the privacy of those who use their facilities and access their materials.
+> Libraries have a long tradition of taking extraordinary measures to ensure the privacy
+> of those who use their facilities and access their materials.
 
 This is mostly true but not entirely so.
 When I was an undergraduate in the early 1990s, I remember going to the library to look for books on a sensitive topic.
@@ -25,22 +26,28 @@ Even though I had grown up with these due date cards in library books, the priva
 At the time, I decided not to check out that book because of that issue.
 
 We might be comforted in thinking that the kind of information that was supposedly revealed to me in that book would not scale up easily.
-It was a serendipitous event that involved me looking for a book on the same topic and then just happening to pick the one book that my friend had used.
-It's not likely, then, that this might pose a big problem at scale.
+It was a serendipitous event that involved me looking for a book on the same topic and
+then just happening to pick the one book that my friend had used.
 
-However, let's think of that information in that due date card as [metadata][metadata] (data about data), and then ask, how could we use it?
+However, let's think of that information in that due date card as [metadata][metadata] (data about data), and
+then ask, how could we use it?
 The sociologist Kieren Healy did that kind of thing with membership lists from colonial times.
 He showed that using limited data like the one I found in that book, some important things could be discovered.
 For example, [Healy][healy1] imagined that if the British had access to simple [social network analysis (SNA)][sna] methods in 1772,
-they could have identified that Paul Revere was a patriot and then have used that information to prevent or interfere with the American Revolution.
+they could have identified that Paul Revere was a patriot and then have used that information to
+prevent or interfere with the American Revolution.
 I encourage you to read his blog entry and his [follow-up reflection][healy2] because it is a neat *what-if* hypothetical case study.
 
 ## Modern Privacy Concerns
 
-Most libraries in North America have removed due date slips, of course, and while this has removed the problem above,
-the overall migration from paper-based workflows to electronic ones have raised other problems.
+The privacy leak in a due date card feels small and local, but
+the shift to electronic systems radically changed the scale and stakes of privacy failures.
+This transformation is what made post-9/11 government surveillance unsettling for libraries because
+the systems built to improve service now made it easier for outside entities to seek, collect, or demand patron data.
+
 For example, in the early 2000s, not long after the Patriot Act was passed after 9/11,
-FBI agents ordered Connecticut librarians to ["identify patrons who had used library computers online at a specific time one year earlier"][connfour].
+FBI agents ordered Connecticut librarians to
+["identify patrons who had used library computers online at a specific time one year earlier"][connfour].
 Per the law, the librarians involved were placed under a gag order, which prevented them from speaking out.
 This led to a lawsuit against the US Attorney General.
 Eventually the librarians were released from their gag order and allowed to discuss the event.
@@ -50,30 +57,30 @@ And it's not all digital.
 New ["Snitch State" tactics][snitch_state] have motivated some librarians to remove books from their shelves.
 Surveillance comes in all shapes.
 
-## Technical Aspects of Privacy
+## Technical Aspects of Privacy and Vendor Issues
 
 Privacy and security issues can present as more mundane but still be important.
 Since users of libraries of all types visit library homepages, then encrypting web and internet traffic is important.
-For example, the [major web browsers announced][tlsbrowsers] that they would no longer support Transport Layer Security (TLS) protocol versions 1.1 or earlier
-and any site that had not yet migrated to TLS version 1.2 or above would be inaccessible.
 
 TLS is used to encrypt web traffic and can be verified via the `https` protocol in a URL and the lock icon in your browser's URL bar.
-It is a cryptographic protocol designed to provide secure communication over the internet.
-Using TLS cryptography means encrypting data transmitted between a user's browser and a website.
-This ensures that sensitive information such as login credentials and payment details remain private and protected from eavesdropping or tampering.
-TLS replaces the older Secure Sockets Layer (SSL) protocol but itself must be continually updated as anti-security technology becomes more advanced.
+It is a cryptographic protocol designed to provide secure communication over the internet, and
+it ensures that sensitive information such as login credentials and
+browsing details remain private and protected from eavesdropping or tampering.
 
-This news from the web browser companies was released in early March 2020, just before the pandemic.
-The browser vendors thus postponed blocking poorly encrypted websites.
-Still, it took time for some websites to begin using the new version of TLS and some websites,
-including library home pages, were inaccessible via some web browsers for a while even with the advanced notice.
+Encrypting connections to library web pages is something that librarians can control, but
+encryption cannot safeguard patron data once it travels beyond a library's servers
+(e.g., when using a discovery layer).
+This is where privacy becomes a vendor issue as much as a technical one.
+That is, even if the main pages of a library website are secured,
+many e-resource platforms, discovery tools, and other vendor supplied products operate outside that infrastructure
+(i.e., in the so-called cloud).
+The problem is that vendors operate under different business models and
+these models may not share librarians' commitments to minimizing data collection.
+In these cases, security and privacy are determined not only by local configuration but
+by the values and practices of third-party companies.
 
-## Vendor Issues
-
-Breeding (2016) introduces a variety of technologies and policies that are related to security and privacy.
-These encompass important technological considerations, like web traffic encryption.
-There are also important policy considerations, too, like how third party vendors, like Primo etc., implement privacy and security mechanisms.
-[DiVittorio and Gianelli (2021)][divittorio2021] discuss the issue of privacy and security issues with third party vendors.
+It would behoove us to discuss such things in licensing negotiations.
+In fact, [DiVittorio and Gianelli (2021)][divittorio2021] discuss the issue of privacy and security issues with third party vendors.
 Overall, their findings highlight the lack of alignment between the values of librarians and the profit-based motives of vendors.
 It's important to note how unresponsive vendors were to their requests to participate in data collection.
 Remember that [SERU][serurp] has a section in its recommended practice dedicated to Confidentiality and Privacy.
@@ -81,20 +88,23 @@ In case you work at a library that does not use SERU, this is how SERU can be us
 It can inform about the kinds of provisions that a library ought to have in a license if the default provisions a vendor proposes
 do not include the necessary components.
 
+## Analytics
+
 There are pros and cons with intentionally choosing services that make library usage less private.
 For example, a number of library sites use [Google Analytics][google_analytics] to track site usage and other metrics.
 Google Analytics specifically track how users interact on web pages.
 It collects page views, session duration, traffic sources (where users are coming from when they first come to your site),
 click and user flows, geolocation and device information, and more.
-The data helps website owners, including library website owners, to understand usage patterns,
-such as which pages are most popular, how long users stay on the site or page, which website features are most useful or problematic, and so on.
+The data helps website owners, including library websites, to understand usage patterns,
+such as which pages are most popular, how long users stay on the site or page,
+which website features are most useful or problematic, and so on.
 
 Understanding how patrons use library websites is important, but this means that our actions, albeit somewhat anonymized,
 on these library sites are being collected and stored by Google (or some other analytic service).
 Anonymization generally means that identifiable personal information is stripped from data.
 The data that Google collects is technically pseudonymized.
 This means that although the identifiers that Google (or some other analytics company) uses are not immediately traceable,
-and individual's identity could be linked back if certain data points were combined, such as in the Paul Revere case.
+an individual's identity could be linked back if certain data points were combined, such as in the Paul Revere case.
 Unlike in the late 1700s, today we have much more advanced methods, data sources, and computation to make that happen.
 This means that we really should have to trust these sites with that information.
 Still, the fact that libraries use these services raises some ethical questions.
@@ -117,17 +127,33 @@ And technical solutions are game, too.
 Some analytics software, such as [Matomo][matomo] or [Plausible][plausible], were designed to be privacy-friendly.
 (Note, though, that I have not personally vetted or used either of these products.)
 
+In the end, the question is not whether we collect data, but what forms of surveillance are we willing to participate in?
+Even well intended choices, such as using analytic products or third-party fonts,
+that help librarians build better websites and offer better services,
+and entangle libraries in broader data ecosystems that are beyond their control.
+This is why ethical considerations must guide technical decisions.
+
 ## Conclusion
 
-Like all things I've covered in this work, the move to electronic resources has disrupted how we think about
-and handle the privacy and security of our patrons.
-The DiVittorio and Gianelli (2021) article highlights how more than ever much of what we might like to protect and keep secure is out of librarians' control,
-and that this has potential ramifications for our communities, and especially, for our marginalized and unprotected ones.
+The shift from print to digital resources has not only transformed workflows,
+it has also altered the moral terrain of librarianship.
+Patron data that was once scattered, ephemeral, or difficult to aggregate can now be stored, linked, traded, and
+analyzed by systems outside the libraries jurisdiction.
+As DeVittorio and Gianelli (2021) show, librarians increasingly operated within infrastructures built by
+companies whose incentives may run counter to the profession's privacy commitments.
+This tension cannot be resolved by technology alone.
 
-When you become librarians, it's important to think about the usability of your services,
-but it's also important to think about your patrons' privacy.
-Be **proactive** in searching for technical solutions, in developing privacy policies, and in negotiating with vendors
-to ensure that your patrons' privacy is safeguarded.
+Protecting patron privacy requires deliberate, **proactive** decision-making.
+It requires negotiating contracts, limiting data collection (and not keeping it), configuring systems securely,
+and insisting that vendors meet higher ethical standards.
+It also requires imagining the lived experience of patrons who,
+because of their immigration status, health, political identity, or family situation,
+face real consequences when their reading behavior is exposed.
+
+As librarians and information professionals, your task is to ensure access and
+to safeguard the conditions that allow intellectual freedom to flourish.
+Privacy is not a secondary concern or an optional feature.
+Rather, it is a technical responsibility, a moral obligation, and it is a foundational trust that makes library use possible.
 
 ## Readings / References
 
