@@ -116,7 +116,7 @@ From the librarian's perspective, the system mis-routed a metadata field.
 This difference in people's mental models is exactly why UX work is essential.
 Patrons do not come equipped with vendor knowledge, platform histories, or metadata troubleshooting techniques.
 They only see a promise of access followed by a dead end, and
-this emotional experience of frustration, confusing, or even embarrassment is as important as the technical cause.
+this emotional experience of frustration, confusion, or even embarrassment is as important as the technical cause.
 
 Thus lies the crux.
 As you gain more skill and expertise with these systems,

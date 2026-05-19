@@ -25,8 +25,8 @@ For example, consider the following scenario:
 a user clicks the link, a server logs the event, and then a librarian (or a vendor) counts the numbers (i.e., clicks).
 However, usage is a conceptually difficult area of ERM work.
 Although logs record activity, activity is not the same as intent, engagement, or value.
-Plus, vendors will want define usage differently than librarians, and librarians must make decisions
-and perhaps negotiate with vendors, about what defines usage.
+Plus, vendors will want to define usage differently than librarians, and librarians must make decisions
+and perhaps negotiate with vendors about what defines usage.
 
 The complexity is a result of the infrastructure used to provide e-resources.
 We have platforms, authentication systems, link resolvers, and more.
@@ -57,7 +57,7 @@ For example, the log snippet above indicates that I visited a page named *index.
 does that mean that I really **used** that website even though I accessed it?
 Even if we can claim that I did, what kind of use was it?
 Can we tell from that log entry?
-If we could, how much should would it cost?
+If we could, how much should it cost?
 In short, log data like this can't really capture the user's *intent*.
 
 > Note that we can learn a lot from web server access logs, and there is software, like Google Analytics,
@@ -76,7 +76,7 @@ In the access logs, this appears like so:
 
 According to the logs, therefore, this looks like heavy usage.
 However for the student, it was a total access failure.
-Logs thus count actions and not necessarily success, and it's important to understand this because these resources cost.
+Logs thus count actions and not necessarily success, and it's important to understand this because these resources cost money.
 
 ## Project Counter
 
@@ -95,7 +95,7 @@ From [Project Counter][projcounter]:
 > content providers MUST provide usage statistics that conform to the current Code of Practice.
 
 This code of practice was designed to solve a problem that will likely never be solved altogether, but
-it's still helps to make usage meaningful across platforms.
+it still helps to make usage meaningful across platforms.
 
 The main goal of Project Counter is to provide usage reports that standardize what is counted and how it is counted.
 The reports, for Counter release 5, cover four major types:
@@ -127,8 +127,8 @@ The Title and Item Reports offer granular data.
 These reports detail the usage of specific journals, articles, or chapters.
 Such reports support detailed collection analysis and decision-making for renewals or cancellations.
 
-The transition from COUNTER 5 to 5.1 introduces improvements to the clarity and consistency of these metrics.
-Per the COUNTER website, it addresses ambiguities that might have led to misinterpretations in previous versions.
+The transition from COUNTER 5 to 5.1 introduced improvements to the clarity and consistency of these metrics.
+Per the COUNTER website, it addressed ambiguities that might have led to misinterpretations in previous versions.
 By emphasizing transparency and accuracy,
 COUNTER 5.1 aims to make usage statistics more actionable for libraries and content providers.
 This provides justification of resource investment and can help improve the user experience.
@@ -136,8 +136,9 @@ This provides justification of resource investment and can help improve the user
 [Scott (2016)][scott2016] illustrates a nice use case for how Counter reports can inform collection development.
 We've addressed the *Big Deal* packages that more libraries are trying to move away from
 because such deals often include access to titles that are not used or not relevant to a library community.
-Here Scott shows that it might be possible to avoid subscribing to some services using this data,
-but it's also important to closely read through and understand the problems associated with interlibrary loan, the metrics,
+Here Scott shows that it might be possible to avoid subscribing to some services using this data.
+But before giving up on these deals,
+it's important to closely read through and understand the problems associated with interlibrary loan, the metrics,
 and other limitations described in the Conclusion section of this article.
 
 ## The Value of Metrics
