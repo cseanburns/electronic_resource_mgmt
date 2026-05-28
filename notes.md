@@ -21,6 +21,7 @@
 1. UPDATE SERU etc chapter to discuss (lack of) adoption but use as a framework
 1. Add info about AI ILS: StartupHub.ai. (2026, May 12). Claude’s Corner: Librar Labs &mdash; The AI Librarian That’s Really a Data-Catalog Trojan Horse. https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-librar-labs-yc-w2026
 1. Add public library article: Keathley, E. F., & Galipeau, S. (2026). Task Intensive Virtual Circulation Management to Meet Rising Patron Demand: Analyzing eBook and eAudiobook Acquisition Workflows in Fulton County Libraries. Georgia Library Quarterly, 63(1), 12–26. https://doi.org/10.62915/2157-0396.2867
+1. Add public library perceptions report: https://librarytechnology.org/PerceptionsReport
 
 # Journals
 
