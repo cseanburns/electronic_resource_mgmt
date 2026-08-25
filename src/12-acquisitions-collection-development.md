@@ -109,9 +109,11 @@ While OER initiatives are often pushed to faculty as alternatives to proprietary
 we should ask whether librarians should play a more direct role in acquiring these resources.
 For example, should librarians catalog OER items and add them to library catalogs or discovery systems,
 thereby promoting OER at a broader level (see [Hill & Bossaller, 2012][hill2013] for a comparable discussion)?
-Traditionally, libraries, public or academic, have not collected textbooks.
+Traditionally, libraries, public or academic, have not collected textbooks, OER or otherwise.
 Should they start now?
 Would this transform their mission, or could it enhance their role as educational institutions?
+[Scott & Scott][scott2025] respond to this question about collecting textbooks.
+They document the complicated work flows and strategic initiatives involved in developing textbook collections.
 
 > Aside: If interested in following developments in open educational resources,
 > then I highly recommend subscribing to the [SPARC Open Education Forum email list][sparcOER].
@@ -178,6 +180,11 @@ Public library use of free e-resources.
 *Journal of Librarianship and Information Science, 45*(2), 103–112.
 [https://doi.org/10.1177/0961000611435253][hill2013]
 
+Scott, M., & Scott, R. (2025).
+A comprehensive study of library-led textbook affordability initiatives in the united states.
+*Portal: Libraries and the Academy, 25*(3), 471–507.
+[https://muse.jhu.edu/pub/1/article/964601][scott2025]
+
 [collegeboard]:https://research.collegeboard.org/media/pdf/trends-in-college-pricing-student-aid-2022.pdf
 [england2017]:https://doi.org/10.1080/1941126X.2017.1304767
 [erpolicy]:https://library.louisiana.edu/about-us/policies-procedures/e-resources-serials-management
@@ -189,13 +196,14 @@ Public library use of free e-resources.
 [libretexts]:https://libretexts.org/
 [martin2009]:https://doi.org/10.1080/19411260903466269
 [miro2021]:https://miro.com/blog/organizational-chart/
+[oer]:https://libraries.uky.edu/teaching-support/affordable-course-content
 [oer2]:https://www.oercommons.org/
-[oer]:https://www.uky.edu/copyright/facultyresources/openeducationalresources
-[oerlibguide]:https://libguides.uky.edu/c.php?g=222941&p=6722485
+[oerlibguide]:https://libguides.uky.edu/oer
 [openstax]:https://openstax.org/
 [organimi2020]:https://www.organimi.com/the-evolution-of-org-charts/
 [org-wikipedia]:https://en.wikipedia.org/wiki/Organizational_chart
 [pingboard]:https://pingboard.com/org-charts/evolution-org-charts
+[scott2025]:https://muse.jhu.edu/pub/1/article/964601
 [sparcOER]:https://sparcopen.org/our-work/sparc-oe-forum/
 [speccoll]:http://libraries.uky.edu/SC
 [statistica]:https://www.statista.com/statistics/741558/us-public-school-textbook-expenditure/
