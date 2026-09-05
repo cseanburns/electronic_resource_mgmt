@@ -12,21 +12,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -36,10 +35,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-c72f186f.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-422e02b8.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -53,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -82,12 +81,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -102,39 +101,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -142,63 +141,63 @@
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
                         <a href="https://github.com/cseanburns/electronic_resource_mgmt" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-github"></i>
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="market-and-economics"><a class="header" href="#market-and-economics">Market and Economics</a></h1>
 <p>By the end of this section, you will understand:</p>
 <ol>
 <li>How <strong>copyright laws create monopolies</strong> on intellectual property and the implications of these monopolies for library budgets, particularly regarding electronic resources.</li>
 <li>The limitations of the <strong>First Sale Doctrine</strong> for digital content and why it does not provide the same lending rights for ebooks as it does for physical books.</li>
-<li>How <strong>digital rights management (DRM)</strong> and proprietary file formats impact libraries' access to ebooks and ejournals, often leading to rental or licensing agreements rather than outright ownership.</li>
+<li>How <strong>digital rights management (DRM)</strong> and proprietary file formats impact libraries’ access to ebooks and ejournals, often leading to rental or licensing agreements rather than outright ownership.</li>
 <li>The effects of rising costs in <strong>academic journal subscriptions</strong> on library budgets and how citation-based metrics influence purchasing decisions for journal collections.</li>
 <li>The <strong>financial challenges</strong> associated with Gold Open Access (OA) publishing, including the rising costs of article processing charges (APCs) and their impact on research funding.</li>
 <li>The <strong>legal challenges</strong> facing digital lending models, as exemplified by the case against the Internet Archive, and how these challenges might shape the future of library collections.</li>
 <li>The potential implications of the <strong>2022 OSTP public access mandate</strong> for the accessibility of federally funded research and how it may affect both Gold OA and Green OA models.</li>
-<li>How <strong>technological and legal constraints</strong> on digital resources can limit libraries' abilities to provide access, forcing them to make difficult choices regarding the scope of their collections and their budget allocations.</li>
+<li>How <strong>technological and legal constraints</strong> on digital resources can limit libraries’ abilities to provide access, forcing them to make difficult choices regarding the scope of their collections and their budget allocations.</li>
 </ol>
 <h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
-<p>I think it's fair to claim that current copyright laws heavily influence the price of electronic resources.
+<p>I think it’s fair to claim that current copyright laws heavily influence the price of electronic resources.
 In this section, we cover the basics of copyright, how copyright creates monopolies, and
 how those monopolies, in the digital era,
 are able to demand substantial sums of money for electronic resources.
-Finally, we'll explore how this impacts library budgets.</p>
-<p>First we'll lay the foundation on a discussion of copyright.
+Finally, we’ll explore how this impacts library budgets.</p>
+<p>First we’ll lay the foundation on a discussion of copyright.
 I show how digital works have disrupted some basic ways that libraries function.
-Then I'll discuss how copyright law complicates e-resource collections and costs.</p>
+Then I’ll discuss how copyright law complicates e-resource collections and costs.</p>
 <h3 id="copyright"><a class="header" href="#copyright">Copyright</a></h3>
 <p>Copyright law grants a monopoly to the person or corporate owner of an intellectual property.
 That is, copyright owners have exclusive rights over the material that they own, where the owners may be a person or an organizational entity.
@@ -230,7 +229,7 @@ would not entail a transfer of ownership of that physical copy.
 That is, it would not allow the buyer of the physical item any distribution rights of the item
 once the first exchange has been made.
 Under such a scenario, libraries would be able to buy physical books but would not be able to lend them.</p>
-<p>To address this, the <a href="http://www.copyright.gov/title17/92chap1.html#109">First Sale Doctrine</a> (also see the <a href="https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine">Justice Department's explanation</a>)
+<p>To address this, the <a href="http://www.copyright.gov/title17/92chap1.html#109">First Sale Doctrine</a> (also see the <a href="https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine">Justice Department’s explanation</a>)
 places a limitation on the list of exclusive rights listed in Section 106.
 The first sale doctrine, <a href="https://en.wikipedia.org/wiki/Bobbs-Merrill_Co._v._Straus">made precedent in the early 20th century</a> and
 then <a href="https://www.copyright.gov/title17/">codified into law in 1976</a>, allows you, I, or
@@ -241,8 +240,8 @@ but it does allow anyone to distribute the singular, physical representation or 
 they have purchased.
 The first sale doctrine is why libraries were able to thrive throughout the 20th century,
 lend material, and preserve it.
-More mundanely, it's also why I can buy a book at a bookstore and later give the book away or
-sell it to someone when I'm done with it (same applies with other physical formats, like CDs, DVDs, LPs, and more).</p>
+More mundanely, it’s also why I can buy a book at a bookstore and later give the book away or
+sell it to someone when I’m done with it (same applies with other physical formats, like CDs, DVDs, LPs, and more).</p>
 <p>The digital medium makes things messier, as it tends to do.
 There are two big reasons for this.
 First, digital works are not subject to the same distribution constraints as physical works are,
@@ -285,7 +284,7 @@ you may remember the headaches caused with files created as <strong>.doc</strong
 These files would later fail to display properly in future Microsoft Word versions or
 in some other word document software or on other operating systems.
 WordPerfect 5.1 was a popular word processing applications in the 1990s, and
-it's not clear if files created with that application,
+it’s not clear if files created with that application,
 or other popular word processing applications at that time, would open today,
 <a href="http://www.columbia.edu/~em36/wpdos/wptoword.html">at least without intervention</a>.
 In short, these complexities introduce obstacles to the first sale doctrine and raise other copyright issues
@@ -302,11 +301,11 @@ In the early days of the pandemic, the Internet Archive lent books through <a hr
 The IA only lent these books if a library owned a physical copy and
 they limited lending to the amount of physical copies owned.
 This is called <a href="https://en.wikipedia.org/wiki/Controlled_digital_lending">Controlled Digital Lending (CDL)</a>, which is meant to follow the First Sale Doctrine.
-It's a method that mirrors how physical copies are lent and which the IA argued was <em>Fair Use</em>.
+It’s a method that mirrors how physical copies are lent and which the IA argued was <em>Fair Use</em>.
 Four publishers sued the IA and won the initial suit.
 The decision was appealed but emboldened <a href="https://www.nytimes.com/2023/08/13/business/media/internet-archive-emergency-lending-library.html">other media companies to sue the IA</a>.
 In September 2024,
-the IA lost the appeal when the <a href="https://www.theregister.com/2024/09/05/appeals_court_internet_archive_copyright/">US Second Circuit Court of Appeals</a> upheld the lower court's ruling.
+the IA lost the appeal when the <a href="https://www.theregister.com/2024/09/05/appeals_court_internet_archive_copyright/">US Second Circuit Court of Appeals</a> upheld the lower court’s ruling.
 At stake is the basic notion of whether ebooks can be bought or must be perpetually licensed,
 until at least they enter the <a href="https://copyright.universityofcalifornia.edu/use/public-domain.html">public domain</a>.
 Given IA has lost the appeal, CDL will likely cease to exist unless legislation changes it.</p>
@@ -332,21 +331,21 @@ This is the conundrum that Sanchez raises in his article.</p>
 Sanchez (2015) raises additional issues and questions:
 what if publishers raise the prices for digital content at an annual rate faster than
 what they already raise for print content?
-It's a reasonable assumption.
+It’s a reasonable assumption.
 If so, does that mean that librarians will be able to afford fewer titles, digital or print,
 unless they raise their budgets, and, as they weed, how would that impact the physical space of the library?
-See figure 2.3, specifically, from Sanchez's article.
+See figure 2.3, specifically, from Sanchez’s article.
 The plot shows just how much could be lost and how little gained if the forecasts Sanchez discusses come true.</p>
 <p>There are ways to put constraints on the supply of an item in the digital landscape,
 as opposed to limiting supply in the physical space, which involve fewer methods.
-That is, it's easy for publishers and others to restrict the supply of physical works.
+That is, it’s easy for publishers and others to restrict the supply of physical works.
 They simply have to limit the physical works that are manufactured (e.g., the number of print runs).
 But given the nature of digital content, restricting supply is driven by the technologies available to do so,
 and since there are so many publishers and distribution points,
 then each one of these points will often create their own unique type of constraint on the supply.
 The result is that there will be a number of confusing methods implemented to limit constraint,
 even if these limitations are marketed as selling points.
-In practice, this may mean that only a limited number of people may "check" out a work from a library at one time,
+In practice, this may mean that only a limited number of people may “check” out a work from a library at one time,
 or access a database at one time, and so forth.
 Thus, the budget issue has an impact on access and usability.</p>
 <p>There have been recent attempts to address these issues.
@@ -355,13 +354,13 @@ the financial burdens on libraries that e-content entails.
 However, as Paganelli notes, these efforts have not succeeded.
 And Brewster Kahle, the founder of the Internet Archive, <a href="https://www.theguardian.com/commentisfree/2023/oct/09/us-library-system-attack-digital-licensing">has highlighted</a>
 the growing attacks on library budgets that make this the outcomes for library budgets more pessimistic.
-From a publisher's perspective, <a href="https://doi.org/10.1007/s12109-022-09880-7">Sisto (2022)</a> argues that the general narrative about the tension
+From a publisher’s perspective, <a href="https://doi.org/10.1007/s12109-022-09880-7">Sisto (2022)</a> argues that the general narrative about the tension
 between libraries and publishers is misleading.
 Instead, the author argues, the landscape is much more complex, and
 the publishers have made a number of attempts to
-"make their e-lending policies better for librarians"
+“make their e-lending policies better for librarians”
 (2018-2019: Policy Updates and Different Opinions sect, para 6).
-Personally, I'm not sure I buy (or <em>lease</em>) all of Sisto's arguments, but I think one thing is clear:
+Personally, I’m not sure I buy (or <em>lease</em>) all of Sisto’s arguments, but I think one thing is clear:
 the e-lending market is complex and miscommunication abounds.</p>
 <p>Read more about copyright:</p>
 <p><a href="https://www.copyright.gov/title17/">https://www.copyright.gov/title17/92chap1.html</a></p>
@@ -396,7 +395,7 @@ Authors in P&amp;R simply have different citation and publishing behaviors than 
 Second, citations do not capture all uses of a journal.
 For example, there are journal titles that I might use in my courses but may not use in my research,
 and this is true for other faculty.
-Yet citation metrics won't reflect that kind of use.
+Yet citation metrics won’t reflect that kind of use.
 The authors refer to <em>altmetrics</em>, which was invented to help capture non-citing uses of scholarly products,
 but altmetrics is dependent on data sources and scholarly behavior that are problematic themselves.
 Third, there are issues with the equations used to generate the metrics themselves.
@@ -420,35 +419,41 @@ But it is $787 (48.34 percent increase) more than what they charged in 2020,
 when I first wrote this draft (see Table 1 below).</p>
 <p>Imagine twenty authors from any single institution publishing in PLOS ONE.
 If each author from that institution pays the full amount,
-then that's a total cost of $47,640 paid from that institution.
+then that’s a total cost of $47,640 paid from that institution.
 This is much more than the most expensive journal category, Chemistry,
 as reported in Table 1 of the Bosch et al. reading.
 So even if open access reduced costs to libraries,
 it still may not reduce cost on taxpayers, who fund much of of this research.</p>
-<div class="table-wrapper"><table><thead><tr><th>Year</th><th>PLOS ONE APC Fee</th><th>$ increase</th><th>% increase</th></tr></thead><tbody>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Year</th><th>PLOS ONE APC Fee</th><th>$ increase</th><th>% increase</th></tr>
+</thead>
+<tbody>
 <tr><td>2020</td><td>$1595</td><td></td><td></td></tr>
 <tr><td>2021</td><td>$1695</td><td>$100</td><td>6.27%</td></tr>
 <tr><td>2022</td><td>$1805</td><td>$110</td><td>6.49%</td></tr>
 <tr><td>2023</td><td>$1931</td><td>$126</td><td>6.98%</td></tr>
 <tr><td>2024</td><td>$2290</td><td>$359</td><td>18.59%</td></tr>
 <tr><td>2025</td><td>$2382</td><td>$92</td><td>4.02%</td></tr>
-</tbody></table>
+</tbody>
+</table>
 </div>
 <p><em>Table 1: APC fees for PLOS ONE</em></p>
 <blockquote>
-<p>Gold OA costs are generally paid out of research funds (like grants) and not out of researcher's pockets.</p>
+<p>Gold OA costs are generally paid out of research funds (like grants) and not out of researcher’s pockets.</p>
 </blockquote>
 <p>The 2022 <a href="https://web.archive.org/web/20250118023441/https://www.whitehouse.gov/ostp/news-updates/2022/08/25/ostp-issues-guidance-to-make-federally-funded-research-freely-available-without-delay/">public access mandate</a> issued by
 The White House <a href="https://www.whitehouse.gov/ostp/">Office of Science and Technology Policy</a> might make things more interesting.
 The <a href="https://web.archive.org/web/20250120050644/https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf">OSTP memorandum</a> states that
-"federally funded research must be publicly accessible without an embargo on their free and public release."
+“federally funded research must be publicly accessible without an embargo on their free and public release.”
 This mandate requires that federal agencies with research and development expenditures to develop their own policies,
 and that could mean that such policies result in Gold OA agency-specific mandates or Green OA mandates.
 Green OA allows pre-prints to be made available (article versions before peer-review) or
 post-prints (article versions after peer-review) but not publisher versions (versions after formatting, etc.).</p>
 <blockquote>
-<p>We'll see how this plays out, given that there is a different administration with different policies and values
-than the prior one's.
+<p>We’ll see how this plays out, given that there is a different administration with different policies and values
+than the prior one’s.
 For example, the public access mandate and OSTP memorandum are no longer available at whitehouse.gov
 (as of January 20, 2025) and now seem only accessible through the <a href="https://web.archive.org/">WayBack Machine</a>.</p>
 </blockquote>
@@ -461,7 +466,7 @@ This is made plain as libraries shift from owing physical collections to licensi
 The First Sale Doctrine, which historically enabled libraries to lend physical books,
 does not apply to digital works in the same way.
 This was confirmed by the recent court battle between the Internet Archive and several publishers.
-The implication places significant constraints on librarians' abilities to offer digital content.</p>
+The implication places significant constraints on librarians’ abilities to offer digital content.</p>
 <p>As libraries face the challenge of renting rather than owning ebooks and ejournals,
 budget constraints grow more severe.
 The impact of these constraints is felt not only in public libraries but also in academic institutions,
@@ -503,11 +508,11 @@ Quarterly, 38(2), 405–422.
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="08-workflow.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
                             <a rel="next prefetch" href="10-licensing-basics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
                         <div style="clear: both"></div>
@@ -517,16 +522,21 @@ Quarterly, 38(2), 405–422.
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                     <a rel="prev" href="08-workflow.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
                     <a rel="next prefetch" href="10-licensing-basics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -535,13 +545,13 @@ Quarterly, 38(2), 405–422.
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
 

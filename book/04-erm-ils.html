@@ -12,21 +12,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -36,10 +35,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-c72f186f.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-422e02b8.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -53,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -82,12 +81,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -102,39 +101,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -142,41 +141,41 @@
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
                         <a href="https://github.com/cseanburns/electronic_resource_mgmt" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-github"></i>
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="erm-and-ils"><a class="header" href="#erm-and-ils">ERM and ILS</a></h1>
 <h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
@@ -198,7 +197,7 @@ learn how ERMS assist in managing the digital assets and licenses of a
 library.</li>
 <li>Explore the <strong>interconnectedness of systems</strong>. We specifically explore the
 relationship between ILS, LSP, and ERMS, and how they work together to manage
-a library's collection and provide access to users.</li>
+a library’s collection and provide access to users.</li>
 <li>Provide access to <strong>practical applications</strong> of these systems. We will use
 real-life examples  of these systems to see how librarians use them. This
 will provide insight into how the shift from print to digital resources has
@@ -215,9 +214,9 @@ the latter are becoming more common because of how they handle electronic resour
 The main distinction is that the LSP is more focused on digital and electronic resources, and
 the ILS is primarily an extension of the card catalog system model.</p>
 <p>Regardless, both the ILS and the LSP are
-"used by librarians to manage their internal work and external services," such as
-"acquiring and describing collection resources, making those resources available to their
-users through appropriate channels, and other areas of their [resource management] operations"
+“used by librarians to manage their internal work and external services,” such as
+“acquiring and describing collection resources, making those resources available to their
+users through appropriate channels, and other areas of their [resource management] operations”
 (<a href="https://librarytechnology.org/document/25609">Breeding, 2020, para. 1</a>).
 We begin by discussing the modular structure of these systems.</p>
 <h3 id="the-modular-administration-of-digital-and-electronic-resources"><a class="header" href="#the-modular-administration-of-digital-and-electronic-resources">The Modular Administration of Digital and Electronic Resources</a></h3>
@@ -235,8 +234,8 @@ Some of the common modules among these products include:</p>
 <li>reports module</li>
 <li><a href="http://docs.evergreen-ils.org/reorg/3.2/serials/">serials</a> module</li>
 </ul>
-<p>In the above list, I've linked to the open source documentation from <a href="http://docs.evergreen-ils.org/">Evergreen</a>, which is an <strong>ILS</strong>.
-LibLime's <a href="https://liblime.com/bibliovation/">Bibliovation</a> product offers comparably named modules for
+<p>In the above list, I’ve linked to the open source documentation from <a href="http://docs.evergreen-ils.org/">Evergreen</a>, which is an <strong>ILS</strong>.
+LibLime’s <a href="https://liblime.com/bibliovation/">Bibliovation</a> product offers comparably named modules for
 discovery, circulation, cataloging, serials, acquisitions, and systems administration.
 LibLime is a LSP.
 Other ILS/LSP solutions offer specific modules dedicated to other items in the list,
@@ -244,7 +243,7 @@ or those functions might be integrated into one of the above modules.</p>
 <p>New modules appear in LSPs that take advantage of LSP abilities and digital assets.
 For example, the <a href="https://exlibrisgroup.com/products/alma-library-services-platform/">Alma LSP</a> provides modules dedicated to acquisitions, resources, discovery (via Primo), fulfillment, administration, and
 analytics.
-Such modules are a reflection of the LSP's focus on digital and electronic assets.
+Such modules are a reflection of the LSP’s focus on digital and electronic assets.
 Please take a moment and read about these modules in links provided.
 Specifically visit the Alma and LibLime links to learn more about their specific LSP products.</p>
 <h3 id="user-interface"><a class="header" href="#user-interface">User Interface</a></h3>
@@ -270,14 +269,14 @@ also material held elsewhere which may be of interest to clients <a href="https:
 </blockquote>
 <p>In other words, OPACS generally searched against pre-defined fields recorded in <strong>MARC</strong> (i.e., author, title, subject, etc.).
 These collections include print works but later electronic ones too held by the library.
-The form didn't matter as long as there was a MARC record for it.
+The form didn’t matter as long as there was a MARC record for it.
 A discovery system can search additional text, if available.
 It can more easily link to items not in the library collection but which can be acquired through <strong>interlibrary loan</strong>.</p>
 <p>A discovery system can also integrate with <strong>bibliographic databases</strong> and return results indexed by those databases.
 This saves the user from having to know about specific <strong>topical databases</strong>.
 For example, UK Libraries provides access to nearly 750 databases, and having a discovery system that can access those is beneficial.
-However, this does not mean that a discovery system is aware of all of a library's collections or all of its databases.
-And it's not always clear what's left out.</p>
+However, this does not mean that a discovery system is aware of all of a library’s collections or all of its databases.
+And it’s not always clear what’s left out.</p>
 <p>In summary, some key differences for the user are:</p>
 <ul>
 <li><strong>OPACs</strong> primarily search cataloged fields in <strong>MARC</strong> records.</li>
@@ -286,10 +285,10 @@ process and are able to do some <strong>full text</strong> searching.</li>
 </ul>
 <h3 id="in-totality"><a class="header" href="#in-totality">In Totality</a></h3>
 <p>From their ancient beginnings, these ILS/LSPs, as Stephen Salmon stated in 1975,
-are "non-traditional" ways of doing traditional things,
-such as "acquisitions, cataloging, and circulation," but which has now become fairly routine!</p>
+are “non-traditional” ways of doing traditional things,
+such as “acquisitions, cataloging, and circulation,” but which has now become fairly routine!</p>
 <p>Electronic resource librarians might work extensively with specific resources or modules
-in order to administer the library's digital assets (e.g., contracts, etc.).
+in order to administer the library’s digital assets (e.g., contracts, etc.).
 However, all librarians use one or more of the ILS/LSP modules at some point.
 For example, when I worked in reference at a small academic library,
 I used the Millennium ILS to check out books to users, to fix borrowing issues, and to search for works in the OPAC.
@@ -297,7 +296,7 @@ Later I primarily used the cataloging module when I moved to technical services.
 What a librarian uses frequently depends on the organizational structure of a library and their role in that library.
 As our reading by <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> show,
 the rise in electronic resources has influenced the ways librarians structure their organizations.
-Much of those organizational structure were originally informed by the dictates of a "print-based world".</p>
+Much of those organizational structure were originally informed by the dictates of a “print-based world”.</p>
 <p>In summary, the administrative interface includes modules to manage collections, patron accounts, etc.
 The end user interfaces are for people looking for information.
 Combined they make up the totality of the ILS/LSP software.
@@ -306,14 +305,14 @@ In short:</p>
 <li>an <strong>administrative interface</strong> is used by librarians to manage tasks
 provided through modules.</li>
 <li>a <strong>public interface</strong>, such as an OPAC or discovery system, is used by
-librarians and patrons to access the library's collections.</li>
+librarians and patrons to access the library’s collections.</li>
 </ul>
 <p>While ILS/LSP solutions are essential for managing physical and digital collections,
-ERM systems play a pivotal role in managing the library's digital resources and
+ERM systems play a pivotal role in managing the library’s digital resources and
 their associated licenses.</p>
 <h2 id="erms-the-electronic-resource-management-system"><a class="header" href="#erms-the-electronic-resource-management-system">ERMS, the Electronic Resource Management System</a></h2>
 <p>ERMS is an acronym for <em>electronic resource management system</em>.
-Its function is born from the need to manage a library's <strong>digital assets</strong>, for example, the licenses that a library has signed.
+Its function is born from the need to manage a library’s <strong>digital assets</strong>, for example, the licenses that a library has signed.
 In order to manage assets like licenses, the ERMS can keep track of the signatories,
 the terms of the license/contracts, specific documents related to these processes, and more.</p>
 <blockquote>
@@ -321,41 +320,41 @@ the terms of the license/contracts, specific documents related to these processe
 of access, embargo periods, multi-user access limits, length of access,
 retention and archival of content, and more.</p>
 </blockquote>
-<p>An ERMS may or may not be integrated with a library's ILS software.
-But it's more likely integrated in a LSP solution.
+<p>An ERMS may or may not be integrated with a library’s ILS software.
+But it’s more likely integrated in a LSP solution.
 The Alma LSP, for example, is a LSP that also provides <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/Electronic_Resource_Management">electronic resource management</a>.
 In short, a library that uses an ILS may be using a separate ERMS product.
 However, a library that uses an LSP may be using the LSP for electronic resource management.</p>
 <p>Like the ILS/LSP, ERM software is generally divided into modules.
-These modules focus the librarian's work on particular duties to create workflows and knowledge management systems.
+These modules focus the librarian’s work on particular duties to create workflows and knowledge management systems.
 In an ERM like the open source <a href="http://coral-erm.org/modules/">CORAL system</a>, the modules include:</p>
 <ul>
-<li><a href="http://coral-erm.org/resources/">Resources</a>: a module "provides a robust database for
-tracking data related to your organization's resources ..." and "provides a
+<li><a href="http://coral-erm.org/resources/">Resources</a>: a module “provides a robust database for
+tracking data related to your organization’s resources …” and “provides a
 customizable workflow tool that can be used to track, assign, and complete
-workflow tasks."</li>
-<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a "flexible document management
-system" that provides options to manage licensing agreements and to automate
+workflow tasks.”</li>
+<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a “flexible document management
+system” that provides options to manage licensing agreements and to automate
 parts of the process.</li>
 <li><a href="http://coral-erm.org/organizations/">Organizations</a>: this module acts as a type of advanced
 directory to manage the organizations that impact or are involved in
-the management of electronic resources, including "publishers, vendors,
-consortia, and more."</li>
+the management of electronic resources, including “publishers, vendors,
+consortia, and more.”</li>
 <li><a href="http://coral-erm.org/usage-statistics/">Usage Statistics</a>: a module providing librarians with
 usage statistics of digital assets by platform and by publisher. Supports
-COUNTER and SUSHI. We'll cover COUNTER and SUSHI later in the semester, but
+COUNTER and SUSHI. We’ll cover COUNTER and SUSHI later in the semester, but
 as a preamble:
 <ul>
-<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> "sets and maintains the standard known as the Code of
+<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> “sets and maintains the standard known as the Code of
 Practice and ensures that publishers and vendors submit annually to a
-rigorous independent audit", and,</li>
+rigorous independent audit”, and,</li>
 <li><a href="https://www.niso.org/standards-committees/sushi">SUSHI</a> is a type of protocol to automate collecting data on usage
 statistics.</li>
 </ul>
 </li>
 <li><a href="http://coral-erm.org/management/">Management</a>: this module provides a document management
-system aimed at "storing documents, such as policies, processes, and
-procedures, related to the overall management of electronic resources".</li>
+system aimed at “storing documents, such as policies, processes, and
+procedures, related to the overall management of electronic resources”.</li>
 </ul>
 <h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
 <p>In our readings this week, we have three articles that speak to ILS/LSP and ERM software solutions and the relationship between the two.</p>
@@ -363,13 +362,13 @@ procedures, related to the overall management of electronic resources".</li>
 Yet this trend does not have to force libraries into solutions that lead to vendor lock-in or acceptance of <em>walled gardens</em>.
 As such, there has been a growing interest in open-source alternatives, especially among libraries seeking more customizable solutions.
 In the process, Fournie (2020) describes two ERM solutions: Coral and Folio.
-The author's descriptions are helpful in understanding what these two software solutions are capable of providing.</p>
+The author’s descriptions are helpful in understanding what these two software solutions are capable of providing.</p>
 <p>The readings by <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> and <a href="https://doi.org/10.1080/0361526X.2020.1717032">Bahnmaier, Sherfey, and Hatfield (2020)</a>
 provides context about how these technologies impact librarianship.
 Miller et al. (2014) describe a case study that shows how electronic resources have impacted organizational structure, job titles, budgets, and more.
 Likewise Bahnmaier et al. (2020) discuss aspects of this and reflect on changes in library staffing and how this raises the importance of the library-vendor relationship.</p>
 <h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
-<p>With that background in mind, in this week's forum, I'll introduce you to the following systems:</p>
+<p>With that background in mind, in this week’s forum, I’ll introduce you to the following systems:</p>
 <ul>
 <li>Evergreen ILS
 <ul>
@@ -409,7 +408,7 @@ Likewise Bahnmaier et al. (2020) discuss aspects of this and reflect on changes 
 </ul>
 <p>We will see what services and modules they provide, and how they function.
 Be sure to visit the links in this page, especially any documentation.
-I'll ask that you log into the relevant services, test the demos sites, or watch the demo videos.
+I’ll ask that you log into the relevant services, test the demos sites, or watch the demo videos.
 This will help get some hands-on experience with them and also demystify what each do.</p>
 <h2 id="further-reading"><a class="header" href="#further-reading">Further Reading</a></h2>
 <ul>
@@ -431,23 +430,23 @@ This will help get some hands-on experience with them and also demystify what ea
 <h2 id="addendum"><a class="header" href="#addendum">Addendum</a></h2>
 <p>In prior semesters, we read articles by <a href="https://doi.org/10.6017/ital.v31i3.1914">Wang and Dawes (2012)</a> and <a href="https://doi.org/10.1080/00987913.2011.10765404">Wilson (2011)</a>.
 I replaced those readings back in the Fall 2022 semester, but for those interested, I briefly describe them below.</p>
-<hr />
-<p>In the article by Wang and Dawes (2012), the authors describe the "next generation integrated library system",
+<hr>
+<p>In the article by Wang and Dawes (2012), the authors describe the “next generation integrated library system”,
 which should meet the criteria that include the ability to merge ILS software with ERM software.
 ERM software solutions exist because integrated library systems (ILS) failed to include functions to manage digital assets.
 Basically, the ILS was still behaving with a print-mindset, so to speak, and was growing stagnant.
 Around the time the article was published, more ILS and ERM software began moving to the cloud, as was common in other software markets.
 This changed the game because it placed a burden on software companies to maintain their software.
 Based on demand and need, the LSP was created as a next-generation ILS that included ERM functionality.
-So it's likely that even though the LSP might replace the ILS/ERM combo someday,
-it could be that we'll live in a dual world where some libraries use a LSP and some use the LSP/ERM combo.
+So it’s likely that even though the LSP might replace the ILS/ERM combo someday,
+it could be that we’ll live in a dual world where some libraries use a LSP and some use the LSP/ERM combo.
 Currently, this is often reflected in library types:
 academic libraries are moving more towards LSPs while public and other libraries use ILSs and other solutions to manage their electronic resources.</p>
 <p>Despite the technical aspects of these solutions, at its basic, both ILS/LSP and ERM software solutions focus on managing assets
 (books, serials, <a href="https://archives.yale.edu/subjects/33488">realia</a>, etc) so that librarians can organize and users and librarians can retrieve those assets.
-There's no requirement to use any solution offered by a library vendor, and that's the point of the Wilson (2011) article,
+There’s no requirement to use any solution offered by a library vendor, and that’s the point of the Wilson (2011) article,
 which shows how regular software can be used to function as a homegrown solution for creating and implementing an ERM work flow.</p>
-<hr />
+<hr>
 <h2 id="references-to-readings"><a class="header" href="#references-to-readings">References to Readings</a></h2>
 <p>Bahnmaier, S., Sherfey, W., &amp; Hatfield, M. (2020).
 Getting more bang for your buck: Working with your vendor in the age of the shrinking staff.
@@ -501,11 +500,11 @@ Beyond library software: New tools for electronic resources management.
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="p2-technologies-standards.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
                             <a rel="next prefetch" href="05-standardizing-erm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
                         <div style="clear: both"></div>
@@ -515,16 +514,21 @@ Beyond library software: New tools for electronic resources management.
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                     <a rel="prev" href="p2-technologies-standards.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
                     <a rel="next prefetch" href="05-standardizing-erm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -533,13 +537,13 @@ Beyond library software: New tools for electronic resources management.
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
 
