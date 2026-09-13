@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-c72f186f.js";
+            window.path_to_searchindex_js = "searchindex-efd34110.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-422e02b8.js"></script>
@@ -938,45 +938,25 @@ that shape modern librarianship.</p>
 <p>In this section we dive deeper into electronic resource management systems (<strong>ERMS</strong>), integrated library systems (<strong>ILS</strong>), and library service platforms (<strong>LSP</strong>).
 Specifically, we seek to:</p>
 <ul>
-<li>Understand the <strong>ILS</strong> and <strong>LSP</strong>. We define <strong>integrated library systems</strong>
-and <strong>library service platforms</strong> and highlight their roles in managing
-physical and digital assets.</li>
-<li>Examine the <strong>modular structure of ILS/LSP</strong>. We look at how these products
-are structured into <strong>modules</strong> (acquisitions, circulation, cataloging, etc.)
-to handle library tasks and processes.</li>
-<li>Learn about the <strong>evolution of user interfaces</strong> of these systems. We will
-discuss the transition from <strong>OPACs (online public access catalogs)</strong> to
-modern <strong>discovery systems</strong>, and how these systems enhance search
-capabilities and integrate external sources.</li>
-<li>Introduce the role of <strong>ERMS (electronic resource management systems)</strong>. We
-learn how ERMS assist in managing the digital assets and licenses of a
-library.</li>
-<li>Explore the <strong>interconnectedness of systems</strong>. We specifically explore the
-relationship between ILS, LSP, and ERMS, and how they work together to manage
-a library’s collection and provide access to users.</li>
-<li>Provide access to <strong>practical applications</strong> of these systems. We will use
-real-life examples  of these systems to see how librarians use them. This
-will provide insight into how the shift from print to digital resources has
-influence library organization and workflows.</li>
-<li>Discuss <strong>trends and future directions</strong>. We will briefly touch on trends
-like the growing interest in <strong>open-source ERMS solutions</strong> and the impact of
-cloud-based systems  on library management.</li>
+<li>Understand the <strong>ILS</strong> and <strong>LSP</strong>. We define <strong>integrated library systems</strong> and <strong>library service platforms</strong> and highlight their roles in managing physical and digital assets.</li>
+<li>Examine the <strong>modular structure of ILS/LSP</strong>. We look at how these products are structured into <strong>modules</strong> (acquisitions, circulation, cataloging, etc.) to handle library tasks and processes.</li>
+<li>Learn about the <strong>evolution of user interfaces</strong> of these systems. We will discuss the transition from <strong>OPACs (online public access catalogs)</strong> to modern <strong>discovery systems</strong>, and
+how these systems enhance search capabilities and integrate external sources.</li>
+<li>Introduce the role of <strong>ERMS (electronic resource management systems)</strong>. We learn how ERMS assist in managing the digital assets and licenses of a library.</li>
+<li>Explore the <strong>interconnectedness of systems</strong>. We specifically explore the relationship between ILS, LSP, and ERMS, and how they work together to manage a library’s collection and provide access to users.</li>
 </ul>
-<h2 id="ils-the-integrated-library-system"><a class="header" href="#ils-the-integrated-library-system">ILS, the Integrated Library System</a></h2>
+<h2 id="the-ils-and-the-lsp"><a class="header" href="#the-ils-and-the-lsp">The ILS and the LSP</a></h2>
 <p><strong>ILS</strong> is an acronym for an <strong>integrated library system</strong>.
 We were introduced to the newer term <strong>library services platform (LSP)</strong> in the previous section.
 Although similar in ways (<a href="https://journals.ala.org/index.php/ltr/issue/view/509">Breeding, 2015</a>; <a href="https://librarytechnology.org/document/25609">Breeding, 2020</a>),
 the latter are becoming more common because of how they handle electronic resources.
-The main distinction is that the LSP is more focused on digital and electronic resources, and
-the ILS is primarily an extension of the card catalog system model.</p>
-<p>Regardless, both the ILS and the LSP are
-“used by librarians to manage their internal work and external services,” such as
-“acquiring and describing collection resources, making those resources available to their
-users through appropriate channels, and other areas of their [resource management] operations”
+The main distinction is that the LSP is more focused on digital and electronic resources, and the ILS is primarily an extension of the card catalog system model.</p>
+<p>Regardless, both the ILS and the LSP are “used by librarians to manage their internal work and external services,” such as
+“acquiring and describing collection resources, making those resources available to their users through appropriate channels, and other areas of their [resource management] operations”
 (<a href="https://librarytechnology.org/document/25609">Breeding, 2020, para. 1</a>).
 We begin by discussing the modular structure of these systems.</p>
-<h3 id="the-modular-administration-of-digital-and-electronic-resources"><a class="header" href="#the-modular-administration-of-digital-and-electronic-resources">The Modular Administration of Digital and Electronic Resources</a></h3>
-<p><strong>ILS</strong>/<strong>LSP</strong> products are used for multiple tasks, and these tasks are divided up into <strong>modules</strong>.
+<h3 id="ilslsp-modules"><a class="header" href="#ilslsp-modules">ILS/LSP Modules</a></h3>
+<p>ILS/LSP products are used for multiple tasks, and these tasks are divided up into <strong>modules</strong>.
 These modules are accessed in the ILS/LSP through an administrative interface.
 Some of the common modules among these products include:</p>
 <ul>
@@ -990,237 +970,195 @@ Some of the common modules among these products include:</p>
 <li>reports module</li>
 <li><a href="http://docs.evergreen-ils.org/reorg/3.2/serials/">serials</a> module</li>
 </ul>
-<p>In the above list, I’ve linked to the open source documentation from <a href="http://docs.evergreen-ils.org/">Evergreen</a>, which is an <strong>ILS</strong>.
-LibLime’s <a href="https://liblime.com/bibliovation/">Bibliovation</a> product offers comparably named modules for
-discovery, circulation, cataloging, serials, acquisitions, and systems administration.
-LibLime is a LSP.
-Other ILS/LSP solutions offer specific modules dedicated to other items in the list,
-or those functions might be integrated into one of the above modules.</p>
+<p>In the above list, I’ve linked to the open source documentation from <a href="http://docs.evergreen-ils.org/">Evergreen</a>, which is an ILS.
+LibLime’s <a href="https://liblime.com/bibliovation/">Bibliovation</a>, an LSP, offers comparably named modules for discovery, circulation, cataloging, serials, acquisitions, and systems administration.
+Other ILS/LSP solutions offer specific modules dedicated to other items in the list, or those functions might be integrated into one of the above modules.</p>
 <p>New modules appear in LSPs that take advantage of LSP abilities and digital assets.
-For example, the <a href="https://exlibrisgroup.com/products/alma-library-services-platform/">Alma LSP</a> provides modules dedicated to acquisitions, resources, discovery (via Primo), fulfillment, administration, and
-analytics.
-Such modules are a reflection of the LSP’s focus on digital and electronic assets.
-Please take a moment and read about these modules in links provided.
+For example, the <a href="https://exlibrisgroup.com/products/alma-library-services-platform/">Alma LSP</a> provides modules dedicated to acquisitions, resources, discovery (via Primo), fulfillment, administration, and analytics.
+These modules are a reflection of the LSP’s focus on digital and electronic assets.</p>
+<blockquote>
+<p>I suggest the reader take a moment and read about these modules in the links provided.
 Specifically visit the Alma and LibLime links to learn more about their specific LSP products.</p>
+</blockquote>
+<h3 id="example-ils-and-lsp-products"><a class="header" href="#example-ils-and-lsp-products">Example ILS and LSP Products</a></h3>
+<p>Some of the major ILS/LSP products on the market include (not even remotely an exhaustive list):</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Type</th><th>Product</th><th>Company</th><th>Common Library Type</th></tr>
+</thead>
+<tbody>
+<tr><td>LSP</td><td>EBSCO Folio</td><td>EBSCO Information Services</td><td>Academic</td></tr>
+<tr><td>LSP</td><td>Ex Libris Alma</td><td>Clarivate</td><td>Academic</td></tr>
+<tr><td>LSP</td><td>Folio</td><td>Open Library Foundation</td><td>Academic</td></tr>
+<tr><td>LSP</td><td>OCLC WorldShare Management Service (WMS)</td><td>OCLC</td><td>Academic</td></tr>
+<tr><td>LSP</td><td>Sierra</td><td>Clarivate</td><td>Public</td></tr>
+<tr><td>ILS</td><td>Apollo</td><td>Biblionix</td><td>Public</td></tr>
+<tr><td>ILS</td><td>Evergreen</td><td>The Evergreen Project</td><td>Public</td></tr>
+<tr><td>ILS</td><td>Koha</td><td>Horowhenua Library Trust</td><td>Public</td></tr>
+<tr><td>ILS</td><td>Polaris</td><td>Clarivate</td><td>Public</td></tr>
+<tr><td>ILS</td><td>Symphony</td><td>SirsiDynix</td><td>Public</td></tr>
+</tbody>
+</table>
+</div>
+<p>See the <a href="https://librarytechnology.org/products/">Library Technology Product Directory</a> for a more comprehensive list of products.</p>
 <h3 id="user-interface"><a class="header" href="#user-interface">User Interface</a></h3>
-<p>Each of you are familiar with an ILS/LSP from a user perspective.
-Some of you are familiar with these systems from a librarian perspective.
-In your lifetimes, you have used <strong>OPACs</strong> (online public access catalogs) or <strong>discovery systems</strong> like <a href="https://saalck-uky.primo.exlibrisgroup.com/discovery/search?vid=01SAA_UKY:UKY&amp;lang=en">InfoKat</a>.
+<p>If you have used <strong>OPACs</strong> (online public access catalogs) or <strong>discovery systems</strong>, you are already familiar with an ILS/LSP from a user’s perspective.
 You have likely conducted a search for a <strong>serial</strong> (e.g., journal), and you have most definitely borrowed a book from a library.
 The ILS OPAC or the LSP discovery systems makes these end user functions possible.</p>
-<p>Until recently, the OPAC was the primary way to locate and access items in library collections.
-However, in LSPs the OPAC has evolved into a <strong>discovery system</strong>.
+<p>For several decades and until recently, the OPAC was the primary way to locate and access items in library collections.
+In LSPs the OPAC has evolved into a <strong>discovery system</strong>.
 This difference is based on what and how it searches its records and other factors.
 The <em>Encyclopedia of Knowledge Organization</em> describes the differences as such:</p>
 <blockquote>
-<p>OPACs replicated and extended the functionality of the card catalogues they
-largely replaced in providing a finding aid to the books, journals,
-audiovisual material and other holdings of a particular library. The term
-<em>discovery system</em> has come into use in the early Twenty-first century to
-describe public-facing electronic catalogues which use the technology of the
-Internet search engines to expand the scope of the OPAC to include not only
-library-held content, including entries for journal articles and book
-chapters that were not typically part of traditional library catalogues, but
+<p>OPACs replicated and extended the functionality of the card catalogues they largely replaced in providing a finding aid to the books, journals, audiovisual material and other holdings of a particular library.
+The term <em>discovery system</em> has come into use in the early Twenty-first century to describe public-facing electronic catalogues which use the technology of the Internet search engines to expand
+the scope of the OPAC to include not only library-held content, including entries for journal articles and book chapters that were not typically part of traditional library catalogues, but
 also material held elsewhere which may be of interest to clients <a href="https://www.isko.org/cyclo/opac">(Wells, 2021)</a>.</p>
 </blockquote>
 <p>In other words, OPACS generally searched against pre-defined fields recorded in <strong>MARC</strong> (i.e., author, title, subject, etc.).
 These collections include print works but later electronic ones too held by the library.
 The form didn’t matter as long as there was a MARC record for it.
-A discovery system can search additional text, if available.
-It can more easily link to items not in the library collection but which can be acquired through <strong>interlibrary loan</strong>.</p>
-<p>A discovery system can also integrate with <strong>bibliographic databases</strong> and return results indexed by those databases.
+A discovery system goes much beyond this and can search additional text, if available.
+It can more easily link to items not in the library collection but which can be acquired through <strong>interlibrary loan</strong> or open access content.</p>
+<p>A discovery system also integrates with <strong>bibliographic databases</strong> and returns results indexed by those databases.
 This saves the user from having to know about specific <strong>topical databases</strong>.
-For example, UK Libraries provides access to nearly 750 databases, and having a discovery system that can access those is beneficial.
+For example, many academic libraries provides access to hundreds of databases (or thousdands), and having a discovery system that can access those is beneficial.
 However, this does not mean that a discovery system is aware of all of a library’s collections or all of its databases.
 And it’s not always clear what’s left out.</p>
 <p>In summary, some key differences for the user are:</p>
 <ul>
 <li><strong>OPACs</strong> primarily search cataloged fields in <strong>MARC</strong> records.</li>
-<li><strong>Discovery systems</strong> integrate external sources (like database) into the search
-process and are able to do some <strong>full text</strong> searching.</li>
+<li><strong>Discovery systems</strong> integrate external sources (like databases) into the search process and are able to do some <strong>full text</strong> searching.</li>
 </ul>
-<h3 id="in-totality"><a class="header" href="#in-totality">In Totality</a></h3>
-<p>From their ancient beginnings, these ILS/LSPs, as Stephen Salmon stated in 1975,
-are “non-traditional” ways of doing traditional things,
+<blockquote>
+<p>Question: Given the differences between the indexes that OPACs and discovery systems search, how do those differences impact search query construction?</p>
+</blockquote>
+<h3 id="indexing"><a class="header" href="#indexing">Indexing</a></h3>
+<p>If a discovery system has broader index than an OPAC, how does that happen?</p>
+<p>There are three components that make this happen:</p>
+<ul>
+<li>knowledgebases</li>
+<li>discovery indexes</li>
+<li>discovery services</li>
+</ul>
+<p>The <strong>knowledgebase</strong> describes electronic resources and their coverage.
+For example, a knowledgebase might know that JSTOR Arts &amp; Sciences contains <em>Journal X</em>, volumes A-M.
+It may also contain information about providers, platforms, identifiers, coverage dates, and the targets needed to connect users to those resources.</p>
+<p>A <strong>discovery index</strong> contains searchable representations of the content itself.
+For example, it might contain a record that reflects the following bibliographic data:</p>
+<blockquote>
+<p>Smith, J. (2026). Interesting article. <em>Journal X A</em>(3), 200-225.</p>
+</blockquote>
+<p>Rather than searching the JSTOR database directly when a user submits a query, the discovery system can search this previously constructed index.</p>
+<p>A <strong>discovery service</strong> provides the user-facing search interface.
+It brings together the discovery index, the library’s local collection, and information about the library’s electronic holdings.
+This allows a search to retrieve a result about Smith’s article from the discovery index while also also determining whether the library provides access to it and, when appropriate, providing a path to the full text
+(or a mechanism to submit an interlibrary loan request).</p>
+<p>It is important to know that both the knowledgebase and the discovery index are maintained by the vendor.
+Libraries using the same system (for example, libraries using Ex Libris Alma and Primo) can draw from the same shared knowledgebase and discovery index.
+However, each library configures the system according to its own collections.</p>
+<p>That configuration reflects which resources the library owns, licenses, or otherwise provides access to.
+Thus, two libraries may use the same vendor-maintained knowledgebase and discovery index but <strong>expose</strong> different resources to their users.</p>
+<p>Furthermore, since those knowledgebases are maintained by specific vendors, those vendors do not necessarily control or own all the resources they describe or index.
+They must therefore obtain information and often establish agreements with publishers, aggregators, databases providers, and other content vendors.<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>
+That is, a resource might be represented in a knowledgebase without its content being included in the discovery index.
+This is one reason a discovery system does not necessarily expose everything a library has to offer, especially the contents of all the databases to which the library provides access.<sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup></p>
+<h3 id="admin-and-public-interfaces"><a class="header" href="#admin-and-public-interfaces">Admin and Public Interfaces</a></h3>
+<p>From their ancient beginnings, these ILS/LSPs, as <a href="https://search.worldcat.org/title/1852364">Stephen Salmon (1975)</a> stated, are “non-traditional” ways of doing traditional things,
 such as “acquisitions, cataloging, and circulation,” but which has now become fairly routine!</p>
-<p>Electronic resource librarians might work extensively with specific resources or modules
-in order to administer the library’s digital assets (e.g., contracts, etc.).
+<p>Electronic resource librarians might work extensively with specific resources or modules in order to administer the library’s digital assets (e.g., contracts, etc.).
 However, all librarians use one or more of the ILS/LSP modules at some point.
-For example, when I worked in reference at a small academic library,
-I used the Millennium ILS to check out books to users, to fix borrowing issues, and to search for works in the OPAC.
+For example, when I worked in reference at a small academic library, I used the Millennium ILS to check out books to users, to fix borrowing issues, and to search for works in the OPAC.
 Later I primarily used the cataloging module when I moved to technical services.
 What a librarian uses frequently depends on the organizational structure of a library and their role in that library.
-As our reading by <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> show,
-the rise in electronic resources has influenced the ways librarians structure their organizations.
-Much of those organizational structure were originally informed by the dictates of a “print-based world”.</p>
+And as <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> show, the rise in electronic resources has influenced the ways librarians structure their organizations
+(see also <a href="https://doi.org/10.1080/0361526X.2020.1717032">Bahnmaier, Sherfey, and Hatfield (2020)</a>).
+Because much of that organizational structure was originally informed by the dictates of a “print-based world”.</p>
 <p>In summary, the administrative interface includes modules to manage collections, patron accounts, etc.
 The end user interfaces are for people looking for information.
 Combined they make up the totality of the ILS/LSP software.
 In short:</p>
 <ul>
-<li>an <strong>administrative interface</strong> is used by librarians to manage tasks
-provided through modules.</li>
-<li>a <strong>public interface</strong>, such as an OPAC or discovery system, is used by
-librarians and patrons to access the library’s collections.</li>
+<li>an <strong>administrative interface</strong> is used by librarians to manage tasks provided through modules.</li>
+<li>a <strong>public interface</strong>, such as an OPAC or discovery system, is used by librarians and patrons to access the library’s collections.</li>
 </ul>
-<p>While ILS/LSP solutions are essential for managing physical and digital collections,
-ERM systems play a pivotal role in managing the library’s digital resources and
-their associated licenses.</p>
+<p>While ILS/LSP solutions are essential for managing physical and digital collections, ERM systems play a pivotal role in managing the library’s digital resources and their associated licenses.</p>
 <h2 id="erms-the-electronic-resource-management-system"><a class="header" href="#erms-the-electronic-resource-management-system">ERMS, the Electronic Resource Management System</a></h2>
-<p>ERMS is an acronym for <em>electronic resource management system</em>.
-Its function is born from the need to manage a library’s <strong>digital assets</strong>, for example, the licenses that a library has signed.
-In order to manage assets like licenses, the ERMS can keep track of the signatories,
-the terms of the license/contracts, specific documents related to these processes, and more.</p>
+<p>ERMS is an acronym for <em>electronic resource management system</em>.</p>
+<p>Electronic resources created management problems that traditional ILSs were not designed to handle particularly well.
+An electronic resource ma involve licenses, subscriptions, packages, platforms, vendors, access rights, usage statistics, renewal dates, and other information and workflows
+that do not fit neatly into the bibliographic, holdings, and item records traditionally used by an ILS.</p>
+<p>ERMSs thus developed as separate products to address these needs.
+Rather than managing the digital content itself, an ERMS primarily manages information and workflows associated with a library’s electronic resources.</p>
+<p>For example, an ERMS can keep track of licenses and contracts, including their signatories, terms, dates, associated documents, and other administrative information.</p>
 <blockquote>
-<p>Licenses will be discussed in a later section, but they deal with the terms
-of access, embargo periods, multi-user access limits, length of access,
-retention and archival of content, and more.</p>
+<p>Licenses will be discussed in a later section, but they establish such things as who may access a resource, how it may be used, concurrent-user limits, the length of access, and
+whether the library retains access to content after a subscription ends.</p>
 </blockquote>
-<p>An ERMS may or may not be integrated with a library’s ILS software.
-But it’s more likely integrated in a LSP solution.
-The Alma LSP, for example, is a LSP that also provides <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/Electronic_Resource_Management">electronic resource management</a>.
-In short, a library that uses an ILS may be using a separate ERMS product.
-However, a library that uses an LSP may be using the LSP for electronic resource management.</p>
-<p>Like the ILS/LSP, ERM software is generally divided into modules.
-These modules focus the librarian’s work on particular duties to create workflows and knowledge management systems.
+<p>An ERMS may exist as a separate system alongside an ILS or may be integrated with other library systems.
+Electronic resource management is more commonly incorporated directly into an LSP.
+Alma, for example, is an LSP that includes <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/Electronic_Resource_Management">electronic resource management</a>.
+Thus, a library using a traditional ILS might use a separate ERMS product to manage its electronic resources, but
+a library using an LSP may perform those functions within the LSP itself.</p>
+<p>Like the ILS/LSP, ERM software divides its functions into modules.
+These modules support particular kinds of ERM work and help librarians organize related data, documents, and workflows.
 In an ERM like the open source <a href="http://coral-erm.org/modules/">CORAL system</a>, the modules include:</p>
 <ul>
-<li><a href="http://coral-erm.org/resources/">Resources</a>: a module “provides a robust database for
-tracking data related to your organization’s resources …” and “provides a
-customizable workflow tool that can be used to track, assign, and complete
-workflow tasks.”</li>
-<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module for a “flexible document management
-system” that provides options to manage licensing agreements and to automate
-parts of the process.</li>
-<li><a href="http://coral-erm.org/organizations/">Organizations</a>: this module acts as a type of advanced
-directory to manage the organizations that impact or are involved in
-the management of electronic resources, including “publishers, vendors,
-consortia, and more.”</li>
-<li><a href="http://coral-erm.org/usage-statistics/">Usage Statistics</a>: a module providing librarians with
-usage statistics of digital assets by platform and by publisher. Supports
-COUNTER and SUSHI. We’ll cover COUNTER and SUSHI later in the semester, but
-as a preamble:
+<li><a href="http://coral-erm.org/resources/">Resources</a>: a module that maintains information about electronic resources and provides workflows for assigning and tracking related tasks.</li>
+<li><a href="http://coral-erm.org/licensing/">Licensing</a>: a module that provides document and workflow management for licenses and licensing agreements.</li>
+<li><a href="http://coral-erm.org/organizations/">Organizations</a>: a module that maintains information about organizations involved in electronic resource management, including publishers, vendors, and consortia.</li>
+<li><a href="http://coral-erm.org/usage-statistics/">Usage Statistics</a>: a module that collects and organizes usage statistics by platform and publisher. It supports (or should) COUNTER and SUSHI, which will examine in a later chapter.
 <ul>
-<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> “sets and maintains the standard known as the Code of
-Practice and ensures that publishers and vendors submit annually to a
-rigorous independent audit”, and,</li>
-<li><a href="https://www.niso.org/standards-committees/sushi">SUSHI</a> is a type of protocol to automate collecting data on usage
-statistics.</li>
+<li><a href="https://www.projectcounter.org/about/counter-for-libraries/">COUNTER</a> establishes standards for reporting the use of electronic resources.</li>
+<li><a href="https://www.niso.org/standards-committees/sushi">SUSHI</a> is a type of protocol for automating the retrieval of standardized usage reports.</li>
 </ul>
 </li>
-<li><a href="http://coral-erm.org/management/">Management</a>: this module provides a document management
-system aimed at “storing documents, such as policies, processes, and
-procedures, related to the overall management of electronic resources”.</li>
+<li><a href="http://coral-erm.org/management/">Management</a>: a module that provides document management for policies, procedures, and other documents associated with the overall management of electronic resources.</li>
 </ul>
-<h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
-<p>In our readings this week, we have three articles that speak to ILS/LSP and ERM software solutions and the relationship between the two.</p>
+<p>A knowledgebase and an ERMS serve different purposes even though they contain related information.
+A knowledgebase describes electronic-resource packages, their contents, coverage, and linking information.
+It’s ultimately used to make discovery happen for users.
+An ERMS, however, records the library’s administrative relationship with those resources:
+why the library has access, under what terms, through which vendor, for how long, at what cost, and what work must be performed to maintain that access.</p>
+<h2 id="conclusion-2"><a class="header" href="#conclusion-2">Conclusion</a></h2>
 <p>As <a href="https://journal.code4lib.org/articles/14955">Fournie (2020)</a> notes, the electronic resource market is consolidating into a few heavyweights.
 Yet this trend does not have to force libraries into solutions that lead to vendor lock-in or acceptance of <em>walled gardens</em>.
-As such, there has been a growing interest in open-source alternatives, especially among libraries seeking more customizable solutions.
-In the process, Fournie (2020) describes two ERM solutions: Coral and Folio.
-The author’s descriptions are helpful in understanding what these two software solutions are capable of providing.</p>
-<p>The readings by <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> and <a href="https://doi.org/10.1080/0361526X.2020.1717032">Bahnmaier, Sherfey, and Hatfield (2020)</a>
-provides context about how these technologies impact librarianship.
-Miller et al. (2014) describe a case study that shows how electronic resources have impacted organizational structure, job titles, budgets, and more.
-Likewise Bahnmaier et al. (2020) discuss aspects of this and reflect on changes in library staffing and how this raises the importance of the library-vendor relationship.</p>
-<h2 id="conclusion-2"><a class="header" href="#conclusion-2">Conclusion</a></h2>
-<p>With that background in mind, in this week’s forum, I’ll introduce you to the following systems:</p>
+As such, there has been a growing interest in open-source alternatives, such as Coral and Folio, especially among libraries seeking more customizable solutions.
+It’s interesting, also, that Fournie highlights “non domain-specific software,” too.
+While this might be viable for some libraries or systems, a decision to use “non domain-specific software” might be more viable for smaller systems than larger, more complicated ones.</p>
+<h2 id="appendix-i"><a class="header" href="#appendix-i">Appendix I</a></h2>
+<h3 id="open-source-products"><a class="header" href="#open-source-products">Open Source Products</a></h3>
 <ul>
-<li>Evergreen ILS
-<ul>
-<li><a href="http://docs.evergreen-ils.org/">https://evergreen-ils.org/</a></li>
+<li><a href="http://coral-erm.org/">Coral ERMS</a></li>
+<li><a href="http://docs.evergreen-ils.org/">Evergreen ILS</a></li>
+<li><a href="https://www.folio.org/">Folio LSP</a></li>
+<li><a href="https://gokb.org/">GOKb Knowledge Base</a></li>
+<li><a href="https://koha-community.org/">Koha ILS</a></li>
+<li><a href="https://projectreshare.org/">Project ReShare (interlibrary loan)</a></li>
+<li><a href="https://vufind.org/vufind/">VuFind (Discovery)</a></li>
 </ul>
-</li>
-<li>Koha ILS
+<h3 id="other-product-descriptions"><a class="header" href="#other-product-descriptions">Other Product Descriptions:</a></h3>
 <ul>
-<li><a href="https://koha-community.org/">https://koha-community.org/</a></li>
-</ul>
-</li>
-<li>Folio LSP / ERM
-<ul>
-<li><a href="https://www.folio.org/">https://www.folio.org/</a></li>
-</ul>
-</li>
-<li>Project ReShare (interlibrary loan)
-<ul>
-<li><a href="https://projectreshare.org/">https://projectreshare.org/</a></li>
-</ul>
-</li>
-<li>VuFind (Discovery)
-<ul>
-<li><a href="https://vufind.org/vufind/">https://vufind.org/vufind/</a></li>
-</ul>
-</li>
-<li>GOKb Knowledge Base
-<ul>
-<li><a href="https://gokb.org/">https://gokb.org/</a></li>
-</ul>
-</li>
-<li>Coral ERM
-<ul>
-<li><a href="http://coral-erm.org/">http://coral-erm.org/</a></li>
-</ul>
-</li>
-</ul>
-<p>We will see what services and modules they provide, and how they function.
-Be sure to visit the links in this page, especially any documentation.
-I’ll ask that you log into the relevant services, test the demos sites, or watch the demo videos.
-This will help get some hands-on experience with them and also demystify what each do.</p>
-<h2 id="further-reading"><a class="header" href="#further-reading">Further Reading</a></h2>
-<ul>
-<li>Informational Resources:
-<ul>
-<li><a href="https://journals.ala.org/index.php/ltr/issue/view/509">Library Services Platforms: A Maturing Genre of Products</a></li>
-<li><a href="https://librarytechnology.org/document/25609">Differences between ILS and LSP</a></li>
-<li><a href="https://guides.cuny.edu/LSPImplementation">A broad overview of the migration the Aleph ILS to the Alma LSP</a></li>
-</ul>
-</li>
-<li>Product Descriptions:
-<ul>
+<li><a href="https://www.ebsco.com/products/ebsco-discovery-service">EBSCO Discovery Service</a></li>
 <li><a href="https://knowledge.exlibrisgroup.com/campusM/Product_Documentation/Custom_Integrations_(Sample)/Ex_Libris_Alma_and_Primo_(Library)">Ex Libres Alma and Primo</a></li>
 <li><a href="https://www.iii.com/products/">iii innovative</a></li>
-<li><a href="https://www.ebsco.com/products/ebsco-discovery-service">EBSCO Discovery Service</a></li>
 </ul>
-</li>
+<h2 id="appendix-ii"><a class="header" href="#appendix-ii">Appendix II</a></h2>
+<h3 id="migration-example"><a class="header" href="#migration-example">Migration Example</a></h3>
+<p>A detailed plan on CUNY’s implmentation of Alma LSP:</p>
+<ul>
+<li><a href="https://guides.cuny.edu/LSPImplementation">A broad overview of the migration the Aleph ILS to the Alma LSP</a></li>
 </ul>
-<h2 id="addendum"><a class="header" href="#addendum">Addendum</a></h2>
-<p>In prior semesters, we read articles by <a href="https://doi.org/10.6017/ital.v31i3.1914">Wang and Dawes (2012)</a> and <a href="https://doi.org/10.1080/00987913.2011.10765404">Wilson (2011)</a>.
-I replaced those readings back in the Fall 2022 semester, but for those interested, I briefly describe them below.</p>
-<hr>
-<p>In the article by Wang and Dawes (2012), the authors describe the “next generation integrated library system”,
-which should meet the criteria that include the ability to merge ILS software with ERM software.
-ERM software solutions exist because integrated library systems (ILS) failed to include functions to manage digital assets.
-Basically, the ILS was still behaving with a print-mindset, so to speak, and was growing stagnant.
-Around the time the article was published, more ILS and ERM software began moving to the cloud, as was common in other software markets.
-This changed the game because it placed a burden on software companies to maintain their software.
-Based on demand and need, the LSP was created as a next-generation ILS that included ERM functionality.
-So it’s likely that even though the LSP might replace the ILS/ERM combo someday,
-it could be that we’ll live in a dual world where some libraries use a LSP and some use the LSP/ERM combo.
-Currently, this is often reflected in library types:
-academic libraries are moving more towards LSPs while public and other libraries use ILSs and other solutions to manage their electronic resources.</p>
-<p>Despite the technical aspects of these solutions, at its basic, both ILS/LSP and ERM software solutions focus on managing assets
-(books, serials, <a href="https://archives.yale.edu/subjects/33488">realia</a>, etc) so that librarians can organize and users and librarians can retrieve those assets.
-There’s no requirement to use any solution offered by a library vendor, and that’s the point of the Wilson (2011) article,
-which shows how regular software can be used to function as a homegrown solution for creating and implementing an ERM work flow.</p>
-<hr>
-<h2 id="references-to-readings"><a class="header" href="#references-to-readings">References to Readings</a></h2>
-<p>Bahnmaier, S., Sherfey, W., &amp; Hatfield, M. (2020).
-Getting more bang for your buck: Working with your vendor in the age of the shrinking staff.
-<em>The Serials Librarian, 78</em>(1–4), 228–233.
-<a href="https://doi.org/10.1080/0361526X.2020.1717032">https://doi.org/10.1080/0361526X.2020.1717032</a></p>
-<p>Fournie, J. (2020).
-Managing electronic resources without buying into the library vendor singularity.
-<em>The Code4Lib Journal, 47</em>.
-<a href="https://journal.code4lib.org/articles/14955">https://journal.code4lib.org/articles/14955</a></p>
-<p>Miller, L. N., Sharp, D., &amp; Jones, W. (2014).
-70% and climbing: E-resources, books, and library restructuring.
-<em>Collection Management, 39</em>(2–3), 110–126.
-<a href="https://doi.org/10.1080/01462679.2014.901200">https://doi.org/10.1080/01462679.2014.901200</a></p>
-<h2 id="additional-references-1"><a class="header" href="#additional-references-1">Additional References</a></h2>
+<h2 id="references-and-suggested-readings"><a class="header" href="#references-and-suggested-readings">References and Suggested Readings</a></h2>
 <p>Anderson, E. K. (2014).
 Chapter 4: Electronic Resource Management Systems and Related Products.
 <em>Library Technology Reports, 50</em>(3), 30–42.
 <a href="https://journals.ala.org/index.php/ltr/article/view/4491">https://journals.ala.org/index.php/ltr/article/view/4491</a></p>
+<p>Bahnmaier, S., Sherfey, W., &amp; Hatfield, M. (2020).
+Getting more bang for your buck: Working with your vendor in the age of the shrinking staff.
+<em>The Serials Librarian, 78</em>(1–4), 228–233.
+<a href="https://doi.org/10.1080/0361526X.2020.1717032">https://doi.org/10.1080/0361526X.2020.1717032</a></p>
 <p>Breeding, M. (2015).
 <em>Library Technology Reports, 51</em>(4). Chapters 1-5.
 <a href="https://journals.ala.org/index.php/ltr/issue/view/509">https://journals.ala.org/index.php/ltr/issue/view/509</a></p>
@@ -1228,15 +1166,24 @@ Chapter 4: Electronic Resource Management Systems and Related Products.
 Smart libraries Q&amp;A: Differences between ILS and LSP.
 <em>Smart Libraries Newsletter, 40</em>(10), 3–4.
 [https://librarytechnology.org/document/25609][breeding2022]</p>
+<p>Fournie, J. (2020).
+Managing electronic resources without buying into the library vendor singularity.
+<em>The Code4Lib Journal, 47</em>.
+<a href="https://journal.code4lib.org/articles/14955">https://journal.code4lib.org/articles/14955</a></p>
 <p>Hosburgh, N. (2016).
 Approaching discovery as part of a library service platform.
 In K. Varnum (Ed.),
 <em>Exploring Discovery: The Front Door to your Library’s Licensed and Digitized Content</em>.
 (pp. 15-25). Chicago, IL: ALA Editions.
 <a href="https://scholarship.rollins.edu/as_facpub/138/">https://scholarship.rollins.edu/as_facpub/138/</a></p>
+<p>Miller, L. N., Sharp, D., &amp; Jones, W. (2014).
+70% and climbing: E-resources, books, and library restructuring.
+<em>Collection Management, 39</em>(2–3), 110–126.
+<a href="https://doi.org/10.1080/01462679.2014.901200">https://doi.org/10.1080/01462679.2014.901200</a></p>
 <p>Salmon, S. R. (1975).
 <em>Library automation systems</em>.
-New York: Marcel Dekker.</p>
+New York: Marcel Dekker.
+<a href="https://search.worldcat.org/title/1852364">https://search.worldcat.org/title/1852364</a></p>
 <p>Wang, Y., &amp; Dawes, T. A. (2012).
 The Next generation integrated library system: A promise fulfilled?
 <em>Information Technology and Libraries, 31</em>(3), 76–84.
@@ -1250,6 +1197,16 @@ Encyclopedia of Knowledge Organization (Vol. 48, pp. 457–466).
 Beyond library software: New tools for electronic resources management.
 <em>Serials Review, 37</em>(4), 294–304.
 <a href="https://doi.org/10.1080/00987913.2011.10765404">https://doi.org/10.1080/00987913.2011.10765404</a></p>
+<!-- [realia]:https://archives.yale.edu/subjects/33488 -->
+<hr>
+<ol class="footnote-definition">
+<li id="footnote-1">
+<p>This is not dissimilar to what Google Scholar must do to create its index. <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>Discovery systems cannot search all the collection, even though they may seem to. This is one reason why librarians cannot depend completely on discovery systems when searching their collections and why they need to become familiar with other library resources. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="standardizing-electronic-resource-management"><a class="header" href="#standardizing-electronic-resource-management">Standardizing Electronic Resource Management</a></h1>
 <p>By the end of this lecture, you should be able to:</p>
@@ -1350,7 +1307,7 @@ This is true for the design of screwdrivers, the width of railroad tracks, the t
 It is certainly true for how information is managed and exchanged.
 The internet and the web wouldn’t exist or definitely not exist as we know it if not for the standardization of the Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext Transfer Protocol (HTTP), and other internet and web related technologies.
 These and other standards enable the internet and the web to work for users regardless of the operating system and the hardware they use.</p>
-<h2 id="readings-1"><a class="header" href="#readings-1">Readings</a></h2>
+<h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
 <h3 id="niso"><a class="header" href="#niso">NISO</a></h3>
 <p>Our first article this week by Harris (2006) covers the basic reasons for the existence of <a href="http://www.niso.org/">NISO</a>
 (the <em>National Information Standards Organization</em>) and the kinds of standards NISO is responsible for maintaining and creating.
@@ -1478,7 +1435,7 @@ Evaluation for evolution: Using the ERMI standards to validate an Airtable ERMS.
 Managing the electronic resources lifecycle: Creating a comprehensive checklist using techniques for electronic resource management (TERMS).
 <em>The Serials Librarian, 66</em>(1–4), 212–219.
 <a href="https://doi.org/10.1080/0361526X.2014.880028">https://doi.org/10.1080/0361526X.2014.880028</a></p>
-<h2 id="additional-references-2"><a class="header" href="#additional-references-2">Additional References</a></h2>
+<h2 id="additional-references-1"><a class="header" href="#additional-references-1">Additional References</a></h2>
 <p>Burns, C. S. (2014).
 Academic libraries and automation: A historical reflection on Ralph Halstead Parker.
 <em>Portal: Libraries and the Academy, 14</em>(1), 87–102.
@@ -1791,7 +1748,7 @@ offset=0
 </code></pre>
 <p>See: <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/010Getting_Started_with_Primo_VE/005Primo_VE_Overview">Primo VE Overview</a> and <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/120Other_Configurations/Configuring_Redirection_for_Primo_VE_Deep_Links">Primo VE Deep Links</a>.</p>
 </blockquote>
-<h2 id="readings-2"><a class="header" href="#readings-2">Readings</a></h2>
+<h2 id="readings-1"><a class="header" href="#readings-1">Readings</a></h2>
 <p>Our readings this week by <a href="https://doi.org/10.1080/0361526X.2012.652480">Kasprowski (2012)</a>, <a href="https://doi.org/10.1080/1941126X.2015.999519">Johnson et al. (2015)</a>,
 and <a href="https://doi.org/10.1080/1941126X.2017.1304765">Chisari et al. (2017)</a>
 discuss link resolver technology, migration to new link resolver services, and
@@ -1966,7 +1923,7 @@ Deciding to change OpenURL link resolvers.
 NISO’s IOTA initiative: Measuring the quality of openurl links.
 <em>The Serials Librarian, 62</em>(1–4), 95–102.
 <a href="https://doi.org/10.1080/0361526X.2012.652480">https://doi.org/10.1080/0361526X.2012.652480</a></p>
-<h2 id="additional-references-3"><a class="header" href="#additional-references-3">Additional References</a></h2>
+<h2 id="additional-references-2"><a class="header" href="#additional-references-2">Additional References</a></h2>
 <p>McDonald, J., &amp; Van de Velde, E. F. (2004, April 1).
 The lure of linking. <em>Library Journal</em>. Library Journal Archive Content.
 <a href="https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/">https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/</a></p>
@@ -2267,7 +2224,7 @@ Essential skills and knowledge for troubleshooting e-resources access issues in 
 Identifying e-resources: An exploratory study of university students.
 <em>Library Resources &amp; Technical Services, 60</em>, 22-37.
 <a href="https://doi.org/10.5860/lrts.60n1.23">https://doi.org/10.5860/lrts.60n1.23</a></p>
-<h2 id="additional-references-4"><a class="header" href="#additional-references-4">Additional References</a></h2>
+<h2 id="additional-references-3"><a class="header" href="#additional-references-3">Additional References</a></h2>
 <p>Breeding, M. (2008).
 OCLC Acquires EZproxy.
 Smart Libraries Newsletter, 28(03), 1–2.
@@ -2376,7 +2333,7 @@ by studying documents prepared by NISO and its members, and component technologi
 <li>why interoperability is required, and</li>
 <li>what happens when access to electronic resources break.</li>
 </ul>
-<h2 id="readings-3"><a class="header" href="#readings-3">Readings</a></h2>
+<h2 id="readings-2"><a class="header" href="#readings-2">Readings</a></h2>
 <p>Our readings in this section provide foundational insights into the complex workflows involved in electronic resource management (ERM).
 These articles guide us through key concepts like knowledge bases, workflow-based standards, and
 the challenges of integrating electronic resources into library systems.
@@ -2480,7 +2437,7 @@ Chapter 2: Elements of electronic resource management.
 Chapter 3: Workflow analysis.
 <em>Library Technology Reports, 50</em>(3).
 <a href="https://journals.ala.org/index.php/ltr/article/view/4493/5259">https://journals.ala.org/index.php/ltr/article/view/4493/5259</a></p>
-<h2 id="additional-references-5"><a class="header" href="#additional-references-5">Additional References</a></h2>
+<h2 id="additional-references-4"><a class="header" href="#additional-references-4">Additional References</a></h2>
 <p>Anderson, E. K. (2014).
 Chapter 4: Electronic resource management systems and related products.
 <em>Library Technology Reports, 50</em>(3).
@@ -2809,7 +2766,7 @@ Journal, 143</em>(7), 28–33.
 <p>Sanchez, J. (2015). Chapter 2. Forecasting public library e-content costs.
 <em>Library Technology Reports, 51</em>(8), 9–15. Retrieved from
 <a href="https://journals.ala.org/index.php/ltr/article/view/5833">https://journals.ala.org/index.php/ltr/article/view/5833</a></p>
-<h2 id="additional-references-6"><a class="header" href="#additional-references-6">Additional References</a></h2>
+<h2 id="additional-references-5"><a class="header" href="#additional-references-5">Additional References</a></h2>
 <p>Garfield, E. (1999).
 Journal impact factor: A brief review.
 <em>CMAJ : Canadian Medical Association Journal, 161</em>(8), 979–980.
@@ -3124,7 +3081,7 @@ Lassoing the Licensing Beast: How Electronic Resources Librarians Can Build Comp
 <a href="https://doi.org/10.1080/0361526X.2015.1026225">https://doi.org/10.1080/0361526X.2015.1026225</a></p>
 <p>SERU: A Shared Electronic Resource Understanding, NISO,
 <a href="https://www.niso.org/standards-committees/seru">http://www.niso.org/publications/rp/RP-7-2012_SERU.pdf</a></p>
-<h2 id="additional-references-7"><a class="header" href="#additional-references-7">Additional References</a></h2>
+<h2 id="additional-references-6"><a class="header" href="#additional-references-6">Additional References</a></h2>
 <p>Rub, G. A. (2017).
 Copyright survives: Rethinking the copyright-contract conflict
 (SSRN Scholarly Paper No. 2926253).
@@ -3366,7 +3323,7 @@ Tips from the trenches.
 The licensing lifecycle: From negotiation to compliance.
 <em>The Serials Librarian, 68</em>(1–4), 205–214.
 <a href="https://doi.org/10.1080/0361526X.2015.1017707">https://doi.org/10.1080/0361526X.2015.1017707</a></p>
-<h2 id="additional-references-8"><a class="header" href="#additional-references-8">Additional References</a></h2>
+<h2 id="additional-references-7"><a class="header" href="#additional-references-7">Additional References</a></h2>
 <p>ALA. (2006, August 25).
 Libraries and licensing.
 <a href="https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing">https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing</a></p>
@@ -3522,7 +3479,7 @@ Comparing usage between dynamic and static e-reference collections.
 Methods and strategies for creating a culture of collections assessment at comprehensive universities.
 <em>Journal of Electronic Resources Librarianship, 21</em>(3–4), 213–236.
 <a href="https://doi.org/10.1080/19411260903466269">https://doi.org/10.1080/19411260903466269</a></p>
-<h2 id="additional-references-9"><a class="header" href="#additional-references-9">Additional References</a></h2>
+<h2 id="additional-references-8"><a class="header" href="#additional-references-8">Additional References</a></h2>
 <p>Harloe, B., &amp; Budd, J. M. (1994).
 Collection development and scholarly communication in the era of electronic access.
 <em>The Journal of Academic Librarianship, 20</em>(2), 83–87.
@@ -3763,7 +3720,7 @@ Virtual focus groups for improved A-Z list user experience.
 ERM UX: Electronic resources management and the user experience.
 <em>Serials Review, 41</em>(3), 194–198.
 <a href="https://doi.org/10.1080/00987913.2015.1069527">https://doi.org/10.1080/00987913.2015.1069527</a></p>
-<h2 id="additional-references-10"><a class="header" href="#additional-references-10">Additional References</a></h2>
+<h2 id="additional-references-9"><a class="header" href="#additional-references-9">Additional References</a></h2>
 <p>Adams, A. L., &amp; Hanson, M. (2020).
 Primo on the go: A usability study of the Primo mobile interface.
 <em>Journal of Web Librarianship</em>.
