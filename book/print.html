@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-efd34110.js";
+            window.path_to_searchindex_js = "searchindex-9a1ae832.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-422e02b8.js"></script>
@@ -1005,7 +1005,7 @@ Specifically visit the Alma and LibLime links to learn more about their specific
 <h3 id="user-interface"><a class="header" href="#user-interface">User Interface</a></h3>
 <p>If you have used <strong>OPACs</strong> (online public access catalogs) or <strong>discovery systems</strong>, you are already familiar with an ILS/LSP from a user’s perspective.
 You have likely conducted a search for a <strong>serial</strong> (e.g., journal), and you have most definitely borrowed a book from a library.
-The ILS OPAC or the LSP discovery systems makes these end user functions possible.</p>
+The ILS OPAC or the LSP discovery system makes these end user functions possible.</p>
 <p>For several decades and until recently, the OPAC was the primary way to locate and access items in library collections.
 In LSPs the OPAC has evolved into a <strong>discovery system</strong>.
 This difference is based on what and how it searches its records and other factors.
@@ -1020,7 +1020,7 @@ also material held elsewhere which may be of interest to clients <a href="https:
 These collections include print works but later electronic ones too held by the library.
 The form didn’t matter as long as there was a MARC record for it.
 A discovery system goes much beyond this and can search additional text, if available.
-It can more easily link to items not in the library collection but which can be acquired through <strong>interlibrary loan</strong> or open access content.</p>
+It can more easily link to items not in the library collection but which can be acquired through <strong>interlibrary loan</strong> (esp for works in periodicals) or open access content.</p>
 <p>A discovery system also integrates with <strong>bibliographic databases</strong> and returns results indexed by those databases.
 This saves the user from having to know about specific <strong>topical databases</strong>.
 For example, many academic libraries provides access to hundreds of databases (or thousdands), and having a discovery system that can access those is beneficial.
@@ -1035,7 +1035,7 @@ And it’s not always clear what’s left out.</p>
 <p>Question: Given the differences between the indexes that OPACs and discovery systems search, how do those differences impact search query construction?</p>
 </blockquote>
 <h3 id="indexing"><a class="header" href="#indexing">Indexing</a></h3>
-<p>If a discovery system has broader index than an OPAC, how does that happen?</p>
+<p>If a discovery system has a broader index than an OPAC, how does that happen?</p>
 <p>There are three components that make this happen:</p>
 <ul>
 <li>knowledgebases</li>
@@ -1044,14 +1044,15 @@ And it’s not always clear what’s left out.</p>
 </ul>
 <p>The <strong>knowledgebase</strong> describes electronic resources and their coverage.
 For example, a knowledgebase might know that JSTOR Arts &amp; Sciences contains <em>Journal X</em>, volumes A-M.
-It may also contain information about providers, platforms, identifiers, coverage dates, and the targets needed to connect users to those resources.</p>
+It may also contain information about providers, platforms, identifiers, coverage dates, and the targets needed to connect users to those resources
+(more on <strong>targets</strong> in Section 2.3).</p>
 <p>A <strong>discovery index</strong> contains searchable representations of the content itself.
 For example, it might contain a record that reflects the following bibliographic data:</p>
 <blockquote>
 <p>Smith, J. (2026). Interesting article. <em>Journal X A</em>(3), 200-225.</p>
 </blockquote>
 <p>Rather than searching the JSTOR database directly when a user submits a query, the discovery system can search this previously constructed index.</p>
-<p>A <strong>discovery service</strong> provides the user-facing search interface.
+<p>A <strong>discovery service</strong> thus provides the user-facing search interface.
 It brings together the discovery index, the library’s local collection, and information about the library’s electronic holdings.
 This allows a search to retrieve a result about Smith’s article from the discovery index while also also determining whether the library provides access to it and, when appropriate, providing a path to the full text
 (or a mechanism to submit an interlibrary loan request).</p>
@@ -1073,8 +1074,8 @@ For example, when I worked in reference at a small academic library, I used the 
 Later I primarily used the cataloging module when I moved to technical services.
 What a librarian uses frequently depends on the organizational structure of a library and their role in that library.
 And as <a href="https://doi.org/10.1080/01462679.2014.901200">Miller, Sharp, and Jones (2014)</a> show, the rise in electronic resources has influenced the ways librarians structure their organizations
-(see also <a href="https://doi.org/10.1080/0361526X.2020.1717032">Bahnmaier, Sherfey, and Hatfield (2020)</a>).
-Because much of that organizational structure was originally informed by the dictates of a “print-based world”.</p>
+(see also <a href="https://doi.org/10.1080/0361526X.2020.1717032">Bahnmaier, Sherfey, and Hatfield (2020)</a>),
+because much of that organizational structure was originally informed by the dictates of a “print-based world”.</p>
 <p>In summary, the administrative interface includes modules to manage collections, patron accounts, etc.
 The end user interfaces are for people looking for information.
 Combined they make up the totality of the ILS/LSP software.
@@ -1086,8 +1087,8 @@ In short:</p>
 <p>While ILS/LSP solutions are essential for managing physical and digital collections, ERM systems play a pivotal role in managing the library’s digital resources and their associated licenses.</p>
 <h2 id="erms-the-electronic-resource-management-system"><a class="header" href="#erms-the-electronic-resource-management-system">ERMS, the Electronic Resource Management System</a></h2>
 <p>ERMS is an acronym for <em>electronic resource management system</em>.</p>
-<p>Electronic resources created management problems that traditional ILSs were not designed to handle particularly well.
-An electronic resource ma involve licenses, subscriptions, packages, platforms, vendors, access rights, usage statistics, renewal dates, and other information and workflows
+<p>Electronic resources created management problems that traditional ILSs were not designed to handle particularly well, given that they were modeled on the card catalog system.
+An electronic resource may involve licenses, subscriptions, packages, platforms, vendors, access rights, usage statistics, renewal dates, and other information and workflows
 that do not fit neatly into the bibliographic, holdings, and item records traditionally used by an ILS.</p>
 <p>ERMSs thus developed as separate products to address these needs.
 Rather than managing the digital content itself, an ERMS primarily manages information and workflows associated with a library’s electronic resources.</p>
