@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-9a1ae832.js";
+            window.path_to_searchindex_js = "searchindex-3404abe9.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-422e02b8.js"></script>
@@ -1212,144 +1212,153 @@ Beyond library software: New tools for electronic resources management.
 <h1 id="standardizing-electronic-resource-management"><a class="header" href="#standardizing-electronic-resource-management">Standardizing Electronic Resource Management</a></h1>
 <p>By the end of this lecture, you should be able to:</p>
 <ol>
-<li><strong>Understand the importance of standardization</strong>: Recognize how
-standardization in processes and technologies, such as those pioneered by
-Ralph Parker, improves library operations and supports automation.</li>
-<li><strong>Identify key systems for managing electronic resources</strong>: Explore the
-systems used for electronic resource management (ERM) and how they
-facilitate standardization and efficiency in library workflows.</li>
-<li><strong>Explain the historical context of library automation</strong>: Relate historical
-advancements in library automation, such as the use of punched cards, to
-modern electronic resource management practices.</li>
-<li><strong>Analyze the role of organizations like NISO</strong>: Understand how the National
-Information Standards Organization (NISO) develops standards that impact
-libraries, including those related to bibliographic information, indexing,
-and electronic resources.</li>
-<li><strong>Explore TERMS as a framework for ERM</strong>: Examine the <em>Techniques for
-Electronic Resource Management</em> (TERMS) as a guide for managing electronic
-resources, focusing on the different stages of the ERM life cycle.</li>
-<li><strong>Apply standardization principles to real-world ERM</strong>: Apply the concepts
-of standardization and workflows to practical scenarios, using systems like
-Coral or Folio to facilitate efficient ERM in libraries.</li>
+<li><strong>Understand the importance of standardization</strong>: Recognize how standardization in processes and technologies, such as those pioneered by Ralph Parker, improves library operations and supports automation.</li>
+<li><strong>Identify key systems for managing electronic resources</strong>: Explore the systems used for electronic resource management (ERM) and how they facilitate standardization and efficiency in library workflows.</li>
+<li><strong>Explain the historical context of library automation</strong>: Relate historical advancements in library automation, such as the use of punched cards, to modern electronic resource management practices.</li>
+<li><strong>Analyze the role of organizations like NISO</strong>: Understand how the National Information Standards Organization (NISO) develops standards that impact libraries, including those related to bibliographic information, indexing, and electronic resources.</li>
+<li><strong>Explore TERMS as a framework for ERM</strong>: Examine the <em>Techniques for Electronic Resource Management</em> (TERMS) as a guide for managing electronic resources, focusing on the different stages of the ERM life cycle.</li>
+<li><strong>Apply standardization principles to real-world ERM</strong>: Apply the concepts of standardization and workflows to practical scenarios, using systems like Coral or Folio to facilitate efficient ERM in libraries.</li>
 </ol>
 <h2 id="introduction-4"><a class="header" href="#introduction-4">Introduction</a></h2>
 <p>Awhile ago now, I conducted some historical research on a librarian named Ralph Parker.
-Inspired by technological advances in automation, specifically the use of punched cards and machines,
-Parker began to apply this technology to library circulation processes in the 1930s.
-He thus became the first person to automate part of the library’s workflow.
-By the mid-1960s, Parker’s decades long pursuit of library automation led to some major advances,
-including the founding of <a href="https://www.oclc.org/">OCLC</a>.
-Meanwhile, the punched card system he continued to develop eventually led to massive increases
-in circulation and better service to patrons.
+Inspired by technological advances in automation, specifically the use of punched cards and machines, Parker began to apply this technology to library circulation processes in the 1930s.
+He thus became one of the first people to automate part of the library’s workflow.
+By the mid-1960s, Parker’s decades long pursuit of library automation led to some major advances, including the founding of <a href="https://www.oclc.org/">OCLC</a>.
+Meanwhile, the punched card system he continued to develop eventually led to massive increases in circulation and better service to patrons.
 In the mid-60s he wrote the following about the installation and launch of a new punched card system to help automate circulation:</p>
 <blockquote>
-<p>“To the delight of the patrons it requires only four seconds to check out materials” (as cited in Burns, 2014).</p>
+<p>“To the delight of the patrons it requires only four seconds to check out materials” (as cited in <a href="https://doi.org/10.1353/pla.2013.0051">Burns, 2014</a>).</p>
 </blockquote>
 <p>I think about that quote often.
 When I read that in his annual report in the archives at the University of Missouri, I could feel his giddiness.
 Until this achievement, borrowing from the library involved completing multiple forms to be sure that accurate records were kept.
 Accurate record keeping is important.
 Libraries need to protect their collections but also provide access to them, and this is not possible without accuracy.
-As stated in <a href="https://hdl.handle.net/2027/mdp.39015027387052">Flexner (1927)</a>:</p>
+As stated (almost callously) in <a href="https://hdl.handle.net/2027/mdp.39015027387052">Flexner (1927)</a>:</p>
 <blockquote>
-<p>it is necessary that the library have control of these circulating books in
-several ways. It [the library] must know where they are, it must lay down
-rules to see that thoughtless people do not retain the books in their
-possession unfairly, and it must provide means for securing their prompt
-return. These and many other considerations combine to make it necessary for
-the [circulation] department to install and maintain very efficient methods
-to control the circulation of books, which are commonly known as routines (p.
-6).</p>
+<p>it is necessary that the library have control of these circulating books in several ways.
+It [the library] must know where they are, it must lay down rules to see that thoughtless people do not retain the books in their possession unfairly, and &gt; it must provide means for securing their prompt return.
+These and many other considerations combine to make it necessary for the [circulation] department to install and maintain very efficient methods to control the circulation of books, which
+are commonly known as routines (p. 6).</p>
 </blockquote>
 <p>What were those routines in the 1930s?
-Why was Parker so excited about his system taking only four seconds to check out a work?
-Well, two routines are important for circulation. The first involves membership and the second involves charging or checking out works.</p>
+Why was Parker so excited about his system taking only four seconds to check out a work?</p>
+<p>Well, two routines are important for circulation. The first involves membership and the second involves charging or checking out works.</p>
+<h2 id="routines"><a class="header" href="#routines">Routines</a></h2>
 <h3 id="membership"><a class="header" href="#membership">Membership</a></h3>
 <p>First, if the patron was not yet a member of a library, then they had to register to become one.
-Hence, the first routine was to check their membership and register them as borrowers if they were not yet a member or if their membership had expired.
+The first routine was to check their membership and register them as borrowers if they were not yet a member or if their membership had expired.
 If this was a public library, then the process varied depending if the member was an adult or a youth (or <em>juveniles</em> in the lingo of the time).
-This routine involved completing an application card, creating and filing a member record, and issuing the borrower a card of their own,
-i.e., their <strong>borrower’s card</strong>.</p>
+This routine involved completing an application card, creating and filing a member record, and issuing the borrower a card of their own, i.e., their <strong>borrower’s card</strong>.</p>
 <h3 id="charging"><a class="header" href="#charging">Charging</a></h3>
 <p>Once membership status was confirmed or created, then the circulation librarian employed a system to <strong>charge</strong> books to the borrower.
-Different systems had been employed up through the late 1920s,
-including the <strong>ledger system</strong>, the <strong>dummy system</strong>, the <strong>temporary slip system</strong>, the <strong>permanent slip or card system</strong>, the <strong>Browne system</strong>,
-and eventually the <a href="https://www.merriam-webster.com/dictionary/Newark%20charging%20system">Newark charging system</a> (see <a href="https://hdl.handle.net/2027/mdp.39015027387052">Flexner, 1927, pp. 73-82 for details</a>).
-Assuming the librarian in the 1930s used the Newark system,
-the librarian entered the details on a “book card, a date slip and a book pocket for each book” (Flexner, 1927, p. 78).
+Librarians had developed a variety of manual charging systems.
+These included the <strong>ledger system</strong>, the <strong>dummy system</strong>, the <strong>temporary slip system</strong>, the <strong>permanent slip or card system</strong>, the <strong>Browne system</strong>, and
+eventually the <a href="https://www.merriam-webster.com/dictionary/Newark%20charging%20system">Newark charging system</a> (see <a href="https://hdl.handle.net/2027/mdp.39015027387052">Flexner, 1927, pp. 73-82 for details</a>).
+By the early twentieth century, use of the Newark charging system had become widespread among American public libraries.
+Assuming the librarian in the 1930s used the Newark system, the librarian entered the details on a “book card, a date slip and a book pocket for each book” (Flexner, 1927, p. 78).
 Flexner goes on to outline the process:</p>
 <blockquote>
-<p>The date slip is pasted opposite the pocket at the back of the book. The date
-which indicates when the book is due to be returned or when issued is stamped
-on each of three records, the reader’s card, the book card and the date slip.
-The borrower’s number is copied opposite the date on the book card. The date
-on the date slip indicates at once the file in which the book card is to be
-found, and the [librarian] assistant is able to discharge the book and
-release the borrower immediately on the return of the volume (Flexner, 1927,
-pp. 78-79).</p>
+<p>The date slip is pasted opposite the pocket at the back of the book.
+The date which indicates when the book is due to be returned or when issued is stamped on each of three records, the reader’s card, the book card and the date slip.
+The borrower’s number is copied opposite the date on the book card.
+The date on the date slip indicates at once the file in which the book card is to be found, and
+the [librarian] assistant is able to discharge the book and release the borrower immediately on the return of the volume (Flexner, 1927, pp. 78-79).</p>
 </blockquote>
 <p>In essence, charging books or works to patrons involved a lot of paperwork, and you can imagine that it might be prone to error.
-However, the number of charging systems then and the discussions and debates around them show that
-the processes and routines were steadily becoming standardized.
-Standardization is a necessary pre-requisite to automation.</p>
+However, the number of charging systems then and the discussions and debates around them show that the processes and routines were steadily becoming standardized, even if only by convention.
+What is important to know is that standardization is a necessary pre-requisite to automation.
+This is because standards provide models of abstraction, and these models can be adapted to new technologies.
+In this case, the charging system linked three things that a computerized circulation system would later represent electronically: the borrower, the item, and the loan transaction.</p>
 <p>Parker’s achievement in automation improved the library experience for patrons and librarians at the circulation desk.
-Similarly, today’s electronic resource management systems rely on standardized processes and workflows to ensure libraries
-can efficiently manage resources and serve patrons, much like Parker’s early automation work with circulation.
+Similarly, today’s electronic resource management systems rely on standardized processes and workflows to ensure libraries can efficiently manage resources and serve patrons,
+much like Parker’s early automation work with circulation.
 This work also indirectly improved processes throughout the library.
-Once circulation standards stabilized and technology like punched cards became available,
-then it became possible to automate other library processes.
-And this was good; the effects were that automation increased circulation and that an automated circulation process
-<a href="https://en.wikipedia.org/wiki/S._R._Ranganathan">Saved The Time Of The Reader</a>, <em>down to four seconds to be exact!</em></p>
+Once circulation standards stabilized and technology like punched cards became available, then it became possible to automate other library processes.
+And this was good; the effects were that automation increased circulation and that an automated circulation process <a href="https://en.wikipedia.org/wiki/S._R._Ranganathan">Saved The Time Of The Reader</a>, <em>down to four seconds to be exact!</em></p>
+<blockquote>
+<p>The process of “mechanizing” the circulation system has a much more complicated and roundabout history than I make it out above, which is usually the case.
+For more insight, see <a href="https://www.ala.org/tools/circulation">American Library Association (2012)</a>.</p>
+</blockquote>
 <p>This is all to say that standards and technology go hand and hand and that the details matter when thinking about standards.
 How does this relationship work?
-Standards enable multiple groups of competing interests to form a consensus around how a technology should work.
-When this happens, multiple parties receive payoffs at the expense of any single party acquiring a monopoly.
-This is true for the design of screwdrivers, the width of railroad tracks, the temperature scale.
-It is certainly true for how information is managed and exchanged.
-The internet and the web wouldn’t exist or definitely not exist as we know it if not for the standardization of the Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext Transfer Protocol (HTTP), and other internet and web related technologies.
+How are standards developed?</p>
+<h2 id="standardization"><a class="header" href="#standardization">Standardization</a></h2>
+<p>The process of articulating and developing standards is generally accomplished through various standards making bodies.
+These bodies gather relevant stakeholders, often those with competing interests, together to work out the details.
+When this process works well, multiple parties receive payoffs at the expense of any single party acquiring a monopoly.
+This is true for the design of screwdrivers, the width of railroad tracks, the temperature scale, and it is certainly true for how information is managed and exchanged.
+The internet and the web wouldn’t exist or definitely not exist as we know it if not for the standardization of the
+Internet Protocol (IP), the Transmission Control Protocol (TCP), the Hypertext Transfer Protocol (HTTP), and other internet and web related technologies.
 These and other standards enable the internet and the web to work for users regardless of the operating system and the hardware they use.</p>
-<h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
-<h3 id="niso"><a class="header" href="#niso">NISO</a></h3>
-<p>Our first article this week by Harris (2006) covers the basic reasons for the existence of <a href="http://www.niso.org/">NISO</a>
-(the <em>National Information Standards Organization</em>) and the kinds of standards NISO is responsible for maintaining and creating.
+<p>It is worth pointing out that there are broadly two types of standards: <em>de facto/conventional standards</em> and <em>formal (de jure) standards</em>.
+That is, not every standard is formally standardized.
+These are technologies, formats, practices, or products that are standard because they are widely adopted and because of that, our use of them is widely expected.
+For example, Microsoft Word can be considered a de facto standard for word processing simply because it is widely adopted and because people widely expect us to use it,
+even though no standards organization has declared Word itself to be <em>the</em> standard word processor.
+Still, this conventional adoption of Word as the standard word processor has had major effects on how we store, transmit, and communicate information.</p>
+<p>Other standards are <em>formal (or de jure)</em> standards.
+These types of standards are developed, documented, and maintained through an established standardization process.
+The DOCX format, as an example, that Microsoft Word defaults to, is based on the Office Open XML file format, which is formally standardized as <a href="https://www.iso.org/standard/71691.html">ISO/IEC 29500-1:2016</a>.
+Organizations that develop or maintain formal standards that are relevant to libraries, information science, and information technology include the
+National Information Standards Organization (NISO), the International Organization for Standardization (ISO), the International Electrotechnical Commission (IEC),
+the American National Standards Institute (ANSI), the Internet Engineering Task Force (IETF), and the World Wide Web Consortium (W3C).</p>
+<p>Formal and conventional standards often interact, such as the Microsoft Word and the DOCX case.
+This is because widespread adoption and practice can (but may not) eventually become formally standardized.
+Although, there are other paths to standardization.
+For example, the competing LibreOffice Word Processor format, ODF (Open Document Format), is also standardized even if it is not as widely adopted (see <a href="iso29166">ISO/IEC 29166:2011</a>).</p>
+<h3 id="niso-formal-standards"><a class="header" href="#niso-formal-standards">NISO (Formal Standards)</a></h3>
+<p><a href="https://doi.org/10.1300/J111v44n03_11">Harris (2006)</a> covers the basic reasons for the existence of <a href="http://www.niso.org/">NISO</a> (the <em>National Information Standards Organization</em>) and the kinds of standards NISO is responsible for maintaining and creating.
 These standards are directly related to libraries and fall under <a href="https://www.niso.org/welcome-to-niso">three broad categories</a>.
 They deal with <strong>Information Creation &amp; Curation</strong>, <strong>Information Discovery &amp; Interchange</strong>, and <strong>Information Policy &amp; Analysis</strong>.
-There are standards that touch on bibliographic information, indexing, abstracting, controlled vocabularies, and other library important issues.
-If you have not before paid attention to NISO, you might now start seeing more references to the organization and the standards it publishes.
-The international library community has worked closely with NISO to develop standards of library work.</p>
-<p>Another historical note: As Harris (2006) elaborates in the article, NISO came into existence in the mid-1930s.
-This was the same decade that Ralph Parker began working on his punched card system.
-Not long before this, in the late 1920s, the first library science graduate program launched at the University of Chicago.
-In the early 1930s, the first research based journal started, <em>The Library Quarterly</em>.
-We often hear how long libraries have existed (since ancient times), and it’s true that there were modern accomplishments before the 1930s.
-Yet it is this time period (for these and a number of other reasons) that marks the modern era of libraries, in my view.</p>
-<h3 id="terms"><a class="header" href="#terms">TERMS</a></h3>
-<p>We also are not simply interested in standards that deal with the forms used to catalog and charge a book, to create member records,
-and to draw up licenses for an electronic resources, as we’ll discuss later.
+There are standards that touch on bibliographic information, indexing, abstracting, controlled vocabularies, and other library important issues.</p>
+<p>To fulfill its mission and to remain transparent about the pipeline through which practices follow in their path to becoming standards, if they do,
+NISO publishes <a href="https://www.niso.org/explore/type?type=All">five main types of documents</a>: primers, white papers, technical reports, recommended practices, and standards.
+<strong>Primers</strong> introduce or explain a topic, and they provide readers with enough background to understand an issue, technology, or an area of practice.
+<strong>White papers</strong> explore emerging issues and also articulate positions, identify problems or opportunities, and may establish if an area is ready for subsequent standardization.
+<strong>Technical reports</strong> provide detailed, descriptive information about a technical topic but do not necessarily provide a recommendation that a community follow a particular practice.
+<strong>Recommended practices</strong> document guidelines or best practices that NISO encourages organizations to adopt.
+However, their provisions remain discretionary and can be adapted to local circumstances.
+<strong>Standards</strong> are the most formal type of publication and establish consensus-based specifications, requirements, or procedures through NISO’s ANSI-accredited standards-development process.
+These five publication types thus represent different purposes: education, explore, describe, recommend, or standardize.</p>
+<ul>
+<li>Primer, example: <a href="https://www.niso.org/publications/understanding-metadata-2017">Understanding Metadata: What is Metadata, and What is it For?: A Primer</a></li>
+<li>White Paper, example: <a href="https://www.niso.org/publications/making-good-promise-erm-standards-and-best-practices-discussion-paper">Making Good on the Promise of ERM: A Standards and Best Practices Discussion Paper</a></li>
+<li>Technical Report, example: <a href="https://www.niso.org/publications/tr-06-2017-issues-vocabulary-management">NISO TR-06-2017, Issues in Vocabulary Management</a></li>
+<li>Recommended Practice, example: <a href="https://www.niso.org/publications/rp-9-2026-kbart">NISO RP-9-2026, KBART: Knowledge Bases and Related Tools Recommended Practice</a></li>
+<li>Standards, example: <a href="https://www.niso.org/publications/z3996-2024-jats">ANSI/NISO Z39.96-2024, JATS: Journal Article Tag Suite, version 1.4</a></li>
+</ul>
+<p>It should be noted that NISO is not an enforcement agency and thus there is no legal requirement that any vendor or other stakeholder implement any standard.
+Standards, rather, acquire force through adoption, interoperability, and market pressure.
+If libraries and other vendors expect a product to support a particular standard, then failing to implement it may make the product more difficult or expensive to integrate with other systems, and
+ergo make the product less attractive to libraries.
+Libraries may also require support for particular standards when evaluating products, writing requests for proposals (RFPs), or negotiating contracts.</p>
+<p>NISO also provides some mechanisms for demonstrating compliance.
+For example, content providers can have their KBART files evaluated and publicly identified as KBART compliant (see <a href="https://www.niso.org/standards-committees/kbart/kbart-compliance">KBART Compliance, Gold or Silver levels</a>).
+Essentially, the consequences for ignoring a standard do not entail fines or formal penalties but dissatisfied customers (libraries), additional development costs, interoperability problems, competitive disadvantages, and perhaps loss of business.
+The key is thus collective action, which means a voluntary standard becomes difficult to ignore once enough participants in an industry depend on it.
+And this is one reason why creating these standards, in the first place, involves <a href="https://www.niso.org/what-we-do/directory/member-organizations">stakeholders throughout the industry</a>.</p>
+<h3 id="terms-conventional-standards"><a class="header" href="#terms-conventional-standards">TERMS (Conventional Standards)</a></h3>
+<p>We also are not simply interested in formal standards that deal with the processes used to catalog and charge a book, to create member records, and to draw up licenses for an electronic resources.
 We are also interested in standardizing, as Flexner (1927) would say, “routines,” processes, or workflows.
-We discuss other standards in our readings on TERMS, or <em>Techniques for Electronic Resource Management</em>.</p>
-<p>TERMS is not a true standard, but more of a <em>de facto</em> or proposed standard that helps outline the electronic resource management workflow.
-It was developed to address the growing complexities of managing electronic records, where varying workflows, inconsistent processes,
+One such example is TERMS, or <em>Techniques for Electronic Resource Management</em> (<a href="https://journals.ala.org/index.php/ltr/issue/view/192">Emery &amp; Stone, 2013</a>).</p>
+<p>TERMS is not a true standard but a <em>de facto</em> or conventional standard (or framework) that helps outline the electronic resource management workflow.
+For example, <a href="https://doi.org/10.1080/0361526X.2014.880028">Hosburgh, 2014</a>) used the framework to create a checklist for managing e-resources.
+Emery and Stone (2013) developed it to address the growing complexities of managing electronic records, where varying workflows, inconsistent processes,
 and a lack of standardization were creating inefficiencies for libraries trying to provide access to digital content.
-Version 1 of TERMS is described by the TERMS authors in an issue of <a href="https://journals.ala.org/index.php/ltr/issue/view/192">Library Technology Reports</a>.
-Although it has been replaced by a <a href="http://6terms.tumblr.com/">newer version</a>,
-it still functions as a thorough introduction to the ERM workflow and provides guidance and suggestions on electronic resource management.
-For example, in <a href="https://journals.ala.org/index.php/ltr/article/view/4738/5647">chapter 7</a> of the LTS report on TERMS version 1,
-the authors provide information on the importance of working with providers or vendors in case of cancellation of a resource.
+Version 1 of TERMS is described by the TERMS authors in an issue of <a href="https://journals.ala.org/index.php/ltr/issue/view/192">Library Technology Reports</a>, although it has been replaced by a <a href="http://6terms.tumblr.com/">newer version</a>,
+version 1 functions as a thorough introduction to the ERM workflow and provides guidance and suggestions on electronic resource management.
+For example, in <a href="https://journals.ala.org/index.php/ltr/article/view/4738/5647">chapter 7</a> on TERMS version 1, the authors provide information on the importance of working with providers or vendors in case of cancellation of a resource.
 They write:</p>
 <blockquote>
-<p>Do not burn any bridges! Many resources have postcancellation access, which
-means you need to keep up a working relationship with suppliers; this might
-also incur a platform access fee going forward, so this needs to be budgeted
-for in future years. Review the license to fully understand what your
-postcancellation rights to access may be. In addition, you may resubscribe to
-the resources in future years. Content is bought and sold by publishers and
-vendors. Therefore, you may end up back with your original vendor a year or
-two down the line!</p>
+<p>Do not burn any bridges! Many resources have postcancellation access, which means you need to keep up a working relationship with suppliers;
+this might also incur a platform access fee going forward, so this needs to be budgeted for in future years.
+Review the license to fully understand what your postcancellation rights to access may be.
+In addition, you may resubscribe to the resources in future years. Content is bought and sold by publishers and vendors.
+Therefore, you may end up back with your original vendor a year or two down the line!</p>
 </blockquote>
-<p>Some of this material is repeated in version 2 of TERMS,
-but version 2 was created to include more input from the community.
-Version 2 also includes a slightly modified outline, and <a href="https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/">includes the following parts</a>:</p>
+<p>Some of this material is repeated in version 2 of TERMS, but version 2 was created to include more input from the community, and thus reflects a slightly modified outline.
+The specific parts <a href="https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/">include</a>:</p>
 <ol>
 <li>Investigating new content for purchase or addition</li>
 <li>Acquiring new content</li>
@@ -1358,20 +1367,16 @@ Version 2 also includes a slightly modified outline, and <a href="https://librar
 <li>Cancellation and replacement review</li>
 <li>Preservation</li>
 </ol>
-<p>At the same link just provided, they also write about this new version:</p>
+<p>They also write about this new version:</p>
 <blockquote>
-<p>In addition to the works mentioned or cited in the original TERMS report,
-much has been written in the past few years that can help the overwhelmed or
-incoming electronic resources librarian manage their daily workflow. In the
-end, however, most of the challenges facing the management of electronic
-resources is directly related to workflow management. How we manage these
-challenging or complex resources is more important than what we do, because
-how we do it informs how successful and how meaningful the work is, and how
-well it completes our goal of getting access to patrons who want to use these
-resources.</p>
+<p>In addition to the works mentioned or cited in the original TERMS report, much has been written in the past few years that can help the overwhelmed or
+incoming electronic resources librarian manage their daily workflow.
+In the end, however, most of the challenges facing the management of electronic resources is directly related to workflow management.
+How we manage these challenging or complex resources is more important than what we do, because how we do it informs how successful and how meaningful the work is, and
+how well it completes our goal of getting access to patrons who want to use these resources (<a href="https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/">Terms 2, Introduction</a>).</p>
 </blockquote>
-<p>As such, the outline and the content described in these two versions of TERMS is centered on the ERM workflow.
-TERMS is a guide and framework for thinking on the different aspects of the electronic resource life-cycle within the library.
+<p>As such, the outline and the content described in these two versions of TERMS is centered on the ERM workflow.</p>
+<p>In the end, TERMS is a guide and framework for thinking on the different aspects of the electronic resource life-cycle within the library.
 For example, let’s consider Term item 1, which is to investigate new content for purchase or addition.
 In a presentation by the <a href="http://eprints.hud.ac.uk/id/eprint/19420/">Emery and Stone (2014)</a>, they suggest that this involves the following steps, partly paraphrased:</p>
 <ul>
@@ -1384,67 +1389,40 @@ In a presentation by the <a href="http://eprints.hud.ac.uk/id/eprint/19420/">Eme
 </ul>
 <p>Emery and Stone (2014) provide other examples, and the TERMS listed in this slide are from the first version.
 TERM no. 6, PRESERVATION, was added in version 2, and TERMS nos. 4 and 5 from version 1 were joined together.</p>
-<h2 id="exercise"><a class="header" href="#exercise">Exercise</a></h2>
-<p>This week you have a two part exercise:</p>
-<h3 id="first"><a class="header" href="#first">First</a></h3>
-<p>Visit the NISO website and search for documentation on a standard, recommended practices, or technical reports and post about it.
-The differences between these publications follows:</p>
-<p><strong>Technical reports:</strong></p>
-<blockquote>
-<p>NISO Technical Reports provide useful information about a particular topic,
-but do not make specific recommendations about practices to follow. They are
-thus “descriptive” rather than “prescriptive” in nature. Proposed standards
-that do not result in consensus may get published as technical reports.</p>
-</blockquote>
-<p><strong>Recommended Practices:</strong></p>
-<blockquote>
-<p>NISO Recommended Practices are “best practices” or “guidelines” for methods,
-materials, or practices in order to give guidance to the user. These
-documents usually represent a leading edge, exceptional model, or proven
-industry practice. All elements of Recommended Practices are discretionary
-and may be used as stated or modified by the user to meet specific needs.</p>
-</blockquote>
-<p><strong>Published and Approved NISO Standards:</strong></p>
-<p>These are the final, approved definitions that have been achieved by a consensus of the community.</p>
-<p>See <a href="https://www.niso.org/niso-io/2014/03/state-standards">https://www.niso.org/niso-io/2014/03/state-standards</a>
-for the descriptions.</p>
-<h3 id="second"><a class="header" href="#second">Second</a></h3>
-<p>After reading about TERMS, try to place these TERMS in additional electronic resource management context.
-Please draw from your experience using the ILS and ERM software and the readings.
-You can also draw from your personal work experience in a library, or use your imagination if you haven’t had such an experience.
-Be sure to review the documentation on these products to see how they address workflow standardization and ERM processes.
-Specifically, it would be interesting if you could pick out aspects of systems like Coral or Folio that appear to facilitate standardized workflows.</p>
-<h3 id="sources-for-niso-tasks"><a class="header" href="#sources-for-niso-tasks">Sources for NISO Tasks</a></h3>
-<ul>
-<li><a href="https://www.niso.org/explore/type?type=11">NISO: Recommended Practices</a></li>
-<li><a href="https://www.niso.org/explore/type?type=21">NISO: Technical Reports</a></li>
-<li><a href="https://www.niso.org/publications">NISO: Standards</a></li>
-</ul>
-<h2 id="readings--references-3"><a class="header" href="#readings--references-3">Readings / References</a></h2>
-<p>Emery, J., &amp; Stone, G. (2017, March 17).
-Announcing TERMS ver2.0. TERMS: Techniques for electronic resource management.
-<a href="https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/">https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/</a></p>
-<p>Harris, P. (2006).
-Library-vendor relations in the world of information standards.
-<em>Journal of Library Administration, 44</em>(3–4), 127–136.
-<a href="https://doi.org/10.1300/J111v44n03_11">https://doi.org/10.1300/J111v44n03_11</a></p>
-<p>Heaton, R. (2020).
-Evaluation for evolution: Using the ERMI standards to validate an Airtable ERMS.
-<em>The Serials Librarian, 79</em>(1–2), 177–191.
-<a href="https://doi.org/10.1080/0361526X.2020.1831680">https://doi.org/10.1080/0361526X.2020.1831680</a></p>
-<p>Hosburgh, N. (2014).
-Managing the electronic resources lifecycle: Creating a comprehensive checklist using techniques for electronic resource management (TERMS).
-<em>The Serials Librarian, 66</em>(1–4), 212–219.
-<a href="https://doi.org/10.1080/0361526X.2014.880028">https://doi.org/10.1080/0361526X.2014.880028</a></p>
-<h2 id="additional-references-1"><a class="header" href="#additional-references-1">Additional References</a></h2>
+<h2 id="conclusion-3"><a class="header" href="#conclusion-3">Conclusion</a></h2>
+<p>Standards are easy to overlook because the successful ones tend to become invisible or disappear into the technologies and routines we use.
+Yet much of what librarians do depends on shared expectations about how information should be represented, exchanged, and managed.
+These expectations are often expressed through formal standards, such as those developed by NISO or related organizations, or
+through conventional standards, frameworks, and practices that become widely adopted because communities find them useful.
+In both cases, standards make it possible for people and organizations coordinate their work through the technologies (in the broadest sense possible) we use.</p>
+<p>The history of circulation provides a useful illustration.
+The Newark charging system standardized (conventionally) a routine by identifying the important entities and relationships in circulation: a borrower, an item, and a transaction that linked the two.
+Parker’s punched-card system could automate circulation because much of the underlying intellectual work had already been done.
+So even though the technology changed dramatically, the basic model did not.
+The principle is this: standardization made the routine abstract enough that it could be transferred from one technology to another.</p>
+<p>Electronic resource management presents the same problem, even if on a much larger scale.
+Libraries, publishers, and vendors must use technologies, practices, and products to exchange information and coordinate activities across organizational and technological boundaries.
+Formal standards and recommended practices developed through NISO help establish common expectations for some of these interactions.
+Frameworks such as TERMS, on the other hand, help standardize how librarians conceptualize the e-resource lifecycle itself.
+That includes everything from investigating and acquiring a resource through implementation, evaluation, cancellation, and preservation.</p>
+<p>Standards therefore should not be understood simply as rules that organizations are required to follow.
+As stated, many of the standards, formal or conventional, discussed here are voluntary, and conventional standards especially have no formal authority at all.
+Their power comes from collective adoption.
+As more participants organize their systems and workflows around a shared standard, interoperability (ideally) becomes easier and the costs of ignoring the standard increase.</p>
+<p>In the end, e-resource management is not simply about learning particularly products or performing a collection of tasks.
+It is about managing a network of standardized representations, relationships, exchanges, and workflows.
+The specific technologies will continue to change (i.e., constant disruption), just as punched cards gave way to computerized circulation systems.
+Therefore, it is far more important to understand the standards and abstractions beneath these technologies.
+Doing so provides a more long-lasting and durable way of understanding how e-resource management works.</p>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<p>Breeding, M. (2015).
+<em>Library Technology Reports, 51</em>(4). Chapters 1-5.
+[https://journals.ala.org/index.php/ltr/issue/view/509][breeding2015]</p>
 <p>Burns, C. S. (2014).
 Academic libraries and automation: A historical reflection on Ralph Halstead Parker.
 <em>Portal: Libraries and the Academy, 14</em>(1), 87–102.
 <a href="https://doi.org/10.1353/pla.2013.0051">https://doi.org/10.1353/pla.2013.0051</a>, or:
 <a href="http://uknowledge.uky.edu/slis_facpub/6/">http://uknowledge.uky.edu/slis_facpub/6/</a></p>
-<p>Breeding, M. (2015).
-<em>Library Technology Reports, 51</em>(4). Chapters 1-5.
-[https://journals.ala.org/index.php/ltr/issue/view/509][breeding2015]</p>
 <p>Emery, J., &amp; Stone, G. (2013).
 <em>Library Technology Reports, 49</em>(2). Chapters 1-8.
 <a href="https://journals.ala.org/index.php/ltr/issue/view/192">https://journals.ala.org/index.php/ltr/issue/view/192</a></p>
@@ -1452,9 +1430,20 @@ Academic libraries and automation: A historical reflection on Ralph Halstead Par
 Techniques for Electronic Resource Management (TERMS): From Coping to Best Practices [Conference].
 2014 AALL Annual Meeting and Conference, Henry B. Gonzalez Convention Center San Antonio, TX.
 <a href="http://eprints.hud.ac.uk/id/eprint/19420/">http://eprints.hud.ac.uk/id/eprint/19420/</a></p>
+<p>Emery, J., &amp; Stone, G. (2017, March 17).
+Announcing TERMS ver2.0. TERMS: Techniques for electronic resource management.
+<a href="https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/">https://library.hud.ac.uk/archive/projects/terms/announcing-terms-ver2-0/</a></p>
 <p>Flexner, J. M. (1927).
 <em>Circulation Work in Public Libraries</em>. American Library Association.
 <a href="https://hdl.handle.net/2027/mdp.39015027387052">https://hdl.handle.net/2027/mdp.39015027387052</a></p>
+<p>Harris, P. (2006).
+Library-vendor relations in the world of information standards.
+<em>Journal of Library Administration, 44</em>(3–4), 127–136.
+<a href="https://doi.org/10.1300/J111v44n03_11">https://doi.org/10.1300/J111v44n03_11</a></p>
+<p>Hosburgh, N. (2014).
+Managing the electronic resources lifecycle: Creating a comprehensive checklist using techniques for electronic resource management (TERMS).
+<em>The Serials Librarian, 66</em>(1–4), 212–219.
+<a href="https://doi.org/10.1080/0361526X.2014.880028">https://doi.org/10.1080/0361526X.2014.880028</a></p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="interoperability"><a class="header" href="#interoperability">Interoperability</a></h1>
 <p>By the end of this lecture, you should be able to:</p>
@@ -1749,7 +1738,7 @@ offset=0
 </code></pre>
 <p>See: <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/010Getting_Started_with_Primo_VE/005Primo_VE_Overview">Primo VE Overview</a> and <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/120Other_Configurations/Configuring_Redirection_for_Primo_VE_Deep_Links">Primo VE Deep Links</a>.</p>
 </blockquote>
-<h2 id="readings-1"><a class="header" href="#readings-1">Readings</a></h2>
+<h2 id="readings"><a class="header" href="#readings">Readings</a></h2>
 <p>Our readings this week by <a href="https://doi.org/10.1080/0361526X.2012.652480">Kasprowski (2012)</a>, <a href="https://doi.org/10.1080/1941126X.2015.999519">Johnson et al. (2015)</a>,
 and <a href="https://doi.org/10.1080/1941126X.2017.1304765">Chisari et al. (2017)</a>
 discuss link resolver technology, migration to new link resolver services, and
@@ -1911,7 +1900,7 @@ The output is sent to the <a href="https://jqlang.org/"><code>jq</code></a> comm
 ]
 </code></pre>
 <p>See <a href="https://serpapi.com/google-scholar-api">Google Scholar API</a> for an explanation of the parameters used in Google Scholar.</p>
-<h2 id="readings--references-4"><a class="header" href="#readings--references-4">Readings / References</a></h2>
+<h2 id="readings--references-3"><a class="header" href="#readings--references-3">Readings / References</a></h2>
 <p>Chisare, C., Fagan, J. C., Gaines, D., &amp; Trocchia, M. (2017).
 Selecting link resolver and knowledge base software: Implications of interoperability.
 <em>Journal of Electronic Resources Librarianship, 29</em>(2), 93–106.
@@ -1924,7 +1913,7 @@ Deciding to change OpenURL link resolvers.
 NISO’s IOTA initiative: Measuring the quality of openurl links.
 <em>The Serials Librarian, 62</em>(1–4), 95–102.
 <a href="https://doi.org/10.1080/0361526X.2012.652480">https://doi.org/10.1080/0361526X.2012.652480</a></p>
-<h2 id="additional-references-2"><a class="header" href="#additional-references-2">Additional References</a></h2>
+<h2 id="additional-references-1"><a class="header" href="#additional-references-1">Additional References</a></h2>
 <p>McDonald, J., &amp; Van de Velde, E. F. (2004, April 1).
 The lure of linking. <em>Library Journal</em>. Library Journal Archive Content.
 <a href="https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/">https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/</a></p>
@@ -2186,7 +2175,7 @@ Once authenticated, the university’s system would send a SAML assertion to the
 confirming that the patron is authorized to access the content.</p>
 <p>This method is particularly useful for organizations like universities that have multiple service providers
 (e.g., different databases, internal services, etc.) but want to offer a single sign-on (SSO) experience for their users.</p>
-<h2 id="conclusion-3"><a class="header" href="#conclusion-3">Conclusion</a></h2>
+<h2 id="conclusion-4"><a class="header" href="#conclusion-4">Conclusion</a></h2>
 <p>The Samples &amp; Healy (2014) and the Carter &amp; Traill (2017) articles address
 troubleshooting strategies with electronic resources.
 One additional thing to note about these readings is how the organizational structure influences workflows and how
@@ -2212,7 +2201,7 @@ This will often mean working with vendors and colleagues.</p>
 <li><a href="https://shibboleth.atlassian.net/wiki/spaces/SHIB/pages/1929379982/SAMLDiffs">Differences Between SAML V2.0 and SAML V1.1</a></li>
 <li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/ad-fs-overview">AD FS Overview</a></li>
 </ul>
-<h2 id="readings--references-5"><a class="header" href="#readings--references-5">Readings / References</a></h2>
+<h2 id="readings--references-4"><a class="header" href="#readings--references-4">Readings / References</a></h2>
 <p>Samples, J., &amp; Healy, C. (2014).
 Making it look easy: Maintaining the magic of access.
 <em>Serials Review, 40</em>, 105-117.
@@ -2225,7 +2214,7 @@ Essential skills and knowledge for troubleshooting e-resources access issues in 
 Identifying e-resources: An exploratory study of university students.
 <em>Library Resources &amp; Technical Services, 60</em>, 22-37.
 <a href="https://doi.org/10.5860/lrts.60n1.23">https://doi.org/10.5860/lrts.60n1.23</a></p>
-<h2 id="additional-references-3"><a class="header" href="#additional-references-3">Additional References</a></h2>
+<h2 id="additional-references-2"><a class="header" href="#additional-references-2">Additional References</a></h2>
 <p>Breeding, M. (2008).
 OCLC Acquires EZproxy.
 Smart Libraries Newsletter, 28(03), 1–2.
@@ -2334,7 +2323,7 @@ by studying documents prepared by NISO and its members, and component technologi
 <li>why interoperability is required, and</li>
 <li>what happens when access to electronic resources break.</li>
 </ul>
-<h2 id="readings-2"><a class="header" href="#readings-2">Readings</a></h2>
+<h2 id="readings-1"><a class="header" href="#readings-1">Readings</a></h2>
 <p>Our readings in this section provide foundational insights into the complex workflows involved in electronic resource management (ERM).
 These articles guide us through key concepts like knowledge bases, workflow-based standards, and
 the challenges of integrating electronic resources into library systems.
@@ -2421,7 +2410,7 @@ In particular, they help frame what we learn when we study the markets and econo
 the process of licensing and negotiation, and about the evaluation and statistics of usage.
 Think of this section as a foundation, a transition between, and a reflection on all we have studied thus far, and
 what we will study going forward.</p>
-<h2 id="conclusion-4"><a class="header" href="#conclusion-4">Conclusion</a></h2>
+<h2 id="conclusion-5"><a class="header" href="#conclusion-5">Conclusion</a></h2>
 <p>In this section, we explored the workflows that are central to electronic resource management.
 We continued to learn about the importance of standards, interoperability, and
 we began to gain insight into the financial pressures that libraries face.
@@ -2429,7 +2418,7 @@ The readings also provided insight into how systems like ILSes and ERMSes must w
 will help further our upcoming discussions about market dynamics, licensing processes, and the evaluation of resource usage.
 By understanding their centrality and the basic challenges in developing them,
 you will be better equipped to manage electronic resources more effectively in real-world library settings.</p>
-<h2 id="readings--references-6"><a class="header" href="#readings--references-6">Readings / References</a></h2>
+<h2 id="readings--references-5"><a class="header" href="#readings--references-5">Readings / References</a></h2>
 <p>Anderson, E. K. (2014).
 Chapter 2: Elements of electronic resource management.
 <em>Library Technology Reports, 50</em>(3).
@@ -2438,7 +2427,7 @@ Chapter 2: Elements of electronic resource management.
 Chapter 3: Workflow analysis.
 <em>Library Technology Reports, 50</em>(3).
 <a href="https://journals.ala.org/index.php/ltr/article/view/4493/5259">https://journals.ala.org/index.php/ltr/article/view/4493/5259</a></p>
-<h2 id="additional-references-4"><a class="header" href="#additional-references-4">Additional References</a></h2>
+<h2 id="additional-references-3"><a class="header" href="#additional-references-3">Additional References</a></h2>
 <p>Anderson, E. K. (2014).
 Chapter 4: Electronic resource management systems and related products.
 <em>Library Technology Reports, 50</em>(3).
@@ -2734,7 +2723,7 @@ than the prior one’s.
 For example, the public access mandate and OSTP memorandum are no longer available at whitehouse.gov
 (as of January 20, 2025) and now seem only accessible through the <a href="https://web.archive.org/">WayBack Machine</a>.</p>
 </blockquote>
-<h2 id="conclusion-5"><a class="header" href="#conclusion-5">Conclusion</a></h2>
+<h2 id="conclusion-6"><a class="header" href="#conclusion-6">Conclusion</a></h2>
 <p>The intersection of copyright law, technology, and library economics presents
 a complex and evolving landscape for libraries in the digital age.
 Copyright laws were originally designed to incentivize creation and protect intellectual property.
@@ -2760,14 +2749,14 @@ may further alter the dynamics of digital collections in the future.
 Ultimately, libraries must navigate, or at least be aware,
 of an intricate web of legal, technological, and economic factors
 in order to serve their communities and promote access to knowledge in the digital age.</p>
-<h2 id="readings--references-7"><a class="header" href="#readings--references-7">Readings / References</a></h2>
+<h2 id="readings--references-6"><a class="header" href="#readings--references-6">Readings / References</a></h2>
 <p>Bosch, S., Albee, B., &amp; Henderson, K. (2018). Death by 1,000 cuts. <em>Library
 Journal, 143</em>(7), 28–33.
 <a href="https://www.libraryjournal.com/story/death-1000-cuts-periodicals-price-survey-2018">https://www.libraryjournal.com/story/death-1000-cuts-periodicals-price-survey-2018</a></p>
 <p>Sanchez, J. (2015). Chapter 2. Forecasting public library e-content costs.
 <em>Library Technology Reports, 51</em>(8), 9–15. Retrieved from
 <a href="https://journals.ala.org/index.php/ltr/article/view/5833">https://journals.ala.org/index.php/ltr/article/view/5833</a></p>
-<h2 id="additional-references-5"><a class="header" href="#additional-references-5">Additional References</a></h2>
+<h2 id="additional-references-4"><a class="header" href="#additional-references-4">Additional References</a></h2>
 <p>Garfield, E. (1999).
 Journal impact factor: A brief review.
 <em>CMAJ : Canadian Medical Association Journal, 161</em>(8), 979–980.
@@ -3047,7 +3036,7 @@ seeing to it that the library can meet its patrons’ needs effectively.</p>
 <p>In essence, effective licensing management not only secures compliance with legal terms but
 also enhances resource accessibility for patrons.
 Taulbee and Montavon-Green (2022) highlight the strategic importance of these ERM tools in the libraries.</p>
-<h2 id="conclusion-6"><a class="header" href="#conclusion-6">Conclusion</a></h2>
+<h2 id="conclusion-7"><a class="header" href="#conclusion-7">Conclusion</a></h2>
 <p>In conclusion, licensing is a vital aspect of electronic resource management.
 It builds on the foundations of copyright and contract law.
 It enables libraries to access digital content without owning it, and
@@ -3072,7 +3061,7 @@ In the context of licensing, it means that obligations or claims are enforceable
 <li><strong>End User Agreement</strong>: A type of licensing contract often used in software, which the user must agree to before using the software or service.</li>
 <li><strong>Site Agreement</strong>: A licensing agreement that allows a specific organization, like a library, to access and use resources across multiple users or locations.</li>
 </ul>
-<h2 id="readings--references-8"><a class="header" href="#readings--references-8">Readings / References</a></h2>
+<h2 id="readings--references-7"><a class="header" href="#readings--references-7">Readings / References</a></h2>
 <p>North American Serials Interest Group. (2013).
 NASIG core competencies for electronic resources librarians.
 <a href="[https:/nasig.org/Competencies-Eresources]">https://nasig.org/Competencies-Eresources</a></p>
@@ -3082,7 +3071,7 @@ Lassoing the Licensing Beast: How Electronic Resources Librarians Can Build Comp
 <a href="https://doi.org/10.1080/0361526X.2015.1026225">https://doi.org/10.1080/0361526X.2015.1026225</a></p>
 <p>SERU: A Shared Electronic Resource Understanding, NISO,
 <a href="https://www.niso.org/standards-committees/seru">http://www.niso.org/publications/rp/RP-7-2012_SERU.pdf</a></p>
-<h2 id="additional-references-6"><a class="header" href="#additional-references-6">Additional References</a></h2>
+<h2 id="additional-references-5"><a class="header" href="#additional-references-5">Additional References</a></h2>
 <p>Rub, G. A. (2017).
 Copyright survives: Rethinking the copyright-contract conflict
 (SSRN Scholarly Paper No. 2926253).
@@ -3292,7 +3281,7 @@ which includes definitions of terms, business models, and strategies.</p>
 </ul>
 </li>
 </ol>
-<h2 id="conclusion-7"><a class="header" href="#conclusion-7">Conclusion</a></h2>
+<h2 id="conclusion-8"><a class="header" href="#conclusion-8">Conclusion</a></h2>
 <p>Becoming a skillful negotiator takes practice, but this section will help prepare you for the process.
 The main point I want to make is this:
 if you find yourself in a position where one of your job responsibilities is to negotiate with vendors
@@ -3303,7 +3292,7 @@ improve your effectiveness over time.
 Sources like these, and others like them,
 such as those listed by <a href="https://doi.org/10.1080/1941126X.2017.1304766">Garofalo (2017)</a>, will prepare you if you study them.</p>
 <p>Being prepared is the most important step.</p>
-<h2 id="readings--references-9"><a class="header" href="#readings--references-9">Readings / References</a></h2>
+<h2 id="readings--references-8"><a class="header" href="#readings--references-8">Readings / References</a></h2>
 <p>Brown, A. (2014).
 Negotiation of E Resource licensing pricing terms.
 (2014, September 17).
@@ -3324,7 +3313,7 @@ Tips from the trenches.
 The licensing lifecycle: From negotiation to compliance.
 <em>The Serials Librarian, 68</em>(1–4), 205–214.
 <a href="https://doi.org/10.1080/0361526X.2015.1017707">https://doi.org/10.1080/0361526X.2015.1017707</a></p>
-<h2 id="additional-references-7"><a class="header" href="#additional-references-7">Additional References</a></h2>
+<h2 id="additional-references-6"><a class="header" href="#additional-references-6">Additional References</a></h2>
 <p>ALA. (2006, August 25).
 Libraries and licensing.
 <a href="https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing">https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing</a></p>
@@ -3461,13 +3450,13 @@ Both approaches reflect the libraries’ unique missions and communities.</p>
 collaborate with colleagues to create a vision for your collection.
 Draft a simple version and seek feedback for continuous improvement.</p>
 </blockquote>
-<h2 id="conclusion-8"><a class="header" href="#conclusion-8">Conclusion</a></h2>
+<h2 id="conclusion-9"><a class="header" href="#conclusion-9">Conclusion</a></h2>
 <p>This section addresses the complexities of collection development for electronic resources,
 the impact of format on workflows and organizational hierarchies,
 the role of OERs in libraries, and
 the critical importance of collection development policies for e-resources.
 Electronic resources have reshaped not only what libraries collect but how they organize and manage their staff and workflows.</p>
-<h2 id="readings--references-10"><a class="header" href="#readings--references-10">Readings / References</a></h2>
+<h2 id="readings--references-9"><a class="header" href="#readings--references-9">Readings / References</a></h2>
 <p>England, L., Foge, M., Harding, J., &amp; Miller, S. (2017).
 ERM ideas &amp; innovations.
 <em>Journal of Electronic Resources Librarianship, 29</em>(2), 110–116.
@@ -3480,7 +3469,7 @@ Comparing usage between dynamic and static e-reference collections.
 Methods and strategies for creating a culture of collections assessment at comprehensive universities.
 <em>Journal of Electronic Resources Librarianship, 21</em>(3–4), 213–236.
 <a href="https://doi.org/10.1080/19411260903466269">https://doi.org/10.1080/19411260903466269</a></p>
-<h2 id="additional-references-8"><a class="header" href="#additional-references-8">Additional References</a></h2>
+<h2 id="additional-references-7"><a class="header" href="#additional-references-7">Additional References</a></h2>
 <p>Harloe, B., &amp; Budd, J. M. (1994).
 Collection development and scholarly communication in the era of electronic access.
 <em>The Journal of Academic Librarianship, 20</em>(2), 83–87.
@@ -3663,7 +3652,7 @@ there are thus two key types of data that provide insights into UX: data about u
 Whereas usage data helps us understand how users interact with a system and what they do (<a href="https://doi.org/10.1080/00987913.2016.1140614">Fry, 2016</a>),
 breakage data focuses on identifying errors or issues that users encounter, as described by Browning (2015).
 Both kinds of data are crucial and combining both perspectives offers a more comprehensive understanding of user experience.</p>
-<h2 id="conclusion-9"><a class="header" href="#conclusion-9">Conclusion</a></h2>
+<h2 id="conclusion-10"><a class="header" href="#conclusion-10">Conclusion</a></h2>
 <p>I agree with <a href="https://doi.org/10.1080/00987913.2016.1140614">McDonald (2016)</a> that despite having around 30 or so years of experience
 with web-based and other electronic resource types, we are still in the throes of disruption.
 There’s much yet to learn about designing for the web,
@@ -3708,7 +3697,7 @@ If you keep up with the literature, it’ll strengthen your intuition about UX p
 <li>Share findings with colleagues.
 This can help to avoid repetition of the same mistakes and encourage a culture of user-center thinking.</li>
 </ul>
-<h2 id="readings--references-11"><a class="header" href="#readings--references-11">Readings / References</a></h2>
+<h2 id="readings--references-10"><a class="header" href="#readings--references-10">Readings / References</a></h2>
 <p>Browning, S. (2015).
 Data, data, everywhere, nor any time to think: DIY analysis of e-resource access problems.
 <em>Journal of Electronic Resources Librarianship, 27</em>(1), 26–34.
@@ -3721,7 +3710,7 @@ Virtual focus groups for improved A-Z list user experience.
 ERM UX: Electronic resources management and the user experience.
 <em>Serials Review, 41</em>(3), 194–198.
 <a href="https://doi.org/10.1080/00987913.2015.1069527">https://doi.org/10.1080/00987913.2015.1069527</a></p>
-<h2 id="additional-references-9"><a class="header" href="#additional-references-9">Additional References</a></h2>
+<h2 id="additional-references-8"><a class="header" href="#additional-references-8">Additional References</a></h2>
 <p>Adams, A. L., &amp; Hanson, M. (2020).
 Primo on the go: A usability study of the Primo mobile interface.
 <em>Journal of Web Librarianship</em>.
@@ -3919,7 +3908,7 @@ to construct search queries of the EZproxy logs and deduce usage of specific ele
 Since both methods require sifting through log entries like the one I highlighted above,
 the process requires some sleuthing, testing, time, and patience.
 However, once figured out, the process and reports can easily be automated.</p>
-<h2 id="conclusion-10"><a class="header" href="#conclusion-10">Conclusion</a></h2>
+<h2 id="conclusion-11"><a class="header" href="#conclusion-11">Conclusion</a></h2>
 <p>Librarians used a variety of techniques to collect usage data in the print era, but again,
 electronic resources have complicated things.
 First, because more data is available about usage with electronic resources,
@@ -3935,7 +3924,7 @@ or help fill in the gaps when vendors fall short in their requirements (Smith &a
 Before that data can be used responsively, it must be handled ethically.
 That is, the same data that makes usage analysis powerful also raises privacy concerns,
 which we explore in the last chapter.</p>
-<h2 id="readings--references-12"><a class="header" href="#readings--references-12">Readings / References</a></h2>
+<h2 id="readings--references-11"><a class="header" href="#readings--references-11">Readings / References</a></h2>
 <p>Pesch, O. (2017).
 COUNTER release 5: What’s new and what it means to libraries.
 <em>The Serials Librarian, 73</em>(3–4), 195–207.
@@ -4073,7 +4062,7 @@ Even well intended choices, such as using analytic products or third-party fonts
 that help librarians build better websites and offer better services,
 and entangle libraries in broader data ecosystems that are beyond their control.
 This is why ethical considerations must guide technical decisions.</p>
-<h2 id="conclusion-11"><a class="header" href="#conclusion-11">Conclusion</a></h2>
+<h2 id="conclusion-12"><a class="header" href="#conclusion-12">Conclusion</a></h2>
 <p>The shift from print to digital resources has not only transformed workflows,
 it has also altered the moral terrain of librarianship.
 Patron data that was once scattered, ephemeral, or difficult to aggregate can now be stored, linked, traded, and
@@ -4091,7 +4080,7 @@ face real consequences when their reading behavior is exposed.</p>
 to safeguard the conditions that allow intellectual freedom to flourish.
 Privacy is not a secondary concern or an optional feature.
 Rather, it is a technical responsibility, a moral obligation, and it is a foundational trust that makes library use possible.</p>
-<h2 id="readings--references-13"><a class="header" href="#readings--references-13">Readings / References</a></h2>
+<h2 id="readings--references-12"><a class="header" href="#readings--references-12">Readings / References</a></h2>
 <p>Breeding, M. (2016).
 Chapter 1. Issues and technologies related to privacy and security.
 In Privacy and Security for Library Systems.
