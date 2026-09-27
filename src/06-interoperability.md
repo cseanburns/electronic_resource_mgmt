@@ -16,7 +16,7 @@ To demonstrate how library systems interact with each other, in this section we 
 and their solutions.
 
 Managing electronic resources in libraries involves a complex web of technologies and services, and each presents its own set of challenges.
-One challenge is the intricacy of navigating paywalls to access a library's digital content, especially content that may be sourced by multiple providers.
+One challenge is the intricacy of navigating paywalls to access a library's digital content, especially content that may be sourced by multiple providers ([Lagace & Chisman, 2007][lagace_2007]).
 We explore how technologies like OpenURL standards compliant link resolvers streamline this process and enhance interoperability across multiple services.
 We define interoperability as the ability of library systems and vendor platforms to communicate with each other through standards and protocols, like [OpenURL][openurl_wiki],
 in order to provide access to a library's collections.
@@ -635,8 +635,9 @@ See: [Primo VE Overview][primo_ve] and [Primo VE Deep Links][primo_ve_deep_links
 Now that we have a basic understanding of how OpenURL and link resolver work, we can now understand various issues with link resolvers.
 For example, [Kasprowski (2012)][kasprowski2012], [Johnson et al. (2015)][johnson2015], and [Chisari et al. (2017)][chisare2017]
 discuss link resolver technology, migration to new link resolver services, and methods to evaluate link resolver technology from both the systems and a user's perspective.
-It may not be necessary to master OpenURL syntax or the intricacies of link resolver URL formatting, as demonstrated here (and in Appendices A and B),
-but it is beneficial to acquire a basic understanding of how these URLs function in this process.
+[Taulbee &amp; Montavon-Green (2022)][taulbee_2022] list common errors that cause disruption of link resolver services.
+It may not be necessary to acquire an in-depth undertanding of the OpenURL syntax or the intricacies of link resolver URL formatting, (see also Appendices A and B),
+but it is beneficial to acquire a basic understanding of how these URLs function in this process in order to manage and diagnose problems.
 
 Let me re-emphasize that the key way that link resolvers work is by embedding citation metadata within the link resolver URL, including administrative metadata.
 For this to work, it means we need high quality metadata for our records, as our readings note.
@@ -810,6 +811,11 @@ Deciding to change OpenURL link resolvers.
 *Journal of Electronic Resources Librarianship, 27*(1), 10–25.
 [https://doi.org/10.1080/1941126X.2015.999519][johnson2015]
 
+Lagace, N., & Chisman, J. K. (2007).
+How did we ever manage without the OpenURL?
+*The Serials Librarian, 52*(1–2), 211–222.
+[https://doi.org/10.1300/J123v52n01_17][lagace_2007]
+
 Kasprowski, R. (2012).
 NISO's IOTA initiative: Measuring the quality of openurl links.
 *The Serials Librarian, 62*(1–4), 95–102.
@@ -828,6 +834,11 @@ Serials Spoken Here.
 National Information Standards Organization. (2010).
 ANSI/NISO Z39.88-2004 (R2010), The OpenURL Framework for Context-Sensitive Services. *NISO*.
 [https://doi.org/10.3789/ansi.niso.z39.88-2004R2010][openurl_niso]
+
+Taulbee, C., & Montavon-Green, J. (2022).
+Using license terms to streamline interlibrary loan and electronic resources communication.
+*Journal of Library Resource Sharing, 31*(1–5), 59–67.
+[https://doi.org/10.1080/26915979.2023.2200223][taulbee_2022]
 
 Van De Sompel, H., & Hochstenbach, P. (1999a).
 Reference linking in a hybrid library environment: Part 1: frameworks for linking.
@@ -856,6 +867,7 @@ Reference linking in a hybrid library environment: Part 3: generalizing the SFX 
 [johnson2015]:https://doi.org/10.1080/1941126X.2015.999519
 [jq]:https://jqlang.org/
 [kasprowski2012]:https://doi.org/10.1080/0361526X.2012.652480
+[lagace_2007]:https://doi.org/10.1300/J123v52n01_17
 [locateMenu]:https://www.zotero.org/support/locate
 [mcdonald2004]:https://web.archive.org/web/20140419201741/http://lj.libraryjournal.com:80/2004/04/ljarchives/the-lure-of-linking/
 [montavon2023]:https://doi.org/10.1080/00987913.2023.2174400
@@ -876,6 +888,7 @@ Reference linking in a hybrid library environment: Part 3: generalizing the SFX 
 [sompel_part1]:https://doi.org/10.1045/april99-van_de_sompel-pt1
 [sompel_part2]:https://doi.org/10.1045/april99-van_de_sompel-pt2
 [sompel_part3]:https://doi.org/10.1045/october99-van_de_sompel
+[taulbee_2022]:https://doi.org/10.1080/26915979.2023.2200223
 [trurl]:https://curl.se/trurl/
 [ulrichs_uky]:https://libguides.uky.edu/2060
 [unicode_wiki]:https://en.wikipedia.org/wiki/Unicode
