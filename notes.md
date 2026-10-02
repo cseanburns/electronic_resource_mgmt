@@ -31,3 +31,54 @@ Provide a list of journals, etc for reference
 - NASIG Proceedings: https://journals.publishing.umich.edu/nasig/
 - code{4}lib: https://journal.code4lib.org/
 
+## learning outcomes
+
+to install omeka:
+
+1. know how to log in to your system
+1. know how to update your system
+1. know how to install core software
+1. know how to install software dendencies
+1. know how to navigate the file system
+1. know where to navigate in the file system
+1. know how to create directories and files
+1. know where to create relevant directories and files
+1. know how to change file ownership
+1. know how to change file permissions
+1. know how to edit files
+1. know the structure of a content management system
+1. know how to document their processes
+
+See this in Zotero for more helpful tips in designing a course, learning outcomes, etc:
+
+Nilson, L. B., & Stanny, C. J. (2023).
+Specifications Grading: Restoring Rigor, Motivating Students, and Saving Faculty Time (1st ed.).
+Routledge.
+https://doi.org/10.4324/9781003447061
+
+## writing assignments
+
+when creating writing specific assignments, see this article:
+
+Anderson, P., Anson, C. M., Fish, T., Gonyea, R. M., Marshall, M., Menefee-Libey, W., Paine, C., Blake, L. P., & Weaver, S. (2017).
+How writing contributes to learning: New findings from a national study and their local application.
+Peer Review, 19(1), 4–8. (123362130).
+https://www.aacu.org/publications-archive/peer-review
+
+## erm class
+
+add this to reading and lecture:
+
+
+## erm class
+
+Moran's article is useful when I discuss org charts.
+Lots of history here about them, esp beginning page 6
+add this to reading and lecture:
+
+Moran, B. B. (2001).
+Restructuring the university library: A North American perspective.
+Journal of Documentation, 57(1), 100–114.
+https://doi.org/10.1108/eum0000000007079
+
+
