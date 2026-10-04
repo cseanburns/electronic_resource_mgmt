@@ -8,7 +8,7 @@ By the end of this section, you should be able to:
 4. **Authentication Technologies**: Students will understand the key authentication technologies used by libraries, including IP/proxy-based systems like EZproxy and SAML-based systems like OpenAthens, and their implications for access and user privacy.
 5. **Impact of Workflow Standardization and Organizational Structure**: Students will learn the importance of standardized workflows in improving the management of electronic resources and the challenges posed by diverse organizational structures across libraries.
 
-## Introduction
+## The Principle of Access
 
 **Access** is the paramount principle of librarianship.
 All other issues, from censorship to information retrieval to usability, are on some level derived from or framed by that principle of **Access**.
@@ -16,6 +16,8 @@ All other issues, from censorship to information retrieval to usability, are on 
 This week we devote ourselves to a discussion of **electronic access**.
 To start, let's begin with [Samples and Healy (2014)][samples2014], who provide a nice framework for thinking about managing electronic access.
 They include two broad categories, **proactive troubleshooting** and **reactive troubleshooting** of access.
+
+### Proactive Troubleshooting
 
 * proactive troubleshooting of access: "defined as troubleshooting access problems before they are identified by a patron". Some examples include:
     - "letting public-facing library staff know about planned database downtime"
@@ -40,7 +42,7 @@ Six authors individually describe access issues at their respective institutions
 They show how issues of pricing, acquisitions, training, user expectations, and budgets affect electronic access.
 For example, Hutchinson (2021) describes how providing Demand Driven Acquisition (DDA) for Kanopy streaming services before the pandemic became largely a major cost issue after the pandemic when people were isolating.
 And how expectations about access to e-resource works changed and elevated during the pandemic.
-Stories like these, about the pandemic on electronic access, help guide us in developing proactive troubleshooting procedures in case of future disruptions, pandemic or otherwise.
+Stories like these, about the pandemic on electronic access, help guide us in developing proactive troubleshooting procedures in cases of future disruption, pandemic or otherwise.
 
 Samples and Healy (2014) say something important against a common assumption about electronic resources, particularly those provided by vendors:
 
@@ -57,7 +59,7 @@ can lead to confusing and problematic results when considering different genres 
 
 Or, note their discussion on the series of links involved starting from the source of discovery to the retrieval of an item.
 It can be difficult to determine which of these links and which of those services is broken when access becomes problematic.
-From our last section, consider all the URLs that are processed and all the technologies used in going from target to source.
+From our last section, consider all the URLs that are processed and all the technologies used in going from source to target.
 
 Let me highlight key findings from their report:
 
@@ -67,24 +69,26 @@ Let me highlight key findings from their report:
 
 We commonly get the line that discovery systems are a great solution to all the disparate resources that librarians subscribe to.
 Or, if we do think about problems with such systems, we are often presented with a basic information retrieval problem:
-such that the larger the collection to search, the more likely a relevant item will get lost in the mix.
+such that the larger the collection to search, the more likely a relevant item will get lost in the mix (see: [precision / recall][pr_saa]).
 [Carter and Traill (2017)][carter2017] point out that these discovery systems also tend to reveal access problems as they are used.
 The authors provide a checklist to help track issues and improve existing workflows.
+
+### Document Types and Access
 
 [Buhler and Cataldo (2016)][buhler2016] provide an important reminder that the mission of the electronic resource librarian is to serve the patron.
 This should remind us that the internet and the web have flattened genres.
 By that I mean they have made it difficult to distinguish among works like magazine articles, news articles, journal articles, encyclopedia articles, ebooks, etc.
 
-Myself, I grew up learning about the differences between encyclopedia articles, journal articles, magazine articles, newspaper articles, book chapters, handbooks, indexes, and
+Myself, given my age, I grew up learning about the differences between encyclopedia articles, journal articles, magazine articles, newspaper articles, book chapters, handbooks, indexes, and
 dictionaries based not only in their use but also by how they exist as print versions.
 By definition, these works were tangible things that looked different from each other, on the outside and in.
 Today, a traditional first year college student was born around the year 2008 and learned to read in the early to mid-2010s.
 The problem this illustrates is that although electronic resources are electronic or digital, they are still based on genres that originated in the print age.
 Yet as digital works, they lack the physical characteristics that distinguished one genre from the other
-(as printed works, e.g., a newspaper on broadsheet and a magazine on smaller, glossier, bounded paper).
+(as printed works, consider a newspaper printed on broadsheet versus a magazine printed on smaller, glossier, bounded paper).
 For example, by looking at their web pages, can we tell the difference between a long-form *NY Times* article (traditionally a newspaper article) and
 a long-form article in the *New Yorker* (traditionally a magazine article)?
-Aside from some aesthetic, branding differences, they are both presented as web pages.
+Aside from some aesthetic, branding differences, both are presented as web pages with links that identify them as singular, distinct pages, as opposed to pages bounded within a printed paper or magazine.
 
 Today, people have to engage more cognitively with information sources if they are to learn these genres and what their purposes are.
 When first exposed to these sources, that is, they would have to dive deep into the articles in each to perhaps learn that *NY Times* articles focus (generally) on
@@ -95,15 +99,15 @@ But none of these are necessarily obvious differences on the surface and require
 
 In other words, bracketing aside my age group's years of experience with these sources, it's not altogether obvious, based on any kind of cursory examination,
 that we can tell that these two publications are entirely different genres.
-However, as noted, there are important informational differences between the two, how they were written,
-how they were edited, how long they are, and who they were written by that lead us to consider them as different genres.
+However, as noted, there are still important informational differences between the two, how they were written,
+how they were edited, how long they are, and who they were written by that leads us to consider them as different genres.
 
 Even *Wikipedia* articles pose this problem.
-Citing an encyclopedia article was never an accepted practice in K-12 or college, but this was only true for **general encyclopedias**.
+Even in the pre-web days, citing an encyclopedia article was never an accepted practice in K-12 or college, but this was only true for **general encyclopedias**.
 It was generally okay to cite articles from **special encyclopedias** because they focused on limited subject matters like art, music, science, culture, and were usually more in-depth in their coverage.
 Special encyclopedia examples include the *Encyclopedia of GIS*, the *Encyclopedia of Evolution*,
 *The Kentucky African American Encyclopedia*, *The Encyclopedia of Virtual Art Carving Toraja--Indonesia*, and so forth.
-[Studies show][messner2013], however, that *Wikipedia* provides in-depth coverage like some special encyclopedias and short articles like some general encyclopedias,
+[Studies show][messner2013], however, that *Wikipedia* provides quality coverage both as a special encyclopedia and as general encyclopedias,
 thus helping to flatten the encyclopedia genre between general vs. special encyclopedias, too.
 
 The flattening holds true for things like *Google*.
@@ -111,9 +115,9 @@ The best print analogy for *Google* is that of a **periodical index**, which was
 The main difference between these indexes and *Google* is that the indexes were produced to cover specific publications,
 like a newspaper, or specific topical areas, like the *Social Science Citation Index* or the *Science Citation Index*.
 Both of these are actual, documented, historical precursors to *Google* and to *Google Scholar*.
-But today, these search engines are erroneously considered source material (e.g, "I found it on Google" ; and now I'm waiting to see, "I found it on ChatGPT").
-In comparison, we would not have considered a print index as source material, but rather as a **reference** item, since it *referred* users to sources.
-Nowadays, these days, it's all mixed up, and thus who can blame anyone for mis-sourcing?
+But today, these search engines are erroneously considered source material (e.g, "I found it on Google").
+In comparison, in the pre-web days, we would not have considered a print index as source material, but rather as a **reference** item, since it *referred* users to sources.
+Nowadays, the web has mixed this up, and thus who can blame anyone for mis-sourcing?
 
 But the main takeaway here is that electronic access is not merely a technical question of whether a patron can retrieve an object.
 Successful access also requires the patron or user to recognize what has been retrieved.
@@ -124,11 +128,11 @@ Successful access also requires the patron or user to recognize what has been re
 * [Photos of the Newspaper Index for the Washington Post][washpost_index]
 * [Photos of the Reader's Guide to Periodical Literature][readersguide_index]
 
-## Access and Authentication
+## The Technologies of Access and Authentication
 
-So far, I have covered *access* issues in a more conceptual way, but then we might ask what technologies literally provide access to users?
+So far, I have covered *access* issues in a more conceptual way, but then we might ask what technologies provide access to users?
 To tackle that, let us lean into the technological frameworks that facilitate access to and authentication of library electronic collections.
-Given that a significant portion of these resources are behind paywalls, libraries employ specialized software to verify user credentials before granting access.
+Given that a significant portion of a library's resources are behind paywalls, libraries employ specialized software to verify user credentials before granting access.
 These authentication measures are not just best practices but are often mandated by contractual agreements with content providers.
 
 There are two main technologies used to authenticate users.
@@ -138,6 +142,10 @@ We address these two authentication types below.
 ### Proxy Authentication
 
 [EZproxy][ezproxyex] (OCLC) is one of the main products of the first type.
+A [proxy server][proxy_wiki], more generally, is a computer server that acts as an "intermediary" between a client and a resource, or target.
+General proxy servers are useful for limiting the number of requests to a target because they cache targets on the proxy server and return those targets to the user instead of from the original target server.
+It thus acts as a **proxy**.
+EZproxy is a special type of proxy server that does something similar for paywalled targets.
 When we access any paywalled work, like a journal article, we may notice something like `ezproxy.uky.edu` in the string of text in a URL.
 For example, the following is an EZproxy URL:
 
@@ -167,12 +175,13 @@ In essence, when we make a request for a resource, like a journal article or a b
 we first authenticate ourselves (i.e., login) to the proxy server, and our browser then makes the request to the proxy server and not to the original server.
 The proxy server then makes the resource request to the original server, which knows which databases are authorized for our access, and relays that content back to the proxy server (EZproxy).
 This then sends the content to our browser.
-This means that when we request an article in a journal at `sciencedirect.com` or `jstor.com`, our browser never actually makes a connection to those servers.
+This means that when we request an article in a journal at `sciencedirect.com` or at `jstor.com`, our browser never actually makes a connection to those servers at `sciencedirect.com` or at `jstor.com`.
 Instead, the proxy server acts as a go-between.
 
 > See [Day (2017)][day2017] for a more technical and yet accessible description of the process.
 
-Publishers authorize institutional access based on IP addresses, traditionally.
+How do publishers or other content or resource providers work with library proxy servers?
+They authorize institutional access based on IP addresses, traditionally.
 When users are on campus and are using campus internet, their requests originate from an institutional IP range that is recognized by the publisher.
 In such cases, they may not need EZproxy at all.
 However, when users are off campus, EZproxy allows their requests to appear to the publisher as requests originating from an authorized institutional IP address.
@@ -192,19 +201,19 @@ https://login.ezproxy.uky.edu/menu
 ### SAML Authentication
 
 The second main technology used to authenticate and provide access is based on what is called **SAML authentication**.
-We have two main implementations of this: [OpenAthens][openathens] and [Shibboleth][shibboleth].
-OpenAthens and Shibboleth are two common ways institutions implement federated access based on SAML.
-These provide federated access based on SAML and can support single sign-on (SSO).
+Libraries use two main implementations of this: [OpenAthens][openathens] and [Shibboleth][shibboleth].
+These provide federated access based on SAML and can support single sign-on (SSO), thus providing a method for institutions to implement federated access to content
+(see [Configuring a SAML IdP as an authentication provider for OpenAthens][saml_openathens] and [Shibboleth documentation][shibboleth_docs]).
 
 SAML, or *Security Assertion Markup Language*, is an XML-based standard that primarily enables the exchange of authentication and attribute assertions between
 an **identity provider** (IdP) and a **service provider** (SP).
 Unlike a proxy / IP authentication process, SAML's main function is to verify that a trusted identity provider has made an acceptable assertion about the user / session.
 Under this method, libraries offer a single sign-on process, and once authenticated, patrons have access to SAML-enabled content to which their institutions have access.
 The process is similar to the [Duo Single Sign-On][duo] service universities and other organizations use for authentication.
-In the OpenAthens case, users are authenticated via an identity provider, which would be the library or the broader institution (and usually via some other software service).
+Users are authenticated via an identity provider, which would be the library or the broader institution (and usually via some other software service).
 The library provides identification by connecting to its organization's identity management system, such as [Active Directory Federation Services][adfs].
 Once a patron has been authenticated, the IdP sends a SAML assertion to the service provider.
-The service provider vaidates the assertion and uses the information it contains to determine whether to grant access.
+The service provider validates the assertion and uses the information it contains to determine whether to grant access.
 
 > For more details, see [What is SAML?][saml] and this detailed [OpenAthens software demo][oademo].
 
@@ -219,7 +228,7 @@ this:
 https://www.sciencedirect.com/science/article/pii/S030645730500004X
 ```
 
-as opposed to this institutional specific one:
+as opposed to this institutional specific, proxied URL, such as:
 
 ```
 https://www-sciencedirect-com.ezproxy.uky.edu/science/article/pii/S030645730500004X
@@ -254,16 +263,19 @@ This method is particularly useful for organizations like universities that have
 
 ## Conclusion
 
+In this section, I cover **electronic access** from several angles.
+This is because one of the points I want to make is that **access**, as **the** main principle of librarianship, is multi-faceted.
+
 Samples & Healy (2014) and Carter & Traill (2017) address troubleshooting strategies with electronic resources.
 One additional thing to note is how the organizational structure influences workflows and how the continued transition from a print-era model of library processes to an electronic one remains problematic.
 Even once that transition is complete, both make the case that strategy and preparation are needed to deal with these issues.
 
 Buhler & Cataldo (2016) show how confusing e-resources are to patrons and how the move to digital has complicated all genres, or "containers", as the authors name them.
-Such "ambiguity" has implications not only for how users find and identify electronic resources but on how librarians manage access to them.
+Such ambiguity has implications not only for how users find and identify electronic resources but on how librarians manage access to them.
 
 EZproxy and OpenAthens complete the technical discussions on integrated library systems, electronic resource management systems, link resolvers, and standards.
 Both technologies aim to provide seamless access to paywalled content, as nearly as seamless as accessing content via a search engine or other source.
-Although neither will ever be able to offer completely seamless access to paywalled sources in library collections, the job of an electronic resource librarian is to make sure they work as well as possible.
+Although neither will ever be able to offer completely seamless access to paywalled sources in library collections, the job of an electronic resource librarian is to make sure they work as smoothly as possible.
 This will often mean working with vendors and colleagues.
 
 One last thing.
@@ -331,6 +343,7 @@ Making it look easy: Maintaining the magic of access.
 
 [adfs]:https://en.wikipedia.org/wiki/Active_Directory_Federation_Services
 [adfsoverview]:https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/ad-fs-overview
+[analytic_entry]:https://dictionary.archivists.org/entry/analytical-entry.html
 [botyriute2018]:https://doi.org/10.1007/978-3-319-73990-8
 [breeding2008]:https://librarytechnology.org/document/13149
 [buhler2016]:https://doi.org/10.5860/lrts.60n1.23
@@ -345,12 +358,15 @@ Making it look easy: Maintaining the magic of access.
 [nytimes_index]:https://photos.app.goo.gl/6wqu02M7OQzyJnCG2
 [oademo]:https://www.youtube.com/watch?v=8o4syOJsIf0
 [openathens]:https://www.openathens.net/
+[proxy_wiki]:https://en.wikipedia.org/wiki/Proxy_server
+[pr_saa]:https://www2.archivists.org/glossary/citation/recall-is-inversely-proportional-to-precision-the-more-precise-you-are-about-defin
 [readersguide_index]:https://photos.app.goo.gl/Y5ronALog63zIxwr1
 [samldiffs]:https://shibboleth.atlassian.net/wiki/spaces/SHIB/pages/1929379982/SAMLDiffs
 [saml]:https://www.onelogin.com/learn/saml
+[saml_openathens]:https://docs.openathens.net/tpa/configuring-a-saml-idp-as-an-authentication-provid
 [samples2014]:https://doi.org/10.1080/00987913.2014.929483
-[ubc]:https://about.library.ubc.ca/2021/06/02/openathens-transforms-user-access-to-library-resources-replacing-ezproxy-and-ip-address-authentication/
-[washpost_index]:https://photos.app.goo.gl/JpnqxzZ44dhM06cq2
-[analytic_entry]:https://dictionary.archivists.org/entry/analytical-entry.html
-[url_rewriting_oclc]:https://help.oclc.org/Library_Management/EZproxy/Get_started/About_URL_rewriting
+[shibboleth_docs]:https://shibboleth.atlassian.net/wiki/spaces/SHIB2/overview?homepageId=2577072190
 [shibboleth]:https://www.shibboleth.net/
+[ubc]:https://about.library.ubc.ca/2021/06/02/openathens-transforms-user-access-to-library-resources-replacing-ezproxy-and-ip-address-authentication/
+[url_rewriting_oclc]:https://help.oclc.org/Library_Management/EZproxy/Get_started/About_URL_rewriting
+[washpost_index]:https://photos.app.goo.gl/JpnqxzZ44dhM06cq2
