@@ -31,7 +31,7 @@ In the preceding chapters, we learned:
 * why electronic resources have introduced so much *constant disruption* across libraries.
 
 Among other things, this latter point is due to the fact that the print-era involved (relatively speaking)
-a linear process of collection management and information use that was fundamentally altered with the introduction of electronic resources.
+a linear process of collection management and information use that was fundamentally altered with the introduction of electronic resources ([Anderson, 2014a][anderson2014a]).
 
 Then we learned about the functions and modules offered by:
 
@@ -165,7 +165,7 @@ Recognize that these readings would have been far less understandable until now,
 
 ## Conclusion
 
-In this section, we references the workflows that are central to electronic resource management.
+In this section, we reference the workflows that are central to electronic resource management.
 We continued to learn about the importance of standards, interoperability, and we began to gain insight into the financial pressures that libraries face.
 The literature provided insight into how systems like ILSes and ERMSes must work together and will help further our upcoming discussions about market dynamics, licensing processes, and the evaluation of resource usage.
 By understanding their centrality and the basic challenges in developing them, you will be better equipped to manage electronic resources more effectively in real-world library settings.
