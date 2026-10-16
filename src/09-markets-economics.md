@@ -197,6 +197,11 @@ As of October 15, 2026, its [fee page][pubfees] lists $2,477 for the category co
 Using the historical figures recorded in Table 1, the 2024 increase was $359, followed by $92 in 2025 and $95 in 2026.
 The increase from the listed 2020 fee to the 2026 fee is $882, or 55.30%.
 
+Despite our hopes, costs continue to rise.
+Using PLOS as an example, but likely true throughout the publishing ecosystem, PLOS charged [$1500][2005_plos] in its early years and stated that:
+
+> We expect these costs to decline over time, as automated systems for document handling and production become more efficient, and we will regularly reevaluate our charges to keep them in line with expenses [Publication Charges (2005)][pub_charges_2005_plos].
+
 Imagine twenty separate articles from one institution, each charged the full $2,477 APC to that institution, without discounts or waivers.
 The total would be $49,540.
 Even though this is not a direct comparison to the cost of subscribing to one journal, it does illustrate a possible institutional publishing expense.
@@ -205,16 +210,16 @@ Thus, to compare the models, we would need to specify the institution's publishi
 
 | Year | PLOS ONE APC Fee | $ increase | % increase |
 | ---- | ---------------- | ---------- | ---------- |
-| 2020 | $1595            |            |            |
-| 2021 | $1695            | $100       | 6.27%      |
-| 2022 | $1805            | $110       | 6.49%      |
-| 2023 | $1931            | $126       | 6.98%      |
-| 2024 | $2290            | $359       | 18.59%     |
-| 2025 | $2382            | $92        | 4.02%      |
-| 2026 | $2477            | $95        | 3.99%      |
+| 2020 | [$1595][2020_plos]            |            |            |
+| 2021 | [$1695][2021_plos]            | $100       | 6.27%      |
+| 2022 | [$1805][2022_plos]            | $110       | 6.49%      |
+| 2023 | [$1931][2023_plos]            | $126       | 6.98%      |
+| 2024 | [$2290][2024_plos]            | $359       | 18.59%     |
+| 2025 | [$2382][2025_plos]            | $92        | 4.02%      |
+| 2026 | [$2477][2026_plos]            | $95        | 3.99%      |
 
-*Table 1: PLOS ONE APC figures recorded in successive versions of this chapter (U.S. dollars).* Annual percentage increases are calculated from the listed dollar amounts and rounded to two decimal places.
-The current fee page supports the 2026 figure; the 2020–2025 entries require dated source verification before being treated as a documented historical price series.
+
+*Table 1: PLOS ONE APC figures recorded in successive versions of this chapter (U.S. dollars).* Annual percentage increases are calculated from the listed dollar amounts and rounded to two decimal places. Not all price increases capture. Prices captured annually.
 
 > An APC may be paid by a research grant, an institution, a library publishing agreement, or an author, or it may be reduced or waived.
 > Who pays varies with the journal, discipline, and funding available. Free access for readers does not mean that publication has no costs.
@@ -303,3 +308,13 @@ Quarterly, 38(2), 405–422.
 [sec109]:http://www.copyright.gov/title17/92chap1.html#109
 [sec202]:https://www.govinfo.gov/content/pkg/USCODE-2024-title17/html/USCODE-2024-title17-chap2-sec202.htm
 [sisto2022]:https://doi.org/10.1007/s12109-022-09880-7
+[2020_plos]:https://web.archive.org/web/20190909011143/https://www.plos.org/publication-fees
+[2021_plos]:https://web.archive.org/web/20210212205703/https://plos.org/publish/fees/
+[2022_plos]:https://web.archive.org/web/20220803230106/https://plos.org/publish/fees/
+[2023_plos]:https://web.archive.org/web/20231204035408/https://plos.org/publish/fees/
+[2024_plos]:https://web.archive.org/web/20250102105954/https://plos.org/fees/
+[2025_plos]:https://web.archive.org/web/20251128140230/https://plos.org/Fees/
+[2026_plos]:https://web.archive.org/web/20260529002435/https://plos.org/fees/
+[2005_plos]:https://web.archive.org/web/20050205052804/http://www.plos.org/faq.html#pubfees
+[pub_charges_2005_plos]:https://web.archive.org/web/20050215033055/http://www.plos.org/journals/model.html#:~:text=way%2E%22-,Publication,emulate
+
