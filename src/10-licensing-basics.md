@@ -355,7 +355,7 @@ In R. O. Weir (Ed.), Managing electronic resources: a LITA guide.
 Chicago: ALA TechSource, an imprint of the American Library Association.
 
 [a1s8c8]:https://constitution.congress.gov/browse/essay/artI-S8-C8-1/ALDE_00013060/
-[addmodels]:http://liblicense.crl.edu/licensing-information/model-license/
+[addmodels]:https://www.crl.edu/model-license-agreement
 [cclaws]:https://www.copyrightlaws.com/
 [checklist]:https://cdlib.org/resources/vendors/license-agreement-checklist/
 [contractlaw]:https://www.law.cornell.edu/wex/contract
@@ -364,7 +364,7 @@ Chicago: ALA TechSource, an imprint of the American Library Association.
 [csca1980]:https://itlaw.fandom.com/wiki/Computer_Software_Copyright_Act_of_1980
 [fiftyfive]:https://mostlyiphistory.com/2019/05/19/fifty-five-years-of-software-copyright/
 [frbr]:https://www.loc.gov/cds/downloads/FRBR.PDF
-[liblicense]:http://liblicense.crl.edu/
+[liblicense]:https://groups.io/g/liblicense-l
 [licensingagreements]:https://www.esports.law/blog/licensing-agreements-components-and-concerns
 [nasigcc]:https://www.nasig.org/Core-Competencies
 [nasig]:[https://nasig.org/Competencies-Eresources]
