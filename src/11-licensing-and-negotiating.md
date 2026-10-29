@@ -2,54 +2,41 @@
 
 By the end of this section, you will understand:
 
-* The importance of **principled negotiation** and **assertive communication** in the licensing process,
-  focusing on how to maintain professionalism even during challenging negotiations.
-* How to avoid stereotypes that can hinder effective communication between librarians and vendors, and
-  why addressing these misconceptions is crucial for successful negotiations.
+* The importance of **principled negotiation** and **assertive communication** in the licensing process, focusing on how to maintain professionalism even during challenging negotiations.
+* How to avoid stereotypes that can hinder effective communication between librarians and vendors, and why addressing these misconceptions is crucial for successful negotiations.
 * The value of involving your library community and internal parties during the negotiation process to ensure alignment and support.
-* The role of written documentation in negotiations,
-  including why it is essential to clearly record agreements and expectations to protect both parties.
-* The significance of establishing workflows and checklists for negotiation,
-  ensuring consistency and thoroughness throughout the licensing lifecycle.
-* How repeated practice and preparation can reduce anxiety and improve your effectiveness as a negotiator,
-  including utilizing external resources.
+* The role of written documentation in negotiations, including why it is essential to clearly record agreements and expectations to protect both parties.
+* The significance of establishing workflows and checklists for negotiation, ensuring consistency and thoroughness throughout the licensing lifecycle.
+* How repeated practice and preparation can reduce anxiety and improve your effectiveness as a negotiator, including utilizing external resources.
 
 ## Introduction
 
 Now that we know the basic structure and contents of a license for electronic resources, we can discuss the negotiation process.
 
-In the prior section, we learned about attempts to standardize licensing frameworks,
-with projects like [SERU][seru] and [LIBLICENSE][liblicense].
-Even if these projects may not replace licenses,
-they help standardize the boilerplate that is commonly used among electronic resource licenses.
+In the prior section, we learned about attempts to standardize licensing frameworks, with projects like [SERU][seru] and [LIBLICENSE][liblicense].
+Even if these projects may not replace licenses, they help standardize the boilerplate that is commonly used among electronic resource licenses.
 Despite their success, there will likely always be some negotiation involved when licensing, especially big ticket products.
-This means we need to know what that process might look like, and how to engage in it,
-because in the end, the process is about developing relationships with vendors.
+This means we need to know what that process might look like, and how to engage in it, because in the end, the process is about developing relationships with vendors.
 
 ## Principled Negotiation
 
 [Abbie Brown (2014)][brown2014] offers a number of great tips in her talk, and I want to highlight them.
 
 First, her discussion of **principled negotiation** and **assertive communication** is important.
-Principled negotiation is about keeping negotiations in the licensing process professional,
-even when it feels personal or possibly emotional.
-Principled negotiation involves negotiating based on interests
-(i.e., your library's) rather than on positions, and aiming for mutually beneficial outcomes.
-Before you enter negotiations, keep in mind the objective you want to attain;
-and use reason, creativity, and problem solving skills to get there.
+Principled negotiation is about keeping negotiations in the licensing process professional, even when it feels personal or possibly emotional.
+Principled negotiation involves negotiating based on interests (i.e., your library's) rather than on positions, and aiming for mutually beneficial outcomes.
+Before you enter negotiations, keep in mind the objective you want to attain; and use reason, creativity, and problem solving skills to get there.
 To illustrate this, consider the following scenario:
 
 ---
 
-Sean, the electronic resource librarian, is negotiating a renewal with a database vendor
-who proposes a 12% price increase.
+Sean, the electronic resource librarian, is negotiating a renewal with a database vendor who proposes a 12% price increase.
 
 Instead of reacting defensively, Sean begins calmly:
 
 <blockquote><q>I appreciate the value your database brings to our students and faculty.
 However, our budget has not increased, so a 12% rise isn't feasible.
-Could we explore other options, such as extending the contract term or adjusting access tiers,
-to meet both our needs?</q></blockquote>
+Could we explore other options, such as extending the contract term or adjusting access tiers, to meet both our needs?</q></blockquote>
 
 The vendor pushes back, noting that <q>most institutions are accepting the new rate.</q>
 Sean replies, maintaining composure:
@@ -104,11 +91,9 @@ Librarians may think that vendors are solely profit-driven.
 Either of these kinds of stereotypes lead to distrust.
 And among other reasons, they represent background misinformation that causes miscommunication.
 
-In reality, there are people on both sides of the negotiating table, and
-although each side has their own self-interests, stereotypes prevent human connection.
+In reality, there are people on both sides of the negotiating table, and although each side has their own self-interests, stereotypes prevent human connection.
 Reflecting on the stereotypes we have can reduce anxiety in the negotiation process.
-Consider the following scenario, where Maria addresses a stereotype head-on, and
-then resets the tone and moves the conversation toward shared goals:
+Consider the following scenario, where Maria addresses a stereotype head-on, and then resets the tone and moves the conversation toward shared goals:
 
 ---
 
@@ -121,8 +106,7 @@ During the phone call, the vendor jokes:
 Maria, the electronic resources librarian, replies:
 
 <blockquote>
-<q>I can see why you'd think cost is our only concern,
-but our priority is long-term value and reliability for our patrons.
+<q>I can see why you'd think cost is our only concern, but our priority is long-term value and reliability for our patrons.
 Let's focus on how this product supports that.</q>
 </blockquote>
 
@@ -147,8 +131,7 @@ You therefore want to write write well and succinctly.
 
 ### Ambiguous/wordy example
 
-> <q>It is understood that access to the database may be provided to authorized users for a reasonable duration,
-> pending future agreement between both parties regarding renewal terms as deemed necessary.</q>
+> <q>It is understood that access to the database may be provided to authorized users for a reasonable duration, pending future agreement between both parties regarding renewal terms as deemed necessary.</q>
 
 Problems with this example:
 
@@ -158,8 +141,8 @@ Problems with this example:
 
 ### Clear/direct example
 
-> <q>The vendor will provide access to the database for one year.
-> Renewal terms will be reviewed and agreed upon by both parties before the end of the contract.</q>
+> <q>The vendor provides access to the database for one year.
+> Both parties will review renewal terms before the end of the contract.</q>
 
 Strengths with this example:
 
@@ -174,8 +157,7 @@ Remember, document everything and revisit your documentation.
 Use that documentation to formalize checklists.
 Having a workflow in place around licensing helps ensure that all bases are covered.
 
-[Dygert and Barrett (2016)][dygert2016] cover the specifics of licensing:
-what to look for, what shouldn't be given away, how to negotiate principally, and more.
+[Dygert and Barrett (2016)][dygert2016] cover the specifics of licensing: what to look for, what shouldn't be given away, how to negotiate principally, and more.
 [Dunie (2015)][dunie2015] gets into the specifics of the negotiation process,
 which includes definitions of terms, business models, and strategies.
 
@@ -208,13 +190,10 @@ which includes definitions of terms, business models, and strategies.
 
 Becoming a skillful negotiator takes practice, but this section will help prepare you for the process.
 The main point I want to make is this:
-if you find yourself in a position where one of your job responsibilities is to negotiate with vendors
-for e-resources (or for anything else),
+if you find yourself in a position where one of your job responsibilities is to negotiate with vendors for e-resources (or for anything else),
 then revisit these sources of information and spend additional time studying them.
-Repeated exposure to the negotiation experience will make the process less intimidating and
-improve your effectiveness over time.
-Sources like these, and others like them,
-such as those listed by [Garofalo (2017)][garofalo2017], will prepare you if you study them.
+Repeated exposure to the negotiation experience will make the process less intimidating and improve your effectiveness over time.
+Sources like these, and others like them, such as those listed by [Garofalo (2017)][garofalo2017], will prepare you if you study them.
 
 Being prepared is the most important step.
 
@@ -262,6 +241,6 @@ The shared electronic resource understanding (seru): Six years and still going s
 [dunie2015]:https://journals.ala.org/index.php/ltr/article/view/5834
 [dygert2016]:https://doi.org/10.1080/0361526X.2016.1157008
 [garofalo2017]:https://doi.org/10.1080/1941126X.2017.1304766
-[liblicense]:https://liblicense.crl.edu/
+[liblicense]:https://groups.io/g/liblicense-l
 [seru]:https://www.niso.org/standards-committees/seru
 [smith2015]:https://doi.org/10.1080/0361526X.2015.1017707
