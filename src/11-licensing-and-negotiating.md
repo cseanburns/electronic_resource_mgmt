@@ -127,7 +127,7 @@ Written documentation serves as a binding record.
 It helps all parties avoid misunderstandings and provides a reference if disagreements arise.
 What we put down in writing thus entails a kind of commitment.
 As such, wording matters.
-You therefore want to write write well and succinctly.
+You therefore want to write well and succinctly.
 
 ### Ambiguous/wordy example
 
