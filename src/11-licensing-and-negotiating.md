@@ -197,12 +197,21 @@ Sources like these, and others like them, such as those listed by [Garofalo (201
 
 Being prepared is the most important step.
 
-## Readings / References
+## References
+
+ALA. (2006, August 25).
+Libraries and licensing.
+[https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing][ala2006]
 
 Brown, A. (2014).
 Negotiation of E Resource licensing pricing terms.
 (2014, September 17).
 [https://www.youtube.com/watch?v=LET4MWO7egI][brown2014]
+
+Chesler, A., & McKee, A. (2014).
+The shared electronic resource understanding (seru): Six years and still going strong.
+*Information Standards Quarterly, 26*(04), 20.
+[https://doi.org/10.3789/isqv26no4.2014.05][chesler2014]
 
 Dunie, M. (2015).
 Chapter 3. Negotiating with content vendors: An art or a science?
@@ -223,17 +232,6 @@ Smith, J., & Hartnett, E. (2015).
 The licensing lifecycle: From negotiation to compliance.
 *The Serials Librarian, 68*(1–4), 205–214.
 [https://doi.org/10.1080/0361526X.2015.1017707][smith2015]
-
-## Additional References
-
-ALA. (2006, August 25).
-Libraries and licensing.
-[https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing][ala2006]
-
-Chesler, A., & McKee, A. (2014).
-The shared electronic resource understanding (seru): Six years and still going strong.
-*Information Standards Quarterly, 26*(04), 20.
-[https://doi.org/10.3789/isqv26no4.2014.05][chesler2014]
 
 [ala2006]:https://web.archive.org/web/20180611070938/http://www.ala.org/advocacy/copyright/librariesandlicensing/LibrariesAndLicensing
 [brown2014]:https://www.youtube.com/watch?v=LET4MWO7egI
