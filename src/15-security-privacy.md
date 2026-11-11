@@ -116,7 +116,7 @@ This is why ethical considerations must guide technical decisions.
 ## Conclusion
 
 The shift from print to digital resources has not only transformed workflows, it has also altered the moral terrain of librarianship.
-Patron data that was once scattered, ephemeral, or difficult to aggregate can now be stored, linked, traded, and analyzed by systems outside the libraries jurisdiction.
+Patron data that was once scattered, ephemeral, or difficult to aggregate can now be stored, linked, traded, and analyzed by systems outside the library's jurisdiction.
 As DeVittorio and Gianelli (2021) show, librarians increasingly operated within infrastructures built by companies whose incentives may run counter to the profession's privacy commitments.
 This tension cannot be resolved by technology alone.
 
